@@ -1,0 +1,14 @@
+{
+  "abortLatencyMs" : 1,
+  "actualProviderCalls" : 0,
+  "clientCalls" : 3,
+  "ok" : true,
+  "results" : [
+    "never-settling request does not block navigation",
+    "immediate client cancel",
+    "late response discarded",
+    "old completion cannot release new task",
+    "post-response hashing route guard",
+    "no automatic save\/retry"
+  ]
+}

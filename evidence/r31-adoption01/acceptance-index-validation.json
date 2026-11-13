@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "derivedCurrentIndex": {
+    "author": "PASS_61_CHECKS_134_NODE_55_PYTHON",
+    "currentProof": "evidence/r31-verification02/result.json",
+    "verificationEvidence": "evidence/r31-verification02/result.json",
+    "verificationBinding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+    "checks": 61,
+    "nodeTests": 134,
+    "pythonTests": 55
+  },
+  "exactCurrentProofUsed": true,
+  "actualNodePythonLogsUsed": true,
+  "allDefaultAliasesChecked": true,
+  "sourceManifestEntries": 132,
+  "priorDefaultsPreserved": true,
+  "independentFull61": false,
+  "phoneHumanClinicalNotPromoted": true
+}

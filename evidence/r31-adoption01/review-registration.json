@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "atUTC": "2026-11-11T14:54:01.739019+00:00",
+  "identity": "Writer read-only verification of supplied independent report and indexed evidence; not new independent execution",
+  "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A1-independent-audit-20261111-01/REPORT.md",
+  "reportSha256": "3ceffc64beb020dea93eea77fdc74096b8e9d62c8cb85ad43a0790313f432ad8",
+  "evidenceIndexSha256": "bb39263af2aea09f02c5a14958cc71cef640324b261b15f2d02162797862eec1",
+  "evidenceIndexedFilesChecked": 443,
+  "archiveAndCandidateExact": true,
+  "binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+  "scope": "reference quality targeted conditional pass; no new findings; NOT_INDEPENDENT_FULL61",
+  "independentExecution": {
+    "node": 134,
+    "python": 55,
+    "reportWindows": 68,
+    "positiveReportWindows": 53,
+    "reportMutations": 15,
+    "additionalUIPositiveWindows": 6,
+    "additionalDetailMutation": 1,
+    "referencePIDs": [
+      25422,
+      25438
+    ]
+  },
+  "sourcePaths": [
+    "web/domain/report/reference.js",
+    "web/features/report_rows.js",
+    "web/app/report_editor.js"
+  ],
+  "retained": [
+    "real missing lower bound root cause unknown",
+    "O29-01 aggregate compatibility performance",
+    "physical phone memory, real low space, BFCache",
+    "human and clinical",
+    "full independent61 and gateway loaded identity"
+  ],
+  "serviceBefore": {
+    "session": {
+      "pid": 7138,
+      "state": "SERVING",
+      "expiresAt": "2026-11-12T15:59:00+00:00",
+      "credentialsStored": false,
+      "ocrEnabled": true,
+      "operatorSourceSha256": "9ec9d6dbb173407232a08dc5ac02a7d45928952415390a3edfcea153c7ea4c14",
+      "url": "https://cliff-joe-advertisers-dover.trycloudflare.com",
+      "startedAt": "2026-11-11T13:42:10.151938+00:00",
+      "restartWithNoLocalOwner": true
+    },
+    "pid": 7138,
+    "health": {
+      "status": "ok",
+      "version": "h5-sjia-mas-r19",
+      "mode": "public-24h-r01",
+      "ocrEnabled": true,
+      "expiresAt": "2026-11-12T15:59:00+00:00"
+    }
+  },
+  "gate": "audit received; exact source/static adoption authorized by existing A decision; no service restart, OCR or deadline change"
+}

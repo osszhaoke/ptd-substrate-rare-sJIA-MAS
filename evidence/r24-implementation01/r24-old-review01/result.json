@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "author fictional automated, not independent/human/phone acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 5,
+  "killedBy": {
+    "no-snapshot": "ORIGIN_SNAPSHOT_MISSING",
+    "url-leak": "DRAFT_NAVIGATION_URL_LEAK"
+  },
+  "differentPIDs": [
+    2101,
+    2120
+  ],
+  "originalAndCorrectionPersisted": true,
+  "sourceHighlights": true,
+  "imageReplacementDetached": true,
+  "ownedURLsReleased": true
+}

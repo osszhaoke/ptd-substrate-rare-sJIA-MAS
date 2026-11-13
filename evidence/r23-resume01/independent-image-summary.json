@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "independent real specified image and exact prior Tencent response replay on isolated local R23 candidate; no new vendor call, no product service/public access",
+  "image": "Weixin Image_20261109211555_92_519.jpg",
+  "responseLines": 178,
+  "candidates": 5,
+  "guiControlPassed": true,
+  "originalHighlights": true,
+  "correctionVisible": true,
+  "previewReleased": true,
+  "zoomNoPageOverflow": true,
+  "localReplays": 1,
+  "paidProviderCalls": 0,
+  "actualServerPOSTs": 0,
+  "formalRecordsWritten": 0,
+  "candidateAdoptedToProduct": false,
+  "source": {
+    "path": "/Users/osszhaoke/Downloads/PTDS-Flash-image-local-review-20261110-01/image-ui-summary.json",
+    "sha256": "5f9223a3a72f069eaeb458f8bf41437efb67d61b7be2166fdc5d4d38b75eec85"
+  }
+}

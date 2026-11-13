@@ -1,0 +1,199 @@
+{
+  "audit": "R38 targeted independent audit",
+  "at": "2026-11-13T04:36:33.666148+00:00",
+  "scopeRoot": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5",
+  "functionalConclusion": "PASS_FOR_THREE_FIXES_WITH_EVIDENCE_LIMITS",
+  "technicalDebtConclusion": "CONDITIONAL; NO_P0_P1_R38_CODE_DEFECT_REPRODUCED; P2_PERFORMANCE_WINDOW_NOT_STABLE; P3_TEST_COVERAGE_GAP",
+  "authorEvidence": {
+    "path": "evidence/r38-ocr-fix01/result.json",
+    "sha256": "feb1a962256828e2acbda838f675079a4e433c4fb683fe2fb63eb560b12257fb",
+    "ok": true,
+    "checks": 66,
+    "allChecksPass": true,
+    "paidProviderCalls": 0,
+    "binding": "f57ee3e80b23131acd049a0e6d0e7cefd52d1e015ed272a8b1db32f35ee3a1b4"
+  },
+  "independent": {
+    "npmTests": {
+      "tests": 167,
+      "pass": 167,
+      "fail": 0,
+      "log": "npm-test.log",
+      "sha256": "27e199c5ad69d2a2391e8a528303945c345cdeaeabedaacd49132ac99817df7a"
+    },
+    "verifyDebt": {
+      "result": "FAIL_AT_STATE_SCALE_10000",
+      "resultSha256": "937f5579fe6c827edfda25b5eee4e546b6aa41c9e28f4b02a7ff0b6686fd583e",
+      "checksBeforeFailure": 61,
+      "checksPassBeforeFailure": 61,
+      "failure": {
+        "type": "SystemExit",
+        "message": "BROWSER_FAILED /Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/evidence/r38-independent-audit/state-scale-10000"
+      },
+      "binding": "f57ee3e80b23131acd049a0e6d0e7cefd52d1e015ed272a8b1db32f35ee3a1b4"
+    },
+    "ocrFlowGate": {
+      "path": "ocr-flow-gate.json",
+      "sha256": "2be1ef732d6425caea3930aec52f56b3a1b9ede1ce06184713e0a5d7495463d9",
+      "nextCalls": 0,
+      "uploadCalls": 1,
+      "providerCalls": 0,
+      "noFormalSave": true
+    },
+    "ocrTablesControl": {
+      "path": "ocr-tables-wire/result.json",
+      "sha256": "2d3e702061c8a562d0da6144f1d4bcc33f3465d588aa3b3678efb5327f293f2b",
+      "fakeProviderCalls": 3,
+      "paidProviderCalls": 0,
+      "observations": 5,
+      "sourceLines": 51,
+      "emptyHonest": true,
+      "manualCancellationPreserved": true
+    },
+    "stateScaleFirstFailure": {
+      "path": "state-scale-10000.json",
+      "sha256": "548e106867115774dc1f4374978cdc132a83cc8a3c8612df7118eebf7d42b86c",
+      "coldP95Ms": 1145,
+      "warmP95Ms": 4,
+      "limitColdP95Ms": 1000,
+      "result": "fail"
+    },
+    "stateScaleFreshRecheck": {
+      "ok": true,
+      "target": 10000,
+      "coldP95Ms": 501,
+      "warmP95Ms": 1,
+      "added": 10000,
+      "device": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)",
+      "identity": "independent isolated fictional direct state-scale recheck",
+      "physicalPhone": "NOT_MEASURED"
+    },
+    "recordsConsistency": {
+      "path": "records-consistency/result.json",
+      "sha256": "ad8dbddb1e2f606f5c644bb70195829a41574906e9f14af7d38987f063eb9220",
+      "ok": true
+    },
+    "publicGET": {
+      "resources": [
+        {
+          "path": "index.html",
+          "status": 200,
+          "remoteBytes": 2042,
+          "localBytes": 2042,
+          "remoteSha256": "789195347574c2e282c281bccbae74f2a37def5e655bf0855e9673c2545ec364",
+          "localSha256": "789195347574c2e282c281bccbae74f2a37def5e655bf0855e9673c2545ec364",
+          "shaEqual": true,
+          "error": null
+        },
+        {
+          "path": "app/editor_flow.js",
+          "status": 200,
+          "remoteBytes": 3240,
+          "localBytes": 3240,
+          "remoteSha256": "6b742b02f32d1dbe25028619ff367f124d8b4a542a32c6ba01651d14b15670c4",
+          "localSha256": "6b742b02f32d1dbe25028619ff367f124d8b4a542a32c6ba01651d14b15670c4",
+          "shaEqual": true,
+          "error": null
+        },
+        {
+          "path": "features/editor.js",
+          "status": 200,
+          "remoteBytes": 7858,
+          "localBytes": 7858,
+          "remoteSha256": "19195b3187d4046744113b5af0daa00dbdff586ba223254a7e27f8341d0363e3",
+          "localSha256": "19195b3187d4046744113b5af0daa00dbdff586ba223254a7e27f8341d0363e3",
+          "shaEqual": true,
+          "error": null
+        },
+        {
+          "path": "sw.js",
+          "status": 200,
+          "remoteBytes": 3988,
+          "localBytes": 3988,
+          "remoteSha256": "f3cc745518ee9c96ea20ee298a8b9907867b63bb1d978bcdce2075e801817539",
+          "localSha256": "f3cc745518ee9c96ea20ee298a8b9907867b63bb1d978bcdce2075e801817539",
+          "shaEqual": true,
+          "error": null
+        },
+        {
+          "path": "domain/metrics/identity.js",
+          "status": 200,
+          "remoteBytes": 3013,
+          "localBytes": 3013,
+          "remoteSha256": "c3c2a1949fe901ace041f879866ceb5b57fafc6ab2801a51e1670da83576c306",
+          "localSha256": "c3c2a1949fe901ace041f879866ceb5b57fafc6ab2801a51e1670da83576c306",
+          "shaEqual": true,
+          "error": null
+        }
+      ],
+      "health": {
+        "path": "health",
+        "status": 200,
+        "bytes": 134,
+        "sha256": "0bd625c6820a61c71cb3f9201c67eeedd4b52747b3a3b9497b4f53f7ab939bbe",
+        "body": "{\"status\": \"ok\", \"version\": \"h5-sjia-mas-r19\", \"mode\": \"public-24h-r01\", \"ocrEnabled\": true, \"expiresAt\": \"2026-11-13T15:59:00+00:00\"}"
+      }
+    }
+  },
+  "sources": [
+    {
+      "path": "web/features/editor.js",
+      "bytes": 7858,
+      "sha256": "19195b3187d4046744113b5af0daa00dbdff586ba223254a7e27f8341d0363e3"
+    },
+    {
+      "path": "web/app/editor_flow.js",
+      "bytes": 3240,
+      "sha256": "6b742b02f32d1dbe25028619ff367f124d8b4a542a32c6ba01651d14b15670c4"
+    },
+    {
+      "path": "web/domain/metrics/identity.js",
+      "bytes": 3013,
+      "sha256": "c3c2a1949fe901ace041f879866ceb5b57fafc6ab2801a51e1670da83576c306"
+    },
+    {
+      "path": "web/domain/metrics/catalog.js",
+      "bytes": 15201,
+      "sha256": "092c63e4a10e429da23912af897cc096d295716b4cd6e31dc929774437eacc95"
+    },
+    {
+      "path": "web/domain/report/fields.js",
+      "bytes": 3864,
+      "sha256": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b"
+    },
+    {
+      "path": "gateway/ocr.py",
+      "bytes": 14531,
+      "sha256": "1d23619717b43e02fcae4fd035fc269ae82c6c786ce451660e384e88720843d6"
+    },
+    {
+      "path": "tests/browser.ocr-tables.js",
+      "bytes": 6240,
+      "sha256": "3a80bf8ee754e329fe4804b98ef5ad3dac1f768108f7830ca9072a447ac00efe"
+    },
+    {
+      "path": "tests/metric_identity.test.mjs",
+      "bytes": 4845,
+      "sha256": "dad2ef6ba2b725f4926f95aa61c6f5083cc10dde015acd3b1d810933abeae62e"
+    },
+    {
+      "path": "tests/browser.state-scale.js",
+      "bytes": 4985,
+      "sha256": "62cf20f9d618a49006796d5ef81ed5eb5b9d6f58fd0f93e40ee14da746dd968c"
+    }
+  ],
+  "notCovered": [
+    "real OCR accuracy",
+    "LOINC coverage",
+    "iPhone memory",
+    "real low-space behavior",
+    "BFCache",
+    "human acceptance",
+    "clinical acceptance",
+    "real patient data",
+    "paid quota"
+  ],
+  "servicesOperated": false,
+  "realOCRCalls": 0,
+  "sourceWrites": false
+}

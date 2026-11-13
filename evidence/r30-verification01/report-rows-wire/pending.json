@@ -1,0 +1,17 @@
+{
+  "backupRoundTrip" : true,
+  "emptyAndWhitespaceNamesRejected" : true,
+  "eventId" : "557faf6d-92ba-443f-9f98-18cf76f675d6",
+  "explicitSyntheticRowChecks" : true,
+  "explicitSyntheticSaveConfirmation" : true,
+  "forgedOriginRejected" : true,
+  "mappedNameSwitchPreserved" : true,
+  "noAutomaticSave" : true,
+  "nonemptyRenameSaved" : true,
+  "noUnknownFieldsInAiProjection" : true,
+  "ok" : true,
+  "pendingRowsManuallyCompleted" : 1,
+  "projectedMetrics" : 5,
+  "reportRows" : 27,
+  "unmappedRows" : 22
+}

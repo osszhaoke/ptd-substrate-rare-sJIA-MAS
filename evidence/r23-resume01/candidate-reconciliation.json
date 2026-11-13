@@ -1,0 +1,17 @@
+{
+  "independentCandidateExactDigest": "b4ce9d008c4365592f2b5229695be05d958c5db455a699cb8f205629b4e98906",
+  "currentCandidateMatches": true,
+  "boundInputs": 226,
+  "deltaPaths": [
+    "PUBLIC_SOURCE_MANIFEST.json",
+    "deploy/STATIC_MANIFEST.json",
+    "tests/browser.startup.js",
+    "tests/test_startup_runner.py",
+    "tools/test_plan.json",
+    "web/index.html",
+    "web/sw.js"
+  ],
+  "allOtherInputsExactToR22": 219,
+  "independentReportReadNotPrivateData": true,
+  "reportBindingBasedOnExplicitFingerprint": true
+}

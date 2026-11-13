@@ -1,0 +1,17 @@
+{
+  "method": "inline mechanical checks against actually re-read fixed R02 contract; not semantic or independent acceptance",
+  "referencedChecker": "not present at candidate tools/check_ai_report_r02.py; initial attempt returned file-not-found; no tool installed",
+  "specPath": "/Users/osszhaoke/Downloads/000-PTDSv0.3-StarTorchv2 - astra/docs/reference/AI_REPORTING_R02.source.txt",
+  "specSha256": "7e5f073b2a21ba9d2ddcde775eacc8a69a4347e2b72de09c6a2fa7a09674137b",
+  "bodySha256": "02cd5757bc5e1b0a1a2c885f583deb936aa86ceb025996b06216f353b37081ac",
+  "nonWhitespaceUnicodeCharacters": 230,
+  "checks": {
+    "card": true,
+    "allFieldsOnce": true,
+    "ordered": true,
+    "nonempty": true,
+    "length": true,
+    "singleAttachment": true
+  },
+  "passed": true
+}

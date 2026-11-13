@@ -1,0 +1,23 @@
+{
+  "authorization": "用户：再拉起服务，刚刚重启了",
+  "priorSessionSha256": "28102f50670173a03cff5d3c08bc3e699fbe29b53c7c21df35fe3a10604383ee",
+  "priorState": {
+    "pid": 17575,
+    "state": "STOPPED",
+    "expiresAt": "2026-11-12T15:59:00+00:00",
+    "credentialsStored": false,
+    "ocrEnabled": true,
+    "operatorSourceSha256": "72169881587ab055dc4052bc1fa37a290588dca1bc8ea7153e8715a7ceda27ce",
+    "url": "https://lid-installations-compaq-stuff.trycloudflare.com",
+    "startedAt": "2026-11-11T10:22:42.862350+00:00",
+    "previousLocalStopped": true,
+    "stopReason": "OPERATOR_SIGNAL_15",
+    "connectorExitCodeBeforeCleanup": null,
+    "stoppedAt": "2026-11-11T13:28:39.437850+00:00"
+  },
+  "deadlineUnchanged": "2026-11-12T23:59:00+08:00",
+  "initialListeners18791and18795": "ABSENT",
+  "newProductChanges": 0,
+  "credentials": "user hidden reentry only",
+  "budget": "original ledger and lock unchanged; not read by agent"
+}

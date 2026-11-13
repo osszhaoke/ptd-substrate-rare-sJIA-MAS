@@ -1,0 +1,30 @@
+✖ R27-A01: legacy supported-metric fallback cannot resurrect a project beyond its own footer (19.834ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 71.805083
+
+✖ failing tests:
+
+test at tests/report_rows.test.mjs:164:1
+✖ R27-A01: legacy supported-metric fallback cannot resurrect a project beyond its own footer (19.834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  28 !== 27
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/tests/report_rows.test.mjs:165:82)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 28,
+    expected: 27,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

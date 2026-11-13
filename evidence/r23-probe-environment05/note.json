@@ -1,0 +1,5 @@
+{
+  "observed": "regular process still reported isActive=false; workflow control passed while expected-failure polling did not return within nominal duration",
+  "change": "owned test window floating and fullscreen auxiliary/all-spaces so WebKit remains visible even if activation is denied; logs actual occlusion state; no global settings or product behavior change",
+  "oldWindowAttempts": "not claimed successful environment fixes"
+}

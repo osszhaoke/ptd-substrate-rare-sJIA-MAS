@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "currentProofValid": true,
+  "publicManifestValid": true,
+  "productFingerprint": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+  "deadlineUTC": "2026-11-12T15:59:00+00:00",
+  "operatorSha256": "72169881587ab055dc4052bc1fa37a290588dca1bc8ea7153e8715a7ceda27ce",
+  "sourceInputsUnchanged": true
+}

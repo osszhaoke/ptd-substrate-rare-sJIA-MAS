@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "baselineOnly": false,
+  "results": [
+    {
+      "group": "control",
+      "nodeExitCode": 0
+    },
+    {
+      "group": "control",
+      "mode": "ocr-edit",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "ocr-edit",
+        "ok": true
+      }
+    },
+    {
+      "group": "control",
+      "mode": "ocr-hash-edit",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "ocr-hash-edit",
+        "ok": true
+      }
+    },
+    {
+      "group": "control",
+      "mode": "consult-edit",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "consult-edit",
+        "ok": true
+      }
+    },
+    {
+      "group": "control",
+      "mode": "consult-conflict",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "consult-conflict",
+        "ok": true
+      }
+    },
+    {
+      "group": "control",
+      "mode": "reload-error",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "reload-error",
+        "ok": true
+      }
+    },
+    {
+      "group": "control",
+      "mode": "ocr-navigation",
+      "browser": {
+        "abortLatencyMs": 0,
+        "actualProviderCalls": 0,
+        "clientCalls": 3,
+        "ok": true,
+        "results": [
+          "never-settling request does not block navigation",
+          "immediate client cancel",
+          "late response discarded",
+          "old completion cannot release new task",
+          "post-response hashing route guard",
+          "no automatic save/retry"
+        ]
+      }
+    },
+    {
+      "group": "original-main",
+      "mode": "ocr-edit",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "ocr-edit",
+        "ok": true
+      }
+    },
+    {
+      "group": "original-main",
+      "mode": "ocr-hash-edit",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author isolated fictional actual UI ordering; not physical, human or clinical acceptance",
+        "mode": "ocr-hash-edit",
+        "ok": true
+      }
+    },
+    {
+      "group": "original-flow",
+      "mode": "consult-edit",
+      "browser": {
+        "error": "GENERATION_OVERWROTE_NEW_MANUAL_EDIT",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50217/:4:50\n@http://127.0.0.1:50217/:55:8"
+      }
+    },
+    {
+      "group": "original-flow",
+      "mode": "consult-conflict",
+      "browser": {
+        "error": "GENERATION_OVERWROTE_CONFLICTING_TEXT",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50217/:4:50\n@http://127.0.0.1:50217/:55:8"
+      }
+    },
+    {
+      "group": "original-flow",
+      "mode": "reload-error",
+      "browser": {
+        "error": "RELOAD_REJECTION_ESCAPED_UI",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50217/:4:50\n@http://127.0.0.1:50217/:43:79"
+      }
+    },
+    {
+      "group": "original-draft",
+      "nodeExitCode": 1
+    },
+    {
+      "group": "ocr-cancel-mutant",
+      "mode": "ocr-edit",
+      "browser": {
+        "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50620/:4:50\n@http://127.0.0.1:50620/:27:7"
+      }
+    },
+    {
+      "group": "ocr-cancel-mutant",
+      "mode": "ocr-hash-edit",
+      "browser": {
+        "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50620/:4:50\n@http://127.0.0.1:50620/:27:7"
+      }
+    }
+  ],
+  "identity": "author fictional controls and original regressions",
+  "actualProviderCalls": 0,
+  "productMutated": false,
+  "killedBy": "actual input values, conflict text, persisted CAS, bounded reads and visible reload error; not preflight"
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "tools/build.py",
+    "--help"
+  ],
+  "returncode": 1,
+  "expectedFix": "preserve both -m and direct script invocation; no remote import or path fallback"
+}

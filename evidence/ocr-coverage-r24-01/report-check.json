@@ -1,0 +1,9 @@
+{
+  "method": "one-off contract-driven length/field check; canonical checker absent from current root",
+  "bodyNonWhitespaceUnicode": 388,
+  "limit": 500,
+  "orderedFields": true,
+  "rulePath": "/Users/osszhaoke/Downloads/000-PTDSv0.3-StarTorchv2 - astra/docs/reference/AI_REPORTING_R02.source.txt",
+  "ruleSha256": "7e5f073b2a21ba9d2ddcde775eacc8a69a4347e2b72de09c6a2fa7a09674137b",
+  "pass": true
+}

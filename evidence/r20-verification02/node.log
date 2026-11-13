@@ -1,0 +1,112 @@
+
+> test
+> node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/ocr_tables.test.mjs tests/public_editor.test.mjs tests/backup_reader.test.mjs tests/backup_reader_regression.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs
+
+✔ sequential reads cross window and length-prefix boundaries with bounded physical buffers (71.784209ms)
+✔ cancellation after physical read prevents consuming or requesting another window (0.150916ms)
+✔ short physical reads fail closed rather than looping or inventing bytes (0.078917ms)
+✔ UTF-8 metadata spanning crypto frames and read windows round-trips without Blob.text (41.154083ms)
+✔ a closed reader rejects new reads without touching the file (0.357083ms)
+✔ an in-flight read cannot refill the window after close (0.433ms)
+✔ many small authenticated records use bounded file read windows, preserving all values (547.417875ms)
+✔ format3 authenticated bytes match the original writer for fixed randomness (13.34575ms)
+✔ many small records retain bounded raw ciphertext parts and preserve every record (617.351ms)
+✔ oversize original header is rejected before its ciphertext body is read (11.060084ms)
+✔ cancellation in crypto observer starts no encryption and stops consuming records (2.758542ms)
+✔ cancel before commit prevents all persistence (1.410834ms)
+✔ commit boundary disables cancellation and executes exactly once (0.137458ms)
+✔ tasks never queue or overlap; quota failure unlocks without success (0.189542ms)
+✔ start observer failure releases ownership and permits a later task (0.281875ms)
+✔ the same job cannot commit twice or be reused after it finishes (0.14725ms)
+✔ finish observer cannot turn an actual completed commit into failure (0.097583ms)
+✔ finish observer cannot replace the original persistence failure (0.105792ms)
+✔ an asynchronous finish observer rejection is counted without changing commit outcome (3.795ms)
+✔ consultation projection keeps new metrics, comparators and explicit flags, removes identity (8.378541ms)
+✔ unsafe code/unit/number/flag fields never escape projection whitelist (0.277625ms)
+✔ AI prompt is bound to current card and asks doctor-directed questions with no automatic analysis (0.286541ms)
+✔ committed consultation survives a new owner; prompt is never a second stored authority (6.941292ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.385625ms)
+✔ quota failure preserves editable text; explicit retry can commit (1.067167ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.183042ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.286458ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.429125ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.407959ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (1.668291ms)
+✔ an external conflict survives a late successful save acknowledgement (0.13825ms)
+✔ an external conflict survives a late non-conflict write failure (0.131458ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.114917ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.27225ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.09575ms)
+✔ one replaceable navigation; rejected writes do not replay (0.814375ms)
+✔ rendered navigation releases immediately without old completion clearing new write (1.974375ms)
+✔ navigation failure drains latest and reports original error (0.151417ms)
+✔ error display failure cannot replace a failed action result (0.095333ms)
+✔ error display failure cannot throw or replay a rejected duplicate write (0.090958ms)
+✔ r12 metric rules preserve exact literals, context and independent nature (31.333417ms)
+✔ calendar dates use confirmed timezone and reject invalid/future dates (0.610708ms)
+✔ digest ignores key order and binds source, literal and nature (3.803ms)
+✔ duplicate and unknown OCR lines remain; candidates preserve original line IDs (5.906667ms)
+✔ consultation whitelist excludes identifying fields and HTML-shaped unit (0.520375ms)
+✔ linked layout sheets reconstruct the accepted R17 cascade byte for byte (1.498916ms)
+✔ user-reported 30-line synthetic OCR replay yields six exact reviewable candidates and preserves all source fragments (12.662417ms)
+✔ spatial rows use same page/vertical alignment and x order, irrespective of provider array order (2.345042ms)
+✔ unknown/missing units, missing names, wrong column order and lack of table context remain manual (3.525458ms)
+✔ reference values never substitute for results; an invalid row cannot shift later row alignment (1.135958ms)
+✔ ambiguous spatial values, overlapping cells, different pages, and partially missing geometry are not joined (0.775708ms)
+✔ single-line duplicates and mixed text keep prior behavior; joined fields do not duplicate single-line rows (1.149084ms)
+✔ tenfold 2000-to-20000 fragment scale remains capped at 100 candidates and under 1000ms (80.979167ms)
+✔ two bilingual headed tables: five supported fields, literal values and original evidence (25.378625ms)
+✔ unknown units, missing result/geometry, mismatching bilingual names and duplicate result cells are rejected (14.011833ms)
+✔ reference numbers cannot fill missing result or unit, and page boundaries never join (13.839834ms)
+✔ no geometry does not invent parallel table column order (2.24675ms)
+✔ tenfold table fragments remain bounded at 100 candidates within 1000ms (131.017083ms)
+✖ missing left header cannot borrow columns or values from the neighboring table (3.429459ms)
+✔ cancel detaches an unresponsive network task immediately (0.436792ms)
+✔ late completion cannot clear a newer task or publish on a new source (0.0865ms)
+✔ public mode has no visible trial code but retains upload consent and confirmation (16.149584ms)
+✔ existing private mode retains its original code input (0.233333ms)
+✔ no credentials means explicitly manual mode (0.141042ms)
+✔ a matching revision publishes once, with unchanged page query and no writes (0.740875ms)
+✔ mixed list and card revisions are reread before publication (0.083417ms)
+✔ two matching old projections cannot publish after an intervening commit (0.076167ms)
+✔ continuous changes reject after exactly three read-only attempts (0.222125ms)
+✔ obsolete pages stop before version read and after late version completion (0.1045ms)
+✔ disabled cards and an empty unversioned database preserve existing behavior (0.073291ms)
+✔ exact decimals and interval boundaries, zero denominator (0.692625ms)
+✔ three values, five known positives, gate semantics and missing scores (0.534125ms)
+✔ MS exact cutoff -2.1 without rounding; canonical units (1.376667ms)
+✔ regressions: metric name digits, comparator and exact original units; uncertain lines kept only in ledger (11.830833ms)
+✔ v2 clinical flags/units/time validation, legacy digest remains same schema (21.691708ms)
+✔ selection preserves date conflicts, instant latest, max temperature, any true flags (0.709583ms)
+✔ changes: no fabricated zero/interval percentage and no boolean arithmetic (0.1365ms)
+✔ 408 synthetic cases match exact pinned Python oracle across all 3 rules (297.043041ms)
+✔ legacy wire rejects clinical semantics from v2; old observations never acquire precision/flags (0.3945ms)
+✔ R06 fixed output changes only approved R08 editor text and R09 settings simplification (20.237042ms)
+ℹ tests 80
+ℹ suites 0
+ℹ pass 79
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 731.13975
+
+✖ failing tests:
+
+test at tests/ocr_tables.test.mjs:21:1
+✖ missing left header cannot borrow columns or values from the neighboring table (3.429459ms)
+  AssertionError [ERR_ASSERTION]: NEIGHBOR_TABLE_VALUE_SUBSTITUTED
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/tests/ocr_tables.test.mjs:24:9)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

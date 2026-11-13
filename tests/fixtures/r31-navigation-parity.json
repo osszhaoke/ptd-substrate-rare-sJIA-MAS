@@ -1,0 +1,63 @@
+{
+  "scope": "approved R31-A2 primary nav only; all existing page content38 styles remain exact",
+  "sourceBinding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+  "sourceProof": "evidence/r31-verification02/result.json",
+  "originalR09FixtureSha256": "3e38a02688315087b208a798b3e3018324259e1cf6a5c5845f277f7df8931c38",
+  "outputs": {
+    "layout-320-160": {
+      "originalPagesSha256": "4106a1fded2257f3a0e016685006e0b7ab5e115973fcc248037530c77d45572d",
+      "sourceResultSha256": "9856f25a352018ba16c5a8b93cd5cbb1201c3c079f6d787e8b91b8ac708a2c76",
+      "withoutPrimaryNavigationSha256": "01ec672493df6079d2854d53605f5f612fd025998a73a4e45537b96d17359216",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ]
+    },
+    "layout-430-100": {
+      "originalPagesSha256": "656593f398a8d098cc6119dd4e03704f91949f71e5acd922597f72feb5735786",
+      "sourceResultSha256": "f96752c24c2b0d9076c17b4803bab65f41b09aca41bdda838292c5fcac3fe7fa",
+      "withoutPrimaryNavigationSha256": "2759301515c44b8608e6486a21e805afcc772b3292b867604e19e143c19005be",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ]
+    },
+    "layout-390-100": {
+      "originalPagesSha256": "8f91b191cefbe52f1fdfb0a83c0e9a6d6634848293986698f3f1e0b70c2d6b3d",
+      "sourceResultSha256": "8d6bdeb37cc6ea3e3947bc52d8a20d6761157eb41296024717e5b6c8a06ce3d4",
+      "withoutPrimaryNavigationSha256": "38fa8369ae04be4628ea0bea81fa299356312dc6e9d25d6f757c4404369a1fae",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ]
+    },
+    "layout-620-100": {
+      "originalPagesSha256": "810a1e718eef2f5ad6ec208e4b52cbfdc2aeae94576c4693fb83ca07db77be55",
+      "sourceResultSha256": "2609ce506cbab15eaa78ddb75422447d4c3aa7dd832cf2ab7b12ef688d2f9ec0",
+      "withoutPrimaryNavigationSha256": "ca1e53de9cef9e31da6660092f1496c80baa24bb8f9f2d680ce983ec969790c4",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ]
+    },
+    "layout-320-100": {
+      "originalPagesSha256": "a935a1091256a5c7a1dedc89772d8f78a2e9bcfa60ebe2778bcd0a448e5a6aa4",
+      "sourceResultSha256": "8bf70f4f8e54588e5a22978d74099ed9240566de56d6ecf1f38562bda80866cf",
+      "withoutPrimaryNavigationSha256": "8c4e723fccf6cc17a659d0025efc2185fa1e3f3383d94feba4b61375b5c810c7",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ]
+    }
+  }
+}

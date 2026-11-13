@@ -1,0 +1,25 @@
+{
+  "identity": "author preparation-tool issue account; not product acceptance",
+  "controls01": {
+    "result": "FAIL_TOOL",
+    "reason": "read-only /api/ocr/config GET mistakenly rejected by broad prefix assertion",
+    "fix": "paid API exact path; document navigation separated from SW GET"
+  },
+  "controls02": {
+    "result": "INCOMPLETE_NOT_ACCEPTED",
+    "reason": "long JS wait overlapped probe timeout; conflicting late result retained; process exit failed"
+  },
+  "controls03": {
+    "result": "INCOMPLETE_NOT_ACCEPTED",
+    "reason": "test network dwell did not produce timely accepted probe result; only own bound probe terminated"
+  },
+  "controls04": {
+    "result": "PASS",
+    "reason": "real bootstrap HTTP response delayed31s; actual elapsed>=31s plus unchanged visible feedback assertion; no product timeout changed"
+  },
+  "toolSnapshots": [
+    "evidence/r23-tool-repair01",
+    "evidence/r23-tool-repair02"
+  ],
+  "noProductBehaviorChangeForToolRepair": true
+}

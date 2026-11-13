@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "archiveCommit": "9c4b152cb8a0807c7737d080fb44bdee8c816e96",
+  "historicalFiles": 1190,
+  "historicalBytes": 97608477,
+  "runtimeTrees": 30,
+  "runtimeFiles": 2246,
+  "runtimeBytes": 56088577,
+  "cacheFiles": 6,
+  "cacheBytes": 66069,
+  "finderBytes": 8196,
+  "totalRemovedRawBytes": 153771319,
+  "historicalContentRestorableFromGit": true,
+  "runtimeOnlyFictionalGeneratedTrees": true,
+  "currentR19EvidenceRetained": true,
+  "sealedProductZipUnchanged": true,
+  "privateRetainedStateNotTraversedReadOrDeleted": true,
+  "servicesNotStartedOrStopped": true,
+  "sourceTestToolBytesUnchanged": true,
+  "AIh": "UNMEASURED"
+}

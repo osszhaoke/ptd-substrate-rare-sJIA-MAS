@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "runner-cwd-01",
+      "error": "No module named tests.test_navigation_runner",
+      "cause": "module invoked from product root although only isolated candidate contains new test",
+      "productMutation": false,
+      "originalOutput": "tool transcript; no log file created",
+      "repair": "invoke module with explicit isolated candidate workdir; no product or assertion change"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{"fragments":2000,"rows":28,"policy":"cbc-report/r27-exact-source/1","ms":161.96133300000002,"limitMs":1000}
+{"fragments":20000,"rows":28,"policy":"cbc-report/r27-exact-source/1","ms":1511.014917,"limitMs":1000}
+[{"fragments":2000,"rows":28,"policy":"cbc-report/r27-exact-source/1","ms":161.96133300000002,"limitMs":1000},{"fragments":20000,"rows":28,"policy":"cbc-report/r27-exact-source/1","ms":1511.014917,"limitMs":1000}]

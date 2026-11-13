@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "reproduced": [
+    {
+      "id": "ambiguous-minus",
+      "exit": 1,
+      "expectedBehaviorFailure": "REFERENCE_QUALITY_MISSING",
+      "notImportOrPreparationFailure": true
+    },
+    {
+      "id": "missing-reference",
+      "exit": 1,
+      "expectedBehaviorFailure": "REFERENCE_QUALITY_MISSING",
+      "notImportOrPreparationFailure": true
+    }
+  ],
+  "actualSuppliedImageRootCause": "UNKNOWN_WITHOUT_ORIGINAL_AND_SAME_RESPONSE",
+  "notAFormalSaveReproduction": true,
+  "attempt01": "CLI treated a leading-minus fixture as option; original log retained, -- corrected in attempt02"
+}

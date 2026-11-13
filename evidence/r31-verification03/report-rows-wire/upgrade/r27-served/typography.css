@@ -1,0 +1,275 @@
+/* All font rules and one shared type scale. Browser text scaling stays enabled.
+   Original selector order is preserved within each property responsibility. */
+:root {
+  font-synthesis: none;
+}
+button {
+  font: inherit;
+}
+input {
+  font: inherit;
+}
+select {
+  font: inherit;
+}
+textarea {
+  font: inherit;
+}
+.brand {
+  font-weight: 750;
+  letter-spacing: 1.4px;
+}
+.brand small {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.pill {
+  letter-spacing: 1px;
+}
+h1 {
+  font-weight: 650;
+}
+.local-usage-heading span {
+  font-size: var(--text-body);
+  font-weight: 400;
+}
+.state-changes caption {
+  font-weight: 600;
+}
+.step-labels li.active {
+  font-weight: 600;
+}
+:root {
+  --font-ui: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --text-note: .875rem;
+  --text-body: 1rem;
+  --text-subtitle: 1.125rem;
+  --text-title: 1.25rem;
+  --text-icon: 1.5rem;
+  --text-page: 1.75rem;
+  font-family: var(--font-ui);
+  font-size: 100%;
+  line-height: 1.6;
+}
+body {
+  font-family: var(--font-ui);
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+button {
+  font-family: var(--font-ui);
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+input {
+  font-family: var(--font-ui);
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+select {
+  font-family: var(--font-ui);
+  line-height: 1.6;
+}
+textarea {
+  font-family: var(--font-ui);
+  line-height: 1.6;
+}
+small {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.muted {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.lead {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.pill {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.badge {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.footer {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.brand small {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.link {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.event .event-head {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.state-card small {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.state-overview .muted {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.state-changes {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.state-condition {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.state-history {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.hash {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+pre {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.source-ledger {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.score-trend figcaption {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+.trend-dates {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+pre {
+  font-family: var(--font-ui);
+}
+h1 {
+  font-size: var(--text-page);
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
+.home-heading h1 {
+  font-size: var(--text-page);
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
+h2 {
+  font-size: var(--text-title);
+  line-height: 1.4;
+}
+.calendar-head h2 {
+  font-size: var(--text-title);
+  line-height: 1.4;
+}
+.state-overview .section-label h2 {
+  font-size: var(--text-title);
+  line-height: 1.4;
+}
+h3 {
+  font-size: var(--text-subtitle);
+  line-height: 1.4;
+}
+.brand {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+label.field {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+.check {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+.event p {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+.empty {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+.capture-action {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+.dossier {
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+.state-name {
+  font-size: var(--text-note);
+  line-height: 1.4;
+}
+.state-card strong {
+  font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
+}
+.state-result {
+  font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
+}
+.state-card strong {
+  font-size: var(--text-subtitle);
+  line-height: 1.4;
+}
+.state-result {
+  font-size: var(--text-page);
+  line-height: 1.4;
+}
+#network {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+#connection {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+#notice {
+  font-size: var(--text-note);
+  line-height: 1.6;
+}
+input:not([type=checkbox]) {
+  font-size: var(--text-body);
+}
+select {
+  font-size: var(--text-body);
+}
+textarea {
+  font-size: var(--text-body);
+}
+nav button {
+  font-size: var(--text-icon);
+  line-height: 1.2;
+}
+nav button span {
+  font-size: var(--text-note);
+  font-weight: 600;
+  line-height: 1.4;
+}
+.day {
+  font-size: var(--text-note);
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+.day strong {
+  font-size: var(--text-title);
+  line-height: 1.4;
+}
+.day small {
+  font-size: var(--text-note);
+  line-height: 1.4;
+}
+.trend-dates {
+  font-variant-numeric: tabular-nums;
+}

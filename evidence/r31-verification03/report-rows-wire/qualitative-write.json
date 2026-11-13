@@ -1,0 +1,13 @@
+{
+  "allRowSourcePolygons" : true,
+  "backupRoundTrip" : true,
+  "eventId" : "39b8abf8-9e4f-459d-ad08-ab06cf01c371",
+  "explicitAutomatedChecks" : true,
+  "explicitAutomatedSave" : true,
+  "incompleteUnitsBlocked" : 0,
+  "noAutomaticSave" : true,
+  "ok" : true,
+  "pendingRows" : 0,
+  "rawOnly" : false,
+  "reportRows" : 6
+}

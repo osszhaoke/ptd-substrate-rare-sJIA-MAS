@@ -1,0 +1,40 @@
+✔ committed consultation survives a new owner; prompt is never a second stored authority (1.685041ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.1385ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.342584ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.1745ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.086625ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.14025ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.130167ms)
+✖ a failed active save cannot be retried by a debounce from an earlier edit (0.598958ms)
+✔ an external conflict survives a late successful save acknowledgement (0.120917ms)
+✔ an external conflict survives a late non-conflict write failure (0.121041ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.088541ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.224584ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.081875ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 52.759542
+
+✖ failing tests:
+
+test at tests/consultation_draft.test.mjs:60:1
+✖ a failed active save cannot be retried by a debounce from an earlier edit (0.598958ms)
+  AssertionError [ERR_ASSERTION]: failed save automatically retried by pending debounce
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r27-candidate01/runtime/r15-draft-mutant-33562d96-ae80-4273-915b-86d54b0bd63d/tests/consultation_draft.test.mjs:68:34)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "status": "ADOPTED_IN_FORMAL_A2_PENDING_HUMAN_ACCEPTANCE",
+  "independentReportSha256": "ceaeb3200b59f0136ccc46524613e71e0ed7b38a140c65c992ef7ac681959c81",
+  "formalBeforeDigest": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "formalAfterDigest": "5ec9f2b0a1c84f4b1993f30af70dec212a5462827adaa3602c2e20b5687f5d21",
+  "candidateDigest": "5ec9f2b0a1c84f4b1993f30af70dec212a5462827adaa3602c2e20b5687f5d21",
+  "candidateBindingExact": true,
+  "changedPaths": 32,
+  "npmTest": {
+    "tests": 166,
+    "pass": 166,
+    "fail": 0
+  },
+  "fullIndependentProofBindingValidated": true,
+  "serviceRestarted": false,
+  "publicServiceChanged": false,
+  "newPaidOCRCalls": 0,
+  "humanAcceptance": "PENDING",
+  "clinicalAcceptance": "NOT_TESTED",
+  "openGaps": [
+    "performance stability",
+    "iPhone memory",
+    "real low space",
+    "BFCache",
+    "human/clinical acceptance",
+    "real OCR corpus/medical truth"
+  ]
+}

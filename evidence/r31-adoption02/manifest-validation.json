@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "sourceManifestSha256": "8031f2d132ee3e536fccd6829878268495a1bba506118f41e9a3810defdd8286",
+  "sourceManifestEntries": 132,
+  "staticVersion": "f2f3393ff7cd92f7",
+  "binding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "rootFingerprint": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "candidateFingerprint": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "a2ProductDeltaOnly": true,
+  "a1ArchiveUnchanged": true
+}

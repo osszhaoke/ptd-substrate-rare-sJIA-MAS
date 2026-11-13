@@ -1,0 +1,14 @@
+{
+  "oldExpectedFailures": 17,
+  "unchanged": 17,
+  "changedOrMissing": {},
+  "addedExpectedMutation": {
+    "ocr-tables-wire/zero-regression.json": {
+      "error": "ZERO_SUCCESS_FEEDBACK",
+      "failure": null,
+      "mode": null,
+      "target": null
+    }
+  },
+  "statement": "all complete04 required checks passed; expected adversarial failures retained; preparation and candidate failures stored separately"
+}

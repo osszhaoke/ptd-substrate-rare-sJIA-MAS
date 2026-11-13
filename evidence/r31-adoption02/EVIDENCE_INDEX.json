@@ -1,0 +1,33 @@
+{
+  "identity": "R31-A2 exact adoption evidence; A2 adopted after A2R2; excludes index itself",
+  "files": {
+    "evidence/r31-adoption02/acceptance-index-validation.json": {
+      "bytes": 404,
+      "sha256": "272252781718b276545b775c7bda3f77dfc6568c0f981431f69448e306558910"
+    },
+    "evidence/r31-adoption02/adoption-result.json": {
+      "bytes": 4506,
+      "sha256": "b6774cf0a23ccb5533751c0d3fae6a5d1b16e4e40133d46fb8e68f3e121a64f9"
+    },
+    "evidence/r31-adoption02/http-after.json": {
+      "bytes": 34569,
+      "sha256": "f649432326f5f1bb5e55b3d27a0594a7a232b038c33fb5a2a23e76b2a8df508e"
+    },
+    "evidence/r31-adoption02/manifest-validation.json": {
+      "bytes": 506,
+      "sha256": "87ee6efcdd1dfbdd1e41ed51ecd437517a30fbc9ec8236955735def8119db7db"
+    },
+    "evidence/r31-adoption02/replay-result.json": {
+      "bytes": 225,
+      "sha256": "f0e96af9bbd40a9f5e8f528eae4125989cf7ab322c982b8b3aafcd25555c594f"
+    },
+    "evidence/r31-adoption02/review-registration.json": {
+      "bytes": 1168,
+      "sha256": "cc1db8d2ab88d9f4f2251ad9acff1fbf4728f4ad1b3fd469a96c80d12568c8d9"
+    },
+    "evidence/r31-adoption02/whitespace-check.json": {
+      "bytes": 245,
+      "sha256": "9de3052488c80080bee39bd645a37b7297220bddf62b9f7d17a45b3695ffcffd"
+    }
+  }
+}

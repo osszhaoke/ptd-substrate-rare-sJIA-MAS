@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "target": 10000,
+  "coldP95Ms": 501,
+  "warmP95Ms": 1,
+  "added": 10000,
+  "device": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)",
+  "identity": "independent isolated fictional direct state-scale recheck",
+  "physicalPhone": "NOT_MEASURED"
+}

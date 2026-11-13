@@ -1,0 +1,21 @@
+{
+  "identity": "synthetic exploratory regression",
+  "candidates": [
+    {
+      "code": "wbc",
+      "displayName": "白细胞",
+      "valueLiteral": "287",
+      "unit": "10^9/L",
+      "context": "LAB",
+      "comparator": null,
+      "sourceLineIds": [
+        "synthetic_table_00000010",
+        "synthetic_table_00000012",
+        "synthetic_table_00000016",
+        "synthetic_table_00000015",
+        "synthetic_table_00000019"
+      ],
+      "unitInferred": false
+    }
+  ]
+}

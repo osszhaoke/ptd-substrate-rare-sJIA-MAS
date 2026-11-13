@@ -1,0 +1,5 @@
+{
+  "error" : "CLOSED_STORE_RESURRECTED {\"state\":\"fulfilled\",\"connectionResurrected\":true}",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:54040\/:3:50\n@http:\/\/127.0.0.1:54040\/:27:5"
+}

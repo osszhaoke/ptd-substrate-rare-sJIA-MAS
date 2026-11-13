@@ -1,0 +1,39 @@
+✔ v3 explicit schema and one authoritative report projection; v2 cannot silently accept new fields (43.103208ms)
+✔ stage reparses exact immutable origins; corrections retain original values and no medical projection for unmapped rows (108.976167ms)
+✔ raw report schema bounded and no silent arbitrary fields or missing source allowed (47.31175ms)
+✔ pending original without a value requires an actual reviewed correction before save (35.448375ms)
+{"scope":"synthetic Node parser; not phone memory","fragments":2000,"ms":89.521333,"heapDeltaBytes":3580888}
+{"scope":"synthetic Node parser; not phone memory","fragments":20000,"ms":179.86470799999998,"heapDeltaBytes":18403952}
+{"scope":"fictional generic rotated layout","fragments":2000,"ms":73.208417}
+{"scope":"fictional generic rotated layout","fragments":20000,"ms":694.0484170000001}
+✔ 27-row fictional CBC preserves every original row; only explicit supported fields project to rules (23.107208ms)
+✔ unknown first/middle rows no longer swallow later known rows in a strict flat table (1.691125ms)
+✔ unit/arrow/header variants preserve raw evidence with explicit standardized projection (26.394458ms)
+✔ missing geometry, values, units, duplicate result cells, crossing pages and bad headers never borrow neighboring data (25.389875ms)
+✔ unrecognized units/names retained without inventing medical mappings; duplicate evidence rows retained (0.896375ms)
+✔ tenfold 2k/20k fragment projection bounded to 100 rows and under 1000ms (278.713875ms)
+✔ previously accepted inline colon/abutting-name spellings remain visible in the report layer (0.379084ms)
+✔ name/result merged OCR fragment is visible pending review; never split trailing digits into a guessed value (7.924708ms)
+✔ arrow attached to a unit is stored separately; ambiguous reference fragments do not discard the reliable project (13.48525ms)
+✔ contradictory result/unit arrows remain raw evidence rather than a guessed abnormal direction (7.036125ms)
+✔ right-angle coordinate frames, two panels, header aliases, swapped columns and source coordinates are lossless (21.117833ms)
+✔ explicit joined units/ranges and merged names keep evidence; footer never becomes a project (6.349583ms)
+✔ missing units, overlapping results and page splits never synthesize an unknown result (5.091ms)
+✔ cross-panel fragments remain explicit empty correction tasks and retain their literal text (1.778084ms)
+✔ generic layout 2k/20k fragments stay bounded without per-row whole-page scans (773.493667ms)
+✔ removing Angle compensation or generic table wiring is killed by output assertions, with positive controls (3.880833ms)
+✔ leading flags preserve numeric literals; conflicting two-sided flags never guess (0.129ms)
+✔ categorical results, dimensionless urine, dilution labels and split headers remain literal report-only rows (11.77175ms)
+✔ stacked report pages keep later tables; footer and preceding metadata never become data (5.625125ms)
+✔ unit FEU suffix, reverse reference/unit merge and neutral flag preserve raw cell IDs and valid contract (3.406583ms)
+✔ neutral dashes in a flag column are not persisted as an invalid directional flag (2.39375ms)
+✔ R27-A01: each side keeps its own footer, including the short-right mirror and rotated coordinates (13.79275ms)
+✔ R27-A02: legacy table incomplete unit remains literal and visibly requires review (6.652125ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1300.918333

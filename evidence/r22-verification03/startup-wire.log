@@ -1,0 +1,14 @@
+{"case": "startup", "pid": 79355, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 79366, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 79371, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 79377, "ok": true, "error": null, "target": null, "p95Ms": null}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/tests/test_startup_runner.py", line 44, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/tests/test_startup_runner.py", line 33, in main
+    result=json.loads((out/'style-regression.json').read_text());assert result.get('ok')is False and result.get('error')=='STARTUP_STYLE_NOT_READY',result
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'modules': 48, 'noRecordWrites': True, 'normalEntryReady': True, 'ok': True}

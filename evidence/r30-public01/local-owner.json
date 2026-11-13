@@ -1,0 +1,7 @@
+{
+  "pid": 45593,
+  "argsSha256": "5d66f07c78beb42fa954947be6edad6dd50690ab61f0dd24673fcf5c818c101b",
+  "cwd": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5",
+  "port": 18791,
+  "identity": "runtime/r27-third-batch01/operator.py; python -B; no credentials in argv"
+}

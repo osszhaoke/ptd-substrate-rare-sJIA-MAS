@@ -1,0 +1,458 @@
+{
+  "diagnosticOnly" : true,
+  "elapsedMs" : 31169,
+  "events" : [
+    {
+      "kind" : "main-import",
+      "message" : "TypeError: Importing a module script failed."
+    }
+  ],
+  "mainImport" : "REJECTED",
+  "mainText" : "正在打开此设备资料库…",
+  "networkText" : "此设备保存",
+  "ok" : true,
+  "resources" : [
+    {
+      "duration" : 557,
+      "encoded" : 597,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/editor.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 897
+    },
+    {
+      "duration" : 557,
+      "encoded" : 687,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/styles\/responsive.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 987
+    },
+    {
+      "duration" : 705,
+      "encoded" : 0,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/states.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 0
+    },
+    {
+      "duration" : 703,
+      "encoded" : 497,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/consultation.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 797
+    },
+    {
+      "duration" : 703,
+      "encoded" : 969,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/typography.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 1269
+    },
+    {
+      "duration" : 704,
+      "encoded" : 1409,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/style.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 1709
+    },
+    {
+      "duration" : 704,
+      "encoded" : 776,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/home_resources.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 1076
+    },
+    {
+      "duration" : 704,
+      "encoded" : 864,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/styles\/shell.css",
+      "start" : 1095,
+      "status" : null,
+      "transfer" : 1164
+    },
+    {
+      "duration" : 703,
+      "encoded" : 5679,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/main.js",
+      "start" : 1096,
+      "status" : null,
+      "transfer" : 5979
+    },
+    {
+      "duration" : 703,
+      "encoded" : 387,
+      "initiator" : "link",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/ocr_review.css",
+      "start" : 1096,
+      "status" : null,
+      "transfer" : 687
+    },
+    {
+      "duration" : 1784,
+      "encoded" : 247,
+      "initiator" : "other",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/manifest.webmanifest",
+      "start" : 1096,
+      "status" : null,
+      "transfer" : 547
+    },
+    {
+      "duration" : 534,
+      "encoded" : 1297,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/settings_flow.js",
+      "start" : 1807,
+      "status" : null,
+      "transfer" : 1597
+    },
+    {
+      "duration" : 534,
+      "encoded" : 1412,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/editor_flow.js",
+      "start" : 1807,
+      "status" : null,
+      "transfer" : 1712
+    },
+    {
+      "duration" : 539,
+      "encoded" : 840,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/domain\/ocr_review.js",
+      "start" : 1807,
+      "status" : null,
+      "transfer" : 1140
+    },
+    {
+      "duration" : 544,
+      "encoded" : 314,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/ocr_task.js",
+      "start" : 1807,
+      "status" : null,
+      "transfer" : 614
+    },
+    {
+      "duration" : 655,
+      "encoded" : 598,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/records_flow.js",
+      "start" : 1807,
+      "status" : null,
+      "transfer" : 898
+    },
+    {
+      "duration" : 674,
+      "encoded" : 803,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/backup_task.js",
+      "start" : 1807,
+      "status" : null,
+      "transfer" : 1103
+    },
+    {
+      "duration" : 543,
+      "encoded" : 575,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/state_controller.js",
+      "start" : 1808,
+      "status" : null,
+      "transfer" : 875
+    },
+    {
+      "duration" : 579,
+      "encoded" : 618,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/action_coordinator.js",
+      "start" : 1808,
+      "status" : null,
+      "transfer" : 918
+    },
+    {
+      "duration" : 655,
+      "encoded" : 0,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/states.js",
+      "start" : 1808,
+      "status" : null,
+      "transfer" : 0
+    },
+    {
+      "duration" : 673,
+      "encoded" : 2613,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/consultation_flow.js",
+      "start" : 1808,
+      "status" : null,
+      "transfer" : 2913
+    },
+    {
+      "duration" : 745,
+      "encoded" : 3615,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/storage\/store.js",
+      "start" : 1808,
+      "status" : null,
+      "transfer" : 3915
+    },
+    {
+      "duration" : 534,
+      "encoded" : 1160,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/domain\/service.js",
+      "start" : 1809,
+      "status" : null,
+      "transfer" : 1460
+    },
+    {
+      "duration" : 542,
+      "encoded" : 787,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/adapters\/ocr.js",
+      "start" : 1809,
+      "status" : null,
+      "transfer" : 1087
+    },
+    {
+      "duration" : 672,
+      "encoded" : 2988,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/domain\/model.js",
+      "start" : 1809,
+      "status" : null,
+      "transfer" : 3288
+    },
+    {
+      "duration" : 672,
+      "encoded" : 2011,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/ui.js",
+      "start" : 1809,
+      "status" : null,
+      "transfer" : 2311
+    },
+    {
+      "duration" : 686,
+      "encoded" : 0,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/records.js",
+      "start" : 1809,
+      "status" : null,
+      "transfer" : 0
+    },
+    {
+      "duration" : 744,
+      "encoded" : 3297,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/editor.js",
+      "start" : 1809,
+      "status" : null,
+      "transfer" : 3597
+    },
+    {
+      "duration" : 540,
+      "encoded" : 840,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/ocr_evidence.js",
+      "start" : 2342,
+      "status" : null,
+      "transfer" : 1140
+    },
+    {
+      "duration" : 540,
+      "encoded" : 475,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/step_flow.js",
+      "start" : 2342,
+      "status" : null,
+      "transfer" : 775
+    },
+    {
+      "duration" : 542,
+      "encoded" : 1481,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/settings.js",
+      "start" : 2342,
+      "status" : null,
+      "transfer" : 1781
+    },
+    {
+      "duration" : 562,
+      "encoded" : 461,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/health_labels.js",
+      "start" : 2342,
+      "status" : null,
+      "transfer" : 761
+    },
+    {
+      "duration" : 565,
+      "encoded" : 2871,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/storage\/backup.js",
+      "start" : 2342,
+      "status" : null,
+      "transfer" : 3171
+    },
+    {
+      "duration" : 601,
+      "encoded" : 2197,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/ocr_review.js",
+      "start" : 2342,
+      "status" : null,
+      "transfer" : 2497
+    },
+    {
+      "duration" : 560,
+      "encoded" : 1516,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/domain\/state\/candidates.js",
+      "start" : 2344,
+      "status" : null,
+      "transfer" : 1816
+    },
+    {
+      "duration" : 553,
+      "encoded" : 0,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/domain\/state\/catalog.js",
+      "start" : 2352,
+      "status" : null,
+      "transfer" : 0
+    },
+    {
+      "duration" : 557,
+      "encoded" : 531,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/domain\/state\/project.js",
+      "start" : 2352,
+      "status" : null,
+      "transfer" : 831
+    },
+    {
+      "duration" : 555,
+      "encoded" : 282,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/shared\/observe.js",
+      "start" : 2388,
+      "status" : null,
+      "transfer" : 582
+    },
+    {
+      "duration" : 541,
+      "encoded" : 798,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/home_resources.js",
+      "start" : 2464,
+      "status" : null,
+      "transfer" : 1098
+    },
+    {
+      "duration" : 541,
+      "encoded" : 428,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/home_resources.js",
+      "start" : 2464,
+      "status" : null,
+      "transfer" : 728
+    },
+    {
+      "duration" : 1646,
+      "encoded" : 1752,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/consultation.js",
+      "start" : 2484,
+      "status" : null,
+      "transfer" : 2052
+    },
+    {
+      "duration" : 1646,
+      "encoded" : 1780,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/consultation_page.js",
+      "start" : 2484,
+      "status" : null,
+      "transfer" : 2080
+    },
+    {
+      "duration" : 1646,
+      "encoded" : 1284,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/app\/consultation_draft.js",
+      "start" : 2484,
+      "status" : null,
+      "transfer" : 1584
+    },
+    {
+      "duration" : 1576,
+      "encoded" : 258,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/step_labels.js",
+      "start" : 2555,
+      "status" : null,
+      "transfer" : 558
+    },
+    {
+      "duration" : 1575,
+      "encoded" : 675,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/features\/clinical_flags.js",
+      "start" : 2556,
+      "status" : null,
+      "transfer" : 975
+    },
+    {
+      "duration" : 1575,
+      "encoded" : 830,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/storage\/consultation_draft.js",
+      "start" : 2556,
+      "status" : null,
+      "transfer" : 1130
+    },
+    {
+      "duration" : 1575,
+      "encoded" : 1025,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/storage\/state_read.js",
+      "start" : 2556,
+      "status" : null,
+      "transfer" : 1325
+    },
+    {
+      "duration" : 1322,
+      "encoded" : 2071,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/storage\/backup_stream.js",
+      "start" : 2909,
+      "status" : null,
+      "transfer" : 2371
+    },
+    {
+      "duration" : 1325,
+      "encoded" : 720,
+      "initiator" : "script",
+      "name" : "https:\/\/moms-background-utah-workplace.trycloudflare.com\/storage\/backup_task.js",
+      "start" : 2909,
+      "status" : null,
+      "transfer" : 1020
+    }
+  ],
+  "setupVisible" : false
+}

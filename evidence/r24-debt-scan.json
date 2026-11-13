@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "scope": "R24 declared write set, bounded parser and required regressions only; not universal zero debt",
+  "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+  "protectedPathsExact": [
+    "deploy/TRIAL_POLICY.json",
+    "gateway/__init__.py",
+    "gateway/credentials.py",
+    "gateway/ocr.py",
+    "gateway/policy.py",
+    "gateway/server.py",
+    "gateway/tencent.py",
+    "public_trial/POLICY.json",
+    "public_trial/__init__.py",
+    "public_trial/server.py",
+    "tools/browser_probe.swift",
+    "web/app/action_coordinator.js",
+    "web/app/ocr_task.js",
+    "web/rules/definitions.js",
+    "web/rules/h1-dictionary-0.1.json",
+    "web/rules/sjia-rulepack-0.1.json",
+    "web/storage/store.js"
+  ],
+  "newProductModules": [
+    "web/app/report_editor.js",
+    "web/domain/report/contract.js",
+    "web/domain/report/fields.js",
+    "web/domain/report/rows.js",
+    "web/features/report_rows.js"
+  ],
+  "newNetworkTimerStoreMutexPatternHits": {
+    "web/app/report_editor.js": [],
+    "web/domain/report/contract.js": [],
+    "web/domain/report/fields.js": [],
+    "web/domain/report/rows.js": [],
+    "web/features/report_rows.js": []
+  },
+  "largestWebJsByBytes": [
+    {
+      "path": "web/app/main.js",
+      "lines": 133,
+      "bytes": 15525
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 130,
+      "bytes": 11350
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/storage/backup.js",
+      "lines": 82,
+      "bytes": 8144
+    },
+    {
+      "path": "web/rules/definitions.js",
+      "lines": 4,
+      "bytes": 8047
+    }
+  ],
+  "knownCoveredCodeItemsOpen": 0,
+  "retained": [
+    "historical performance cause unresolved",
+    "physical phone total memory and low space not tested",
+    "R24 independent/human/clinical acceptance pending",
+    "specified old OCR still requires 2 human-completed results; no guesses"
+  ],
+  "checks": 61,
+  "nodeTests": 108,
+  "pythonTests": 53,
+  "AIh": "UNMEASURED"
+}

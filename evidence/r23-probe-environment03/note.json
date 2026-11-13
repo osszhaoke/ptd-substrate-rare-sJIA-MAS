@@ -1,0 +1,5 @@
+{
+  "finding": "probe remained inactive with accessory policy; activationAllWindows returned false; no reliable foreground was established",
+  "change": "owned test process regular GUI activation policy; make its window key and activate via NSApplication at page-ready; no global preference or product change",
+  "oldControl04": "incomplete, not accepted"
+}

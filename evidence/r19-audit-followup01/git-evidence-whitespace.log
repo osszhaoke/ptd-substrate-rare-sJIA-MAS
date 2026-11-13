@@ -1,0 +1,46 @@
+evidence/r19-audit-followup01/binding-original.log:1: trailing whitespace.
++test_actual_image_input_change_or_removal_rejects_previous_proof (tests.test_debt_build_gate.BuildGateTests.test_actual_image_input_change_or_removal_rejects_previous_proof) ... 
+evidence/r19-verification02/async-ownership/original-draft/node.log:29: trailing whitespace.
++  
+evidence/r19-verification02/async-ownership/original-draft/node.log:32: trailing whitespace.
++  
+evidence/r19-verification02/async-ownership/original-draft/node.log:61: trailing whitespace.
++  
+evidence/r19-verification02/async-ownership/original-draft/node.log:63: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/conflict-error/node.log:29: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/conflict-error/node.log:32: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/conflict-success/node.log:28: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/conflict-success/node.log:30: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:28: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:30: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:45: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:47: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:63: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:66: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:82: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:85: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:114: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/original/node.log:116: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/retry/node.log:28: trailing whitespace.
++  
+evidence/r19-verification02/draft-race-mutations/retry/node.log:30: trailing whitespace.
++  
+evidence/r19-verification02/observer-mutations/mutant/node.log:53: trailing whitespace.
++  
+evidence/r19-verification02/observer-mutations/mutant/node.log:55: trailing whitespace.
++  

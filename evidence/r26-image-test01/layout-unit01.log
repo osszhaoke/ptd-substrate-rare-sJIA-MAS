@@ -1,0 +1,67 @@
+✔ v3 explicit schema and one authoritative report projection; v2 cannot silently accept new fields (47.25475ms)
+✔ stage reparses exact immutable origins; corrections retain original values and no medical projection for unmapped rows (133.678625ms)
+✔ raw report schema bounded and no silent arbitrary fields or missing source allowed (83.227667ms)
+✔ pending original without a value requires an actual reviewed correction before save (58.359708ms)
+{"scope":"synthetic Node parser; not phone memory","fragments":2000,"ms":123.16924999999999,"heapDeltaBytes":5734864}
+{"scope":"synthetic Node parser; not phone memory","fragments":20000,"ms":514.611375,"heapDeltaBytes":22326664}
+{"scope":"fictional generic rotated layout","fragments":2000,"ms":81.50675000000001}
+{"scope":"fictional generic rotated layout","fragments":20000,"ms":799.402416}
+✔ 27-row fictional CBC preserves every original row; only explicit supported fields project to rules (24.556958ms)
+✔ unknown first/middle rows no longer swallow later known rows in a strict flat table (1.987667ms)
+✔ unit/arrow/header variants preserve raw evidence with explicit standardized projection (28.004959ms)
+✔ missing geometry, values, units, duplicate result cells, crossing pages and bad headers never borrow neighboring data (32.45425ms)
+✔ unrecognized units/names retained without inventing medical mappings; duplicate evidence rows retained (1.171875ms)
+✔ tenfold 2k/20k fragment projection bounded to 100 rows and under 1000ms (653.920417ms)
+✔ previously accepted inline colon/abutting-name spellings remain visible in the report layer (0.489084ms)
+✔ name/result merged OCR fragment is visible pending review; never split trailing digits into a guessed value (8.433375ms)
+✔ arrow attached to a unit is stored separately; ambiguous reference fragments do not discard the reliable project (14.469833ms)
+✔ contradictory result/unit arrows remain raw evidence rather than a guessed abnormal direction (7.507375ms)
+✖ right-angle coordinate frames, two panels, header aliases, swapped columns and source coordinates are lossless (5.258875ms)
+✔ explicit joined units/ranges and merged names keep evidence; footer never becomes a project (7.731292ms)
+✔ missing units, overlapping results and page splits never synthesize an unknown result (5.642542ms)
+✔ cross-panel fragments remain explicit empty correction tasks and retain their literal text (2.021167ms)
+✔ generic layout 2k/20k fragments stay bounded without per-row whole-page scans (890.186625ms)
+✔ removing Angle compensation or generic table wiring is killed by output assertions, with positive controls (4.565209ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 19
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1761.6875
+
+✖ failing tests:
+
+test at tests/report_rows.test.mjs:66:1
+✖ right-angle coordinate frames, two panels, header aliases, swapped columns and source coordinates are lossless (5.258875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   '',
+  -   '7.25',
+      '1.70',
+  +   '',
+  +   '',
+  -   '11.2',
+  -   '7.25',
+      '1.70',
+  +   ''
+  -   '11.2'
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/tests/report_rows.test.mjs:69:60)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ '', '1.70', '', '', '1.70', '' ],
+    expected: [ '7.25', '1.70', '11.2', '7.25', '1.70', '11.2' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

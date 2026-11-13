@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "mode": "control",
+      "nodeExitCode": 0,
+      "browser": {
+        "identity": "author fictional actual IDB commits with notification faults; no real patient data",
+        "ok": true,
+        "results": {
+          "async": {
+            "healthyCalls": 1,
+            "observerFailures": 1,
+            "promise": "fulfilled",
+            "unhandled": 0
+          },
+          "blocked": {
+            "error": "UPGRADE_BLOCKED_CLOSE_OTHER_TABS",
+            "promise": "rejected"
+          },
+          "broadcast": {
+            "formalEvents": 1,
+            "promise": "fulfilled"
+          },
+          "local": {
+            "formalEvents": 1,
+            "healthyCalls": 1,
+            "promise": "fulfilled",
+            "type": "clinical"
+          },
+          "quota": {
+            "error": "QuotaExceededError",
+            "injected": 1,
+            "persisted": false
+          },
+          "remote": {
+            "healthyCalls": 1
+          },
+          "versionchange": {
+            "observerFailures": 1,
+            "oldConnectionClosed": true
+          }
+        }
+      }
+    },
+    {
+      "mode": "mutant",
+      "nodeExitCode": 1,
+      "browser": {
+        "error": "LOCAL_LISTENER_STARVED",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:64408/:3:50\n@http://127.0.0.1:64408/:36:5"
+      }
+    }
+  ],
+  "productMutated": false,
+  "killedBy": "actual callback/commit behavior; no preflight rejection",
+  "identity": "author isolated fictional controls and mutant"
+}

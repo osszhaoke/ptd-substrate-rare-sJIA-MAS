@@ -1,0 +1,327 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "path": "/sw.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 1076
+    },
+    {
+      "path": "/app/settings_flow.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 1076
+    },
+    {
+      "path": "/app/ui.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 922
+    },
+    {
+      "path": "/app/action_coordinator.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 936
+    },
+    {
+      "path": "/app/editor_flow.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 816
+    },
+    {
+      "path": "/app/state_controller.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 710
+    },
+    {
+      "path": "/app/home_resources.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 1050
+    },
+    {
+      "path": "/app/consultation_flow.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 907
+    },
+    {
+      "path": "/app/step_flow.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 749
+    },
+    {
+      "path": "/app/main.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 867
+    },
+    {
+      "path": "/app/records_flow.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 719
+    },
+    {
+      "path": "/app/records_snapshot.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 866
+    },
+    {
+      "path": "/app/consultation_draft.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 775
+    },
+    {
+      "path": "/app/backup_task.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 782
+    },
+    {
+      "path": "/app/ocr_task.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 680
+    },
+    {
+      "path": "/features/records.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 753
+    },
+    {
+      "path": "/features/home_resources.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 817
+    },
+    {
+      "path": "/features/consultation_page.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 734
+    },
+    {
+      "path": "/features/health_labels.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 688
+    },
+    {
+      "path": "/features/consultation.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 725
+    },
+    {
+      "path": "/features/states.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 779
+    },
+    {
+      "path": "/features/editor.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 702
+    },
+    {
+      "path": "/features/step_labels.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 843
+    },
+    {
+      "path": "/features/clinical_flags.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 696
+    },
+    {
+      "path": "/features/settings.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 726
+    },
+    {
+      "path": "/shared/observe.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 708
+    },
+    {
+      "path": "/storage/backup_reader.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 967
+    },
+    {
+      "path": "/storage/backup.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 779
+    },
+    {
+      "path": "/storage/state_read.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 713
+    },
+    {
+      "path": "/storage/store.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 823
+    },
+    {
+      "path": "/storage/consultation_draft.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 670
+    },
+    {
+      "path": "/storage/backup_task.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 656
+    },
+    {
+      "path": "/storage/backup_stream.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 785
+    },
+    {
+      "path": "/adapters/ocr.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 697
+    },
+    {
+      "path": "/rules/definitions.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 770
+    },
+    {
+      "path": "/domain/service.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 653
+    },
+    {
+      "path": "/domain/model.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 689
+    },
+    {
+      "path": "/domain/state/decimal.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 699
+    },
+    {
+      "path": "/domain/state/ocr_tables.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 807
+    },
+    {
+      "path": "/domain/state/catalog.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 735
+    },
+    {
+      "path": "/domain/state/ocr_fragments.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 865
+    },
+    {
+      "path": "/domain/state/candidates.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 824
+    },
+    {
+      "path": "/domain/state/select.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 691
+    },
+    {
+      "path": "/domain/state/evaluate.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 781
+    },
+    {
+      "path": "/domain/state/project.js",
+      "http": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "same": true,
+      "ms": 679
+    },
+    {
+      "path": "/",
+      "http": 200,
+      "mime": "text/html",
+      "same": true,
+      "ms": 819
+    }
+  ]
+}

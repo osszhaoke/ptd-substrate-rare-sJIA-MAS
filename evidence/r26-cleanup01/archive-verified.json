@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "archive": "runtime/archives-r26-01/engineering-candidates.tar.gz",
+  "sha256": "8b55a88dde3506c641f56ef8036049cb49aadd5cc98b4fbaf2b78e1231451d87",
+  "archiveBytes": 1102402715,
+  "verifiedFileCount": 40213,
+  "everyFileHashModeAndSizeMatched": true
+}

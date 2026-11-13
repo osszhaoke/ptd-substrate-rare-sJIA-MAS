@@ -1,0 +1,24 @@
+✔ v3 explicit schema and one authoritative report projection; v2 cannot silently accept new fields (43.691417ms)
+✔ stage reparses exact immutable origins; corrections retain original values and no medical projection for unmapped rows (103.682083ms)
+✔ raw report schema bounded and no silent arbitrary fields or missing source allowed (44.423083ms)
+✔ pending original without a value requires an actual reviewed correction before save (35.736292ms)
+{"scope":"synthetic Node parser; not phone memory","fragments":2000,"ms":93.83183399999999,"heapDeltaBytes":1503072}
+{"scope":"synthetic Node parser; not phone memory","fragments":20000,"ms":211.26424999999998,"heapDeltaBytes":10146328}
+✔ 27-row fictional CBC preserves every original row; only explicit supported fields project to rules (24.041584ms)
+✔ unknown first/middle rows no longer swallow later known rows in a strict flat table (1.474ms)
+✔ unit/arrow/header variants preserve raw evidence with explicit standardized projection (24.652041ms)
+✔ missing geometry, values, units, duplicate result cells, crossing pages and bad headers never borrow neighboring data (27.096375ms)
+✔ unrecognized units/names retained without inventing medical mappings; duplicate evidence rows retained (0.932541ms)
+✔ tenfold 2k/20k fragment projection bounded to 100 rows and under 1000ms (312.752958ms)
+✔ previously accepted inline colon/abutting-name spellings remain visible in the report layer (0.387916ms)
+✔ name/result merged OCR fragment is visible pending review; never split trailing digits into a guessed value (7.003458ms)
+✔ arrow attached to a unit is stored separately; ambiguous reference fragments do not discard the reliable project (13.573916ms)
+✔ contradictory result/unit arrows remain raw evidence rather than a guessed abnormal direction (7.861333ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 474.480959

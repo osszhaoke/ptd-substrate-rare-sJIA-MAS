@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "scope": "R23 actual backup reader rejects schema3 manifest; schema negotiation control only, no database or valid record claimed",
+  "oldReader": "runtime/r24-web-swap01/storage/backup.js",
+  "actualError": "BACKUP_SCHEMA",
+  "sourceOrDatabaseWrites": 0
+}

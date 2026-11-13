@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "case": "phone-quota",
+  "source": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01",
+  "bundle": {
+    "site": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/evidence/r20-verification01/phone-quota/bundle/site",
+    "treeSha256": "50e082a645baf0176c22c393689014194a1697f48e529e8a5a6c15830e1153ce",
+    "zipSha256": "079307ea01c4f6d33e65358e3746fa1152c5b75fb684b23547c03a0fd53d45fc",
+    "files": 24,
+    "servicesStarted": false,
+    "cloudCalls": 0
+  },
+  "browser": {
+    "cases": [
+      {
+        "allStoresRolledBack": true,
+        "error": {
+          "message": "IDBTransaction will abort due to uncaught exception in an event handler",
+          "name": "AbortError"
+        },
+        "location": 1,
+        "queuedWritesBeforeFailure": 0
+      },
+      {
+        "allStoresRolledBack": true,
+        "error": {
+          "message": "IDBTransaction will abort due to uncaught exception in an event handler",
+          "name": "AbortError"
+        },
+        "location": 13,
+        "queuedWritesBeforeFailure": 12
+      },
+      {
+        "allStoresRolledBack": true,
+        "error": {
+          "message": "IDBTransaction will abort due to uncaught exception in an event handler",
+          "name": "AbortError"
+        },
+        "location": 25,
+        "queuedWritesBeforeFailure": 24
+      }
+    ],
+    "identity": "Mac WebKit injected faults only, not physical low storage",
+    "ok": true,
+    "ownedCleanup": true,
+    "successfulRestoreAfterFaults": true
+  },
+  "physicalPhone": "NOT_TESTED"
+}

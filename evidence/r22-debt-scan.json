@@ -1,0 +1,120 @@
+{
+  "ok": true,
+  "identity": "author directed source/behavior scan, not independent audit or universal defect absence",
+  "binding": "07ce0e3e2ac01590bab6879a11718d7f95c6689fab218f1f64f612b36d7f3411",
+  "boundInputs": 226,
+  "requiredChecks": 60,
+  "protectedExistingFiles": {
+    "count": 26,
+    "allExact": true,
+    "names": [
+      "START_INVITE_TEST.command",
+      "START_LOCAL.command",
+      "START_PUBLIC_24H.command",
+      "deploy/PUBLIC_CONFIG.example.json",
+      "deploy/TRIAL_POLICY.json",
+      "deploy/invite_runner.py",
+      "deploy/ptds-h5.service",
+      "gateway/__init__.py",
+      "gateway/credentials.py",
+      "gateway/ocr.py",
+      "gateway/policy.py",
+      "gateway/server.py",
+      "gateway/tencent.py",
+      "public_trial/POLICY.json",
+      "public_trial/__init__.py",
+      "public_trial/server.py",
+      "web/rules/definitions.js",
+      "web/rules/h1-dictionary-0.1.json",
+      "web/rules/sjia-rulepack-0.1.json",
+      "web/storage/backup.js",
+      "web/storage/backup_reader.js",
+      "web/storage/backup_stream.js",
+      "web/storage/backup_task.js",
+      "web/storage/consultation_draft.js",
+      "web/storage/state_read.js",
+      "web/storage/store.js"
+    ]
+  },
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "handwrittenJsLargest": [
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 133,
+      "bytes": 15479
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 130,
+      "bytes": 11350
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 96,
+      "bytes": 7545
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    },
+    {
+      "path": "web/storage/backup.js",
+      "lines": 78,
+      "bytes": 7543
+    },
+    {
+      "path": "web/app/consultation_draft.js",
+      "lines": 67,
+      "bytes": 3839
+    }
+  ],
+  "newOwners": {
+    "preview": "one URL + one delegated listener owner; replacement/removal/navigation/pagehide controls passed",
+    "startup": "one feedback timer; <=4 native preload/style jobs; missing styles replaced in original DOM order once and parsed cssRules checked",
+    "serviceWorkerInstall": "<=4 readonly fetch workers; cancel and remove incomplete new cache after all settle"
+  },
+  "knownNewUnrepairedReproducibleCodeItems": 0,
+  "fixedThisWork": [
+    "source-linked original preview and exact optional OCR snapshot",
+    "strict same-source snapshot validation, correction readback and encrypted backup",
+    "ambiguous aliases rejected",
+    "orphan preview/failed decode resources released",
+    "startup module failure feedback and bounded dependency-first preload",
+    "bounded SW install and incomplete-cache cleanup",
+    "direct build script module import compatibility",
+    "empty CSSStyleSheet failure detected; actual replacement styles parsed and zoom overflow regression passed"
+  ],
+  "observations": {
+    "publicColdStartup": "three final fresh Mac WebKit profiles passed first page plus all required CSS; prior failures retained; transport root cause not uniquely established; not universal stability",
+    "historicalPerformance": "not uniquely attributed; exact new window passed existing numeric gates",
+    "physicalPhoneMemoryAndQuota": "NOT_MEASURED",
+    "humanAndIndependentAcceptance": "NOT_PERFORMED_FOR_THIS_PATCH",
+    "clinicalExpert": "NOT_ACCEPTED"
+  },
+  "evidence": [
+    "evidence/r21-verification03/result.json",
+    "evidence/r22-verification01/result.json",
+    "evidence/r22-build-cli01/failure.json",
+    "evidence/r22-verification02/result.json",
+    "evidence/r22-private-failed-summary.json",
+    "evidence/r22-verification03/result.json",
+    "evidence/r22-verification04/result.json",
+    "evidence/r22-public-startup02/summary.json",
+    "evidence/r22-private-final-summary.json"
+  ],
+  "newPaidProviderCalls": 0,
+  "AIh": "UNMEASURED",
+  "privateImageReadScope": "explicitly authorized image and prior OCR response replay only; no new supplier call, records, credentials or real budget read",
+  "realCredentialsLedgerOrDatabaseReadOrModified": false
+}

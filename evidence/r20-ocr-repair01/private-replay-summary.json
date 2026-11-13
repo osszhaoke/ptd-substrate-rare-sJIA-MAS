@@ -1,0 +1,21 @@
+{
+  "identity": "one authorized actual provider HTTP call plus private local UI replay; not live reupload in patched UI",
+  "actualProviderCalls": 1,
+  "imageSha256": "c33fcfb2f062ee397a825a065956ef3472d1f397a9efc24836bb4868e93e6c68",
+  "responseSha256": "d134157b8d2e4c6ffe6ab119c50f709575af7f4988c12948dfddf69524397966",
+  "realResponseLines": 178,
+  "originalCandidates": 0,
+  "repairedCandidates": 5,
+  "privateUIResult": {
+    "noFormalSave": true,
+    "observations": 5,
+    "ok": true,
+    "providerCalls": 0,
+    "sourceLines": 178
+  },
+  "formalSaveOfRealImage": false,
+  "rawImageOrResponseInRepo": false,
+  "privateEvidenceDirectory": "/Users/osszhaoke/Downloads/PTDS-Alpha-image-check-20261109-01",
+  "finalPrivateReplay": "private-ui05",
+  "privateEvidenceToolFailure": "private-ui04 missed transient busy state; retained; deterministic response-release fixture repaired"
+}

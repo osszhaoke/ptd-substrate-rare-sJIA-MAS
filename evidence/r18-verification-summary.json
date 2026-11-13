@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "checks": 56,
+  "nodeTests": 68,
+  "pythonTests": 48,
+  "binding": "aad1f38d30f75ceea54390625fab7407f11a002934a3f3e31231c52f60114048",
+  "metrics": {
+    "stateColdP95Ms": 318,
+    "stateWarmP95Ms": 0,
+    "consultPageP95Ms": 10,
+    "consultSelectionP95Ms": 4,
+    "backupInspectMs": 7268,
+    "backupHeartbeatP95Ms": 17,
+    "backupHeartbeatMaxMs": 234,
+    "originalBytes": 67108864,
+    "originalMaxCryptoBytes": 262145,
+    "originalHeartbeatP95Ms": 19
+  },
+  "measurementIdentity": "same complete Mac WebKit fictional author window; not physical iPhone, total memory, clinical or independent acceptance",
+  "noSpeedupClaim": true
+}

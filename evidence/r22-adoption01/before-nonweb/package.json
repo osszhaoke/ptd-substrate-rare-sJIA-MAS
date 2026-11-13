@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/ocr_tables.test.mjs tests/public_editor.test.mjs tests/backup_reader.test.mjs tests/backup_reader_regression.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs tests/ocr_review.test.mjs tests/ocr_aliases.test.mjs"
+  }
+}

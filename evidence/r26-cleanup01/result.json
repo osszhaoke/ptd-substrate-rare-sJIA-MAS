@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "archive": "runtime/archives-r26-01/engineering-candidates.tar.gz",
+  "archiveSha256": "8b55a88dde3506c641f56ef8036049cb49aadd5cc98b4fbaf2b78e1231451d87",
+  "removedDirectories": [
+    "ocr-candidate01",
+    "ocr-review-candidate01",
+    "startup-candidate01",
+    "startup-candidate02",
+    "startup-fallback-candidate01",
+    "r24-candidate01",
+    "r25-candidate01",
+    "r26-candidate01"
+  ],
+  "filesArchivedThenRemoved": 40213,
+  "logicalOriginalBytes": 1652197408,
+  "compressedBytes": 1102402715,
+  "logicalBytesSaved": 549794693,
+  "diskBefore": {
+    "total": 494384795648,
+    "used": 474736005120,
+    "free": 19648790528
+  },
+  "diskAfter": {
+    "total": 494384795648,
+    "used": 474067173376,
+    "free": 20317622272
+  },
+  "diskFreeDelta": 668831744,
+  "currentBindingUnchanged": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "retained": [
+    "runtime/local-ocr-r23-01",
+    "runtime/local-acceptance-r23-01",
+    "runtime/r26-web-swap01",
+    "runtime/r26-source-before01",
+    "runtime/r26-image-check01",
+    "web",
+    "evidence",
+    "deploy/PTDS-H5-sjia-mas-r19.zip"
+  ],
+  "serviceRestarts": 0,
+  "originalTestImagesRemoved": false,
+  "oldZipModified": false,
+  "historicalRootEvidenceModified": false,
+  "restoration": "verify archive SHA then restore selected regular files with exact per-file hash/mode from plan.json; never overwrite running source automatically"
+}

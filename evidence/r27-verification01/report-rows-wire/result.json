@@ -1,0 +1,196 @@
+{
+  "ok": true,
+  "identity": "author fictional automated, not independent/human/physical/clinical acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 15,
+  "reportRows": 27,
+  "projectedMetrics": 5,
+  "differentPIDs": [
+    53165,
+    53171
+  ],
+  "behavioralMutations": {
+    "empty-name-fallback": "REPORT_EMPTY_NAME_STAGED",
+    "hide-unknown": "REPORT_UNMAPPED_HIDDEN",
+    "reuse-row-check": "REPORT_EDIT_REUSES_CHECK",
+    "layout-no-angle": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "layout-no-tables": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "qualitative-dropped": "LAYOUT_PENDING_CHANGED",
+    "stacked-footer-global": "LAYOUT_CANDIDATE_ROWS_LOST"
+  },
+  "write": {
+    "backupRoundTrip": true,
+    "emptyAndWhitespaceNamesRejected": true,
+    "eventId": "2c58e609-df1b-4355-b729-f8a6ecb644a4",
+    "explicitSyntheticRowChecks": true,
+    "explicitSyntheticSaveConfirmation": true,
+    "forgedOriginRejected": true,
+    "mappedNameSwitchPreserved": true,
+    "noAutomaticSave": true,
+    "nonemptyRenameSaved": true,
+    "noUnknownFieldsInAiProjection": true,
+    "ok": true,
+    "pendingRowsManuallyCompleted": 0,
+    "projectedMetrics": 5,
+    "reportRows": 27,
+    "unmappedRows": 22
+  },
+  "read": {
+    "eventId": "2c58e609-df1b-4355-b729-f8a6ecb644a4",
+    "newProcessRead": true,
+    "ok": true,
+    "reportRows": 27
+  },
+  "layouts": [
+    {
+      "angle": 90,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "db84743a-679d-495f-986f-636c0b688483",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "db84743a-679d-495f-986f-636c0b688483",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        53191,
+        53197
+      ]
+    },
+    {
+      "angle": 180,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "b0609101-796c-4c06-9032-8c5c46ac5c22",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "b0609101-796c-4c06-9032-8c5c46ac5c22",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        53203,
+        53211
+      ]
+    },
+    {
+      "angle": 270,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "fe6218fc-636a-4717-8786-ba61582c9814",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 2,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "fe6218fc-636a-4717-8786-ba61582c9814",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        53217,
+        53222
+      ]
+    },
+    {
+      "variant": "qualitative",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "b6f9fbe0-4fa7-4d91-9140-bb34e77164e9",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "b6f9fbe0-4fa7-4d91-9140-bb34e77164e9",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        53230,
+        53235
+      ]
+    },
+    {
+      "variant": "stacked",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "2bfd8b0c-9691-4217-b030-311f9b242748",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 12
+      },
+      "read": {
+        "eventId": "2bfd8b0c-9691-4217-b030-311f9b242748",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 12
+      },
+      "pids": [
+        53247,
+        53254
+      ]
+    },
+    {
+      "variant": "raw-only",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "90c99367-e67a-472b-90d9-33f523c0604c",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": true,
+        "reportRows": 0
+      },
+      "read": {
+        "eventId": "90c99367-e67a-472b-90d9-33f523c0604c",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 0
+      },
+      "pids": [
+        53260,
+        53265
+      ]
+    }
+  ]
+}

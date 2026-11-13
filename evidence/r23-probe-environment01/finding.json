@@ -1,0 +1,8 @@
+{
+  "originalProbeBinarySameAsRoot": true,
+  "originalControl": "evidence/r23-review-control02",
+  "diagnosticOnlyTrace": "evidence/r23-review-trace02",
+  "observed": "unmodified control completed following activation of only its own bound probe window; mutation still killed by original business assertion",
+  "change": "probe self-activation of owned foreground window; product unchanged; no longer count inactive timing window as accepted full pass",
+  "historicalCause": "not uniquely established"
+}

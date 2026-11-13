@@ -1,0 +1,63 @@
+{
+  "commitMs" : 64,
+  "exactEventsAndReceipts" : true,
+  "exportMs" : 466,
+  "fileArrayBufferReads" : 3,
+  "fileBytes" : 2339658,
+  "frames" : 12008,
+  "heartbeatMaxMs" : 24,
+  "heartbeatP95Ms" : 17,
+  "heartbeatSamples" : 80,
+  "identity" : "author Mac WebKit fictional profile; not iPhone acceptance",
+  "inspectMs" : 764,
+  "maxCryptoBytes" : 1908,
+  "maxFileReadBytes" : 1048576,
+  "metadataBlobTexts" : 0,
+  "ok" : true,
+  "phaseHeartbeats" : {
+    "commit" : {
+      "maxMs" : 24,
+      "p95Ms" : 24,
+      "samples" : 4
+    },
+    "decrypt" : {
+      "maxMs" : 19,
+      "p95Ms" : 19,
+      "samples" : 9
+    },
+    "encrypt" : {
+      "maxMs" : 17,
+      "p95Ms" : 16,
+      "samples" : 25
+    },
+    "preview" : {
+      "maxMs" : 16,
+      "p95Ms" : 16,
+      "samples" : 2
+    },
+    "read" : {
+      "maxMs" : 17,
+      "p95Ms" : 17,
+      "samples" : 7
+    },
+    "validate" : {
+      "maxMs" : 17,
+      "p95Ms" : 17,
+      "samples" : 33
+    }
+  },
+  "phases" : {
+    "commit" : 64,
+    "decrypt" : 151,
+    "encrypt" : 397,
+    "export" : 1,
+    "inspect" : 0,
+    "preview" : 37,
+    "read" : 117,
+    "ready" : 2,
+    "validate" : 525
+  },
+  "target" : 1000,
+  "totalBrowserMemory" : "UNMEASURED",
+  "totalFileReadBytes" : 2339658
+}

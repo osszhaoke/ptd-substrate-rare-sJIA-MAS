@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "identity": "author fictional automated performance rerun; not independent or phone acceptance",
+  "windows": [
+    {
+      "window": 1,
+      "profile": "59cb7d97-adea-40e8-9c7d-761361a367d8",
+      "target": 10000,
+      "coldP95Ms": 433,
+      "warmP95Ms": 1,
+      "coldMs": [
+        433,
+        308,
+        297,
+        309,
+        321,
+        315,
+        301
+      ],
+      "warmMs": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "window": 2,
+      "profile": "638a0f11-04a9-451e-b4c8-4cf1203d6312",
+      "target": 10000,
+      "coldP95Ms": 623,
+      "warmP95Ms": 2,
+      "coldMs": [
+        623,
+        298,
+        333,
+        353,
+        350,
+        310,
+        312
+      ],
+      "warmMs": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "window": 3,
+      "profile": "ca9898f7-dee0-40a5-b0aa-e721747c52b2",
+      "target": 10000,
+      "coldP95Ms": 480,
+      "warmP95Ms": 1,
+      "coldMs": [
+        480,
+        305,
+        306,
+        305,
+        302,
+        292,
+        303
+      ],
+      "warmMs": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "ok": true
+    }
+  ],
+  "environment": "same local Mac WebKit runner, fresh profile per window, direct 10000-record target",
+  "paidProviderCalls": 0,
+  "priorFailurePreserved": "evidence/r38-independent-audit/result.json"
+}

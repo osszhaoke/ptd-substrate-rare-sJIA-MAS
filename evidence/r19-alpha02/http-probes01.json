@@ -1,0 +1,123 @@
+{
+  "identity": "author read-only GET checks from current Mac; not mainland phone verification",
+  "sessionUrl": "https://moms-background-utah-workplace.trycloudflare.com",
+  "paidProviderRequests": 0,
+  "rows": [
+    {
+      "url": "http://127.0.0.1:18795/health",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:35.377004+00:00",
+      "status": 200,
+      "contentType": "application/json",
+      "bodySha256": "438f2e88e486b73ecc455373d8b5f3d586cba288b17ea7ee177505373fa3d373",
+      "responseBytes": 134,
+      "latencyMs": 13,
+      "publicResponse": {
+        "status": "ok",
+        "version": "h5-sjia-mas-r19",
+        "mode": "public-24h-r01",
+        "ocrEnabled": true,
+        "expiresAt": "2026-11-09T15:59:00+00:00"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:18795/api/ocr/config",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:35.389539+00:00",
+      "status": 200,
+      "contentType": "application/json",
+      "bodySha256": "0ce87e3983e1f2e61f5aefe321d4a4826030637b12da4afc3cefb447ddf6f677",
+      "responseBytes": 475,
+      "latencyMs": 1,
+      "publicResponse": {
+        "enabled": true,
+        "provider": "tencent-general-accurate",
+        "region": "ap-guangzhou",
+        "maxImageBytes": 2097152,
+        "disclosure": "本次图片经本网关发送至腾讯云通用文字识别（高精度版），大陆请求地域参数（不代表已核实仅在广州处理）：ap-guangzhou。图片离开设备；本网关不持久保存图片或识别正文。服务商及平台仍可能留存请求元数据。",
+        "publicTrial": true,
+        "expiresAt": "2026-11-09T15:59:00+00:00"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:18795/",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:35.390070+00:00",
+      "status": 200,
+      "contentType": "text/html",
+      "bodySha256": "407c6cfe6ce3338445af38a0d5eae58b96a806e2f8872d2d79fe127c6616c021",
+      "responseBytes": 1703,
+      "latencyMs": 2,
+      "matchesLocalSource": true
+    },
+    {
+      "url": "http://127.0.0.1:18795/app/records_snapshot.js",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:35.392035+00:00",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bodySha256": "5907770fda227596a8ad10e5f32c28d927c1c793ea0e16d780b2ee55af886994",
+      "responseBytes": 837,
+      "latencyMs": 1,
+      "matchesLocalSource": true
+    },
+    {
+      "url": "https://moms-background-utah-workplace.trycloudflare.com/health",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:35.392939+00:00",
+      "status": 200,
+      "contentType": "application/json",
+      "bodySha256": "438f2e88e486b73ecc455373d8b5f3d586cba288b17ea7ee177505373fa3d373",
+      "responseBytes": 134,
+      "latencyMs": 1379,
+      "publicResponse": {
+        "status": "ok",
+        "version": "h5-sjia-mas-r19",
+        "mode": "public-24h-r01",
+        "ocrEnabled": true,
+        "expiresAt": "2026-11-09T15:59:00+00:00"
+      }
+    },
+    {
+      "url": "https://moms-background-utah-workplace.trycloudflare.com/api/ocr/config",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:36.772001+00:00",
+      "status": 200,
+      "contentType": "application/json",
+      "bodySha256": "0ce87e3983e1f2e61f5aefe321d4a4826030637b12da4afc3cefb447ddf6f677",
+      "responseBytes": 475,
+      "latencyMs": 764,
+      "publicResponse": {
+        "enabled": true,
+        "provider": "tencent-general-accurate",
+        "region": "ap-guangzhou",
+        "maxImageBytes": 2097152,
+        "disclosure": "本次图片经本网关发送至腾讯云通用文字识别（高精度版），大陆请求地域参数（不代表已核实仅在广州处理）：ap-guangzhou。图片离开设备；本网关不持久保存图片或识别正文。服务商及平台仍可能留存请求元数据。",
+        "publicTrial": true,
+        "expiresAt": "2026-11-09T15:59:00+00:00"
+      }
+    },
+    {
+      "url": "https://moms-background-utah-workplace.trycloudflare.com/",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:37.536219+00:00",
+      "status": 200,
+      "contentType": "text/html",
+      "bodySha256": "407c6cfe6ce3338445af38a0d5eae58b96a806e2f8872d2d79fe127c6616c021",
+      "responseBytes": 1703,
+      "latencyMs": 833,
+      "matchesLocalSource": true
+    },
+    {
+      "url": "https://moms-background-utah-workplace.trycloudflare.com/app/records_snapshot.js",
+      "method": "GET",
+      "timeUTC": "2026-11-08T15:32:38.369481+00:00",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bodySha256": "5907770fda227596a8ad10e5f32c28d927c1c793ea0e16d780b2ee55af886994",
+      "responseBytes": 837,
+      "latencyMs": 894,
+      "matchesLocalSource": true
+    }
+  ]
+}

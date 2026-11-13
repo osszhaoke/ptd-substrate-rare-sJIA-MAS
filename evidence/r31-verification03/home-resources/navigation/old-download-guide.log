@@ -1,0 +1,5 @@
+{
+  "error" : "NAVIGATION_HIDDEN_DOWNLOAD_PROMISE",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:60608\/:2:67\n@http:\/\/127.0.0.1:60608\/:9:80"
+}

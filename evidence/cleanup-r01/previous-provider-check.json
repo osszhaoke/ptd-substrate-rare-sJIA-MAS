@@ -1,0 +1,56 @@
+{
+  "evidenceClass": "user-provided terminal execution transcript; not agent-run or independent acceptance",
+  "provider": "tencent-general-accurate",
+  "requestRegion": "ap-guangzhou",
+  "userReportedTimeUTC": "2026-11-07T18:29:25.249105+00:00",
+  "fixtureSha256": "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+  "status": "PROVIDER_OK_NEEDS_HUMAN_REVIEW",
+  "recognizedLines": 30,
+  "reservedAttemptsTotal": 1,
+  "reservedCostCNY": "0.50",
+  "actualCharge": "UNKNOWN; user Tencent console required",
+  "comparison": "six values/units match bundled synthetic fixture in supplied transcript",
+  "values": [
+    {
+      "item": "铁蛋白",
+      "value": "1520",
+      "unit": "ng/mL"
+    },
+    {
+      "item": "血小板计数",
+      "value": "98",
+      "unit": "x10^9/L"
+    },
+    {
+      "item": "白细胞计数",
+      "value": "6.2",
+      "unit": "x10^9/L"
+    },
+    {
+      "item": "C反应蛋白",
+      "value": "18",
+      "unit": "mg/L"
+    },
+    {
+      "item": "谷草转氨酶",
+      "value": "65",
+      "unit": "U/L"
+    },
+    {
+      "item": "甘油三酯",
+      "value": "2.30",
+      "unit": "mmol/L"
+    }
+  ],
+  "secretAccessByAgent": false,
+  "ledgerAccessByAgent": false,
+  "providerCallsByAgent": 0,
+  "currentH5Health": {
+    "version": "h5-sjia-mas-r09",
+    "ocrEnabled": false
+  },
+  "h5BrowserFlow": "NOT_TESTED_WITH_REAL_PROVIDER",
+  "humanWholeProductAcceptance": "NOT_ACCEPTED",
+  "clinical": "PENDING",
+  "publicDeployment": "NOT_RUN"
+}

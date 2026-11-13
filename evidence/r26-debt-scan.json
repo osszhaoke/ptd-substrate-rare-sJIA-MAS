@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "identity": "author scoped engineering check; not independent audit",
+  "binding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "inputs": 239,
+  "requiredChecks": 61,
+  "nodeTests": 114,
+  "pythonTests": 53,
+  "newProductModules": {
+    "layout.js": 15,
+    "tables.js": 134
+  },
+  "newGlobalLocks": 0,
+  "newStoreNetworkTimerDependency": false,
+  "knownOpenReproducibleCodeDefectsInTestedSlice": 0,
+  "providerAccuracy": "MANUAL_REVIEW_REQUIRED_NOT_ENGINEERING_FULL_ACCURACY_CLAIM",
+  "pending": [
+    "R26 independent acceptance",
+    "human iPhone acceptance",
+    "physical peak memory",
+    "real low-space",
+    "BFCache/background",
+    "clinical review",
+    "historical performance unique attribution"
+  ],
+  "evidence": [
+    "evidence/r26-verification01/result.json",
+    "evidence/r26-image-test01/expected-failures-comparison.json",
+    "evidence/r26-adoption01/local-http-after.json"
+  ]
+}

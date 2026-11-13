@@ -1,0 +1,4 @@
+{"case": "store-lifecycle", "pid": 69585, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "store-lifecycle", "pid": 69606, "ok": false, "error": "CLOSED_STORE_RESURRECTED {\"state\":\"fulfilled\",\"connectionResurrected\":true}", "target": null, "p95Ms": null}
+{"case": "store-lifecycle", "pid": 69630, "ok": false, "error": "ABANDONED_UPGRADE_CHANGED_SCHEMA {\"state\":\"rejected\",\"error\":\"UPGRADE_BLOCKED_CLOSE_OTHER_TABS\",\"version\":2,\"hasProductStores\":true,\"sentinel\":true}", "target": null, "p95Ms": null}
+{"case": "store-lifecycle", "pid": 69639, "ok": true, "error": null, "target": null, "p95Ms": null}

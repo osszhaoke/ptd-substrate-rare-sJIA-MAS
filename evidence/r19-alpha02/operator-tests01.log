@@ -1,0 +1,9 @@
+test_absolute_deadline_clock_rollback_and_expired_start (__main__.OperatorTests.test_absolute_deadline_clock_rollback_and_expired_start) ... ok
+test_background_worker_survives_launcher_exit_and_pipe_has_no_file_secret (__main__.OperatorTests.test_background_worker_survives_launcher_exit_and_pipe_has_no_file_secret) ... ok
+test_one_owner_lock_release_and_symlink_rejection (__main__.OperatorTests.test_one_owner_lock_release_and_symlink_rejection) ... ok
+test_real_http_expiry_closes_listener_and_clears_transient_payload (__main__.OperatorTests.test_real_http_expiry_closes_listener_and_clears_transient_payload) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.680s
+
+OK

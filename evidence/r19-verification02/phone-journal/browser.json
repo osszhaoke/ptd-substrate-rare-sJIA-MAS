@@ -1,0 +1,7 @@
+{
+  "failureEvidenceVisible" : true,
+  "identity" : "Mac fictional localStorage quota injection, not physical exhaustion",
+  "inMemoryFailureDownload" : true,
+  "ok" : true,
+  "ownedDatabasesOpened" : 0
+}

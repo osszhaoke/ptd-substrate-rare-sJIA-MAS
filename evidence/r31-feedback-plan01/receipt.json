@@ -1,0 +1,20 @@
+{
+  "source": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/试用者问题.docx",
+  "sourceSha256": "34d56f2c31b541e7fca25cbbdf397f1b835758562a433f7641861734eb259a2f",
+  "sourceBytes": 607823,
+  "feedbackItems": 6,
+  "embeddedScreenshotsViewed": 4,
+  "baseCommit": "9b6719fd08b3d47316528a4cfc1534eac19fe430",
+  "approvedDecision": "user explicitly permits temporarily hiding consultation",
+  "implementationThisTurn": false,
+  "productChanges": 0,
+  "serviceOperations": 0,
+  "paidOcrCalls": 0,
+  "actualHealthDatabaseRead": false,
+  "artifacts": [
+    "docs/USER_FEEDBACK_PLAN_R31.md",
+    "evidence/r31-feedback-plan01/current-probes.json"
+  ],
+  "identity": "author read-only source and user-supplied feedback analysis plus synthetic pure function probes; no independent or phone acceptance",
+  "AIh": "UNMEASURED"
+}

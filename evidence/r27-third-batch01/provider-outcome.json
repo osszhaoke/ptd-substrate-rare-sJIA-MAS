@@ -1,0 +1,40 @@
+{
+  "identity": "author provider execution records, not independent audit or clinical accuracy",
+  "attemptMarkers": 16,
+  "validResponses": 15,
+  "capturedIndices": [
+    1,
+    3,
+    9,
+    29,
+    34,
+    39,
+    46,
+    49,
+    57,
+    61,
+    98,
+    102,
+    108,
+    176,
+    180
+  ],
+  "uncertainOrStopped": [
+    {
+      "index": 200,
+      "status": "STOPPED",
+      "errorCode": "RESPONSE_UNCERTAIN_NO_RETRY"
+    }
+  ],
+  "unattemptedIndices": [
+    220,
+    240,
+    260,
+    278
+  ],
+  "automaticRetries": 0,
+  "actualCharge": "UNKNOWN_PROVIDER_CONSOLE_AUTHORITATIVE",
+  "agentReadCredentialsOrRealLedger": false,
+  "summarySha256": "b8127e6313c70704301378800d40617319eb900c8158bf65f6c68eca5d806626",
+  "privateSummary": "runtime/r27-third-batch01/provider-summary.json"
+}

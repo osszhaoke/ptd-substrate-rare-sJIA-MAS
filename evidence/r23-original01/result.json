@@ -1,0 +1,73 @@
+{
+  "reproduced": true,
+  "identity": "author fictional original-source regression; not independent audit",
+  "cases": [
+    {
+      "asset": "/app/startup.js",
+      "result": {
+        "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+        "ok": false
+      },
+      "requests": [
+        "/",
+        "/style.css",
+        "/styles/shell.css",
+        "/features/editor.css",
+        "/features/states.css",
+        "/features/consultation.css",
+        "/styles/responsive.css",
+        "/typography.css",
+        "/features/home_resources.css",
+        "/features/ocr_review.css",
+        "/app/startup.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "asset": "/app/startup_plan.js",
+      "result": {
+        "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+        "ok": false
+      },
+      "requests": [
+        "/",
+        "/style.css",
+        "/styles/shell.css",
+        "/features/editor.css",
+        "/features/states.css",
+        "/features/consultation.css",
+        "/typography.css",
+        "/styles/responsive.css",
+        "/features/home_resources.css",
+        "/features/ocr_review.css",
+        "/app/startup.js",
+        "/manifest.webmanifest",
+        "/app/startup_plan.js",
+        "/app/startup_task.js"
+      ]
+    },
+    {
+      "asset": "/app/startup_task.js",
+      "result": {
+        "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+        "ok": false
+      },
+      "requests": [
+        "/",
+        "/style.css",
+        "/styles/shell.css",
+        "/features/editor.css",
+        "/features/states.css",
+        "/features/consultation.css",
+        "/styles/responsive.css",
+        "/typography.css",
+        "/features/home_resources.css",
+        "/features/ocr_review.css",
+        "/app/startup.js",
+        "/manifest.webmanifest",
+        "/app/startup_plan.js",
+        "/app/startup_task.js"
+      ]
+    }
+  ]
+}

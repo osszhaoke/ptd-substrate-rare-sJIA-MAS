@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "archive": "R31-A1-source-and-evidence.tar.gz",
+  "bytes": 91821218,
+  "sha256": "ba7c04f3e78bd2f8a7861e033629211f83baeca02326dbd35355fc6e07ae67ea",
+  "inventory": "frozen-inventory.json",
+  "inventorySha256": "f4ff46c28c53e654b52aa75fc33da751bd729f34c808ea50f479301cfdd20a08",
+  "fileCount": 2643,
+  "sourceInputCount": 267,
+  "binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+  "archiveAllMembersHashVerified": true,
+  "candidateUnchanged": true,
+  "rootR30Unchanged": true,
+  "adopted": false
+}

@@ -1,0 +1,9 @@
+:root { font: 100%/1.6 -apple-system, BlinkMacSystemFont, sans-serif; color: #222; }
+body { margin: 0; }
+main { max-width: 620px; margin: auto; padding: 20px; }
+button, input { font: inherit; }
+button { display: block; min-height: 48px; padding: 10px; margin: 12px 0; width: 100%; }
+label { display: block; margin: 16px 0; }
+input:not([type=checkbox]) { display: block; width: 100%; box-sizing: border-box; padding: 10px; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; }
+section { border-top: 1px solid #ddd; margin-top: 24px; }

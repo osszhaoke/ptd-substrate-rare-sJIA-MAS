@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "commandExit": 0,
+  "before": {
+    "lockInterpretation": "CGSSessionScreenIsLocked absent or false means unlocked; no account fields collected",
+    "onConsole": true,
+    "screenLocked": false,
+    "screenLockedKeyPresent": false
+  },
+  "after": {
+    "lockInterpretation": "CGSSessionScreenIsLocked absent or false means unlocked; no account fields collected",
+    "onConsole": true,
+    "screenLocked": false,
+    "screenLockedKeyPresent": false
+  },
+  "firstWindow": "r31-verification01 passed61 but independent pre-window GUI snapshot NOT_CAPTURED; retained, not sole environment-qualified acceptance",
+  "secondWindow": "complete fresh profiles and samples; no joining across windows",
+  "sourceChanged": false,
+  "firstProofSha256": "1842eaf8844adb192d98dcb1d48a3dcf3ccd379a17fde541ba26285aeec9a888"
+}

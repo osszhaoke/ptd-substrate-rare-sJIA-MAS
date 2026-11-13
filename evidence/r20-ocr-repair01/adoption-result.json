@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "binding": "f7a4b2732f9ce478637448f9b257a249c1a41ad3b8f7f385b0b7b1553d4bc9c9",
+  "boundInputs": 209,
+  "checks": 58,
+  "staticVersion": "b5c3428a3bc30e08",
+  "gatewayVersion": "h5-sjia-mas-r19",
+  "staticPatch": "r19-ocr01",
+  "pidUnchanged": 56388,
+  "deadlineUnchanged": "2026-11-09T15:59:00+00:00",
+  "publicExactGETs": [
+    {
+      "path": "web/app/editor_flow.js",
+      "sha256": "e6ed85eaca8239ec0c16201355d26c4653f7c57cb7b72bfcfd1699bd5426695d",
+      "http": 200
+    },
+    {
+      "path": "web/app/main.js",
+      "sha256": "f9a0cc10813a2c54a8220156ce97c9cce1836e75d0b8ed43212ff59a9f97067f",
+      "http": 200
+    },
+    {
+      "path": "web/domain/state/candidates.js",
+      "sha256": "61e6d7d9d7f0dad75fc279729625c1fef23f4cb0dbf77a36a665454440e280d9",
+      "http": 200
+    },
+    {
+      "path": "web/domain/state/ocr_fragments.js",
+      "sha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "http": 200
+    },
+    {
+      "path": "web/domain/state/ocr_tables.js",
+      "sha256": "43858e5245e282db27cda71f3a910387a0385d11ecbce9ccfb3c834549935146",
+      "http": 200
+    },
+    {
+      "path": "web/sw.js",
+      "sha256": "a35359c98ccc4a7dedccdeb5c0a8e8e9d16f1033966ea120013b907b3724a77b",
+      "http": 200
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "407c6cfe6ce3338445af38a0d5eae58b96a806e2f8872d2d79fe127c6616c021",
+      "http": 200
+    }
+  ],
+  "providerCallsThisOperation": 0,
+  "dataOrBudgetReadOrChanged": false,
+  "oldZIPUnchanged": true,
+  "identity": "author exact static adoption and HTTP byte checks; not physical/human/independent acceptance"
+}

@@ -1,0 +1,11 @@
+{
+  "classification": "DIAGNOSTIC_TOOL_DEFECT_NOT_PRODUCT_FAILURE",
+  "failure": "DIAGNOSTIC_STAGES_MISSING",
+  "cause": "Probe wrapped IDBObjectStore.getAll; actual state read uses IDBIndex.getAll. Product state result passed; phase capture missing.",
+  "originalResultSha256": "570c3e224b4266997f4b4ea18a53516b9c21127279512ce4cb9a1e79b6f4bdd1",
+  "continuation": "scale02 new complete profile/window; scale01 retained unchanged; no samples concatenated",
+  "sourceBeforeRepair": {
+    "tools/diagnose_state.py": "4a6c60555622887022ba6be4ce1d55e9c976f738153e096bef671daaed8dc070",
+    "tests/browser.state-scale.js": "ac82f8f3cd7c3d59b781b6d4b527d0b66ed644054cea484501a460b334a4adee"
+  }
+}

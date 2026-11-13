@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "entryCount": 131,
+  "addedPaths": [
+    "tools/acceptance_index.py",
+    "web/domain/write_binding.js"
+  ],
+  "staticPatch": "r19-save01",
+  "verification": "evidence/r30-verification01/result.json",
+  "binding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+  "productTreeSha256": "e3df17d266b4d177bc1e118e3d1004b5e91f8e06f274ad955baa5b7990e96307",
+  "sourceManifestSha256": "6fcbac4e7043edbaab08f748b417e06d2081e74c74f3211c0c335e37b4ef4327",
+  "negativeControls": {
+    "old-patch": "INDEX_PATCH_MISMATCH",
+    "old-proof": "INDEX_PROOF_MISMATCH",
+    "missing-proof": "VERIFICATION_REQUIRED",
+    "old-binding": "INDEX_BINDING_MISMATCH",
+    "stale-proof": "VERIFICATION_STALE_OR_MISSING_FILES"
+  },
+  "zipCreatedOrModified": false
+}

@@ -1,0 +1,44 @@
+✔ v3 explicit schema and one authoritative report projection; v2 cannot silently accept new fields (41.252291ms)
+✔ stage reparses exact immutable origins; corrections retain original values and no medical projection for unmapped rows (106.59325ms)
+✔ raw report schema bounded and no silent arbitrary fields or missing source allowed (48.008833ms)
+✔ pending original without a value requires an actual reviewed correction before save (37.080167ms)
+{"scope":"synthetic Node parser; not phone memory","fragments":2000,"ms":96.34795799999999,"heapDeltaBytes":5256368}
+{"scope":"synthetic Node parser; not phone memory","fragments":20000,"ms":203.709167,"heapDeltaBytes":12107248}
+✔ 27-row fictional CBC preserves every original row; only explicit supported fields project to rules (22.380083ms)
+✔ unknown first/middle rows no longer swallow later known rows in a strict flat table (1.431917ms)
+✔ unit/arrow/header variants preserve raw evidence with explicit standardized projection (26.257167ms)
+✖ missing geometry, values, units, duplicate result cells, crossing pages and bad headers never borrow neighboring data (11.959542ms)
+✔ unrecognized units/names retained without inventing medical mappings; duplicate evidence rows retained (1.18475ms)
+✔ tenfold 2k/20k fragment projection bounded to 100 rows and under 1000ms (310.419583ms)
+✔ previously accepted inline colon/abutting-name spellings remain visible in the report layer (0.365333ms)
+✔ name/result merged OCR fragment is visible pending review; never split trailing digits into a guessed value (7.414084ms)
+✔ arrow attached to a unit is stored separately; ambiguous reference fragments do not discard the reliable project (13.831917ms)
+✔ contradictory result/unit arrows remain raw evidence rather than a guessed abnormal direction (7.559666ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 13
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 465.44425
+
+✖ failing tests:
+
+test at tests/report_rows.test.mjs:21:1
+✖ missing geometry, values, units, duplicate result cells, crossing pages and bad headers never borrow neighboring data (11.959542ms)
+  AssertionError [ERR_ASSERTION]: unit
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/tests/report_rows.test.mjs:27:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "archive": "runtime/archives-r26-01/PTDS-H5-R26-current-source.zip",
+  "sha256": "d6f2883e97aa84af9e73e90efece01fd226522fc98549736e2ebd124d4d5cedf",
+  "bytes": 2421078,
+  "files": 253,
+  "binding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "contentsVerifiedIndividually": true,
+  "excludesPrivateInputsCredentialsAndDatabase": true
+}

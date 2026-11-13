@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "identity": "Writer read-only verification of A2/A2R1/A2R2 supplied reports; adoption uses exact candidate proof",
+  "reports": [
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2-independent-audit-20261112-01/REPORT.md",
+      "sha256": "1614a8a245ddc1139a71d545519ea62a416975a06545ecc247831956f3ca1a0f"
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2R1-independent-audit-20261112-01/REPORT.md",
+      "sha256": "80c2f092f8a37382263758795ba4c536cfb3f87c5d1277894e53a6efe5571e46"
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2R2-independent-audit-20261112-01/REPORT.md",
+      "sha256": "b6360cc9e58396032908b839a68241cc5d5d8a11922c60fff11726c3170d6d9f"
+    }
+  ],
+  "a2r2IndependentFull61": true,
+  "a2r2NodeFirstFailurePreserved": true,
+  "a2r2NodeCleanRerun": 134,
+  "binding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "candidateArchive": "evidence/r31-navigation02/R31-A2R1-source-and-evidence.tar.gz",
+  "servicesTouched": 0,
+  "paidProviderCalls": 0,
+  "candidateArchiveSha256": "eec2ab4a48cdb81caa54f32be9ee21cf56e98773e0f0f738901812d04bbc25c2"
+}

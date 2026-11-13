@@ -1,0 +1,14 @@
+{
+  "ok" : true,
+  "results" : [
+    "three cards and same snapshot",
+    "exact MS cutoff and delta",
+    "SYNTHETIC\/REAL isolation",
+    "draft excluded",
+    "failed commit revision rollback",
+    "delete and clear invalidation",
+    "v2 encrypted restore without authorization",
+    "cross connection cache version",
+    "interleaved mutation publication guard"
+  ]
+}

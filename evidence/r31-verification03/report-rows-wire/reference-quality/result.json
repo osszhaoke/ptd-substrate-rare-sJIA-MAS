@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "identity": "author fictional automated; not independent/human/clinical",
+  "write": {
+    "encryptedRoundTrip": true,
+    "eventId": "4774017a-cb3b-4ec6-b60f-36c3e01291c9",
+    "noInventedBounds": true,
+    "ok": true,
+    "referenceEditRevokesCheck": true,
+    "referenceHintsPersist": true,
+    "syntheticExplicitSave": true
+  },
+  "read": {
+    "eventId": "4774017a-cb3b-4ec6-b60f-36c3e01291c9",
+    "newProcessRead": true,
+    "ok": true,
+    "referenceHintsPersist": true
+  },
+  "pids": [
+    58580,
+    58586
+  ],
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 4,
+  "mutations": {
+    "hide-hint": "REFERENCE_EDITOR_HINT_MISSING",
+    "scalar-as-range": "REFERENCE_EDIT_HINT_STALE",
+    "no-refresh": "REFERENCE_EDIT_HINT_STALE"
+  },
+  "positiveControl": "write; identical unmutated case for every mutation"
+}

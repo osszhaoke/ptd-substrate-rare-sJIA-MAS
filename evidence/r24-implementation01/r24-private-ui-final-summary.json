@@ -1,0 +1,14 @@
+{
+  "scope": "specified image/old response local UI replay only; no new upload or formal save",
+  "responseSha256": "d134157b8d2e4c6ffe6ab119c50f709575af7f4988c12948dfddf69524397966",
+  "imageSha256": "c33fcfb2f062ee397a825a065956ef3472d1f397a9efc24836bb4868e93e6c68",
+  "ok": true,
+  "supportedMetrics": 5,
+  "sourceFragments": 178,
+  "sourceHighlights": true,
+  "correctionVisible": true,
+  "previewReleased": true,
+  "providerCalls": 0,
+  "formalSaves": 0,
+  "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5"
+}

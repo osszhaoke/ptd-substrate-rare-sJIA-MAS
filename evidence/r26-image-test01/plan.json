@@ -1,0 +1,44 @@
+{
+  "userRequest": "额外测试Downloads/测试图片中图片，确保相关文字OCR识别入库；完成后压缩清理归档释放空间",
+  "writer": "existing sole H5 Writer; only 003 root",
+  "inputCount": 6,
+  "inputs": [
+    {
+      "name": "Weixin Image_20261109211555_92_519.jpg",
+      "sha256": "c33fcfb2f062ee397a825a065956ef3472d1f397a9efc24836bb4868e93e6c68",
+      "bytes": 79388
+    },
+    {
+      "name": "Weixin Image_20261110153209_96_519.jpg",
+      "sha256": "db90b93738e7cfba7a0c39b9db866bbd4f79787dae9402e81dab5a40b6925a40",
+      "bytes": 130346
+    },
+    {
+      "name": "Weixin Image_20261110153211_97_519.jpg",
+      "sha256": "6cd1dd77587de78dfccdcc277d2451156787b2df8eb7f0aff3e82f5c4807a61f",
+      "bytes": 38074
+    },
+    {
+      "name": "Weixin Image_20261110153212_98_519.jpg",
+      "sha256": "88b9c08db751d4caf199ee4139f98c5c6a993428d865cb36cdeafee767d6871c",
+      "bytes": 44956
+    },
+    {
+      "name": "Weixin Image_20261110153213_99_519.jpg",
+      "sha256": "3c7e808f83a3dc26fcfd34bc4921b46033ea72d226ab4bd813a5ffcea2585b67",
+      "bytes": 141526
+    },
+    {
+      "name": "Weixin Image_20261110153215_100_519.jpg",
+      "sha256": "5c166bcfe3afb541092aed11ef5300a54cf508a637c44d81f705370e97281a37",
+      "bytes": 12078
+    }
+  ],
+  "realProviderAttemptsMaximum": 6,
+  "automaticRetries": 0,
+  "credentialHandling": "operator supplies existing local trial access code in hidden Terminal input; no Tencent credentials read or saved",
+  "privateOutput": "runtime/r26-image-check01",
+  "testDatabase": "new isolated temporary profile only; never personal browser database",
+  "phase": "diagnose actual OCR output before freezing any additional product fix",
+  "archiveAfter": "retain current exact runnable product, latest evidence and rollback; no original test-image or live-service removal"
+}

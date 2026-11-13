@@ -1,0 +1,5 @@
+{"case": "report-rows", "pid": 5984, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-upgrade", "pid": 5999, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-upgrade", "pid": 6008, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-upgrade", "pid": 6013, "ok": false, "error": "UPGRADE_VALID_SAVE_FAILED 没能完成这次操作，请保留资料，检查后再试。", "target": null, "p95Ms": null}
+BROWSER_FAILED /Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r30-candidate01/evidence/r30-upgrade01/footer/correct-save

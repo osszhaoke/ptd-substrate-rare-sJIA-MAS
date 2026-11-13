@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "reason": "unreachable download instruction after approved hide; source review, not a real patient incident",
+  "beforeFiles": {
+    "web/features/settings.js": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+    "tests/template_parity.test.mjs": "df7dfee00d098f708771afd6eb9067f05683122fda43b3a4982a7f77d4fad9e9",
+    "tests/browser.navigation.js": "47f2a731e8e43d85efa049e51d276c422e6d7728190f08b922dcf090896c69a4",
+    "tests/test_navigation_runner.py": "74a3fcfc94bed46d235f5e07fd489d9131c1c032bb88d85c14c928ba35ca66ff",
+    "web/sw.js": "80bb373d5972439b26a55f43385a5ef7e4d4fa76006515a7007bd0b4cec7854d",
+    "deploy/STATIC_MANIFEST.json": "61036818ca8379fb5ea86e74fefcccb917d49a7b6c34f952a2d434071797e250",
+    "PUBLIC_SOURCE_MANIFEST.json": "77740a92fcc07162a0f90586f767b5c527e78e16b5930d64f4076d0058dfb136"
+  },
+  "afterExplicitSourceFiles": {
+    "web/features/settings.js": "580867a275b3e1103de9e5a008b8710a606f1d07e7c70ae105412ac031e1d182",
+    "tests/template_parity.test.mjs": "aca2cc3fba6db7904a4a263eb5bcf6e563cf4bfa675c27f1f98c64b3155867d4",
+    "tests/browser.navigation.js": "3ab2532db9412f1a69fa2aa037ca679a8e02111fa81a36ebe8ac7ff0f5090571",
+    "tests/test_navigation_runner.py": "956d1222ad301ef838f212f77f325ec3c67dfa9dbd1cf459d0b4346e683d54d5"
+  },
+  "noOldGoldenChanged": true
+}

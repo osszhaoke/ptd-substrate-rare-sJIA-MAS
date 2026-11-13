@@ -1,0 +1,11 @@
+{
+  "deadlineLocal": "2026-11-12T23:59:00+08:00",
+  "deadlineUTC": "2026-11-12T15:59:00+00:00",
+  "baseCommit": "b964c81a0e9db382da8b53d9da04482c40365718",
+  "sourceOperatorSha256": "7975790089bcba577c8209b05f55c6aab1435d0dd235bfa9eb13dafa86081806",
+  "productSourceChanges": false,
+  "newPaidCallsByAgent": 0,
+  "manualCredentialEntryRequired": true,
+  "oldLocalOwnerMayStopOnlyOnExactIdentity": 45593,
+  "testPlan": "four inherited operational tests plus handover rejection/positive tests; exact public static GET and fresh isolated Mac WebKit GET-only smoke; no live OCR POST"
+}

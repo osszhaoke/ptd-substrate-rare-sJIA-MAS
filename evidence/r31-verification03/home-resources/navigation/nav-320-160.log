@@ -1,0 +1,14 @@
+{
+  "explicitFictionalSave" : true,
+  "fontScale" : "160",
+  "hiddenConsultationNotFocusable" : true,
+  "navigationPreservesData" : true,
+  "ok" : true,
+  "oldDraftActualCrossPIDCoverage" : "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+  "visibleLabels" : [
+    "状态",
+    "录入",
+    "本机"
+  ],
+  "width" : 320
+}

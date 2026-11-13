@@ -1,0 +1,12 @@
+test_budget_io_failure_fails_closed_and_config_rejects_overspend (tests.test_gateway.GatewayTests.test_budget_io_failure_fails_closed_and_config_rejects_overspend) ... ok
+test_default_disabled_and_security (tests.test_gateway.GatewayTests.test_default_disabled_and_security) ... ok
+test_isolation_idempotency_budget_restart (tests.test_gateway.GatewayTests.test_isolation_idempotency_budget_restart) ... ok
+test_jpeg_end_marker_and_trailing_metadata (tests.test_gateway.GatewayTests.test_jpeg_end_marker_and_trailing_metadata) ... ok
+test_media_and_concurrency_and_no_refund (tests.test_gateway.GatewayTests.test_media_and_concurrency_and_no_refund) ... ok
+test_provider_failure_consumes_reservation_and_never_retries (tests.test_gateway.GatewayTests.test_provider_failure_consumes_reservation_and_never_retries) ... ok
+test_rate_limit_and_invalid_provider (tests.test_gateway.GatewayTests.test_rate_limit_and_invalid_provider) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.075s
+
+OK

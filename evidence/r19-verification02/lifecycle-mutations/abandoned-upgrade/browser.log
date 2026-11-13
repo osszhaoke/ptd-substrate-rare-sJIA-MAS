@@ -1,0 +1,5 @@
+{
+  "error" : "ABANDONED_UPGRADE_CHANGED_SCHEMA {\"state\":\"rejected\",\"error\":\"UPGRADE_BLOCKED_CLOSE_OTHER_TABS\",\"version\":2,\"hasProductStores\":true,\"sentinel\":true}",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:55762\/:3:50\n@http:\/\/127.0.0.1:55762\/:29:5"
+}

@@ -1,0 +1,8 @@
+{
+  "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+  "sourceInputs": 236,
+  "extras": {
+    "tools/bin/public-qr": "5c71cf517cf68b6e18d546666ec86f223ffa952dea5e58473feed380620b712a",
+    "tools/bin/browser-probe": "753e62cc28a12966b8f609fe80f2c8f581550be77e505d41e6e2699c4a69cdef"
+  }
+}

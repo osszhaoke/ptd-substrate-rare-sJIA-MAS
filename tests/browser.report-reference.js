@@ -1,0 +1,29 @@
+(async()=>{
+ const $=s=>document.querySelector(s),ok=(v,m)=>{if(!v)throw Error(m);},pause=ms=>new Promise(r=>setTimeout(r,ms)),wait=async f=>{for(let i=0;i<700;i++){if(f())return;await pause(10);}throw Error('WAIT '+f);};
+ const cfg=window.__PROBE_INPUT__,{RecordStore}=await import('/storage/store.js'),m=await import('/domain/model.js'),backup=await import('/storage/backup.js'),view=await import('/features/report_rows.js');
+ const store=new RecordStore();window.confirm=()=>true;
+ const assertDetail=d=>{const rows=d.event.payload.reportRows;ok(rows.length===27&&rows[1].referenceRange==='-9.99'&&rows[2].referenceRange==='','REFERENCE_LITERAL_CHANGED');const html=view.reportDetails(d.event.payload);ok(html.includes('data-reference-quality="ambiguous"')&&html.includes('参考范围待核对')&&html.includes('data-reference-quality="missing"')&&html.includes('参考范围未提供'),'REFERENCE_DETAIL_QUALITY_MISSING');};
+ if(cfg.mode==='read'){const marker=await store.get('meta','r31-reference'),d=await store.detail(marker.eventId);assertDetail(d);ok(m.canonical(d.event)===marker.event&&m.canonical(d.receipt)===marker.receipt&&(await store.reviews()).length===0,'REFERENCE_NEW_PID_CHANGED');store.close();window.webkit.messageHandlers.result.postMessage({ok:true,eventId:marker.eventId,newProcessRead:true,referenceHintsPersist:true});return;}
+ await wait(()=>$('#start'));$('#local-consent').checked=true;$('#timezone').value='Asia/Shanghai';$('#start').click();await wait(()=>$('.state-overview'));$('[data-nav="capture"]').click();await wait(()=>$('#ocr'));
+ const canvas=document.createElement('canvas');canvas.width=1300;canvas.height=550;canvas.getContext('2d').fillRect(0,0,1300,550);const file=new File([await new Promise(r=>canvas.toBlob(r,'image/png'))],'fictional-reference.png',{type:'image/png'});
+ Object.defineProperty($('#image'),'files',{value:[file],configurable:true});$('#image').dispatchEvent(new Event('change'));await wait(()=>$('#source-name').textContent===file.name);$('#trial-token').value=cfg.token;$('#upload-consent').checked=true;$('#ocr').click();await wait(()=>document.querySelectorAll('[data-report]').length===27&&!$('#ocr').disabled);
+ const elements=[...document.querySelectorAll('[data-report]')],rbc=elements[1],input=rbc.querySelector('.report-reference'),status=()=>rbc.querySelector('.reference-status');
+ ok(elements.every(el=>el.querySelector('.reference-status')),'REFERENCE_EDITOR_HINT_MISSING');
+ ok(status().dataset.referenceQuality==='range','REFERENCE_COMPLETE_NOT_SHOWN');
+ for(const [value,kind]of [['-9.99','ambiguous'],['','missing'],['1-','incomplete'],['1-9','range'],['<9','limit'],['阴性','text'],['-9.99','ambiguous']]){
+  const box=rbc.querySelector('.report-checked');box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}));input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}));
+  ok(!box.checked,'REFERENCE_EDIT_REUSES_CHECK');ok(status().dataset.referenceQuality===kind,'REFERENCE_EDIT_HINT_STALE');box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}));ok(status().dataset.referenceQuality===kind,'REFERENCE_CHECK_PROMOTES_QUALITY');
+ }
+ const missing=elements[2].querySelector('.report-reference');missing.value='';missing.dispatchEvent(new Event('input',{bubbles:true}));
+ $('#clinical-date').value='2020-01-01';$('#clinical-date').dispatchEvent(new Event('input',{bubbles:true}));
+ $('#prepare-review').click();await wait(()=>$('#notice').textContent.includes('逐项对照报告'));ok((await store.reviews()).length===0&&(await store.page()).items.length===0,'REFERENCE_UNCHECKED_STAGED');
+ for(const box of document.querySelectorAll('.report-checked')){box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}));}
+ $('#prepare-review').click();await wait(()=>!$('#confirmation').hidden&&!$('#confirmed').disabled);ok($('#review-summary').textContent.includes('参考范围待核对')&&$('#review-summary').textContent.includes('参考范围未提供'),'REFERENCE_SUMMARY_QUALITY_MISSING');ok(!$('#confirmed').checked&&$('#save').disabled&&(await store.page()).items.length===0,'REFERENCE_AUTO_SAVE');
+ $('#confirmed').checked=true;$('#confirmed').dispatchEvent(new Event('change'));$('#save').click();await wait(()=>$('#delete-record'));
+ const page=await store.page(),d=await store.detail(page.items[0].id);assertDetail(d);ok(page.items.length===1&&$('#main').textContent.includes('参考范围待核对')&&$('#main').textContent.includes('参考范围未提供'),'REFERENCE_SAVED_HINT_HIDDEN');
+ ok(await m.hash(await d.source.blob.arrayBuffer())===await m.hash(await file.arrayBuffer())&&d.event.payload.reportRows[1].origin.referenceRange==='3.8-5.1','REFERENCE_ORIGIN_CHANGED');
+ const target=new RecordStore('r31-restore-'+crypto.randomUUID()),encrypted=await backup.exportBackup(store,'fictional-r31-password');await backup.restoreBackup(target,await backup.inspectBackup(encrypted,'fictional-r31-password',target));const restored=await target.detail(d.event.id);assertDetail(restored);ok(m.canonical(restored.event)===m.canonical(d.event)&&m.canonical(restored.receipt)===m.canonical(d.receipt),'REFERENCE_BACKUP_CHANGED');
+ // Leaving report mode must remove the owned hints as well as the report controls.
+ const sandbox=document.createElement('div');sandbox.innerHTML=view.renderReportRows([d.event.payload.reportRows[2]],()=>'<div class="metric-row"></div>');(await import('/app/report_editor.js')).detachReportRows(sandbox);ok(!sandbox.querySelector('.reference-status'),'REFERENCE_DETACH_HINT_LEAK');
+ await store.meta({id:'r31-reference',eventId:d.event.id,event:m.canonical(d.event),receipt:m.canonical(d.receipt)});target.close();store.close();window.webkit.messageHandlers.result.postMessage({ok:true,eventId:d.event.id,syntheticExplicitSave:true,referenceEditRevokesCheck:true,referenceHintsPersist:true,encryptedRoundTrip:true,noInventedBounds:true});
+})().catch(e=>window.webkit.messageHandlers.result.postMessage({ok:false,error:e.message,stack:e.stack}));

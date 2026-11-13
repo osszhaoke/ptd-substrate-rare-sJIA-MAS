@@ -1,0 +1,12 @@
+{
+  "eventId" : "9cbbd9a4-9568-4144-be26-51f0db5c6844",
+  "ok" : true,
+  "requestId" : "4fa7cee3-98af-4921-87a4-c2850ca1c103",
+  "results" : [
+    "L01 local manual UI no Mac API",
+    "L02 edit invalidation in UI",
+    "W03 escaping"
+  ],
+  "uiConfirmation" : "AUTOMATED_CLICK_SUBSTITUTE_NOT_HUMAN_ACCEPTANCE",
+  "xssEscaped" : true
+}

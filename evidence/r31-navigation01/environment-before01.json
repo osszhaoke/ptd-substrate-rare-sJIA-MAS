@@ -1,0 +1,6 @@
+{
+  "lockInterpretation": "CGSSessionScreenIsLocked absent or false means unlocked; no account fields collected",
+  "onConsole": true,
+  "screenLocked": false,
+  "screenLockedKeyPresent": false
+}

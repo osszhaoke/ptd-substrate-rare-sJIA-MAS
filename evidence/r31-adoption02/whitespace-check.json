@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "fullCheckExit": 2,
+  "fullOutputLines": 22,
+  "retainedExactEvidencePrefix": "evidence/r31-verification03/",
+  "otherStagedPathsCheck": 0,
+  "reason": "verification logs retain original tool output; no evidence byte edited"
+}

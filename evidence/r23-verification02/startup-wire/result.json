@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "identity": "author fictional automated; no human/phone/clinical acceptance",
+  "paidProviderCalls": 0,
+  "normalEntry": true,
+  "assetFailureExplained": true,
+  "missingStylesRepaired": true,
+  "styleRegressionKilledBy": "STARTUP_STYLE_NOT_READY",
+  "originalEntryWithoutFallbackKilledBy": "STARTUP_FAILURE_NOT_EXPLAINED",
+  "bootstrapManualRecovery": [
+    {
+      "asset": "/app/startup.js",
+      "manualReopenRecovered": true,
+      "rootGETs": 2,
+      "ocrOrWriteRequests": 0
+    },
+    {
+      "asset": "/app/startup_plan.js",
+      "manualReopenRecovered": true,
+      "rootGETs": 2,
+      "ocrOrWriteRequests": 0
+    },
+    {
+      "asset": "/app/startup_task.js",
+      "manualReopenRecovered": true,
+      "rootGETs": 2,
+      "ocrOrWriteRequests": 0
+    }
+  ],
+  "staticFallbackRemovalKilled": [
+    {
+      "asset": "/app/startup.js",
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED"
+    },
+    {
+      "asset": "/app/startup_plan.js",
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED"
+    },
+    {
+      "asset": "/app/startup_task.js",
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED"
+    }
+  ],
+  "feedbackVisibleAfterMs": 31572,
+  "automaticReloads": 0,
+  "ocrOrWriteRequests": 0
+}

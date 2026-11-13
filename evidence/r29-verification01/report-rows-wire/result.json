@@ -1,0 +1,452 @@
+{
+  "ok": true,
+  "identity": "author fictional automated, not independent/human/physical/clinical acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 25,
+  "reportRows": 27,
+  "projectedMetrics": 5,
+  "differentPIDs": [
+    93900,
+    93911
+  ],
+  "behavioralMutations": {
+    "empty-name-fallback": "REPORT_EMPTY_NAME_STAGED",
+    "hide-unknown": "REPORT_UNMAPPED_HIDDEN",
+    "reuse-row-check": "REPORT_EDIT_REUSES_CHECK",
+    "layout-no-angle": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "layout-no-tables": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "qualitative-dropped": "LAYOUT_PENDING_CHANGED",
+    "stacked-footer-global": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "footer-cross-panel": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "incomplete-unit-bypass": "REPORT_INCOMPLETE_UNIT_STAGED"
+  },
+  "historical": {
+    "write": {
+      "eventId": "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+      "exactOldBytes": true,
+      "inspectionReadOnly": true,
+      "noAuthorityReplay": true,
+      "ok": true,
+      "originalEventReceiptUnchanged": true,
+      "policies": {
+        "cbc-report/r27-exact-source/1": 1
+      },
+      "roundTrip": true,
+      "rows": 28
+    },
+    "read": {
+      "eventId": "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+      "newProcessRead": true,
+      "ok": true,
+      "rows": 28
+    },
+    "pids": [
+      94224,
+      94229
+    ],
+    "negative": {
+      "negativeControls": {
+        "cipher": "BACKUP_PASSWORD_OR_CORRUPTION",
+        "duplicate": "REPORT_ORIGIN_MISMATCH",
+        "line": "SOURCE_LINE_MISSING",
+        "origin": "REPORT_ORIGIN_MISMATCH",
+        "receipt": "BACKUP_RECEIPT",
+        "source": "BACKUP_SOURCE_HASH"
+      },
+      "ok": true,
+      "paidCalls": 0,
+      "records": 0
+    },
+    "compatRemovalKilled": "HISTORICAL_BACKUP_REJECTED REPORT_ORIGIN_MISMATCH",
+    "sameUnmutatedPositiveControl": "history-write"
+  },
+  "write": {
+    "backupRoundTrip": true,
+    "emptyAndWhitespaceNamesRejected": true,
+    "eventId": "11a48114-038c-4462-bd85-205d9091d449",
+    "explicitSyntheticRowChecks": true,
+    "explicitSyntheticSaveConfirmation": true,
+    "forgedOriginRejected": true,
+    "mappedNameSwitchPreserved": true,
+    "noAutomaticSave": true,
+    "nonemptyRenameSaved": true,
+    "noUnknownFieldsInAiProjection": true,
+    "ok": true,
+    "pendingRowsManuallyCompleted": 0,
+    "projectedMetrics": 5,
+    "reportRows": 27,
+    "unmappedRows": 22
+  },
+  "read": {
+    "eventId": "11a48114-038c-4462-bd85-205d9091d449",
+    "newProcessRead": true,
+    "ok": true,
+    "reportRows": 27
+  },
+  "layouts": [
+    {
+      "angle": 90,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "ad7efc77-4d0e-4049-a6b7-dbd6a4af40da",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "ad7efc77-4d0e-4049-a6b7-dbd6a4af40da",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        93927,
+        93934
+      ]
+    },
+    {
+      "angle": 180,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "64337ee6-b01e-4957-90d0-15ef474015a4",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "64337ee6-b01e-4957-90d0-15ef474015a4",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        93940,
+        93945
+      ]
+    },
+    {
+      "angle": 270,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "97a6a303-e2b3-4896-8096-fbe9544f0b0a",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 2,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "97a6a303-e2b3-4896-8096-fbe9544f0b0a",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        93951,
+        94019
+      ]
+    },
+    {
+      "variant": "qualitative",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "7b85c3b4-51f0-4a03-863d-00d5ff725671",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "7b85c3b4-51f0-4a03-863d-00d5ff725671",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        94026,
+        94038
+      ]
+    },
+    {
+      "variant": "stacked",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "dc3a85fb-53e3-4a2e-aec0-21c2a11ee0a5",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 12
+      },
+      "read": {
+        "eventId": "dc3a85fb-53e3-4a2e-aec0-21c2a11ee0a5",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 12
+      },
+      "pids": [
+        94059,
+        94064
+      ]
+    },
+    {
+      "variant": "raw-only",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "9a0ce5d9-0c6e-4232-8f65-3baf1fbcf0bc",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": true,
+        "reportRows": 0
+      },
+      "read": {
+        "eventId": "9a0ce5d9-0c6e-4232-8f65-3baf1fbcf0bc",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 0
+      },
+      "pids": [
+        94072,
+        94077
+      ]
+    },
+    {
+      "variant": "footer-left-short",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "ea23462b-0f93-40fc-a126-f97b46b241c2",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 5
+      },
+      "read": {
+        "eventId": "ea23462b-0f93-40fc-a126-f97b46b241c2",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 5
+      },
+      "pids": [
+        94091,
+        94101
+      ]
+    },
+    {
+      "variant": "footer-right-short",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "f1e5047c-5017-4b88-a23c-09efc1225d0d",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 5
+      },
+      "read": {
+        "eventId": "f1e5047c-5017-4b88-a23c-09efc1225d0d",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 5
+      },
+      "pids": [
+        94109,
+        94118
+      ]
+    },
+    {
+      "variant": "footer-legacy",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "7aa7877b-6397-4ece-9867-9a3226b25fc2",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 27
+      },
+      "read": {
+        "eventId": "7aa7877b-6397-4ece-9867-9a3226b25fc2",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 27
+      },
+      "pids": [
+        94124,
+        94132
+      ]
+    },
+    {
+      "variant": "unit-legacy",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "6d5f62d0-d51b-4686-8e46-7f3cce65e49d",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 27
+      },
+      "read": {
+        "eventId": "6d5f62d0-d51b-4686-8e46-7f3cce65e49d",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 27
+      },
+      "pids": [
+        94143,
+        94148
+      ]
+    },
+    {
+      "variant": "unit-generic",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "6f24c956-95c1-4cad-ab32-653730b476df",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 2,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "6f24c956-95c1-4cad-ab32-653730b476df",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        94169,
+        94174
+      ]
+    },
+    {
+      "variant": "unit-flat",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "4315c10e-4461-47b7-82ab-5fb3672a6e22",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 1
+      },
+      "read": {
+        "eventId": "4315c10e-4461-47b7-82ab-5fb3672a6e22",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 1
+      },
+      "pids": [
+        94182,
+        94187
+      ]
+    },
+    {
+      "variant": "unit-cells",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "6d024aa0-7ad7-4f6c-987d-edfaa17252a2",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 1
+      },
+      "read": {
+        "eventId": "6d024aa0-7ad7-4f6c-987d-edfaa17252a2",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 1
+      },
+      "pids": [
+        94201,
+        94206
+      ]
+    },
+    {
+      "variant": "unit-inline",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "3cfd470c-4ec8-4c28-bbfc-92b851baa374",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 1
+      },
+      "read": {
+        "eventId": "3cfd470c-4ec8-4c28-bbfc-92b851baa374",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 1
+      },
+      "pids": [
+        94212,
+        94219
+      ]
+    }
+  ]
+}

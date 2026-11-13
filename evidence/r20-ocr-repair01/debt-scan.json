@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "binding": "f7a4b2732f9ce478637448f9b257a249c1a41ad3b8f7f385b0b7b1553d4bc9c9",
+  "scope": "bounded changed-code and preserved-boundary review, not universal absence of debt",
+  "protectedFilesUnchanged": 29,
+  "protectedCategories": [
+    "gateway",
+    "public session",
+    "store/schema",
+    "medical rules",
+    "CSS",
+    "budget policy"
+  ],
+  "knownReproducibleLocalCodeItemsOpen": 0,
+  "publicStartupObservation": "OPEN_OBSERVATION_NOT_UNIQUELY_ATTRIBUTED; first load not accepted; re-open succeeded",
+  "existingPerformanceObservation": "NOT_UNIQUELY_ATTRIBUTED",
+  "physicalMemoryAndRealQuota": "NOT_TESTED",
+  "clinical": "NOT_SIGNED",
+  "independentReviewOfPatch": "NOT_PERFORMED",
+  "newGlobalLocks": 0,
+  "newRuntimeTimersQueuesCachesStoresDependencies": 0,
+  "mainBefore": {
+    "lines": 132,
+    "bytes": 15072
+  },
+  "mainAfter": {
+    "lines": 132,
+    "bytes": 15244
+  },
+  "largestWebJsByLines": [
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 132,
+      "bytes": 15244
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 130,
+      "bytes": 11350
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 96,
+      "bytes": 7397
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    }
+  ],
+  "testPlan": {
+    "requiredChecks": 58,
+    "node": 80,
+    "python": 49
+  },
+  "authorOnly": true,
+  "publicUiReplay": "PASS_AFTER_REOPEN; COLD_LOAD_NOT_ACCEPTED"
+}

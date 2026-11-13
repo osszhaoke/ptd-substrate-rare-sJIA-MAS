@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "entryCount": 132,
+  "addedPaths": [
+    "web/domain/report/reference.js"
+  ],
+  "staticPatch": "r19-reference01",
+  "verification": "evidence/r31-verification02/result.json",
+  "binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+  "productTreeSha256": "e8033b249456de9f8acb62a12c1634785cea9d94e6ccf375bae61d41c2db3da4",
+  "sourceManifestSha256": "0e3bde77c8eebdb095fceb78d0f041932d3a2a19fec97cf8f28c3c8065e1bf03",
+  "negativeControls": {
+    "old-patch": "INDEX_PATCH_MISMATCH",
+    "old-proof": "INDEX_PROOF_MISMATCH",
+    "missing-proof": "VERIFICATION_REQUIRED",
+    "old-binding": "INDEX_BINDING_MISMATCH",
+    "stale-proof": "VERIFICATION_STALE_OR_MISSING_FILES"
+  },
+  "zipCreatedOrModified": false
+}

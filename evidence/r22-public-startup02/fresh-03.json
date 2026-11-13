@@ -1,0 +1,313 @@
+{
+  "allRequiredStylesParsed" : true,
+  "consentUnchecked" : true,
+  "firstPageReady" : true,
+  "formalRecordsWritten" : 0,
+  "identity" : "author isolated Mac WebKit fresh profile; no phone\/human\/clinical acceptance",
+  "navStyleReady" : true,
+  "ok" : true,
+  "paidProviderCalls" : 0,
+  "readyMs" : 8602,
+  "resources" : [
+    {
+      "duration" : 515,
+      "name" : "\/style.css",
+      "transfer" : 1709
+    },
+    {
+      "duration" : 710,
+      "name" : "\/features\/consultation.css",
+      "transfer" : 797
+    },
+    {
+      "duration" : 710,
+      "name" : "\/features\/home_resources.css",
+      "transfer" : 1076
+    },
+    {
+      "duration" : 710,
+      "name" : "\/features\/editor.css",
+      "transfer" : 897
+    },
+    {
+      "duration" : 710,
+      "name" : "\/features\/states.css",
+      "transfer" : 904
+    },
+    {
+      "duration" : 711,
+      "name" : "\/styles\/shell.css",
+      "transfer" : 1164
+    },
+    {
+      "duration" : 711,
+      "name" : "\/typography.css",
+      "transfer" : 1269
+    },
+    {
+      "duration" : 711,
+      "name" : "\/styles\/responsive.css",
+      "transfer" : 987
+    },
+    {
+      "duration" : 709,
+      "name" : "\/app\/startup.js",
+      "transfer" : 1374
+    },
+    {
+      "duration" : 709,
+      "name" : "\/features\/ocr_review.css",
+      "transfer" : 687
+    },
+    {
+      "duration" : 418,
+      "name" : "\/app\/startup_plan.js",
+      "transfer" : 791
+    },
+    {
+      "duration" : 436,
+      "name" : "\/app\/startup_task.js",
+      "transfer" : 983
+    },
+    {
+      "duration" : 395,
+      "name" : "\/app\/records_snapshot.js",
+      "transfer" : 817
+    },
+    {
+      "duration" : 395,
+      "name" : "\/app\/ocr_task.js",
+      "transfer" : 614
+    },
+    {
+      "duration" : 417,
+      "name" : "\/app\/step_flow.js",
+      "transfer" : 775
+    },
+    {
+      "duration" : 417,
+      "name" : "\/app\/home_resources.js",
+      "transfer" : 728
+    },
+    {
+      "duration" : 428,
+      "name" : "\/domain\/ocr_review.js",
+      "transfer" : 1140
+    },
+    {
+      "duration" : 432,
+      "name" : "\/app\/ui.js",
+      "transfer" : 2311
+    },
+    {
+      "duration" : 468,
+      "name" : "\/domain\/state\/ocr_aliases.js",
+      "transfer" : 907
+    },
+    {
+      "duration" : 475,
+      "name" : "\/domain\/state\/decimal.js",
+      "transfer" : 991
+    },
+    {
+      "duration" : 469,
+      "name" : "\/domain\/state\/ocr_tables.js",
+      "transfer" : 1918
+    },
+    {
+      "duration" : 395,
+      "name" : "\/features\/health_labels.js",
+      "transfer" : 761
+    },
+    {
+      "duration" : 432,
+      "name" : "\/features\/home_resources.js",
+      "transfer" : 1098
+    },
+    {
+      "duration" : 428,
+      "name" : "\/rules\/definitions.js",
+      "transfer" : 2958
+    },
+    {
+      "duration" : 512,
+      "name" : "\/shared\/observe.js",
+      "transfer" : 582
+    },
+    {
+      "duration" : 899,
+      "name" : "\/storage\/backup_task.js",
+      "transfer" : 1020
+    },
+    {
+      "duration" : 507,
+      "name" : "\/app\/backup_task.js",
+      "transfer" : 1103
+    },
+    {
+      "duration" : 508,
+      "name" : "\/app\/action_coordinator.js",
+      "transfer" : 918
+    },
+    {
+      "duration" : 507,
+      "name" : "\/app\/consultation_draft.js",
+      "transfer" : 1584
+    },
+    {
+      "duration" : 507,
+      "name" : "\/domain\/state\/catalog.js",
+      "transfer" : 1409
+    },
+    {
+      "duration" : 426,
+      "name" : "\/domain\/state\/evaluate.js",
+      "transfer" : 2063
+    },
+    {
+      "duration" : 452,
+      "name" : "\/features\/clinical_flags.js",
+      "transfer" : 975
+    },
+    {
+      "duration" : 455,
+      "name" : "\/domain\/state\/ocr_fragments.js",
+      "transfer" : 1900
+    },
+    {
+      "duration" : 488,
+      "name" : "\/features\/settings.js",
+      "transfer" : 1781
+    },
+    {
+      "duration" : 499,
+      "name" : "\/features\/step_labels.js",
+      "transfer" : 558
+    },
+    {
+      "duration" : 546,
+      "name" : "\/domain\/model.js",
+      "transfer" : 3288
+    },
+    {
+      "duration" : 547,
+      "name" : "\/domain\/state\/select.js",
+      "transfer" : 1843
+    },
+    {
+      "duration" : 547,
+      "name" : "\/domain\/state\/candidates.js",
+      "transfer" : 1816
+    },
+    {
+      "duration" : 547,
+      "name" : "\/features\/consultation_page.js",
+      "transfer" : 2080
+    },
+    {
+      "duration" : 445,
+      "name" : "\/adapters\/ocr.js",
+      "transfer" : 1087
+    },
+    {
+      "duration" : 444,
+      "name" : "\/domain\/service.js",
+      "transfer" : 1460
+    },
+    {
+      "duration" : 445,
+      "name" : "\/domain\/state\/project.js",
+      "transfer" : 831
+    },
+    {
+      "duration" : 446,
+      "name" : "\/features\/consultation.js",
+      "transfer" : 2052
+    },
+    {
+      "duration" : 500,
+      "name" : "\/features\/editor.js",
+      "transfer" : 3616
+    },
+    {
+      "duration" : 602,
+      "name" : "\/features\/ocr_evidence.js",
+      "transfer" : 1140
+    },
+    {
+      "duration" : 604,
+      "name" : "\/storage\/backup_reader.js",
+      "transfer" : 987
+    },
+    {
+      "duration" : 598,
+      "name" : "\/storage\/consultation_draft.js",
+      "transfer" : 1130
+    },
+    {
+      "duration" : 482,
+      "name" : "\/storage\/state_read.js",
+      "transfer" : 1325
+    },
+    {
+      "duration" : 468,
+      "name" : "\/app\/consultation_flow.js",
+      "transfer" : 2913
+    },
+    {
+      "duration" : 469,
+      "name" : "\/app\/ocr_review.js",
+      "transfer" : 2497
+    },
+    {
+      "duration" : 468,
+      "name" : "\/app\/state_controller.js",
+      "transfer" : 875
+    },
+    {
+      "duration" : 468,
+      "name" : "\/features\/records.js",
+      "transfer" : 1825
+    },
+    {
+      "duration" : 453,
+      "name" : "\/features\/states.js",
+      "transfer" : 4339
+    },
+    {
+      "duration" : 448,
+      "name" : "\/storage\/backup_stream.js",
+      "transfer" : 2371
+    },
+    {
+      "duration" : 451,
+      "name" : "\/storage\/store.js",
+      "transfer" : 3915
+    },
+    {
+      "duration" : 406,
+      "name" : "\/app\/records_flow.js",
+      "transfer" : 898
+    },
+    {
+      "duration" : 734,
+      "name" : "\/app\/editor_flow.js",
+      "transfer" : 1712
+    },
+    {
+      "duration" : 442,
+      "name" : "\/storage\/backup.js",
+      "transfer" : 3189
+    },
+    {
+      "duration" : 507,
+      "name" : "\/app\/settings_flow.js",
+      "transfer" : 1597
+    },
+    {
+      "duration" : 532,
+      "name" : "\/app\/main.js",
+      "transfer" : 5979
+    }
+  ]
+}

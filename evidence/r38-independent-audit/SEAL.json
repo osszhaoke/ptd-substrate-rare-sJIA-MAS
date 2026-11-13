@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-13T04:37:23.851964+00:00",
+  "reportSha256": "4eba8baa240f17519cc410072f0e7267d44f6819567df7dccc3e284c8502a7e5",
+  "summarySha256": "5a5a280280c0ef8749f1c21c5da61a5acc84d2ee69e7a94d4754956b2f351892",
+  "indexSha256": "e741810a34022c44ac18fa0d69660a12f38ae5f0cac0d364ffcd198bc25f8d31",
+  "sourceWriteCount": 0,
+  "realOCRCalls": 0,
+  "publicMethods": [
+    "GET only"
+  ],
+  "validation": "JSON/hash/local audit report checks"
+}

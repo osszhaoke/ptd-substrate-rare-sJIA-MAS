@@ -1,0 +1,9 @@
+{"case": "ocr-review", "pid": 68613, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68619, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68624, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68629, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68635, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68640, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68645, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-review", "pid": 68673, "ok": false, "error": "WAIT ()=>document.querySelectorAll('.metric-row').length===5&&!$('#ocr').disabled", "target": null, "p95Ms": null}
+BROWSER_FAILED /Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-review-candidate01/evidence/r21-verification01/ocr-review-wire/preview-620-100

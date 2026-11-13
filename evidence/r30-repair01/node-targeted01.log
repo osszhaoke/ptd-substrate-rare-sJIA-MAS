@@ -1,0 +1,19 @@
+✔ v3 explicit schema and one authoritative report projection; v2 cannot silently accept new fields (58.952667ms)
+✔ stage reparses exact immutable origins; corrections retain original values and no medical projection for unmapped rows (90.827959ms)
+✔ raw report schema bounded and no silent arbitrary fields or missing source allowed (38.847875ms)
+✔ pending original without a value requires an actual reviewed correction before save (33.67025ms)
+✔ R27-A02: new stage/save reject incomplete OCR units across entries without invalidating historical literal schemas (70.226209ms)
+✔ R29 frozen restore parser is an exact complete pure import closure; historical fixture bytes fixed (3.770333ms)
+✔ R29 current-first whole-record history policy, strict origins/duplicate/foreign lines and unchanged new stage (179.323333ms)
+✔ R29 no row-wise mixing of two otherwise supported source interpretations (43.722875ms)
+✔ R30 first save revalidates current source policy, retained source integrity and unit gates before any commit (97.906375ms)
+✔ R30 existing historical receipt delegates idempotency/conflict/deleted authority without reparsing old event (14.971958ms)
+✔ R30 save validates one detached review snapshot while caller changes original object during source read (31.068709ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 721.40125

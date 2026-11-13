@@ -1,0 +1,67 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "navigation": true
+  },
+  {
+    "method": "GET",
+    "path": "/style.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/styles/shell.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/editor.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/states.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/styles/responsive.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/typography.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/home_resources.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/ocr_review.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/manifest.webmanifest",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/__test__/feedback-dwell",
+    "navigation": false
+  }
+]

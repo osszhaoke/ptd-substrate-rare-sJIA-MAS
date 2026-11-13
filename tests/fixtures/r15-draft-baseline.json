@@ -1,0 +1,7 @@
+{
+  "sourceCommit": "5301267885ed4ecd460318eb59de9f7388fa459c",
+  "sourcePath": "web/app/consultation_draft.js",
+  "fixturePath": "tests/fixtures/r15-original-consultation-draft.js",
+  "sha256": "edbfd6cf313cc8152aae1383ac40e6bc18162927d389480230336aa78b421f36",
+  "purpose": "fixed original regression/mutation input, not product"
+}

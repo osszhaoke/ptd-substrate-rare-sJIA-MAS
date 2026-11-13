@@ -1,0 +1,5 @@
+{
+  "finding": "full03 review control passed but workflow mutant polling failed to return within window; borderless NSWindow cannot normally become key, so earlier makeKey attempts did not establish intended key-view environment",
+  "repair": "owned probe window titled so it can become key; content size/assertions unchanged; no product code/timeout change",
+  "full03": "stopped own bound incomplete mutant; not a behavior kill or accepted pass"
+}

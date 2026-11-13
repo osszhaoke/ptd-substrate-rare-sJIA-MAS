@@ -1,0 +1,23 @@
+{
+  "scope": "specified old response local parser only; no upload or formal save",
+  "responseSha256": "d134157b8d2e4c6ffe6ab119c50f709575af7f4988c12948dfddf69524397966",
+  "sourceFragments": 178,
+  "reportRows": 27,
+  "pendingRows": 2,
+  "supportedMetrics": [
+    "wbc",
+    "plt",
+    "anc",
+    "crp",
+    "hb"
+  ],
+  "sourceReferencesValid": true,
+  "providerCalls": 0,
+  "formalSaves": 0,
+  "coverage": {
+    "items": 27,
+    "unpairedFragments": 49,
+    "pendingRows": 2,
+    "capped": false
+  }
+}

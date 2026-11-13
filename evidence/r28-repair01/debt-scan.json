@@ -1,0 +1,81 @@
+{
+  "identity": "author exact fictional full verification; not independent finding closure",
+  "ok": true,
+  "checks": 61,
+  "nodeTests": 124,
+  "pythonTests": 54,
+  "boundInputs": 240,
+  "binding": "7fda886d7f62b63c86f55df901371862fc03beb88198c6af3890f282b3ecafee",
+  "deltaPaths": 14,
+  "newPaths": 0,
+  "deletedPaths": 0,
+  "unchangedInputs": 226,
+  "oldExpectedFailures": 32,
+  "currentExpectedFailures": 34,
+  "newBehaviorMutations": {
+    "report-rows-wire/incomplete-unit-bypass.json": {
+      "error": "REPORT_INCOMPLETE_UNIT_STAGED",
+      "type": "str"
+    },
+    "report-rows-wire/footer-cross-panel.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    }
+  },
+  "browserPositiveWindows": 31,
+  "reportBehaviorMutations": {
+    "empty-name-fallback": "REPORT_EMPTY_NAME_STAGED",
+    "hide-unknown": "REPORT_UNMAPPED_HIDDEN",
+    "reuse-row-check": "REPORT_EDIT_REUSES_CHECK",
+    "layout-no-angle": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "layout-no-tables": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "qualitative-dropped": "LAYOUT_PENDING_CHANGED",
+    "stacked-footer-global": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "footer-cross-panel": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "incomplete-unit-bypass": "REPORT_INCOMPLETE_UNIT_STAGED"
+  },
+  "sameSourceNewPIDPairs": 15,
+  "newRealProviderCalls": 0,
+  "candidateProductLineCounts": {
+    "web/domain/report/tables.js": 151,
+    "web/domain/report/table_fields.js": 15,
+    "web/domain/report/rows.js": 62,
+    "web/features/report_rows.js": 26,
+    "web/domain/service.js": 38
+  },
+  "productSourceFileCount": 5,
+  "newLocksStoreNetworkTimerDependency": false,
+  "schemaMedicalRulesAndBudgetChanged": false,
+  "allProductChangesWithinFrozenWriteSet": true,
+  "independentFindingsPending": 2,
+  "knownAuthorReproducibleCodeItemsRemaining": 0,
+  "knownAuthorVerificationToolDefectsOpen": 0,
+  "notGlobalDebtZero": true,
+  "runtime": {
+    "snapshotAtUTC": "2026-11-11T08:34:59.715216+00:00",
+    "listenerPID": 45593,
+    "staticStatus": "76_ASSETS_PLUS_SW_EXACT_GET",
+    "staticVersion": "bd2d50eab43d0cf2",
+    "gatewaySourceChangedInR28": false,
+    "gatewayLoadedCode": "NOT_REVERIFIED; historical R27 handoff was R26 gateway in this PID",
+    "currentHealthCannotProveLoadedGatewayIdentity": true,
+    "serviceRestarts": 0,
+    "public": "NOT_RESTORED",
+    "evidence": "evidence/r28-adoption01/local-http-after.json",
+    "priorJPEGGatewayRuntimeAdoption": "STILL_REQUIRES_NEW_SESSION_PID_LOADED_BYTES_EVIDENCE; NOT_CLOSED_BY_R28"
+  },
+  "retained": [
+    "independent A01/A02 same-version review",
+    "previous R27 gateway loaded identity",
+    "human iPhone",
+    "peak memory",
+    "actual low-space",
+    "BFCache/background",
+    "clinical acceptance",
+    "historical performance unique attribution",
+    "all278Tencent and field-level accuracy truth set not performed"
+  ],
+  "sourceReview": "evidence/r28-repair01/same-root-review.json",
+  "expectedFailures": "evidence/r28-repair01/expected-failures-comparison.json",
+  "additionalServiceMutations": "evidence/r28-repair01/stage-save-mutations01/result.json"
+}

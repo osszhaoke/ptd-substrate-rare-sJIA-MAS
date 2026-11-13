@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "productZip": "deploy/PTDS-H5-sjia-mas-r17.zip",
+  "sha256": "af7d9fabbb6dbb86e9e3d8bf77f8dde87f42ee6fca23e9cfb7fbb182b5b65a7d",
+  "files": 112,
+  "allBytesAndModesMatch": true,
+  "current56Binding": "24f668645d661bfeaac85ff89d3e525e06a0dfff22167f7c77c16e95f6a4e3e6",
+  "purpose": "precleanup package proof; final rebuild after registered cleanup docs"
+}

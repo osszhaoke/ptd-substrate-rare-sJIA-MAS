@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "mode": "control",
+      "nodeExitCode": 0,
+      "browser": {
+        "capture": {
+          "injected": true,
+          "localText": "local text must remain available",
+          "persistedText": "newer text from competing page",
+          "result": false,
+          "status": "conflict",
+          "unsaved": true,
+          "writes": 1
+        },
+        "identity": "author actual IDB draft CAS and notification race; isolated fictional database",
+        "ok": true
+      }
+    },
+    {
+      "mode": "original",
+      "nodeExitCode": 1,
+      "browser": {
+        "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50205/:7:50\n@http://127.0.0.1:50205/:26:5"
+      }
+    },
+    {
+      "mode": "retry",
+      "nodeExitCode": 1,
+      "browser": {
+        "capture": {
+          "injected": true,
+          "localText": "local text must remain available",
+          "persistedText": "newer text from competing page",
+          "result": false,
+          "status": "conflict",
+          "unsaved": true,
+          "writes": 1
+        },
+        "identity": "author actual IDB draft CAS and notification race; isolated fictional database",
+        "ok": true
+      }
+    },
+    {
+      "mode": "conflict-success",
+      "nodeExitCode": 1,
+      "browser": {
+        "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:50331/:7:50\n@http://127.0.0.1:50331/:26:5"
+      }
+    },
+    {
+      "mode": "conflict-error",
+      "nodeExitCode": 1,
+      "browser": {
+        "capture": {
+          "injected": true,
+          "localText": "local text must remain available",
+          "persistedText": "newer text from competing page",
+          "result": false,
+          "status": "conflict",
+          "unsaved": true,
+          "writes": 1
+        },
+        "identity": "author actual IDB draft CAS and notification race; isolated fictional database",
+        "ok": true
+      }
+    }
+  ],
+  "productMutated": false,
+  "killedBy": "actual pending timer, save-result, and persisted CAS/notification assertions; not preflight",
+  "identity": "author isolated fictional controls and four regressions"
+}

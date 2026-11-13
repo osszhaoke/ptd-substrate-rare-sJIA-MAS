@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "knownReproducibleUnrepairedLocalCodeItems": 0,
+  "independentFindingsAwaitingClosure": 2,
+  "frozenClosureBytes": 56526,
+  "frozenModuleCount": 14,
+  "newGlobalLocksStoresNetworksTimersDependencies": 0,
+  "unchanged": [
+    "gateway",
+    "current parser and restore compatibility",
+    "medical rules",
+    "Store engine unchanged; stage source reuse branch changed",
+    "frontend main",
+    "package.json"
+  ],
+  "largestWebJSByLines": [
+    {
+      "path": "web/domain/report/tables.js",
+      "lines": 151,
+      "bytes": 12147
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/tables.js",
+      "lines": 148,
+      "bytes": 11815
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 133,
+      "bytes": 15525
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 131,
+      "bytes": 11515
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 97,
+      "bytes": 7771
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    }
+  ],
+  "retained": [
+    "independent R29-A01/A02 closure",
+    "existing O29-01 aggregate restore performance",
+    "phone memory/real low space/BFCache",
+    "human and clinical",
+    "in-memory gateway loading identity",
+    "historical performance unique cause",
+    "no all-historical-version compatibility or OCR accuracy claim",
+    "O29-01 aggregate restore approximately1.5s/20k remains open, not remeasured this batch"
+  ],
+  "currentIndexGuard": {
+    "tool": "tools/acceptance_index.py",
+    "result": "evidence/r30-repair01/current-index-cli-check.json",
+    "currentProof": "evidence/r30-verification01/result.json",
+    "topAliasesChecked": true
+  },
+  "currentSaveBoundary": "shared current source validation outside IDB commit; immutable review snapshot; existing receipt delegated to commit",
+  "sourceReuse": "same id/hash/binding keeps original Blob; source/CAS/ownership guards unchanged"
+}

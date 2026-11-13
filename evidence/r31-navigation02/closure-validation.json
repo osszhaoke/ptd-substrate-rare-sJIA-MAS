@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "candidateBinding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "archiveSha256": "eec2ab4a48cdb81caa54f32be9ee21cf56e98773e0f0f738901812d04bbc25c2",
+  "archiveMembersHashVerified": true,
+  "fullAuthorGate": 61,
+  "oldR27Stage": "PASS_NEW_WINDOW",
+  "productDeltaPaths": [],
+  "rootA1Unchanged": true,
+  "A2IndependentReportUnchanged": true,
+  "formalAdoption": false,
+  "servicesTouched": 0,
+  "paidProviderCalls": 0
+}

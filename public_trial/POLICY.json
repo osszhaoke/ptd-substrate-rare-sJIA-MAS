@@ -1,0 +1,6 @@
+{
+  "lifetimeSeconds": 86400,
+  "loopbackPort": 18795,
+  "connectorStartupSeconds": 90,
+  "mode": "PUBLIC_NO_LOGIN_NO_TRIAL_CODE"
+}

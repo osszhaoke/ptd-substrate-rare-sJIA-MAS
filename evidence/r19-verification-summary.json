@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "binding": "4c51800a9e9189b898a6c944f2ab30e06321461095bb86af2d82ca42c6437bce",
+  "checks": 57,
+  "nodeTests": 74,
+  "pythonTests": 48,
+  "metrics": {
+    "state-scale-10000": {
+      "coldP95Ms": 315,
+      "warmP95Ms": 1
+    },
+    "consult-scale-10000": {
+      "pageP95Ms": 10,
+      "selectionAndPromptP95Ms": 3
+    },
+    "backup-scale-10000": {
+      "heartbeatMaxMs": 250,
+      "heartbeatP95Ms": 17,
+      "inspectMs": 7253,
+      "maxCryptoBytes": 1909,
+      "originalBytes": 0
+    },
+    "originals-64MiB": {
+      "heartbeatMaxMs": 18,
+      "heartbeatP95Ms": 18,
+      "inspectMs": 132,
+      "maxCryptoBytes": 262145,
+      "originalBytes": 67108864
+    }
+  },
+  "identity": "same complete author Mac WebKit fictional window; not physical memory/low-space, user, independent or clinical acceptance",
+  "providerCalls": 0
+}

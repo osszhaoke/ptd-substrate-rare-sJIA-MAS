@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "entryCount": 110,
+  "unchangedPathSet": true,
+  "staticPatch": "r19-report02",
+  "verification": "evidence/r25-verification01/result.json",
+  "binding": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+  "productTreeSha256": "f556cec7c6ed67f13344cfd29a0124626d2b9d713fd97db2c155f5406aa63788",
+  "sourceManifestSha256": "344bb8ee4e378584a39fecdc0931552e9a054556390854b1712d768648a66c89",
+  "negativeControls": {
+    "old-patch": "INDEX_PATCH_MISMATCH",
+    "old-proof": "INDEX_PROOF_MISMATCH",
+    "missing-proof": "VERIFICATION_REQUIRED",
+    "old-binding": "INDEX_BINDING_MISMATCH",
+    "stale-proof": "VERIFICATION_STALE_OR_MISSING_FILES"
+  },
+  "zipCreatedOrModified": false
+}

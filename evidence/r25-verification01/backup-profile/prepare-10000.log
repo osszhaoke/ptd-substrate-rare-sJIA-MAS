@@ -1,0 +1,7 @@
+{
+  "identity" : "fixture preparation only, no state performance claim; stage-confirm-save",
+  "insertMs" : 35705,
+  "ok" : true,
+  "records" : 10000,
+  "target" : 10000
+}

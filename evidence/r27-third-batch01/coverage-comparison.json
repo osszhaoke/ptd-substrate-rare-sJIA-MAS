@@ -1,0 +1,39 @@
+{
+  "vision": {
+    "r26": {
+      "images": 278,
+      "fragments": 16233,
+      "rows": 974,
+      "pending": 411,
+      "zeroRows": 169,
+      "cappedImages": 0
+    },
+    "r27": {
+      "images": 278,
+      "fragments": 16233,
+      "rows": 1010,
+      "pending": 363,
+      "zeroRows": 158,
+      "cappedImages": 0
+    }
+  },
+  "tencent": {
+    "r26": {
+      "images": 15,
+      "fragments": 1022,
+      "rows": 116,
+      "pending": 60,
+      "zeroRows": 6,
+      "cappedImages": 0
+    },
+    "r27": {
+      "images": 15,
+      "fragments": 1022,
+      "rows": 128,
+      "pending": 5,
+      "zeroRows": 4,
+      "cappedImages": 0
+    }
+  },
+  "limits": "counts measure parser coverage only; no field-level clinical truth set, all-patient accuracy, or 278 real Tencent calls"
+}

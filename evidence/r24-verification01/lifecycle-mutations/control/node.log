@@ -1,0 +1,14 @@
+✔ sequential reads cross window and length-prefix boundaries with bounded physical buffers (56.894ms)
+✔ cancellation after physical read prevents consuming or requesting another window (0.276958ms)
+✔ short physical reads fail closed rather than looping or inventing bytes (0.124917ms)
+✔ UTF-8 metadata spanning crypto frames and read windows round-trips without Blob.text (19.373208ms)
+✔ a closed reader rejects new reads without touching the file (0.535333ms)
+✔ an in-flight read cannot refill the window after close (0.146708ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 152.148083

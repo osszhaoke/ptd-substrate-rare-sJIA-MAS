@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "identity": "author exact local static adoption after complete isolated fictional proof; not independent/phone/clinical acceptance",
+  "batch": "R26",
+  "staticPatch": "r19-layout01",
+  "staticVersion": "1c9c5fc2065208ad",
+  "binding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "boundInputs": 239,
+  "checks": 61,
+  "verification": "evidence/r26-verification01/result.json",
+  "previousAdoption": "evidence/r25-adoption01/adoption-result.json",
+  "previousAdoptionSha256": "626dd4e5fd8c879a1b6b2572749ed29e56a495bcd67f2325cab24a52e1c196cf",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "2fc9e6be736f97885ff939765713026b8ebcf08af9ff046db99b0881ddbb475f",
+      "after": "1f04be0f5cd4bb32a7b29dab75d95a8d78824da255ae2da4bf994de9bad0f933"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "285d38f613a3d6dbd235ecd3201b655a8be3584bfeffcb62f3ebe90f89208924",
+      "after": "46a7825f14b3db8c28f76abda17446f90e64bcf284ef3b4d0e471449c469a161"
+    },
+    {
+      "path": "tests/browser.report-rows.js",
+      "before": "d95e1fd6614c1683edc4048c6578d2771234f1704c155158e12f732067ae98e9",
+      "after": "b64b90ea7279999c832f689209aba9acfd827cd39e3a37fb3b60433d80470f0e"
+    },
+    {
+      "path": "tests/fixtures/report_layouts.mjs",
+      "before": null,
+      "after": "2d6cf88afed281da5d5ccd26faab8ca22b666c58828d5de9075196d733df4309"
+    },
+    {
+      "path": "tests/report_rows.test.mjs",
+      "before": "a4638600ddeeab1ff17bb4cbe9d06cf9855b9fde35fd45f1edbb819092bc84c4",
+      "after": "83b640694dfe3917947bbc97c3949b68dc49133ce5c29f7498517f397eeb08b9"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": "334c9d1f0ffc3487943b6617ac3e33a52d3896016a6bf731da02d32f5e4b2c58",
+      "after": "7ae7f7393bc3963fbf7d00168b340969b06d051782f9ebd2fe6aeeaa573ec65f"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "dad00eb88a4d634cf0dd858d83b4e1b7dc8a680ca2e3540fd4bc70432d417b4a",
+      "after": "f73602bf366f260610a0ad6c341f4e9f51898396dfad41e4bb8ba150e57fbaa6"
+    },
+    {
+      "path": "web/app/startup_plan.js",
+      "before": "5e6c37017133aa8c1ef58bf80e18d199fc9ce189fd7dd5a983757c762b303829",
+      "after": "f51b647795cb1b9a8651ceaee92e1ad7b0926bc8e14f69370139c48a1da05c84"
+    },
+    {
+      "path": "web/domain/report/layout.js",
+      "before": null,
+      "after": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50"
+    },
+    {
+      "path": "web/domain/report/rows.js",
+      "before": "f695ed9379460e211968934587f0501bc05030f50fb09681da42591ff96392fe",
+      "after": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce"
+    },
+    {
+      "path": "web/domain/report/tables.js",
+      "before": null,
+      "after": "a1223d131241443413a10bbcacd7b1f50875f7021c86f7d7bce00576b097a430"
+    },
+    {
+      "path": "web/features/report_rows.js",
+      "before": "c22d11b7eae4c1f8cbb44a4021d7b1edb8caf93190b9a5251696facbdd540349",
+      "after": "3a02808f7e2f480297a5a71087efd511a4f7c7380b038a1f99ea4bdea858d772"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "36d203da8847f371a112a36473befabe53b9651f01bfdb46ec40b6390edd16ea",
+      "after": "f7d9be248edc1eef48d7e537761d1797748a2be08774370c9aacd7171223d808"
+    }
+  ],
+  "oldWebAt": "runtime/r26-web-swap01",
+  "otherBeforeBytes": "runtime/r26-source-before01",
+  "serviceRestarts": 0,
+  "newProviderCalls": 0,
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "rollback": "atomic web exchange back plus exact non-web restoration/deletion; baseline asserted before and after"
+}

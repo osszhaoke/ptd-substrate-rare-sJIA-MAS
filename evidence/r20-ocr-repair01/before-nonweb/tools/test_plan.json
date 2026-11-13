@@ -1,0 +1,414 @@
+{
+  "scope": "independent-h5-only",
+  "discovery": false,
+  "statePerformanceDiagnostics": {
+    "entrypoint": "python3 -B -m tools.diagnose_state --output <new-evidence-dir>",
+    "mode": "optional instrumented complete window, not a replacement for uninstrumented required state-scale",
+    "profile": "single new fictional profile, 1000 -> 3000 -> 6000 -> 10000",
+    "limits": "Native IDB work, cloning and scheduling not separately attributable; retain all raw windows"
+  },
+  "commands": [
+    "node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs",
+    "python3 -B -m unittest tests.test_policy tests.test_gateway tests.test_lock_boundaries tests.test_tencent tests.test_deploy tests.test_debt_build_gate tests.test_phone_acceptance tests.test_invite_runner -v",
+    "python3 -B -m tests.test_tencent_flow_runner --output <new-evidence-dir>",
+    "python3 -B -m tests.test_ui_mutation_runner --output <new-evidence-dir>",
+    "python3 -B -m tools.test_offline --output <new-evidence-dir>",
+    "python3 -B -m tools.test_upgrade --output <new-evidence-dir>",
+    "python3 -B -m tests.test_workflow_mutation_runner --output <new-evidence-dir>",
+    "python3 -B -m tests.test_debt_mutation_runner --output <new-evidence-dir>",
+    "python3 -B -m tests.test_phone_tool_runner --output <new-evidence-dir>",
+    "python3 -B -m tests.test_tencent_split_runner --output <new-evidence-dir>",
+    "python3 -B -m tests.test_records_consistency_runner --output <new-evidence-dir>"
+  ],
+  "browserWhitelist": [
+    "browser.core.js",
+    "browser.ui.js",
+    "browser.file.js",
+    "browser.ocr.js",
+    "browser.persist.js",
+    "browser.scale.js",
+    "browser.offline.js",
+    "browser.upgrade.js",
+    "browser.tencent-flow.js",
+    "browser.state.js",
+    "browser.state-ui.js",
+    "browser.compat.js",
+    "browser.state-persist.js",
+    "browser.state-scale.js",
+    "browser.mobile.js",
+    "browser.experience.js",
+    "browser.backup-stream.js",
+    "browser.css.js",
+    "browser.workflow.js",
+    "browser.consult-scale.js",
+    "browser.consult-draft.js",
+    "browser.consult-draft-persist.js",
+    "browser.ocr-navigation.js",
+    "browser.backup-task.js",
+    "browser.backup-scale.js",
+    "browser.state-batch.js",
+    "browser.phone-tool.js",
+    "browser.tencent-split.js",
+    "browser.public-24h.js",
+    "browser.backup-profile.js",
+    "browser.backup-fixture.js",
+    "browser.phone-progress.js",
+    "browser.phone-quota.js",
+    "browser.phone-journal.js",
+    "browser.store-notifications.js",
+    "browser.store-lifecycle.js",
+    "browser.draft-save-races.js",
+    "browser.async-ownership.js",
+    "browser.home-resources.js",
+    "browser.records-consistency.js"
+  ],
+  "coverage": {
+    "core": [
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L07",
+      "L08",
+      "L10"
+    ],
+    "ui": [
+      "L01",
+      "L02",
+      "W03"
+    ],
+    "file": [
+      "L03",
+      "L05"
+    ],
+    "persist": [
+      "L06"
+    ],
+    "scale": [
+      "L09"
+    ],
+    "offline": [
+      "L01",
+      "W02"
+    ],
+    "upgrade": [
+      "W02"
+    ],
+    "gateway": [
+      "O03",
+      "O04",
+      "W03"
+    ],
+    "tencent": [
+      "O01",
+      "O02_SIMULATED_ONLY",
+      "O03",
+      "O04"
+    ],
+    "sjia": [
+      "3 pinned rules /408 Python oracle cases",
+      "OCR regression",
+      "v2 compatibility",
+      "date conflict",
+      "unknown flags",
+      "intervals"
+    ],
+    "mobile": [
+      "320/390/430/620 logical widths",
+      "home, detail, calendar, capture, draft, consultation and settings",
+      "bottom labels >=14px, calendar dates >=20px, visible text >=14px",
+      "four navigation targets and no horizontal overflow"
+    ],
+    "experience": [
+      "REAL default, no visible environment distinction",
+      "old nature and digest unchanged",
+      "latest navigation, no write replay"
+    ],
+    "backup-stream": [
+      "format3 frame buffer bound",
+      "tamper, truncate, reorder, trailing data rejection",
+      "format1 literal and format2 reconstructed compatibility",
+      "original writer exact authenticated bytes with fixed randomness",
+      "<=128 raw parts and <=1MiB raw batching, not a physical memory claim",
+      "oversize original header rejected before body crypto",
+      "cancel stops crypto and record iterator"
+    ],
+    "css": [
+      "all16 current page states across5 dimensions; no visible text below14px and no horizontal overflow"
+    ],
+    "workflow": [
+      "exact notice and progressive edit/reconfirm/save",
+      "fixed cards, no persistence request",
+      "consultation paging/selection and explicit local projection",
+      "AI prompt bound to edited content; no automatic external request",
+      "stale selection and data revision",
+      "no empty/expert banner in overview",
+      "disabled OCR has no access inputs",
+      "local rule-generated card works without AI",
+      "optional preset prompt closed by default",
+      "card-only download",
+      "exact revised local status",
+      "one visible consultation step and aria-current; back preserves text; optional AI reached explicitly",
+      "exact labels 选资料/核信息/存数据 and 选状态/给话术/问 AI",
+      "本机无应用更新模块；原SW注册和关闭旧客户端后更新机制保留",
+      "动态估算空间并入本机标题，无独立空间区块；明确.ptds格式和实际备份字段"
+    ],
+    "consult-scale": [
+      "1000→10000 same fresh profile after state-scale stage-confirm-save fixture",
+      "page<=50, selection<=50, no Blob load",
+      "page and selection+prompt p95<=250ms"
+    ],
+    "consult-draft": [
+      "commit before saved",
+      "CAS conflict retains text",
+      "clear fences old writers",
+      "quota/retry",
+      "selection and clinical changes preserve manual additions",
+      "new PID committed readback"
+    ],
+    "ocr-navigation": [
+      "never-returning network and navigation abort<=100ms",
+      "cancel then restart; old completion cannot release new task",
+      "route/source checks after async hashing",
+      "zero paid calls, automatic retries or saves"
+    ],
+    "backup-task": [
+      "precommit cancellation at read/decrypt/validate/preview writes zero records",
+      "atomic quota rollback",
+      "cancel/commit race",
+      "commit cannot cancel",
+      "UI progress and preview discard",
+      "start observer failure releases busy; commit once and expired job rejects"
+    ],
+    "state-batch": [
+      "96 full snapshot parity cases vs pinned original cursor",
+      "same revision/order/timezone count/before/next"
+    ],
+    "template-parity": [
+      "64 original fictional outputs: 49 byte-identical; 7 approved R08 editor transformations; 8 approved R09 settings transformations",
+      "original R06 golden retained, not regenerated"
+    ],
+    "style-parity": [
+      "4 unchanged original R07 page snapshots x5 dimensions exact across all38 captured properties",
+      "10 approved changed pages plus optional AI/expanded backup-field states checked for font, touch and overflow at 320/390/430/620 and 320@160%",
+      "original snapshots and preceding subset rules retained; current approved delta recorded in r09-settings-layout-baseline.json"
+    ],
+    "phone-tool": [
+      "isolated random test DB names and BC",
+      "1000 fictional stage-confirm-save/backup/restore/digest consistency",
+      "actual reload readback distinguished from process exit",
+      "owned cleanup preserves synthetic default database sentinel",
+      "unknown peak memory/quota kept NOT_TESTED"
+    ],
+    "ocr-split": [
+      "user-reported synthetic 30-line replay; six candidates; original fragment IDs; source unchanged",
+      "geometry page/overlap/column ambiguity; reference not result; no inferred values/units",
+      "2000→20000 fragments,<=100 candidates,<1000ms",
+      "HTTP signer fake-provider→actual UI automatic candidates→staging no save→explicit automated checkbox/save→new PID same-profile read",
+      "not actual provider, human, phone, TLS or public acceptance"
+    ],
+    "invite-runner": [
+      "loopback18793; existing authoritative ledger required, no new quota",
+      "shared0755 ancestor accepted; dedicated0700/files0600; no symlinks/pending/parallel owner",
+      "no TTY no secret prompt; no inherited cloud config/token in argv; only owned child cleanup"
+    ],
+    "draft-save-races": [
+      "actual CAS competing commit before old acknowledgement; conflict retained and no replay",
+      "explicit reload then normal save",
+      "pending debounce cannot retry failed save; late error cannot clear conflict"
+    ],
+    "async-ownership": [
+      "original generated results cannot replace newer manual text or external conflicts",
+      "initial and explicit draft loads honor draft/reset/clinical notifications; at most three read retries",
+      "reload errors visible without unhandled rejection, local text retained; explicit retry succeeds",
+      "existing OCR edit, hash, cancel, navigation protections now required; removal killed by actual editor value assertions"
+    ],
+    "home-resources": [
+      "two separate ordered modules above three cards; exact handbook URL and new tab/no referrer",
+      "JPEG original SHA256; actual thumbnail click enlarges native dialog; three close cycles and focus return",
+      "local full-image anchor fallback without showModal; route departure closes and detaches view",
+      "five widths/font scales; no record writes; no external requests"
+    ],
+    "structure-r18": [
+      "accepted CSS cascade exact reconstructed bytes in actual linked order",
+      "slow fictional provider leaves budget lock free and GET responsive; duplicate and concurrency rejection do not retry",
+      "16 attempts / 4 workers retain exactly 10 reservations across reopening",
+      "page flow extraction covered by original browser UI/backup/cancel/route and style snapshots"
+    ],
+    "records-consistency": [
+      "page content/revision same readonly events/meta transaction",
+      "intervening formal save never leaves stale timeline or mixed cards",
+      "3 read-only retries maximum, visible continuous-update terminal state",
+      "queued user navigation wins, no background polling or write replay",
+      "actual original and removed-guard behavior fail timeline ID assertion"
+    ]
+  },
+  "excluded": [
+    "PTDS main tests",
+    "real records",
+    "paid provider",
+    "physical phone",
+    "human acceptance"
+  ],
+  "browserCasesSerial": true,
+  "scaleConcurrentCallers": 10,
+  "scaleTarget": {
+    "records": 10000,
+    "pageMax": 50,
+    "firstPageP95Ms": 250
+  },
+  "automationIdentity": "owner synthetic self-verification; not independent Tester or human acceptance",
+  "pendingFromBase": [],
+  "debtVerification": {
+    "browserCases": [
+      "core",
+      "ui",
+      "file",
+      "ocr",
+      "state",
+      "state-ui",
+      "experience",
+      "compat",
+      "workflow",
+      "backup-stream",
+      "consult-draft",
+      "backup-task",
+      "state-batch",
+      "store-notifications",
+      "store-lifecycle",
+      "draft-save-races"
+    ],
+    "requiredChecks": [
+      "node",
+      "python",
+      "browser-core",
+      "browser-ui",
+      "browser-file",
+      "browser-ocr",
+      "browser-state",
+      "browser-state-ui",
+      "browser-experience",
+      "browser-compat",
+      "browser-workflow",
+      "browser-backup-stream",
+      "browser-consult-draft",
+      "browser-backup-task",
+      "browser-state-batch",
+      "ocr-wire",
+      "review-mutations",
+      "workflow-mutations",
+      "debt-mutations",
+      "offline",
+      "upgrade",
+      "draft-reopen-write",
+      "draft-reopen-read",
+      "draft-reopen",
+      "layout-320-100",
+      "layout-390-100",
+      "layout-430-100",
+      "layout-620-100",
+      "layout-320-160",
+      "state-scale-1000",
+      "state-scale-3000",
+      "state-scale-6000",
+      "state-scale-10000",
+      "consult-scale-1000",
+      "consult-scale-10000",
+      "backup-scale-1000",
+      "backup-scale-10000",
+      "originals-64MiB",
+      "probe-compile",
+      "draft-page-refresh",
+      "style-parity",
+      "phone-tool",
+      "ocr-split-wire",
+      "public-mode",
+      "phone-quota",
+      "phone-journal",
+      "phone-progress",
+      "backup-profile",
+      "browser-store-notifications",
+      "observer-mutations",
+      "browser-store-lifecycle",
+      "lifecycle-mutations",
+      "browser-draft-save-races",
+      "draft-race-mutations",
+      "async-ownership",
+      "home-resources",
+      "records-consistency"
+    ],
+    "entrypoint": "python3 -B -m tools.verify_debt --output <new-evidence-dir>",
+    "scaleFixture": "same fresh fictional profile; stage-confirm-save only; chunks at 1k/3k/6k/10k; never combine timing windows",
+    "structureBaseline": "evidence/r18-baseline01; original CSS SHA e3d109c888d85e3ba642c21ef1dae4243e2dfe15dae85fd609e85bb344cf9d77"
+  },
+  "public24h": {
+    "identity": "author fictional automated; no paid calls",
+    "commands": [
+      "python3 -B -m unittest tests.test_public_trial tests.test_gateway tests.test_policy tests.test_invite_runner -v",
+      "node --test tests/public_editor.test.mjs",
+      "python3 -B -m tests.test_public_browser --output evidence/public-browser01"
+    ],
+    "noBroadDiscovery": true
+  },
+  "r11Debt": {
+    "regression": "node --test tests/backup_reader_regression.test.mjs",
+    "profile": "python3 -B -m tests.test_backup_profile_runner --enforce --output <new-output>",
+    "noDiscovery": true,
+    "limits": {
+      "fileReadWindowBytes": 1048576,
+      "heartbeatP95Ms": 250,
+      "logicalCryptoBytes": 262145
+    },
+    "scope": "backup reader performance and phone harness; not physical acceptance",
+    "phoneCommands": [
+      "python3 -B -m tests.test_phone_debt_runner --case phone-quota --output <new-output>",
+      "python3 -B -m tests.test_phone_debt_runner --case phone-journal --output <new-output>",
+      "python3 -B -m tests.test_phone_debt_runner --case phone-progress --output <new-output>"
+    ],
+    "unitTestFiles": [
+      "backup_reader.test.mjs",
+      "backup_reader_regression.test.mjs"
+    ]
+  },
+  "r13Debt": {
+    "scope": "post-commit observers never control persistence outcome",
+    "regression": "browser.store-notifications.js + backup_task.test.mjs",
+    "noDiscovery": true,
+    "mutations": "python3 -B -m tests.test_observer_mutation_runner --output <new-dir>"
+  },
+  "r14Debt": {
+    "scope": "closed resources cannot publish late opens/windows or abandoned schema upgrades",
+    "regression": "browser.store-lifecycle.js + backup_reader.test.mjs",
+    "noDiscovery": true,
+    "mutations": "python3 -B -m tests.test_lifecycle_mutation_runner --output <new-dir>"
+  },
+  "r15Debt": {
+    "scope": "draft save task owns pending timer and cannot overwrite conflict",
+    "regression": "consultation_draft.test.mjs + browser.draft-save-races.js",
+    "noDiscovery": true,
+    "mutations": "python3 -B -m tests.test_draft_race_mutation_runner --output <new-dir>"
+  },
+  "r16Debt": {
+    "scope": "read and projection result ownership plus reload error boundary",
+    "regression": "consultation_draft.test.mjs + browser.async-ownership.js + existing browser.ocr-navigation.js",
+    "mutations": "python3 -B -m tests.test_async_ownership_runner --output <new-dir>",
+    "noDiscovery": true,
+    "baselineFixtures": "tests/fixtures/r16-ownership-baseline.json",
+    "originalOcr": "already protected; control only, not a newly repaired defect"
+  },
+  "r17HomeResources": {
+    "scope": "approved static preview adopted as independent template/controller/styles",
+    "entrypoint": "python3 -B -m tests.test_home_resources_runner --output <new-dir>",
+    "noNewGlobalLock": true,
+    "noDiscovery": true,
+    "oldStyleGolden": "only approved .home-resources subtree excluded; all pre-existing page styles still compared",
+    "actualImageClickRequired": true
+  },
+  "r19RecordsConsistency": {
+    "entrypoint": "python3 -B -m tests.test_records_consistency_runner --output <new-dir>",
+    "regression": "records_snapshot.test.mjs + browser.records-consistency.js",
+    "baselineFixtures": "tests/fixtures/r19-records-baseline.json",
+    "maxReadAttempts": 3,
+    "noDiscovery": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "exactAssets": 93,
+  "assetExecutionEvidence": "public-probes02.json",
+  "assetExecutionSha256": "ed1ba1e122ab3ec16251f8845834676064f4870a793ac6f52bbe0e80882a7546",
+  "traversal": {
+    "path": "/../STATUS.json",
+    "edgeStatus": 400,
+    "localStatus": 404,
+    "explicitExpectedEdgeStatus": 400,
+    "explicitExpectedLocalStatus": 404,
+    "ok": true
+  },
+  "priorFailuresPreserved": true,
+  "classification": "probe expected origin404 through edge; edge rejects malformed traversal400 first; both deny with no source disclosure",
+  "productChanges": 0,
+  "realProviderCallsByAgent": 0
+}

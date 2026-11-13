@@ -1,0 +1,124 @@
+{
+  "version": "h5-phone-r19",
+  "treeSha256": "bc033da28b922a8855d0689e1916d02ae4d313034e167609a36805efbf405f67",
+  "files": [
+    {
+      "path": "domain/model.js",
+      "sha256": "c416918b6c1e7679ff2a722432a1e35fa137741e7728878111c682a2fcd47eb4",
+      "bytes": 6711
+    },
+    {
+      "path": "domain/service.js",
+      "sha256": "0f29476e8ae4f4137111059649beb881315e775b21e73d9ed60446c3afef751b",
+      "bytes": 2746
+    },
+    {
+      "path": "domain/state/candidates.js",
+      "sha256": "61e6d7d9d7f0dad75fc279729625c1fef23f4cb0dbf77a36a665454440e280d9",
+      "bytes": 3323
+    },
+    {
+      "path": "domain/state/catalog.js",
+      "sha256": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+      "bytes": 1612
+    },
+    {
+      "path": "domain/state/decimal.js",
+      "sha256": "6d54196a1bbb47c4cf368be0362a423bfea1e3879483b48378007cda83c04a1c",
+      "bytes": 1348
+    },
+    {
+      "path": "domain/state/evaluate.js",
+      "sha256": "f176b0ff8ea72fc6554bf69fef00d245ba0d68674050d68015c497dcf1f46c7c",
+      "bytes": 4673
+    },
+    {
+      "path": "domain/state/ocr_fragments.js",
+      "sha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "bytes": 3449
+    },
+    {
+      "path": "domain/state/ocr_tables.js",
+      "sha256": "43858e5245e282db27cda71f3a910387a0385d11ecbce9ccfb3c834549935146",
+      "bytes": 3775
+    },
+    {
+      "path": "domain/state/project.js",
+      "sha256": "987e2d5b6a73c7e19b484f16b20cd12c0e48387f042723bea8b97516bc8f9c3c",
+      "bytes": 982
+    },
+    {
+      "path": "domain/state/select.js",
+      "sha256": "34592de86d4e691063a1e25d4a715231e15a2c2cc0fef93acf72461a954759b2",
+      "bytes": 3622
+    },
+    {
+      "path": "fixture.png",
+      "sha256": "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+      "bytes": 969011
+    },
+    {
+      "path": "index.html",
+      "sha256": "03943769e6ae79692fbc03a84df21fcc05d22744b48b4f903ffc29a67391fe09",
+      "bytes": 2456
+    },
+    {
+      "path": "phone.css",
+      "sha256": "5e159324eee999ca54b9656f2bd2771227551fdf3abbfe74e6e9244a43bdcfd4",
+      "bytes": 553
+    },
+    {
+      "path": "phone.js",
+      "sha256": "ffcd7bb87d0536eb2bb9e2b10101a7a2117987e68df199798aefd16f00eaf4be",
+      "bytes": 13471
+    },
+    {
+      "path": "rules/definitions.js",
+      "sha256": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+      "bytes": 8047
+    },
+    {
+      "path": "shared/observe.js",
+      "sha256": "0afa9dc9697d2f32120498c98fcb221d4312640ce26ffeaa4882d3b3b3e02088",
+      "bytes": 369
+    },
+    {
+      "path": "storage/backup.js",
+      "sha256": "fa8a75120bf6050941c722e35722b7afe2b5d5b86b2095e80eef26105729cf06",
+      "bytes": 7543
+    },
+    {
+      "path": "storage/backup_reader.js",
+      "sha256": "71004865105bdc128fe253e97294afe7167fdd58eb69bcfe290249d7a02642ea",
+      "bytes": 1541
+    },
+    {
+      "path": "storage/backup_stream.js",
+      "sha256": "b0823c57f87b53c7eec1ffa9ff2bec616bf28b61c632e4391d1405620575b341",
+      "bytes": 5753
+    },
+    {
+      "path": "storage/backup_task.js",
+      "sha256": "f96266172f9f96899acb897c079db157f58a3a2a411581f9088c0ab9f61b0ff8",
+      "bytes": 1299
+    },
+    {
+      "path": "storage/consultation_draft.js",
+      "sha256": "3e0dfda5855ec23f21f7219f2b98c92ae4d0b2eaec63a40f62d300e39033609c",
+      "bytes": 2017
+    },
+    {
+      "path": "storage/state_read.js",
+      "sha256": "fa1c9afde9c33c6236c214084b1f7174cd25f2095446485f71a1854e75264b8a",
+      "bytes": 2116
+    },
+    {
+      "path": "storage/store.js",
+      "sha256": "7ebbe6d860c0745c2234392fcdbffec93647e4884e16312229f2d28a1c9b35a8",
+      "bytes": 11350
+    }
+  ],
+  "scope": "static fictional acceptance only; no product UI, OCR, credentials or real data",
+  "builderSha256": "11b4a8fbd5cbc8e03c8040f91920e9a0935c6e9fdec117a97b6bdb75566198b2",
+  "physicalPhone": "NOT_TESTED_BY_BUILD"
+}

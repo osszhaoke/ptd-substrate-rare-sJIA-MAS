@@ -1,0 +1,5 @@
+{
+  "error" : "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:51744\/:7:50\n@http:\/\/127.0.0.1:51744\/:26:5"
+}

@@ -1,0 +1,13 @@
+{
+  "identity": "operator-only manual restart helper, not part of240 product/test inputs or independently accepted",
+  "files": {
+    "runtime/r27-local-verify01/operator.py": "fb3dea765f8a85ed6c27f6669af81d51cdc6d44041b3acdf10c9d42856fc0a20",
+    "runtime/r27-local-verify01/START_R27_LOCAL.command": "0d31165880e46254c56a83886b4666e76c9186d680b7be31d9acc48848b234f7"
+  },
+  "userClosesOldWindowFirst": true,
+  "hiddenTerminalKeyInputOnly": true,
+  "originalBudgetLeaseAndNoReset": true,
+  "noAutomaticProviderCapture": true,
+  "autoLaunched": false,
+  "runtimeAcceptance": "NOT_RUN_YET"
+}

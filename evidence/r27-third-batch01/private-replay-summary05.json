@@ -1,0 +1,178 @@
+{
+  "ok": true,
+  "identity": "author authorized-image private replay with explicit automated test-operator corrections; not human/clinical acceptance",
+  "newRealProviderCalls": 0,
+  "fakeReplayCalls": 15,
+  "privateResultSha256": "17919b8eb4f0c0f09ba3cedcdf95afacb4e7787c50647c105120a5f81218aab8",
+  "images": [
+    {
+      "index": 1,
+      "inputSha256": "e95bccbeba24b114643a075530ad9c89105590dcd470c35bef582a6961799828",
+      "responseSha256": "8b2e95d6a02b63442c97d4f8d4821faf4ccd38323294a435ae5f69e160085101",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52603,
+        52616
+      ]
+    },
+    {
+      "index": 3,
+      "inputSha256": "bfa98895fbde6a33cb206e54f02846a112ef997028b1843e7a8bab5526c9f082",
+      "responseSha256": "9656fe478beb3ff43dbab65b44756f0f54b8c2b7534be6f10b3b20e445e9635a",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52622,
+        52629
+      ]
+    },
+    {
+      "index": 9,
+      "inputSha256": "026cb5554cf323bc6af0503b8c54612dfb5c08d0ad475a33386c0e390b99b25c",
+      "responseSha256": "43d46404e25101c02cd9adb6df572e616a260310c8c2a0055990476722d33a98",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52634,
+        52645
+      ]
+    },
+    {
+      "index": 29,
+      "inputSha256": "a673db7135a9b01a3e232807b73cf00d49380a1a44bab15da3948dea021eaeb4",
+      "responseSha256": "2da217fa74295fac1bf70e003f2265387e14ed8dffd8b745891f6b2474b88ef7",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52654,
+        52663
+      ]
+    },
+    {
+      "index": 34,
+      "inputSha256": "c8de09ba3521c11b4d60622134bc676f7785a98fdd0450a50623f059a2175f81",
+      "responseSha256": "e2f78df30f93da5ebd06ff5a84a5fa1260c3175cefd69b38a88da18c40c94fda",
+      "rows": 21,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52668,
+        52676
+      ]
+    },
+    {
+      "index": 39,
+      "inputSha256": "a03935f49f600df011205d8e87444c832aca185a4fd667952fcc6be76fc038bc",
+      "responseSha256": "30e060e95a7af903f61be29ac72d1a513bad101c0fd28b0510bca16bc730af0b",
+      "rows": 38,
+      "pendingRows": 4,
+      "differentPIDs": [
+        52681,
+        52688
+      ]
+    },
+    {
+      "index": 46,
+      "inputSha256": "1cdaf8ca048e9b38a2accb7b5b52208800dbb968669819bc0345538be0c48b88",
+      "responseSha256": "99a2d25f67a073effa2981394e2ca293550d6c0f88a14c9fcbb4be86312a0f36",
+      "rows": 9,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52699,
+        52705
+      ]
+    },
+    {
+      "index": 49,
+      "inputSha256": "97813e497e6e3539cee65245bc7b051ff841ea176ee5d9e29b9f4a3f208a12fd",
+      "responseSha256": "f306ca05de6518308e8d7d04e8a016449b07a0566d0c46d21de20fbb553fc18b",
+      "rows": 1,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52713,
+        52718
+      ]
+    },
+    {
+      "index": 57,
+      "inputSha256": "33da8a3f7638cd27e6e8ab6c0765799887ff686b6b202fbc3adab5d9c5c811d1",
+      "responseSha256": "26fdf702e8247fd9d1c6c027b5babfdfd4819b814403603cc07e71fa0610626c",
+      "rows": 1,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52723,
+        52730
+      ]
+    },
+    {
+      "index": 61,
+      "inputSha256": "45065c4347f0f6ce66a9991512deb85bacb0a94bf67302b1930c16b19e8a9b88",
+      "responseSha256": "a0b0924dcb723f16181f930f11435d89722f8084ad46d386fbcf31d38c2ae62a",
+      "rows": 8,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52741,
+        52746
+      ]
+    },
+    {
+      "index": 98,
+      "inputSha256": "1c075f4969dd041d022888c888de5f7d8095e1c0bd194df428c42f196fda2c5b",
+      "responseSha256": "a0e57acae62f2eaa08f7f970de22bcecc079d290672ba271b55ed918dc153a30",
+      "rows": 10,
+      "pendingRows": 1,
+      "differentPIDs": [
+        52753,
+        52758
+      ]
+    },
+    {
+      "index": 102,
+      "inputSha256": "b84290897c14456c971821b1182fb1f27f1aa52d17258efee87ee01f375e1b0a",
+      "responseSha256": "0be82659214f2e7eaca96410bed2409948d3d917155d8aa87e013aa2564be909",
+      "rows": 8,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52767,
+        52775
+      ]
+    },
+    {
+      "index": 108,
+      "inputSha256": "e3288ad384cdb2a99ec936566172cc19697e63db5ca21d3d57cad0a9250913be",
+      "responseSha256": "700970554cc2814726b3d4abcab476dd1090ab481108b93a9571b00a54232140",
+      "rows": 2,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52780,
+        52793
+      ]
+    },
+    {
+      "index": 176,
+      "inputSha256": "c11be409779c7bc86e6c51560a257ef419484e5f87abd90c743c5db6a2ff6b52",
+      "responseSha256": "3f71b53831be909c1f24c1b7b4a675d320e399c7193abdce4e4c517edec5becf",
+      "rows": 10,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52821,
+        52827
+      ]
+    },
+    {
+      "index": 180,
+      "inputSha256": "11ac182d8aea6cb630f221a3f805120cc041c50f052fbe9eeea9ae54d428711c",
+      "responseSha256": "5f6d602cd2b34c74696ff725ba1b16e46ffbd91892247e3c8258d035cca275ca",
+      "rows": 20,
+      "pendingRows": 0,
+      "differentPIDs": [
+        52833,
+        52839
+      ]
+    }
+  ],
+  "totalRows": 128,
+  "pendingRows": 5,
+  "allWriteReadPassed": true,
+  "productBinding": "private per-window productAndTestBytes; generated shell will be finalized and replayed after full gate"
+}

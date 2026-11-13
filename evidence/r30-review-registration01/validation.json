@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "metadataChangesOnly": [
+    "ACCEPTANCE.json",
+    "AUTHORIZATION.json",
+    "DECISIONS.md",
+    "STATUS.json"
+  ],
+  "all263InputsUnchanged": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+  "sourceManifestUnchanged": true,
+  "currentDefaultIndexStillValid": true,
+  "independentPending": 0,
+  "O29_01Retained": true,
+  "humanDeviceClinicalNotPromoted": true,
+  "serviceOperations": 0
+}

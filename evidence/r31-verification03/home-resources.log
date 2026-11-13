@@ -1,0 +1,12 @@
+{"case": "home-resources", "pid": 59557, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "home-resources", "pid": 59562, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "home-resources", "pid": 59567, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "home-resources", "pid": 59572, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "home-resources", "pid": 59577, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "home-resources", "pid": 59582, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "navigation", "pid": 59587, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "navigation", "pid": 59598, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "navigation", "pid": 59603, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "navigation", "pid": 59608, "ok": false, "error": "NAVIGATION_VISIBLE_ROUTES", "target": null, "p95Ms": null}
+{"case": "navigation", "pid": 59619, "ok": false, "error": "NAVIGATION_COPY_STILL_PROMISES_CONSULTATION", "target": null, "p95Ms": null}
+{"case": "navigation", "pid": 59633, "ok": false, "error": "NAVIGATION_HIDDEN_DOWNLOAD_PROMISE", "target": null, "p95Ms": null}

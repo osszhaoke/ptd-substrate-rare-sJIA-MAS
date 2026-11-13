@@ -1,0 +1,22 @@
+{
+  "scope": "all web optional-value/truthiness fallback sites; current live root remains R24 until exact adoption",
+  "matches": [
+    "web/storage/consultation_draft.js:7:   const value=e.target.result?.value||crypto.randomUUID();",
+    "web/storage/state_read.js:7:  a.store('meta').get('data-revision').onsuccess=e=>{result.revision=e.target.result?.value||'initial';};",
+    "web/app/ocr_review.js:34:   const current={code:row.querySelector('.metric-code')?.value||null,valueLiteral:row.querySelector('.metric-value').value,unit:row.querySelector('.metric-unit').value,comparator:row.querySelector('.metric-comparator').value||null,ocrOrigin:origin};",
+    "web/app/records_snapshot.js:10:  const latest=(await store.get('meta','data-revision'))?.value||'initial';",
+    "web/storage/store.js:102:   a.store('meta').get('data-revision').onsuccess=e=>{page.revision=e.target.result?.value||'initial';};",
+    "web/app/state_controller.js:10:   const rev=(await this.store.get('meta','data-revision'))?.value||'initial';",
+    "web/app/state_controller.js:14:   const after=(await this.store.get('meta','data-revision'))?.value||'initial';",
+    "web/features/editor.js:29:export function readPayload(zone,source){return reportPayload({formatVersion:2,clinicalFlags:readFlags(),observedAt:document.querySelector('#observed-at').value.trim()||null,clinicalDate:document.querySelector('#clinical-date').value,instanceTimezone:zone,documentKind:source?'lab':'manual',nature:document.querySelector('#nature').value,sourceKind:source?.ledger?'OCR':'MANUAL',trustTier:'USER_REVIEWED',note:document.querySelector('#note').value,observations:[...document.querySelectorAll('.metric-row:not([data-report])')].map(el=>{const code=el.querySelector('.metric-code').value;",
+    "web/features/report_rows.js:13: return {...r,name:el.querySelector('.report-name')?.value.trim()||(selected&&selected!==original?.code?DICTIONARY[selected][0]:r.name),valueLiteral:el.querySelector('.metric-value').value.trim(),unit:el.querySelector('.metric-unit').value.trim(),comparator:el.querySelector('.metric-comparator').value||null,referenceRange:el.querySelector('.report-reference').value.trim(),abnormalFlag:el.querySelector('.report-flag').value,checked:el.querySelector('.report-checked').checked};"
+  ],
+  "changedSite": "web/features/report_rows.js readReportRow: existing editable name must preserve empty value; missing input alone may map to dictionary/original",
+  "unchangedReasons": {
+    "web/features/editor.js": "optional observedAt uses deliberate empty-to-null; no old editable value substituted",
+    "web/app/ocr_review.js": "metric selector absent -> null; comparator empty -> null by existing enum",
+    "web/storage/consultation_draft.js": "stored generation token missing -> fresh UUID; not user editable report field",
+    "revision fallback readers": "empty/missing revision -> initial; not current editable user value"
+  },
+  "sameRootCauseSitesFound": 1
+}

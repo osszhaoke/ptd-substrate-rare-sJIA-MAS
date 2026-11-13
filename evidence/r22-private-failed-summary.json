@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "identity": "author private public-page local replay; actual photo and prior response retained only in private directory",
+  "error": "ZOOM_PAGE_OVERFLOW",
+  "stage": "after automatic candidate review and original preview, before any save action",
+  "newPaidProviderCalls": 0,
+  "followup": "R22 style readiness guard; old startup-ready samples lacked complete stylesheet assertions"
+}

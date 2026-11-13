@@ -1,0 +1,13 @@
+{
+  "clinicalRecordsCreated" : 0,
+  "expiresAt" : "2026-11-12T15:59:00+00:00",
+  "homeCards" : 3,
+  "homeQrOpenClose" : true,
+  "identity" : "author current public-origin Mac WebKit smoke in fresh fictional profile; settings only; not phone\/real OCR acceptance",
+  "mainTabs" : 4,
+  "nonGetRequests" : 0,
+  "ocrConfigured" : true,
+  "ok" : true,
+  "secureContext" : true,
+  "uploadConsentInitiallyUnchecked" : true
+}

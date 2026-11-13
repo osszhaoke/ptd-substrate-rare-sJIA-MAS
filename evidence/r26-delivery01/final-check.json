@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "requiredChecks": 61,
+  "boundInputs": 239,
+  "sourceIndexFiles": 112,
+  "sourceFingerprintUnchangedAfterCleanupAndDocumentReview": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "archivesHashesMatched": true,
+  "health": {
+    "status": "ok",
+    "ocrEnabled": true,
+    "version": "h5-sjia-mas-r19"
+  },
+  "PDFPathAbsentNotReviewed": true,
+  "reporting": {
+    "rule": "/Users/osszhaoke/Downloads/000-PTDSv0.3-StarTorchv2 - astra/docs/reference/AI_REPORTING_R02.source.txt",
+    "ruleSha256": "7e5f073b2a21ba9d2ddcde775eacc8a69a4347e2b72de09c6a2fa7a09674137b",
+    "bodyCharactersExcludingWhitespace": 310,
+    "fieldsAndOrder": true,
+    "canonicalCheckerAvailable": false,
+    "validation": "one-off machine-readable contract checks; not canonical checker, not semantic-completeness proof"
+  }
+}

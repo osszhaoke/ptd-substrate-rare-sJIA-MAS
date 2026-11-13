@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "group": "control",
+      "mode": "intervening-write",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author fictional actual UI and service writes; not real-device, independent or clinical acceptance",
+        "mode": "intervening-write",
+        "ok": true,
+        "pageCalls": 2
+      }
+    },
+    {
+      "group": "control",
+      "mode": "queued-navigation",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author fictional actual UI and service writes; not real-device, independent or clinical acceptance",
+        "mode": "queued-navigation",
+        "ok": true,
+        "pageCalls": 2
+      }
+    },
+    {
+      "group": "control",
+      "mode": "continuous",
+      "browser": {
+        "actualProviderCalls": 0,
+        "identity": "author fictional actual UI and service writes; not real-device, independent or clinical acceptance",
+        "mode": "continuous",
+        "ok": true,
+        "pageCalls": 3
+      }
+    },
+    {
+      "group": "control",
+      "mode": "page-snapshot",
+      "browser": {
+        "identity": "actual readonly events/meta transaction with fictional service commits",
+        "mode": "page-snapshot",
+        "ok": true
+      }
+    },
+    {
+      "group": "original-r18",
+      "mode": "intervening-write",
+      "browser": {
+        "error": "HOME_PUBLISHED_OLD_TIMELINE",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:64699/:4:42\n@http://127.0.0.1:64699/:50:6"
+      }
+    },
+    {
+      "group": "guard-removal",
+      "mode": "intervening-write",
+      "browser": {
+        "error": "HOME_PUBLISHED_OLD_TIMELINE",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:64836/:4:42\n@http://127.0.0.1:64836/:50:6"
+      }
+    }
+  ],
+  "actualProviderCalls": 0,
+  "productMutated": false,
+  "identity": "author fictional actual UI controls and original regression",
+  "killedBy": "actual timeline IDs after real service commits; not a preflight check"
+}

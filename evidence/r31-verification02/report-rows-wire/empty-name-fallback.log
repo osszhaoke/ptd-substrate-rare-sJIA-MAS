@@ -1,0 +1,5 @@
+{
+  "error" : "REPORT_EMPTY_NAME_STAGED",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:59166\/:2:67\n@http:\/\/127.0.0.1:59166\/:153:5"
+}

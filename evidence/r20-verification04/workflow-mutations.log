@@ -1,0 +1,2 @@
+{"case": "workflow", "pid": 54767, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "workflow", "pid": 54782, "ok": false, "error": "WAIT ()=>$('#generate-consultation')", "target": null, "p95Ms": null}

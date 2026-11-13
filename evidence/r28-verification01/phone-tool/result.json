@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "bundle": {
+    "site": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/evidence/r28-verification01/phone-tool/bundle/site",
+    "treeSha256": "4417cf3dd80bd8219433a94ec35cbbbae7308cba18e2efe28cd86a05f1bf00eb",
+    "zipSha256": "bffb58e728537ad027e23872a615972824aa9da8a6c82e6433248eb095ee1522",
+    "files": 32,
+    "servicesStarted": false,
+    "cloudCalls": 0
+  },
+  "physicalPhone": "NOT_TESTED",
+  "identity": "author fictional harness verification"
+}

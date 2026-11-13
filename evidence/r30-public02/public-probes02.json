@@ -1,0 +1,1211 @@
+{
+  "ok": true,
+  "url": "https://cliff-joe-advertisers-dover.trycloudflare.com",
+  "deadlineUTC": "2026-11-12T15:59:00+00:00",
+  "assets": [
+    {
+      "path": "/adapters/ocr.js",
+      "ok": true,
+      "expectedSha256": "88ae1b81c967f71824142d3a56fbbf33455d731ac24e447fdf6a6bff36334fc5",
+      "actualSha256": "88ae1b81c967f71824142d3a56fbbf33455d731ac24e447fdf6a6bff36334fc5",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1441
+        }
+      ]
+    },
+    {
+      "path": "/app/action_coordinator.js",
+      "ok": true,
+      "expectedSha256": "ad3bda96b89e94347b74f3917a6993b17d9cbf6f1bb05de77a8abd613962e0d1",
+      "actualSha256": "ad3bda96b89e94347b74f3917a6993b17d9cbf6f1bb05de77a8abd613962e0d1",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1224
+        }
+      ]
+    },
+    {
+      "path": "/app/backup_task.js",
+      "ok": true,
+      "expectedSha256": "67dd1dd571056bf6590bbf766373ee5e5389dbedc321b1cc010d20ac0c89e101",
+      "actualSha256": "67dd1dd571056bf6590bbf766373ee5e5389dbedc321b1cc010d20ac0c89e101",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1759
+        }
+      ]
+    },
+    {
+      "path": "/app/consultation_draft.js",
+      "ok": true,
+      "expectedSha256": "c83c3d1747e2c2022c471e666decbc70204e73a93390e2b58a8763e0de12bc00",
+      "actualSha256": "c83c3d1747e2c2022c471e666decbc70204e73a93390e2b58a8763e0de12bc00",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3839
+        }
+      ]
+    },
+    {
+      "path": "/app/consultation_flow.js",
+      "ok": true,
+      "expectedSha256": "c9e12e4e9a35ca6547018bd2da0b9dfb27ef80b7ed03f1bf89c3016911cdecfa",
+      "actualSha256": "c9e12e4e9a35ca6547018bd2da0b9dfb27ef80b7ed03f1bf89c3016911cdecfa",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 7407
+        }
+      ]
+    },
+    {
+      "path": "/app/editor_flow.js",
+      "ok": true,
+      "expectedSha256": "41b45206702efe7f8da1404da1cd99bf48cf40af4cffd97ab97e66b27ca5651e",
+      "actualSha256": "41b45206702efe7f8da1404da1cd99bf48cf40af4cffd97ab97e66b27ca5651e",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3210
+        }
+      ]
+    },
+    {
+      "path": "/app/home_resources.js",
+      "ok": true,
+      "expectedSha256": "dc7f8c33fc6407325a74d0a2ba413f00b879be08f43f15c12530fb9012876f4f",
+      "actualSha256": "dc7f8c33fc6407325a74d0a2ba413f00b879be08f43f15c12530fb9012876f4f",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 802
+        }
+      ]
+    },
+    {
+      "path": "/app/main.js",
+      "ok": true,
+      "expectedSha256": "8505af35f5a1128b2a2ee79070dc07a6ae9a37f366e2521bc2633cf76b05c0b2",
+      "actualSha256": "8505af35f5a1128b2a2ee79070dc07a6ae9a37f366e2521bc2633cf76b05c0b2",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 15525
+        }
+      ]
+    },
+    {
+      "path": "/app/ocr_review.js",
+      "ok": true,
+      "expectedSha256": "8570add1382a57bee5f70213477fdd0abfadf35e41c74e710860bb36a5195ee8",
+      "actualSha256": "8570add1382a57bee5f70213477fdd0abfadf35e41c74e710860bb36a5195ee8",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 5678
+        }
+      ]
+    },
+    {
+      "path": "/app/ocr_task.js",
+      "ok": true,
+      "expectedSha256": "f9030ed8e8af38e815b2fa84f234d5b7a7a85515834579b4e1ae45ff37720ffd",
+      "actualSha256": "f9030ed8e8af38e815b2fa84f234d5b7a7a85515834579b4e1ae45ff37720ffd",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 532
+        }
+      ]
+    },
+    {
+      "path": "/app/records_flow.js",
+      "ok": true,
+      "expectedSha256": "f61b8b649de6861d212f131e87415dd5197764b8c37968e4c407265c9e9337f1",
+      "actualSha256": "f61b8b649de6861d212f131e87415dd5197764b8c37968e4c407265c9e9337f1",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1409
+        }
+      ]
+    },
+    {
+      "path": "/app/records_snapshot.js",
+      "ok": true,
+      "expectedSha256": "5907770fda227596a8ad10e5f32c28d927c1c793ea0e16d780b2ee55af886994",
+      "actualSha256": "5907770fda227596a8ad10e5f32c28d927c1c793ea0e16d780b2ee55af886994",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 837
+        }
+      ]
+    },
+    {
+      "path": "/app/report_editor.js",
+      "ok": true,
+      "expectedSha256": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48",
+      "actualSha256": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 819
+        }
+      ]
+    },
+    {
+      "path": "/app/settings_flow.js",
+      "ok": true,
+      "expectedSha256": "ff17ba8821792948f87998ad5926548c06fbd964fd94f678b3c2b2a8383a085a",
+      "actualSha256": "ff17ba8821792948f87998ad5926548c06fbd964fd94f678b3c2b2a8383a085a",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2664
+        }
+      ]
+    },
+    {
+      "path": "/app/startup.js",
+      "ok": true,
+      "expectedSha256": "4e7ee83c2572b27ada6b46eb022a538c0cc9c53129fd478d47171abe5beb15ae",
+      "actualSha256": "4e7ee83c2572b27ada6b46eb022a538c0cc9c53129fd478d47171abe5beb15ae",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2591
+        }
+      ]
+    },
+    {
+      "path": "/app/startup_plan.js",
+      "ok": true,
+      "expectedSha256": "ba8c56535d7f141f5faf5cc2064ad36f13ec4393c0565944cae7f9c7c20f5486",
+      "actualSha256": "ba8c56535d7f141f5faf5cc2064ad36f13ec4393c0565944cae7f9c7c20f5486",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2212
+        }
+      ]
+    },
+    {
+      "path": "/app/startup_task.js",
+      "ok": true,
+      "expectedSha256": "bcf4bd222b68e0a1771bac24875345dbba3f425b95809fc2972522982e8ea663",
+      "actualSha256": "bcf4bd222b68e0a1771bac24875345dbba3f425b95809fc2972522982e8ea663",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1294
+        }
+      ]
+    },
+    {
+      "path": "/app/state_controller.js",
+      "ok": true,
+      "expectedSha256": "cdb6941a2941a7b389b050a842f0286be928e9a24ba446c5e96e61ec0c7d4d9f",
+      "actualSha256": "cdb6941a2941a7b389b050a842f0286be928e9a24ba446c5e96e61ec0c7d4d9f",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1123
+        }
+      ]
+    },
+    {
+      "path": "/app/step_flow.js",
+      "ok": true,
+      "expectedSha256": "2130bbf757aefb31fa818e4aa1a7f6c9c9db06c45c3b7d2fe27966beb096a3c1",
+      "actualSha256": "2130bbf757aefb31fa818e4aa1a7f6c9c9db06c45c3b7d2fe27966beb096a3c1",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 812
+        }
+      ]
+    },
+    {
+      "path": "/app/ui.js",
+      "ok": true,
+      "expectedSha256": "f40b7e32f08597cf14e609404e5cd82a1989eefc6208207cc27ed91da7824021",
+      "actualSha256": "f40b7e32f08597cf14e609404e5cd82a1989eefc6208207cc27ed91da7824021",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3898
+        }
+      ]
+    },
+    {
+      "path": "/assets/sjia-knowledge-qr.jpg",
+      "ok": true,
+      "expectedSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "actualSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 151945
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/model.js",
+      "ok": true,
+      "expectedSha256": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403",
+      "actualSha256": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 6563
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/ocr_review.js",
+      "ok": true,
+      "expectedSha256": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a",
+      "actualSha256": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1858
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/report/contract.js",
+      "ok": true,
+      "expectedSha256": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403",
+      "actualSha256": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2394
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/report/fields.js",
+      "ok": true,
+      "expectedSha256": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b",
+      "actualSha256": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3864
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/report/layout.js",
+      "ok": true,
+      "expectedSha256": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50",
+      "actualSha256": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1032
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/report/rows.js",
+      "ok": true,
+      "expectedSha256": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce",
+      "actualSha256": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 5111
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/report/table_fields.js",
+      "ok": true,
+      "expectedSha256": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2",
+      "actualSha256": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1230
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/report/tables.js",
+      "ok": true,
+      "expectedSha256": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f",
+      "actualSha256": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 11815
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/state/candidates.js",
+      "ok": true,
+      "expectedSha256": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+      "actualSha256": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3078
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/state/catalog.js",
+      "ok": true,
+      "expectedSha256": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+      "actualSha256": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1612
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/state/ocr_aliases.js",
+      "ok": true,
+      "expectedSha256": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+      "actualSha256": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 827
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/state/ocr_fragments.js",
+      "ok": true,
+      "expectedSha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "actualSha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3449
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/domain/state/ocr_tables.js",
+      "ok": true,
+      "expectedSha256": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8",
+      "actualSha256": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 5646
+        }
+      ]
+    },
+    {
+      "path": "/compat/r27/web/rules/definitions.js",
+      "ok": true,
+      "expectedSha256": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+      "actualSha256": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 8047
+        }
+      ]
+    },
+    {
+      "path": "/domain/model.js",
+      "ok": true,
+      "expectedSha256": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403",
+      "actualSha256": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 6563
+        }
+      ]
+    },
+    {
+      "path": "/domain/ocr_review.js",
+      "ok": true,
+      "expectedSha256": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a",
+      "actualSha256": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1858
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/contract.js",
+      "ok": true,
+      "expectedSha256": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403",
+      "actualSha256": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2394
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/fields.js",
+      "ok": true,
+      "expectedSha256": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b",
+      "actualSha256": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3864
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/layout.js",
+      "ok": true,
+      "expectedSha256": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50",
+      "actualSha256": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1032
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/restore_binding.js",
+      "ok": true,
+      "expectedSha256": "5953f8b57288e5f0e5ceff82276159b843143c0450914b7caa3223741b12af37",
+      "actualSha256": "5953f8b57288e5f0e5ceff82276159b843143c0450914b7caa3223741b12af37",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 691
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/rows.js",
+      "ok": true,
+      "expectedSha256": "4364dd753a6ea1e071158c335bcac1ce08f0ecc32d56d9ac7649e69eeaaea3be",
+      "actualSha256": "4364dd753a6ea1e071158c335bcac1ce08f0ecc32d56d9ac7649e69eeaaea3be",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 5422
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/table_fields.js",
+      "ok": true,
+      "expectedSha256": "4b9821e4eda49efa294b343fb2601f904ee9fcde356b73a91a52e6ac17702a94",
+      "actualSha256": "4b9821e4eda49efa294b343fb2601f904ee9fcde356b73a91a52e6ac17702a94",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1607
+        }
+      ]
+    },
+    {
+      "path": "/domain/report/tables.js",
+      "ok": true,
+      "expectedSha256": "a7fe81640e63a1f964cd68a620e1b85d61a37e0ea04c7c6d1b380aa6b827ed45",
+      "actualSha256": "a7fe81640e63a1f964cd68a620e1b85d61a37e0ea04c7c6d1b380aa6b827ed45",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 12147
+        }
+      ]
+    },
+    {
+      "path": "/domain/service.js",
+      "ok": true,
+      "expectedSha256": "4588cb21fb7579b2cb25a86bd6647f05cef321928f2307a7681813421cc11e04",
+      "actualSha256": "4588cb21fb7579b2cb25a86bd6647f05cef321928f2307a7681813421cc11e04",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3121
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/candidates.js",
+      "ok": true,
+      "expectedSha256": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+      "actualSha256": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3078
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/catalog.js",
+      "ok": true,
+      "expectedSha256": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+      "actualSha256": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+      "attempts": [
+        {
+          "errorType": "HTTPError"
+        },
+        {
+          "status": 200,
+          "bytes": 1612
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/decimal.js",
+      "ok": true,
+      "expectedSha256": "6d54196a1bbb47c4cf368be0362a423bfea1e3879483b48378007cda83c04a1c",
+      "actualSha256": "6d54196a1bbb47c4cf368be0362a423bfea1e3879483b48378007cda83c04a1c",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1348
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/evaluate.js",
+      "ok": true,
+      "expectedSha256": "f176b0ff8ea72fc6554bf69fef00d245ba0d68674050d68015c497dcf1f46c7c",
+      "actualSha256": "f176b0ff8ea72fc6554bf69fef00d245ba0d68674050d68015c497dcf1f46c7c",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 4673
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/ocr_aliases.js",
+      "ok": true,
+      "expectedSha256": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+      "actualSha256": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 827
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/ocr_fragments.js",
+      "ok": true,
+      "expectedSha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "actualSha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3449
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/ocr_tables.js",
+      "ok": true,
+      "expectedSha256": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8",
+      "actualSha256": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 5646
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/project.js",
+      "ok": true,
+      "expectedSha256": "987e2d5b6a73c7e19b484f16b20cd12c0e48387f042723bea8b97516bc8f9c3c",
+      "actualSha256": "987e2d5b6a73c7e19b484f16b20cd12c0e48387f042723bea8b97516bc8f9c3c",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 982
+        }
+      ]
+    },
+    {
+      "path": "/domain/state/select.js",
+      "ok": true,
+      "expectedSha256": "34592de86d4e691063a1e25d4a715231e15a2c2cc0fef93acf72461a954759b2",
+      "actualSha256": "34592de86d4e691063a1e25d4a715231e15a2c2cc0fef93acf72461a954759b2",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3622
+        }
+      ]
+    },
+    {
+      "path": "/domain/write_binding.js",
+      "ok": true,
+      "expectedSha256": "a152bab727e15c155fafa24ec6bb1e78e39574f24bfd41cc40f10c139dd695e7",
+      "actualSha256": "a152bab727e15c155fafa24ec6bb1e78e39574f24bfd41cc40f10c139dd695e7",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1396
+        }
+      ]
+    },
+    {
+      "path": "/features/clinical_flags.js",
+      "ok": true,
+      "expectedSha256": "6ac9b24498526a3269a8f36562f523bc8be0bfaf4e09056a3cda3ee6af4c704b",
+      "actualSha256": "6ac9b24498526a3269a8f36562f523bc8be0bfaf4e09056a3cda3ee6af4c704b",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1105
+        }
+      ]
+    },
+    {
+      "path": "/features/consultation.css",
+      "ok": true,
+      "expectedSha256": "86699f5b31f3adf2c12616faa4dc334615142031ad0979d866854f692133c1bf",
+      "actualSha256": "86699f5b31f3adf2c12616faa4dc334615142031ad0979d866854f692133c1bf",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1125
+        }
+      ]
+    },
+    {
+      "path": "/features/consultation.js",
+      "ok": true,
+      "expectedSha256": "b30a46314e4eb16856f99c1517bdafd5960aa5710f9ae786d37d4039c15ee89d",
+      "actualSha256": "b30a46314e4eb16856f99c1517bdafd5960aa5710f9ae786d37d4039c15ee89d",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2643
+        }
+      ]
+    },
+    {
+      "path": "/features/consultation_page.js",
+      "ok": true,
+      "expectedSha256": "916fe768dbedca09985fa9bac148871927767333a4d7b07a51f84c68abcb1fa3",
+      "actualSha256": "916fe768dbedca09985fa9bac148871927767333a4d7b07a51f84c68abcb1fa3",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3513
+        }
+      ]
+    },
+    {
+      "path": "/features/editor.css",
+      "ok": true,
+      "expectedSha256": "2d32fd66940bb73bfe741a718ef87a674630fc8b2df2bd396f580b22d027ee00",
+      "actualSha256": "2d32fd66940bb73bfe741a718ef87a674630fc8b2df2bd396f580b22d027ee00",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1343
+        }
+      ]
+    },
+    {
+      "path": "/features/editor.js",
+      "ok": true,
+      "expectedSha256": "9fe65d8f85aa9cfe3eba2c7c25b438b0c89fa6ca7609cf957660d2b0109c1faf",
+      "actualSha256": "9fe65d8f85aa9cfe3eba2c7c25b438b0c89fa6ca7609cf957660d2b0109c1faf",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 7771
+        }
+      ]
+    },
+    {
+      "path": "/features/health_labels.js",
+      "ok": true,
+      "expectedSha256": "ee7680821a38b322477c6ff83bdc3a606bab971260cc12c3d461789590712dc5",
+      "actualSha256": "ee7680821a38b322477c6ff83bdc3a606bab971260cc12c3d461789590712dc5",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 483
+        }
+      ]
+    },
+    {
+      "path": "/features/home_resources.css",
+      "ok": true,
+      "expectedSha256": "33d848725156ee171601839f4428525cc158d9b79c95c976bf825aea2e18f98c",
+      "actualSha256": "33d848725156ee171601839f4428525cc158d9b79c95c976bf825aea2e18f98c",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2151
+        }
+      ]
+    },
+    {
+      "path": "/features/home_resources.js",
+      "ok": true,
+      "expectedSha256": "b4a2899e40ada43d9e0aae1dd8049798962ea3838e720eeea88e485beec1276b",
+      "actualSha256": "b4a2899e40ada43d9e0aae1dd8049798962ea3838e720eeea88e485beec1276b",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1470
+        }
+      ]
+    },
+    {
+      "path": "/features/ocr_evidence.js",
+      "ok": true,
+      "expectedSha256": "ad43269b7b57e99817586855f5bca11a75e9c64fb29d8ba9de97710d1c06ac10",
+      "actualSha256": "ad43269b7b57e99817586855f5bca11a75e9c64fb29d8ba9de97710d1c06ac10",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1564
+        }
+      ]
+    },
+    {
+      "path": "/features/ocr_review.css",
+      "ok": true,
+      "expectedSha256": "d645f9bbf24a623dbaa96a361db3b3d357886d23afea26a138d7295045833619",
+      "actualSha256": "d645f9bbf24a623dbaa96a361db3b3d357886d23afea26a138d7295045833619",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1151
+        }
+      ]
+    },
+    {
+      "path": "/features/records.js",
+      "ok": true,
+      "expectedSha256": "4bd3374444f842bf38aab9a0a805594011acf1b4af130817ff928ac6f75a6e14",
+      "actualSha256": "4bd3374444f842bf38aab9a0a805594011acf1b4af130817ff928ac6f75a6e14",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3284
+        }
+      ]
+    },
+    {
+      "path": "/features/report_rows.js",
+      "ok": true,
+      "expectedSha256": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
+      "actualSha256": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 4683
+        }
+      ]
+    },
+    {
+      "path": "/features/settings.js",
+      "ok": true,
+      "expectedSha256": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+      "actualSha256": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2618
+        }
+      ]
+    },
+    {
+      "path": "/features/states.css",
+      "ok": true,
+      "expectedSha256": "3f29e0f08f0113618358f5cc895a8ac564bc59b1d3ab388572ace9e7839a6a39",
+      "actualSha256": "3f29e0f08f0113618358f5cc895a8ac564bc59b1d3ab388572ace9e7839a6a39",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1711
+        }
+      ]
+    },
+    {
+      "path": "/features/states.js",
+      "ok": true,
+      "expectedSha256": "f3838dfc91b04dbe54876e15110365c7d198fef4a1c85bcce371e6ebeaa2853e",
+      "actualSha256": "f3838dfc91b04dbe54876e15110365c7d198fef4a1c85bcce371e6ebeaa2853e",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 9404
+        }
+      ]
+    },
+    {
+      "path": "/features/step_labels.js",
+      "ok": true,
+      "expectedSha256": "a4acd4278451288b4d1350dd0ce85f7a527b75a1f8bef6b76a09c1f3f4df07d4",
+      "actualSha256": "a4acd4278451288b4d1350dd0ce85f7a527b75a1f8bef6b76a09c1f3f4df07d4",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 345
+        }
+      ]
+    },
+    {
+      "path": "/fixture.png",
+      "ok": true,
+      "expectedSha256": "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+      "actualSha256": "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 969011
+        }
+      ]
+    },
+    {
+      "path": "/icon-180.png",
+      "ok": true,
+      "expectedSha256": "5ce24ac16d24cb6dae3fe43086c7f22e933fc1e5c9c6a3c42da5be0760ea0960",
+      "actualSha256": "5ce24ac16d24cb6dae3fe43086c7f22e933fc1e5c9c6a3c42da5be0760ea0960",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 41130
+        }
+      ]
+    },
+    {
+      "path": "/icon-192.png",
+      "ok": true,
+      "expectedSha256": "c931ba8a5e04e056511ef39ac5964e6be7079dca354c5558dface31304258f9d",
+      "actualSha256": "c931ba8a5e04e056511ef39ac5964e6be7079dca354c5558dface31304258f9d",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 44736
+        }
+      ]
+    },
+    {
+      "path": "/icon-512.png",
+      "ok": true,
+      "expectedSha256": "3f2da187388cf81769e92754b0b6a38f276a84566c1c251c30a147b415be5516",
+      "actualSha256": "3f2da187388cf81769e92754b0b6a38f276a84566c1c251c30a147b415be5516",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 172582
+        }
+      ]
+    },
+    {
+      "path": "/icon.svg",
+      "ok": true,
+      "expectedSha256": "b384db00af1cd0c891e215654be47c60f1c7c15fa0d847d1cd1ea5c3753323ad",
+      "actualSha256": "b384db00af1cd0c891e215654be47c60f1c7c15fa0d847d1cd1ea5c3753323ad",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 282
+        }
+      ]
+    },
+    {
+      "path": "/index.html",
+      "ok": true,
+      "expectedSha256": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d",
+      "actualSha256": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1922
+        }
+      ]
+    },
+    {
+      "path": "/manifest.webmanifest",
+      "ok": true,
+      "expectedSha256": "e32f5cccd1ce751564a74ea86c64b3c25c1ada2183bf8e04003735f379e478f9",
+      "actualSha256": "e32f5cccd1ce751564a74ea86c64b3c25c1ada2183bf8e04003735f379e478f9",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 329
+        }
+      ]
+    },
+    {
+      "path": "/rules/definitions.js",
+      "ok": true,
+      "expectedSha256": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+      "actualSha256": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 8047
+        }
+      ]
+    },
+    {
+      "path": "/shared/observe.js",
+      "ok": true,
+      "expectedSha256": "0afa9dc9697d2f32120498c98fcb221d4312640ce26ffeaa4882d3b3b3e02088",
+      "actualSha256": "0afa9dc9697d2f32120498c98fcb221d4312640ce26ffeaa4882d3b3b3e02088",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 369
+        }
+      ]
+    },
+    {
+      "path": "/storage/backup.js",
+      "ok": true,
+      "expectedSha256": "c954ed9e02d52bf9889729089727045c1d7621e92202e2013a09348d4711ce70",
+      "actualSha256": "c954ed9e02d52bf9889729089727045c1d7621e92202e2013a09348d4711ce70",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 8206
+        }
+      ]
+    },
+    {
+      "path": "/storage/backup_reader.js",
+      "ok": true,
+      "expectedSha256": "71004865105bdc128fe253e97294afe7167fdd58eb69bcfe290249d7a02642ea",
+      "actualSha256": "71004865105bdc128fe253e97294afe7167fdd58eb69bcfe290249d7a02642ea",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1541
+        }
+      ]
+    },
+    {
+      "path": "/storage/backup_stream.js",
+      "ok": true,
+      "expectedSha256": "b0823c57f87b53c7eec1ffa9ff2bec616bf28b61c632e4391d1405620575b341",
+      "actualSha256": "b0823c57f87b53c7eec1ffa9ff2bec616bf28b61c632e4391d1405620575b341",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 5753
+        }
+      ]
+    },
+    {
+      "path": "/storage/backup_task.js",
+      "ok": true,
+      "expectedSha256": "f96266172f9f96899acb897c079db157f58a3a2a411581f9088c0ab9f61b0ff8",
+      "actualSha256": "f96266172f9f96899acb897c079db157f58a3a2a411581f9088c0ab9f61b0ff8",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1299
+        }
+      ]
+    },
+    {
+      "path": "/storage/consultation_draft.js",
+      "ok": true,
+      "expectedSha256": "3e0dfda5855ec23f21f7219f2b98c92ae4d0b2eaec63a40f62d300e39033609c",
+      "actualSha256": "3e0dfda5855ec23f21f7219f2b98c92ae4d0b2eaec63a40f62d300e39033609c",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2017
+        }
+      ]
+    },
+    {
+      "path": "/storage/state_read.js",
+      "ok": true,
+      "expectedSha256": "fa1c9afde9c33c6236c214084b1f7174cd25f2095446485f71a1854e75264b8a",
+      "actualSha256": "fa1c9afde9c33c6236c214084b1f7174cd25f2095446485f71a1854e75264b8a",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2116
+        }
+      ]
+    },
+    {
+      "path": "/storage/store.js",
+      "ok": true,
+      "expectedSha256": "20b6405d7af6434ae4effe5664c2606a377ecab230a530da4e951efe5f79b4d7",
+      "actualSha256": "20b6405d7af6434ae4effe5664c2606a377ecab230a530da4e951efe5f79b4d7",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 11515
+        }
+      ]
+    },
+    {
+      "path": "/style.css",
+      "ok": true,
+      "expectedSha256": "812698ab4bf971d4522936b6d3f74858c3ffa67abff9388cdf240cc0e2f02224",
+      "actualSha256": "812698ab4bf971d4522936b6d3f74858c3ffa67abff9388cdf240cc0e2f02224",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 4672
+        }
+      ]
+    },
+    {
+      "path": "/styles/responsive.css",
+      "ok": true,
+      "expectedSha256": "bb0f65fc0b2eec3e7a03569601fd63a92f0dbc451b936123d5dd42ca4aae1c14",
+      "actualSha256": "bb0f65fc0b2eec3e7a03569601fd63a92f0dbc451b936123d5dd42ca4aae1c14",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 1663
+        }
+      ]
+    },
+    {
+      "path": "/styles/shell.css",
+      "ok": true,
+      "expectedSha256": "04c55af50bcae44f187aeceb330b410d4d0d1041ad72006040d12a5614cd4cd8",
+      "actualSha256": "04c55af50bcae44f187aeceb330b410d4d0d1041ad72006040d12a5614cd4cd8",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 2507
+        }
+      ]
+    },
+    {
+      "path": "/sw.js",
+      "ok": true,
+      "expectedSha256": "366ac59083bb1278f10cf71d919291100261193001bf41f1aaa95e9cef9d741f",
+      "actualSha256": "366ac59083bb1278f10cf71d919291100261193001bf41f1aaa95e9cef9d741f",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 3769
+        }
+      ]
+    },
+    {
+      "path": "/typography.css",
+      "ok": true,
+      "expectedSha256": "446eaa13a12b2d2ea030e18379a8885d7c1822205b9bb174783675eabf1d05a8",
+      "actualSha256": "446eaa13a12b2d2ea030e18379a8885d7c1822205b9bb174783675eabf1d05a8",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 4791
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "path": "/health",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 134
+        }
+      ],
+      "response": {
+        "status": "ok",
+        "version": "h5-sjia-mas-r19",
+        "mode": "public-24h-r01",
+        "ocrEnabled": true,
+        "expiresAt": "2026-11-12T15:59:00+00:00"
+      }
+    },
+    {
+      "path": "/trial-status",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 134
+        }
+      ],
+      "response": {
+        "status": "ok",
+        "version": "h5-sjia-mas-r19",
+        "mode": "public-24h-r01",
+        "ocrEnabled": true,
+        "expiresAt": "2026-11-12T15:59:00+00:00"
+      }
+    },
+    {
+      "path": "/api/ocr/config",
+      "attempts": [
+        {
+          "status": 200,
+          "bytes": 475
+        }
+      ],
+      "response": {
+        "enabled": true,
+        "provider": "tencent-general-accurate",
+        "region": "ap-guangzhou",
+        "maxImageBytes": 2097152,
+        "disclosure": "\u672c\u6b21\u56fe\u7247\u7ecf\u672c\u7f51\u5173\u53d1\u9001\u81f3\u817e\u8baf\u4e91\u901a\u7528\u6587\u5b57\u8bc6\u522b\uff08\u9ad8\u7cbe\u5ea6\u7248\uff09\uff0c\u5927\u9646\u8bf7\u6c42\u5730\u57df\u53c2\u6570\uff08\u4e0d\u4ee3\u8868\u5df2\u6838\u5b9e\u4ec5\u5728\u5e7f\u5dde\u5904\u7406\uff09\uff1aap-guangzhou\u3002\u56fe\u7247\u79bb\u5f00\u8bbe\u5907\uff1b\u672c\u7f51\u5173\u4e0d\u6301\u4e45\u4fdd\u5b58\u56fe\u7247\u6216\u8bc6\u522b\u6b63\u6587\u3002\u670d\u52a1\u5546\u53ca\u5e73\u53f0\u4ecd\u53ef\u80fd\u7559\u5b58\u8bf7\u6c42\u5143\u6570\u636e\u3002",
+        "publicTrial": true,
+        "expiresAt": "2026-11-12T15:59:00+00:00"
+      }
+    },
+    {
+      "path": "/STATUS.json",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/gateway/credentials.py",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/../STATUS.json",
+      "status": 400,
+      "ok": true
+    },
+    {
+      "path": "/compat/r27/LOCK.json",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/rules/h1-dictionary-0.1.json",
+      "status": 404,
+      "ok": true
+    },
+    {
+      "path": "/rules/sjia-rulepack-0.1.json",
+      "status": 404,
+      "ok": true
+    }
+  ],
+  "paidOcrCalls": 0,
+  "phoneCellularTested": false,
+  "identity": "author GET-only public reachability and byte comparison from this Mac"
+}

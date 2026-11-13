@@ -1,0 +1,5 @@
+{
+  "error" : "ORIGIN_SNAPSHOT_MISSING",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:51983\/:2:67\n@http:\/\/127.0.0.1:51983\/:36:61"
+}

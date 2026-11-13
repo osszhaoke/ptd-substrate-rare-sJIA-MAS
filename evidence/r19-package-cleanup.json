@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "supersededZip": "deploy/PTDS-H5-sjia-mas-r18.zip",
+  "sha256BeforeDeletion": "6b26f7bbcbd791b74b59d8ed3c84058bfecb61c5b4d9517aeefe2d3de325c016",
+  "bytes": 1396203,
+  "newZipFullProofAndBytesChecked": true,
+  "sourceAndFailuresRemainInGit": true,
+  "privateStateTouched": false
+}

@@ -1,0 +1,12 @@
+{
+  "pidAlive": true,
+  "pid": 56388,
+  "independentSessionId": 56388,
+  "independentProcessGroup": 56388,
+  "detachedFromInputTerminal": true,
+  "publicOwnerLockHeld": true,
+  "expiresAt": "2026-11-09T15:59:00+00:00",
+  "ocrEnabled": true,
+  "qrSha256": "7e4b1f3cc94e6a9b81a136ad98a1a932d41e7fadbeb6008245598458be90249e",
+  "metadataKeysExplicitlyAllowlisted": true
+}

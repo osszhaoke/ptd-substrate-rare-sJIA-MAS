@@ -1,0 +1,17 @@
+{
+  "correctionVisible": true,
+  "localReplays": 1,
+  "noFormalSave": true,
+  "observations": 5,
+  "ok": true,
+  "originalHighlights": true,
+  "previewReleased": true,
+  "providerCalls": 0,
+  "sourceLines": 178,
+  "identity": "author private local replay of authorized image and prior response; no new supplier call, human or physical acceptance",
+  "imageSha256": "c33fcfb2f062ee397a825a065956ef3472d1f397a9efc24836bb4868e93e6c68",
+  "responseSha256": "d134157b8d2e4c6ffe6ab119c50f709575af7f4988c12948dfddf69524397966",
+  "newPaidRequests": 0,
+  "formalRecordsWritten": 0,
+  "budgetReservations": 0
+}

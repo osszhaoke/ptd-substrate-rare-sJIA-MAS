@@ -1,0 +1,6 @@
+{
+  "full02": "incomplete after repeat review control wait; only own bound probe terminated; not counted as pass",
+  "repair": "activate/key only own window in didFinish immediately before each actual test injection, plus retain first terminal result to prevent timeout/result artifact overwrite",
+  "productChanges": false,
+  "timeoutsOrBusinessAssertionsChanged": false
+}

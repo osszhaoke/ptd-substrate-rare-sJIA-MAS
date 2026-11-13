@@ -1,0 +1,290 @@
+{
+  "added" : 1000,
+  "coldMs" : [
+    31,
+    24,
+    24,
+    22,
+    22,
+    22,
+    24
+  ],
+  "coldP95Ms" : 31,
+  "device" : "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko)",
+  "diagnosticLimits" : "snapshot includes IDB wait, clone, filtering and commit; getAll dispatch includes native work, clone and scheduling; projectionAndContinuation includes synchronous projection and promise continuation; heartbeat delay is event-loop observation, not unique cause",
+  "diagnostics" : [
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        15
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        1,
+        0
+      ],
+      "projectionAndContinuationMs" : 17,
+      "snapshotMs" : [
+        13
+      ],
+      "totalMs" : 31
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        1
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 1
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        7
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        0,
+        1
+      ],
+      "projectionAndContinuationMs" : 14,
+      "snapshotMs" : [
+        9
+      ],
+      "totalMs" : 24
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        0
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 0
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        8
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        0,
+        2
+      ],
+      "projectionAndContinuationMs" : 12,
+      "snapshotMs" : [
+        10
+      ],
+      "totalMs" : 24
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        1
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 1
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        6
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        0,
+        0
+      ],
+      "projectionAndContinuationMs" : 12,
+      "snapshotMs" : [
+        10
+      ],
+      "totalMs" : 22
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        0
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 0
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        6
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        0,
+        0
+      ],
+      "projectionAndContinuationMs" : 12,
+      "snapshotMs" : [
+        10
+      ],
+      "totalMs" : 22
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        0
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 0
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        6
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        0,
+        0
+      ],
+      "projectionAndContinuationMs" : 12,
+      "snapshotMs" : [
+        10
+      ],
+      "totalMs" : 22
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        0
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 0
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+        7
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "cold",
+      "metaReadMs" : [
+        1,
+        1
+      ],
+      "projectionAndContinuationMs" : 11,
+      "snapshotMs" : [
+        11
+      ],
+      "totalMs" : 24
+    },
+    {
+      "finalHeartbeatDelayMs" : 0,
+      "heartbeatDelayMs" : [
+
+      ],
+      "idbGetAllDispatchMs" : [
+
+      ],
+      "kind" : "warm",
+      "metaReadMs" : [
+        0
+      ],
+      "projectionAndContinuationMs" : 0,
+      "snapshotMs" : [
+
+      ],
+      "totalMs" : 0
+    }
+  ],
+  "insertMs" : 2401,
+  "ok" : true,
+  "shape" : "9 metrics +9 flags \/ record; 2 natures; same-day worst-case cursor and LATEST ordering; all writes via stage-confirm-save",
+  "target" : 1000,
+  "warmMs" : [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "warmP95Ms" : 1
+}

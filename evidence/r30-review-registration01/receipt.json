@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "identity": "author registration of supplied independent external review, not a new product test or independent execution",
+  "atUTC": "2026-11-11T10:12:05.348676+00:00",
+  "review": {
+    "conclusion": "CONDITIONAL_PASS_TARGETED_ONLY",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R30-independent-review-20261111-01/REPORT.md",
+    "reportSha256": "65c23aca7c19ed91b45f7a5fe0b3716867450af3b2346797180e6eb5d5960122",
+    "reviewedHead": "9e1f4649337e9f7bae3f1a9c20e203a4d2208eaf",
+    "productCommit": "e6e19976a41f4a687062b87d7556637baee5583b",
+    "binding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+    "staticPatch": "r19-save01",
+    "staticVersion": "f5079cbdc06b2bc6",
+    "closed": {
+      "R29-A01": "CLOSED_INDEPENDENTLY_ON_R30_FIRST_SAVE_BOUNDARY",
+      "R29-A02": "CLOSED_INDEPENDENTLY_ON_R30_CURRENT_ACCEPTANCE_INDEX"
+    },
+    "oldFormalBackupR28A01": "INDEPENDENT_CLOSURE_MAINTAINED_AND_RERUN_ON_R30",
+    "sourceBlobReuse": "INDEPENDENT_CURRENT_MAC_WEBKIT_POSITIVE_AND_EFFECTIVE_MUTATION_PASS",
+    "actualExecution": {
+      "nodeTests": 130,
+      "pythonTests": 55,
+      "reportWindows": 63,
+      "positiveReportWindows": 51,
+      "effectiveReportMutations": 12,
+      "legacyDifferentPIDPairs": 16,
+      "upgradeDifferentPIDGroups": {
+        "footer": [
+          12503,
+          12521,
+          12528,
+          12533,
+          12539
+        ],
+        "unit": [
+          12545,
+          12552,
+          12559,
+          12565,
+          12571
+        ],
+        "valid": [
+          12585,
+          12594,
+          12600
+        ]
+      },
+      "browserCore": true,
+      "indexCLIPositiveAndNineNegatives": true,
+      "sourceManifestPositiveAndFiveNegatives": true,
+      "full61Rerun": false,
+      "paidProviderCalls": 0,
+      "productServicesContacted": false
+    },
+    "retained": [
+      "O29-01 aggregate restore20k approx1.5s; not remeasured onR30",
+      "physical iPhone peak memory/actual low space/BFCache",
+      "human/clinical acceptance",
+      "loaded-keyed-gateway identity",
+      "historical first stall unique cause",
+      "not arbitrary historical versions or real OCR accuracy/public acceptance"
+    ],
+    "closeout": "docs/REVIEW_CLOSEOUT_R30.md",
+    "registrationEvidence": "evidence/r30-review-registration01/receipt.json",
+    "AIh": "UNMEASURED"
+  },
+  "selectedIndependentEvidenceSha256": {
+    "REPORT.md": "65c23aca7c19ed91b45f7a5fe0b3716867450af3b2346797180e6eb5d5960122",
+    "identity-before.json": "8e67a45c1766ca3d075354e7e90f872536284cb569a8387e151a41d4e93670d2",
+    "identity-after.json": "1cd991628fb3d5a2faa170f40673ab7c7a91bc4555dedf3459e64631be0c35f0",
+    "report-run-accounting.json": "5140c34ebaaa7e413eb83fec1248813b002554a47a0cf4f2de7b8eef73ab3e24",
+    "acceptance-index-cli.json": "5259096e69f113763f811b81e5fb98c047baec4bb768204c01a8ae4ae4bcf2ff",
+    "index-controls/result.json": "afb57667e2a7e781dc48d8e7ea84eb1ce2f37393ef90d085688a071cac120bd7",
+    "store-commit-parity.json": "1c23f071227ed99dbb69f0f1b9f717546d46bc75249d8825ac7b4c4b6ea64837",
+    "node.log": "521a6e37564b54fb83ffe608ebf0d1a3b033c6368d0654a2ff32e42de4987cac",
+    "python.log": "91a242801f389b5aa7b4321d2ef2966bc6fe885fa0808a4edd481300f396638a",
+    "archive-receipt.json": "0f009c997287d2956cbb489ee1dea226fb73cbbaa31574c03048a9166235ed94"
+  },
+  "metadataBeforeSha256": {
+    "STATUS.json": "d47feb772969a5b222eca88eed19c5414d5ac65c2f5ab32ea51607d6875b3f6c",
+    "ACCEPTANCE.json": "2e34935713bfb309350ab78f34ee6f47a131f28cac13ed127c47f13ba4c7f8f3",
+    "AUTHORIZATION.json": "132952fdb4ff9f536f11190de78b659deed2d9502c7487193fc046e0d8e47f88",
+    "DECISIONS.md": "829f6b8918c62991ad82055cab4be98127ed2759bf9e4dfcc13d52adab4c9c1d"
+  },
+  "metadataAfterSha256": {
+    "STATUS.json": "b1e77387a924f6bdc00423ae46abfae853c9549d4f655e2f074d9ae40c1b0b73",
+    "ACCEPTANCE.json": "2e932b4c811b4311cc4fcc42d93e60c12f3ed40892f1f14c589f7b4acbe44c85",
+    "AUTHORIZATION.json": "a4760913d23b5fe30090dd8049667f86fa9e7ebd8346ac789dc56dcf955a12b2",
+    "DECISIONS.md": "9eeb68c5cbf095ffa91dda90f4871e1afb5fbcaa7d146224eee2d2eb355a1626"
+  },
+  "all263BoundInputsUnchanged": true,
+  "sourceManifestUnchanged": true,
+  "oldZIPUnchanged": true,
+  "serviceOrProviderOrDatabaseOperations": 0,
+  "auditArchiveReductionReportedByAuditor": 2100373,
+  "sourceManifestSha256": "6fcbac4e7043edbaab08f748b417e06d2081e74c74f3211c0c335e37b4ef4327"
+}

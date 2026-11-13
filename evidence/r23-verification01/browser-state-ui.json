@@ -1,0 +1,28 @@
+{
+  "acceptance" : "AUTOMATED_UI_NOT_HUMAN",
+  "cardBounds" : [
+    {
+      "height" : 159.15625,
+      "width" : 110
+    },
+    {
+      "height" : 159.15625,
+      "width" : 110
+    },
+    {
+      "height" : 159.15625,
+      "width" : 110
+    }
+  ],
+  "ok" : true,
+  "results" : [
+    "exactly three home cards",
+    "details and changes",
+    "clinical flags saved",
+    "stale review rejected",
+    "REAL default without selector",
+    "fixed three cards and hidden storage controls",
+    "four navigation items"
+  ],
+  "width" : 390
+}

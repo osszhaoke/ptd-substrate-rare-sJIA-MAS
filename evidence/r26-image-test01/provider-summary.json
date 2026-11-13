@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "imageIndex": 1,
+      "imageSha256": "c33fcfb2f062ee397a825a065956ef3472d1f397a9efc24836bb4868e93e6c68",
+      "requestId": "r26_images01_c33fcfb2f062ee397a825a065956ef3472d1f397a9efc248",
+      "automaticRetries": 0,
+      "status": "OCR_RESPONSE_CAPTURED",
+      "recognizedFragments": 179,
+      "responseSha256": "389de20d58e4e40229f657f425a6ae8617ece4ac4d8d9ff81802468c03681876"
+    },
+    {
+      "imageIndex": 2,
+      "imageSha256": "db90b93738e7cfba7a0c39b9db866bbd4f79787dae9402e81dab5a40b6925a40",
+      "requestId": "r26_images01_db90b93738e7cfba7a0c39b9db866bbd4f79787dae9402e8",
+      "automaticRetries": 0,
+      "status": "OCR_RESPONSE_CAPTURED",
+      "recognizedFragments": 200,
+      "responseSha256": "5e28ff1f365345b59e44d97cbf498a39483abcb8fcd47ea3aae41a5a5af2d140"
+    },
+    {
+      "imageIndex": 3,
+      "imageSha256": "6cd1dd77587de78dfccdcc277d2451156787b2df8eb7f0aff3e82f5c4807a61f",
+      "requestId": "r26_images01_6cd1dd77587de78dfccdcc277d2451156787b2df8eb7f0af",
+      "automaticRetries": 0,
+      "status": "OCR_RESPONSE_CAPTURED",
+      "recognizedFragments": 56,
+      "responseSha256": "05f6d8e72839202c52136c95db20370aed3037ee6c5445ac50127a088100461b"
+    },
+    {
+      "imageIndex": 4,
+      "imageSha256": "88b9c08db751d4caf199ee4139f98c5c6a993428d865cb36cdeafee767d6871c",
+      "requestId": "r26_images01_88b9c08db751d4caf199ee4139f98c5c6a993428d865cb36",
+      "automaticRetries": 0,
+      "status": "OCR_RESPONSE_CAPTURED",
+      "recognizedFragments": 27,
+      "responseSha256": "235736320c3024e24d9b5c3ec2b7c7b6ed18e580446edbf7ea58220ce9107a7f"
+    },
+    {
+      "imageIndex": 5,
+      "imageSha256": "3c7e808f83a3dc26fcfd34bc4921b46033ea72d226ab4bd813a5ffcea2585b67",
+      "requestId": "r26_images01_3c7e808f83a3dc26fcfd34bc4921b46033ea72d226ab4bd8",
+      "automaticRetries": 0,
+      "status": "OCR_RESPONSE_CAPTURED",
+      "recognizedFragments": 148,
+      "responseSha256": "3e462c01be7574f4ed35bba2dc75b3448fb4cd6c6ef31d1c03f96f61bd41efc9"
+    },
+    {
+      "imageIndex": 6,
+      "imageSha256": "5c166bcfe3afb541092aed11ef5300a54cf508a637c44d81f705370e97281a37",
+      "requestId": "r26_images01_5c166bcfe3afb541092aed11ef5300a54cf508a637c44d81",
+      "automaticRetries": 0,
+      "status": "OCR_RESPONSE_CAPTURED",
+      "recognizedFragments": 15,
+      "responseSha256": "b7d903b09da0015e5b827d3153aa4b4d1e95ebd47b5070ed2b5e25f03dd3578c"
+    }
+  ],
+  "accessCodeStored": false,
+  "realRequestsSent": 6
+}

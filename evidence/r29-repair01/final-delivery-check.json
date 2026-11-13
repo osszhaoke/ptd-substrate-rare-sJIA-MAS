@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "currentRootProofExact": "3b1dd760cdcb840c526fb903984d98d8e2a8710a2f83b25e8f565bb6258e56b9",
+  "sourceManifestEntries": 129,
+  "documentsValid": true,
+  "oldZIPUnchanged": true,
+  "independentClosurePending": 1,
+  "original61Passed": true,
+  "supplementalAggregatePerformanceObservation": "OPEN_NOT_PASSED",
+  "serviceOperationsAndRealOCR": 0,
+  "gitDiffWhitespaceCheck": true
+}

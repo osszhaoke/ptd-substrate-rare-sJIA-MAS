@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "entryCount": 112,
+  "addedPaths": [
+    "web/domain/report/layout.js",
+    "web/domain/report/tables.js"
+  ],
+  "staticPatch": "r19-layout01",
+  "verification": "evidence/r26-verification01/result.json",
+  "binding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "productTreeSha256": "40814b1980ebb642ede4510c078932e7cd0c7d6d268af46e2ed92e7028c7785e",
+  "sourceManifestSha256": "91eb672f6c7a5482059ed9512285e85775574542f508a7e7343f8a179c61b1a7",
+  "negativeControls": {
+    "old-patch": "INDEX_PATCH_MISMATCH",
+    "old-proof": "INDEX_PROOF_MISMATCH",
+    "missing-proof": "VERIFICATION_REQUIRED",
+    "old-binding": "INDEX_BINDING_MISMATCH",
+    "stale-proof": "VERIFICATION_STALE_OR_MISSING_FILES"
+  },
+  "zipCreatedOrModified": false
+}

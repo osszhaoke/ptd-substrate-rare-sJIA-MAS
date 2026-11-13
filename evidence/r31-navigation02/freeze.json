@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "archive": "R31-A2R1-source-and-evidence.tar.gz",
+  "archiveBytes": 205990849,
+  "archiveSha256": "eec2ab4a48cdb81caa54f32be9ee21cf56e98773e0f0f738901812d04bbc25c2",
+  "fileCount": 9235,
+  "binding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "sourceDeltaPaths": [
+    "tools/test_plan.json",
+    "tests/test_navigation_runner.py"
+  ],
+  "productDeltaPaths": [],
+  "authorFullGate": "PASS_61_REQUIRED_CHECKS",
+  "adopted": false,
+  "serviceOperations": 0
+}

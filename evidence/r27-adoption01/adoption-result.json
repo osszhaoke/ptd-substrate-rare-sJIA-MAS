@@ -1,0 +1,93 @@
+{
+  "ok": true,
+  "identity": "author exact local static adoption after complete isolated fictional proof; not independent/phone/clinical acceptance",
+  "batch": "R27",
+  "staticPatch": "r19-layout02",
+  "staticVersion": "8826bf968d1ed140",
+  "binding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+  "boundInputs": 240,
+  "checks": 61,
+  "verification": "evidence/r27-verification01/result.json",
+  "previousAdoption": "evidence/r26-adoption01/adoption-result.json",
+  "previousAdoptionSha256": "5a2409e8638dd9bb91dc74612fbb08c30e26ef3fec829ca1d52e260c1a01e1e5",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "1f04be0f5cd4bb32a7b29dab75d95a8d78824da255ae2da4bf994de9bad0f933",
+      "after": "a04820c16697930e93453ffbb9abf2e87939b57ff6bbb6ad14d04d10fc430528"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "46a7825f14b3db8c28f76abda17446f90e64bcf284ef3b4d0e471449c469a161",
+      "after": "9eb9e7a744d8952590d213ac75c59dff6269d04fa08a036debcb15654c6fb331"
+    },
+    {
+      "path": "gateway/ocr.py",
+      "before": "97423caeccce0f2361f32f6400931af337d8ce83ff249558ca167b3ad128454b",
+      "after": "7e0ca1d8cd2acb061c6a256a531dce8a78e6d865261d08deb411d1e77e45eb8a"
+    },
+    {
+      "path": "tests/browser.report-rows.js",
+      "before": "b64b90ea7279999c832f689209aba9acfd827cd39e3a37fb3b60433d80470f0e",
+      "after": "f74074ad318fc8ccd63ffffbbeeb7b15aa6e2217fd51f402d3a12f3191510c72"
+    },
+    {
+      "path": "tests/fixtures/report_layouts.mjs",
+      "before": "2d6cf88afed281da5d5ccd26faab8ca22b666c58828d5de9075196d733df4309",
+      "after": "e11a3fb8bcec49cdc8e014801ba1e02c6529205df5872eb0dd15ba0a2ec01405"
+    },
+    {
+      "path": "tests/report_rows.test.mjs",
+      "before": "83b640694dfe3917947bbc97c3949b68dc49133ce5c29f7498517f397eeb08b9",
+      "after": "7ad5d07bd421b3ee32c05b02401c6ce9310138f6f15c2bdf16fab65d74ae698c"
+    },
+    {
+      "path": "tests/test_gateway.py",
+      "before": "f5f63f671c2eecbade6dbfb1d76555978d4a87a29f6aa31c26fd043834ecd267",
+      "after": "c677340cdf4af2d337820cb139b91efb8a358aade98bc9b2eb9e9d5189bb7a8f"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": "7ae7f7393bc3963fbf7d00168b340969b06d051782f9ebd2fe6aeeaa573ec65f",
+      "after": "932184d5eaf779c23bdd35c3d1766122f72e2223f98ba87597b63a12c1637354"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "f73602bf366f260610a0ad6c341f4e9f51898396dfad41e4bb8ba150e57fbaa6",
+      "after": "0100cb91fea27411caaafbb766e9cc5a66f5bde456806d8f092a5f4e4ab149b8"
+    },
+    {
+      "path": "web/app/startup_plan.js",
+      "before": "f51b647795cb1b9a8651ceaee92e1ad7b0926bc8e14f69370139c48a1da05c84",
+      "after": "85a0f7e49b134af0dde8eb45b72428a95e352d71e324ebb232ae68bf601c9862"
+    },
+    {
+      "path": "web/domain/report/fields.js",
+      "before": "027820da8c13e6a1f3e8dca4ae976588173b2ca8e4daf48e97414695c059a4c9",
+      "after": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b"
+    },
+    {
+      "path": "web/domain/report/table_fields.js",
+      "before": null,
+      "after": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2"
+    },
+    {
+      "path": "web/domain/report/tables.js",
+      "before": "a1223d131241443413a10bbcacd7b1f50875f7021c86f7d7bce00576b097a430",
+      "after": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "f7d9be248edc1eef48d7e537761d1797748a2be08774370c9aacd7171223d808",
+      "after": "04d6ffce9297f344d182f9171e8f64c1527e84025906c0552cd001e8ff892132"
+    }
+  ],
+  "oldWebAt": "runtime/r27-web-swap01",
+  "otherBeforeBytes": "runtime/r27-source-before01",
+  "serviceRestarts": 0,
+  "newProviderCallsDuringAdoption": 0,
+  "runningGateway": "R26 code already loaded in PID45593; R27 gateway source adopted but new process required; no credential access or hot reload",
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "rollback": "atomic web exchange back plus exact non-web restoration/deletion; baseline asserted before and after"
+}

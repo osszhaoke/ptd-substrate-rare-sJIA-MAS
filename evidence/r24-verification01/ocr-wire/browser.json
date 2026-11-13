@@ -1,0 +1,9 @@
+{
+  "lines" : 5,
+  "noAutomaticSave" : true,
+  "noOversizeUpload" : true,
+  "ok" : true,
+  "requestId" : "2e422f94-4116-460c-b0ba-135f7c48bbfd",
+  "scope" : "browser→local HTTP gateway→real TC3 signer\/Tencent adapter→simulated provider response→automated review\/confirm→local IDB; no real provider\/TLS\/public\/physical\/human acceptance",
+  "sourceHash" : "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13"
+}

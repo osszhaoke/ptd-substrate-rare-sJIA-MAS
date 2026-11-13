@@ -1,0 +1,47 @@
+{
+  "cssOriginalSha256": "e3d109c888d85e3ba642c21ef1dae4243e2dfe15dae85fd609e85bb344cf9d77",
+  "cssConcatenationExact": true,
+  "cssSegments": [
+    {
+      "path": "web/style.css",
+      "originalStartLine": 1,
+      "originalEndLine": 293
+    },
+    {
+      "path": "web/styles/shell.css",
+      "originalStartLine": 294,
+      "originalEndLine": 459
+    },
+    {
+      "path": "web/features/editor.css",
+      "originalStartLine": 460,
+      "originalEndLine": 542
+    },
+    {
+      "path": "web/features/states.css",
+      "originalStartLine": 543,
+      "originalEndLine": 636
+    },
+    {
+      "path": "web/features/consultation.css",
+      "originalStartLine": 637,
+      "originalEndLine": 702
+    },
+    {
+      "path": "web/styles/responsive.css",
+      "originalStartLine": 703,
+      "originalEndLine": 808
+    }
+  ],
+  "mainBeforeBytes": 18121,
+  "mainAfterBytes": 15050,
+  "mainBeforeLines": 163,
+  "mainAfterLines": 132,
+  "semanticIntent": "pure responsibility extraction; no product rules or write admission changes",
+  "protectedOwners": [
+    "RecordStore",
+    "BackupTask",
+    "ActionCoordinator",
+    "Budget"
+  ]
+}

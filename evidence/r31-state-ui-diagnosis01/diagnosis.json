@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "identity": "Writer diagnostic only; not independent acceptance",
+  "candidate": "R31-A2R1",
+  "candidateBinding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "test": "tests/browser.state-ui.js",
+  "testSha256": "117f24784f31492d538135115f88b81c26e71b641e66f2ca68172a5e934803a0",
+  "probeSourceSha256": "3c53b5ae0cfa5d4ce51a65f35e3f0c143134003ebd0333bfe4cad12fe0a7bb69",
+  "probeBinarySha256": "753e62cc28a12966b8f609fe80f2c8f581550be77e505d41e6e2699c4a69cdef",
+  "freshProfiles": 3,
+  "freshLoopbackPorts": [
+    "http://127.0.0.1:57181/",
+    "http://127.0.0.1:57181/",
+    "http://127.0.0.1:57181/"
+  ],
+  "results": [
+    true,
+    true,
+    true
+  ],
+  "mutationControl": "PASS; stale async review mutation returns expected error",
+  "independentAuditFailures": "Two BROWSER_TIMEOUT state-ui windows remain authoritative; no cause inferred",
+  "conclusion": "Current candidate passes three fresh local diagnostic windows; independent full61 remains OPEN until independent re-run under recorded conditions",
+  "servicesTouched": 0,
+  "paidProviderCalls": 0
+}

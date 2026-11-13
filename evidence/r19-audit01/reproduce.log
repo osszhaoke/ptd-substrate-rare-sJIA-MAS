@@ -1,0 +1,2 @@
+{"case": "records-consistency", "pid": 6885, "ok": false, "error": "HOME_PUBLISHED_OLD_TIMELINE", "target": null, "p95Ms": null}
+CONFIRMED actual original UI displays stale timeline after committed intervening record

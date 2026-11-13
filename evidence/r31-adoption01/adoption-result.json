@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "identity": "author exact local static adoption after complete isolated fictional proof; not independent/phone/clinical acceptance",
+  "batch": "R31-A1",
+  "staticPatch": "r19-reference01",
+  "staticVersion": "87fef183f091b968",
+  "binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+  "boundInputs": 267,
+  "checks": 61,
+  "verification": "evidence/r31-verification02/result.json",
+  "previousAdoption": "evidence/r30-adoption01/adoption-result.json",
+  "previousAdoptionSha256": "df5c209ab77a3885b7295be24a32a8b730005581277a77e2f9c75b10ade2a783",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "f57a112d9b4db2ecee7383fe656019755e62ab6f9e7d67b672091eba34e51414",
+      "after": "4cb9354810cb9c6cac7d349d330c612659802e28f347e53d4cc0857f85c95da1"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "973428ebea256f1af31ec4889948302ccfbb1d6952e1c7fbc25dc016786d5a1a",
+      "after": "2fd9404950293eab6d1eda7a9aeae049bee33b21a5996d40c796472888a1fb42"
+    },
+    {
+      "path": "package.json",
+      "before": "770497fdc1337850a99c8c1691adcfa35a80808cee1d917113b15d30a1a29b5b",
+      "after": "36915bbb9a0033a87f62f017cbe87bfd448e58a5aeb1786900432ff9d9c31f78"
+    },
+    {
+      "path": "tests/browser.report-reference.js",
+      "before": null,
+      "after": "4c4bcfaa404b216e32efb774198e6394bae28c2332e5dbb80d00e27b8bd28dec"
+    },
+    {
+      "path": "tests/report_reference.test.mjs",
+      "before": null,
+      "after": "e872be711c93ab95d377e8e6af68e9373a12e29e38133fc8a50f22d286b04b03"
+    },
+    {
+      "path": "tests/test_report_reference_runner.py",
+      "before": null,
+      "after": "46fd59884ac62cf8e16e8914a58cfe65c38539bbf4a64c4ca83c3c2cd3d59ec9"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": "26b6cabf30f6e7b090b4c4ea764d7802b388eef0956a0fafc5c5d17ac36224c6",
+      "after": "d515a32fb65cb20f71172218e94889979021f7a64587d6c66f0d8587067abd4e"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "beaf046d0a5e71aae00256036d8140ea9f8d35d324c4b739b132b859a3ad70c5",
+      "after": "f3051642e3538e219e148ece4c5f8fa848cefe721732013b4478a01fe8c60457"
+    },
+    {
+      "path": "web/app/report_editor.js",
+      "before": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48",
+      "after": "a1e8e65b7d3e9836609c411232eac0aacc3e4d1529e19f8acff07e8d453af46f"
+    },
+    {
+      "path": "web/app/startup_plan.js",
+      "before": "ba8c56535d7f141f5faf5cc2064ad36f13ec4393c0565944cae7f9c7c20f5486",
+      "after": "335a132b3b7928a75899c80cb2401901215c74776262520fe49c758b32b3fd92"
+    },
+    {
+      "path": "web/domain/report/reference.js",
+      "before": null,
+      "after": "9ac041444ad13a0114d5cf6d1bd4a38e982693268b93527d37f47b201ff2db7d"
+    },
+    {
+      "path": "web/features/report_rows.js",
+      "before": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
+      "after": "55e2345b12cda7c5d44ef88e23b2fad71a84cbb931325de5b2458b6b6a170e2a"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "366ac59083bb1278f10cf71d919291100261193001bf41f1aaa95e9cef9d741f",
+      "after": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76"
+    }
+  ],
+  "oldWebAt": "runtime/r31-web-swap01",
+  "otherBeforeBytes": "runtime/r31-source-before01",
+  "serviceRestarts": 0,
+  "newProviderCallsDuringAdoption": 0,
+  "runningGateway": "No gateway source change in R31-A1; existing in-memory gateway identity is not inferred from files; no restart or credential access",
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "rollback": "atomic web exchange back plus exact non-web restoration/deletion; baseline asserted before and after"
+}

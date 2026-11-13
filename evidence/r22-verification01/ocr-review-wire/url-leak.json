@@ -1,0 +1,5 @@
+{
+  "error" : "DRAFT_NAVIGATION_URL_LEAK",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:61831\/:2:67\n@http:\/\/127.0.0.1:61831\/:78:59"
+}

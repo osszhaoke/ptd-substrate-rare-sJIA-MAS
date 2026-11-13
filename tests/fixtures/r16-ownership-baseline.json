@@ -1,0 +1,21 @@
+{
+  "sourceCommit": "14d604cb26227d1562e2f520f7fe9b7daf20db00",
+  "files": [
+    {
+      "sourcePath": "web/app/main.js",
+      "fixturePath": "tests/fixtures/r16-original-main.js",
+      "sha256": "0c4cde12c1119dd57ad5417784aa138f0d2f95cb4e40e4229daf63a0bb58b006"
+    },
+    {
+      "sourcePath": "web/app/consultation_flow.js",
+      "fixturePath": "tests/fixtures/r16-original-consultation_flow.js",
+      "sha256": "f51c2f5be95607f4f7aa1393b6a1d8d1640a75681d97eabd45f825f01660e02d"
+    },
+    {
+      "sourcePath": "web/app/consultation_draft.js",
+      "fixturePath": "tests/fixtures/r16-original-consultation_draft.js",
+      "sha256": "3b20984eab98f1264466a60bee0657e35f17bcd771b390f49075e9233e2e5954"
+    }
+  ],
+  "purpose": "fixed original actual behavior inputs; never runtime imports"
+}

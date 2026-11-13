@@ -1,0 +1,10 @@
+{
+  "fullExit": 2,
+  "fullOriginalOutput": "evidence/r31-navigation01/candidate.diff:217: trailing whitespace.\n+ \nevidence/r31-navigation01/repair-before/tests/template_parity.test.mjs:16: trailing whitespace.\n+const extraFormat='<p class=\"muted\">\u6587\u4ef6\u4e3a .ptds \u52a0\u5bc6\u5907\u4efd\uff0c\u9700\u5728\u672c\u9875\u8f93\u5165\u5bc6\u7801\u6062\u590d\uff0c\u4e0d\u80fd\u76f4\u63a5\u5f53\u8868\u683c\u6253\u5f00\u3002</p>'+ \n",
+  "retainedByteExactEvidence": [
+    "evidence/r31-navigation01/candidate.diff",
+    "evidence/r31-navigation01/repair-before/tests/template_parity.test.mjs"
+  ],
+  "reason": "candidate.diff is the literal source diff; repair-before is the exact pre-repair snapshot. Preserve original bytes rather than edit evidence to satisfy whitespace lint. No product defect inferred.",
+  "allOtherStagedPathsExit": 0
+}

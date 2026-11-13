@@ -1,0 +1,5 @@
+{
+  "error" : "WAIT ()=>$('#generate-consultation')",
+  "ok" : false,
+  "stack" : "@http:\/\/127.0.0.1:53594\/:4:149\n@http:\/\/127.0.0.1:53594\/:29:193"
+}

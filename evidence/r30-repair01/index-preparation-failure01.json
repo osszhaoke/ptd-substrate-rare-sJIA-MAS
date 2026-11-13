@@ -1,0 +1,7 @@
+{
+  "stage": "prepare only",
+  "error": "wrong workdir produced FileNotFoundError and no such file for two intended paths; shell final old unittest returned0",
+  "newImplementationOrNewIndexTestRan": false,
+  "oldUnittestOutput": "index-unit01.log is old module only; not new index-guard proof",
+  "repair": "explicit product root for writes; candidate cwd for actual tests; new output index-unit02.log"
+}

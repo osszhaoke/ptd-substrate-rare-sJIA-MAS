@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "entryCount": 113,
+  "addedPaths": [
+    "web/domain/report/table_fields.js"
+  ],
+  "staticPatch": "r19-layout02",
+  "verification": "evidence/r27-verification01/result.json",
+  "binding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+  "productTreeSha256": "d8c2db2fdc9c1e0be7dfa87bef56fc318f25218947b63864cd468cce4326953b",
+  "sourceManifestSha256": "9ab57f8ed779f86de077a1d0e0ee7d254cacff07f0e20aafbe4b2982ab176a5b",
+  "negativeControls": {
+    "old-patch": "INDEX_PATCH_MISMATCH",
+    "old-proof": "INDEX_PROOF_MISMATCH",
+    "missing-proof": "VERIFICATION_REQUIRED",
+    "old-binding": "INDEX_BINDING_MISMATCH",
+    "stale-proof": "VERIFICATION_STALE_OR_MISSING_FILES"
+  },
+  "zipCreatedOrModified": false
+}

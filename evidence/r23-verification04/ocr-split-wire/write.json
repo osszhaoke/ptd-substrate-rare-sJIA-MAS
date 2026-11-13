@@ -1,0 +1,17 @@
+{
+  "eventId" : "2e3132ea-d577-4fa8-9a0d-0a0804b71df3",
+  "identity" : "author automated synthetic interaction; not human acceptance",
+  "lines" : 30,
+  "mode" : "automated-UI-write",
+  "noAutomaticSave" : true,
+  "observations" : 6,
+  "ok" : true,
+  "values" : [
+    "1520",
+    "98",
+    "6.2",
+    "18",
+    "65",
+    "2.30"
+  ]
+}

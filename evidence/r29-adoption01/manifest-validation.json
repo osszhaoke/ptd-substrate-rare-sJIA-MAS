@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "entryCount": 129,
+  "addedPaths": [
+    "web/compat/r27/LOCK.json",
+    "web/compat/r27/web/domain/model.js",
+    "web/compat/r27/web/domain/ocr_review.js",
+    "web/compat/r27/web/domain/report/contract.js",
+    "web/compat/r27/web/domain/report/fields.js",
+    "web/compat/r27/web/domain/report/layout.js",
+    "web/compat/r27/web/domain/report/rows.js",
+    "web/compat/r27/web/domain/report/table_fields.js",
+    "web/compat/r27/web/domain/report/tables.js",
+    "web/compat/r27/web/domain/state/candidates.js",
+    "web/compat/r27/web/domain/state/catalog.js",
+    "web/compat/r27/web/domain/state/ocr_aliases.js",
+    "web/compat/r27/web/domain/state/ocr_fragments.js",
+    "web/compat/r27/web/domain/state/ocr_tables.js",
+    "web/compat/r27/web/rules/definitions.js",
+    "web/domain/report/restore_binding.js"
+  ],
+  "staticPatch": "r19-restore01",
+  "verification": "evidence/r29-verification01/result.json",
+  "binding": "3b1dd760cdcb840c526fb903984d98d8e2a8710a2f83b25e8f565bb6258e56b9",
+  "productTreeSha256": "215e812f24b23eff61bab0a524164b46491d1f84e04bcdb45ddbce9947025751",
+  "sourceManifestSha256": "97f494fb1a053ca4873588e4ad191cfb987775a07585f7d5b4285cde46df298e",
+  "negativeControls": {
+    "old-patch": "INDEX_PATCH_MISMATCH",
+    "old-proof": "INDEX_PROOF_MISMATCH",
+    "missing-proof": "VERIFICATION_REQUIRED",
+    "old-binding": "INDEX_BINDING_MISMATCH",
+    "stale-proof": "VERIFICATION_STALE_OR_MISSING_FILES"
+  },
+  "zipCreatedOrModified": false
+}

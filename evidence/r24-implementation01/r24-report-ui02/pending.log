@@ -1,0 +1,5 @@
+{
+  "error" : "REPORT_SOURCE_OR_RECEIPT_LOST",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:62434\/:2:67\n@http:\/\/127.0.0.1:62434\/:42:4"
+}

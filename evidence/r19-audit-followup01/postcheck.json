@@ -1,0 +1,32 @@
+{
+  "scope": "author bounded postcheck, not independent/device/human acceptance",
+  "runtimeFilesUnchanged": true,
+  "runtimeFileCount": 82,
+  "selectedAuditInputsUnchanged": true,
+  "selectedAuditInputCount": 11,
+  "oldProofUnchanged": true,
+  "archivedZipSha256": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "currentProofAccepted": true,
+  "currentBindingMatches": true,
+  "currentRequiredCheckCount": 57,
+  "boundFileCount": 204,
+  "sourceManifestExactFilesHashesSizesAndTree": true,
+  "sourceManifestFileCount": 96,
+  "sourceManifestChangedItems": [
+    "tools/test_plan.json",
+    "tools/verify_debt.py"
+  ],
+  "currentProductTreeSha256": "3e1c6214e28eb1aff16d32387eca421b99bacb401ee49f5f7a853d805a18dd0a",
+  "publicManifestUnchanged": true,
+  "boundAdded": [
+    "fixtures/lab.png",
+    "tools/diagnose_state.py"
+  ],
+  "boundRemoved": [],
+  "boundChanged": [
+    "tests/browser.state-scale.js",
+    "tests/test_debt_build_gate.py",
+    "tools/test_plan.json",
+    "tools/verify_debt.py"
+  ]
+}

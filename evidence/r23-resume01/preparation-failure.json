@@ -1,0 +1,6 @@
+{
+  "type": "FileNotFoundError",
+  "reason": "resume preparation ran with candidate cwd but constructed nested candidate path",
+  "impact": "reference binding written in candidate evidence; no product/test/plan bytes changed; full04 subsequently started against exact archived candidate",
+  "repair": "copied completed reference binding to root; authority/current environment correction recorded in root DECISIONS and final report. Existing test_plan environment entry retained as historical metadata for full04 binding, superseded by corrected current report."
+}

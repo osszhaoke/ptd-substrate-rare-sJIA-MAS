@@ -1,0 +1,32 @@
+{
+  "added" : 2000,
+  "coldMs" : [
+    81,
+    74,
+    74,
+    73,
+    73,
+    71,
+    73
+  ],
+  "coldP95Ms" : 81,
+  "device" : "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko)",
+  "diagnosticLimits" : "disabled",
+  "diagnostics" : [
+
+  ],
+  "insertMs" : 5123,
+  "ok" : true,
+  "shape" : "9 metrics +9 flags \/ record; 2 natures; same-day worst-case cursor and LATEST ordering; all writes via stage-confirm-save",
+  "target" : 3000,
+  "warmMs" : [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "warmP95Ms" : 1
+}

@@ -1,0 +1,12 @@
+{"case": "startup", "pid": 18871, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 18885, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 18899, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 18919, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 18946, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 18953, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 18959, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "startup", "pid": 19125, "ok": false, "error": "STARTUP_STYLE_NOT_READY", "target": null, "p95Ms": null}
+{"case": "startup", "pid": 19156, "ok": false, "error": "STARTUP_FAILURE_NOT_EXPLAINED", "target": null, "p95Ms": null}
+{"case": "startup", "pid": 19161, "ok": false, "error": "STARTUP_FAILURE_NOT_EXPLAINED", "target": null, "p95Ms": null}
+{"case": "startup", "pid": 19182, "ok": false, "error": "STARTUP_FAILURE_NOT_EXPLAINED", "target": null, "p95Ms": null}
+{"case": "startup", "pid": 19191, "ok": false, "error": "STARTUP_FAILURE_NOT_EXPLAINED", "target": null, "p95Ms": null}

@@ -1,0 +1,86 @@
+{
+  "identity": "author scoped source review plus synthetic counterexamples; not independent closure",
+  "observedFindings": {
+    "R27-A01": {
+      "originalAudit": "left footer clipped right third item,5 expected4 actual",
+      "baseline": "baseline-unit01 reproduces",
+      "sameRootExtra": "legacy supported-metric fallback resurrected footer999,footer-entry-baseline01 gets28 expected27",
+      "repair": "same-panel footer windows plus excluded source-ID protection in standalone and legacy fallback"
+    },
+    "R27-A02": {
+      "originalAudit": "mg/ persisted in explicit saved RBC record",
+      "baseline": "baseline-unit01 shows pending count0 instead1",
+      "entries": [
+        "legacy bilingual table",
+        "generic table",
+        "flat no-coordinate",
+        "spatial same-row cells",
+        "standalone inline"
+      ],
+      "repair": "reportUnitNeedsReview shared in coverage/UI/stage/save; original literals and old event validation retained",
+      "blankCannotBypassExcept": "explicit dimensionless name or qualitative result",
+      "knownCompleteUnknownUnit": "allowed; no dictionary expansion"
+    }
+  },
+  "newGlobalLockStoreNetworkTimerDependency": false,
+  "medicalCodesSchemaOrBackupWireChanged": false,
+  "protectedGatewayRulesStoragePolicy": "unchanged; fingerprint delta checked before adoption",
+  "productFiles": [
+    {
+      "path": "web/domain/report/tables.js",
+      "beforeSha256": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f",
+      "afterSha256": "a7fe81640e63a1f964cd68a620e1b85d61a37e0ea04c7c6d1b380aa6b827ed45",
+      "beforeLines": 148,
+      "afterLines": 151
+    },
+    {
+      "path": "web/domain/report/table_fields.js",
+      "beforeSha256": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2",
+      "afterSha256": "4b9821e4eda49efa294b343fb2601f904ee9fcde356b73a91a52e6ac17702a94",
+      "beforeLines": 11,
+      "afterLines": 15
+    },
+    {
+      "path": "web/domain/report/rows.js",
+      "beforeSha256": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce",
+      "afterSha256": "4364dd753a6ea1e071158c335bcac1ce08f0ecc32d56d9ac7649e69eeaaea3be",
+      "beforeLines": 60,
+      "afterLines": 62
+    },
+    {
+      "path": "web/features/report_rows.js",
+      "beforeSha256": "3a02808f7e2f480297a5a71087efd511a4f7c7380b038a1f99ea4bdea858d772",
+      "afterSha256": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
+      "beforeLines": 24,
+      "afterLines": 26
+    },
+    {
+      "path": "web/domain/service.js",
+      "beforeSha256": "3e42a811de5418609e5f20ce098b3d6d1c4e0e6ea80119a0704f59182e09dca2",
+      "afterSha256": "530c37468ba806befb224b258cd579032acc9bfed1c2886eb3711e7d467ee9eb",
+      "beforeLines": 35,
+      "afterLines": 38
+    }
+  ],
+  "methods": [
+    "rg/source reading of all reportRows callers and stage/save/backup validation",
+    "Node same-root counterexamples",
+    "mandatory browser runner across8 new variants",
+    "direct service stage/save two behavioral mutants"
+  ],
+  "scaleLimitsUnchanged": {
+    "reportRows": 100,
+    "fragments": 20000,
+    "parserMs": 1000
+  },
+  "remaining": [
+    "independent R28 closure",
+    "human iPhone",
+    "actual low-space",
+    "phone peak memory",
+    "BFCache/background",
+    "clinical acceptance",
+    "historical performance unique attribution",
+    "previous gateway in-memory loading not verified"
+  ]
+}

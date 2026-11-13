@@ -1,0 +1,29 @@
+{
+  "createdAtUTC": "2026-11-12T16:19:47.944299+00:00",
+  "authorization": "User authorizes online OCR and external testers until today 23:59 Asia/Shanghai",
+  "deadline": "2026-11-13T23:59:00+08:00",
+  "sourceBinding": "5ec9f2b0a1c84f4b1993f30af70dec212a5462827adaa3602c2e20b5687f5d21",
+  "sourceFiles": 282,
+  "proof": "evidence/r34-alias02/candidate/evidence/full03/result.json",
+  "reusedFrom": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/evidence/r30-public02/operator_bootstrap.py",
+  "reusedFromSha256": "9ec9d6dbb173407232a08dc5ac02a7d45928952415390a3edfcea153c7ea4c14",
+  "operatorSha256": "c48355356bfe4bc582c120ed1de2787c9ab2b7ad6508ec3f2bb8976a189de307",
+  "edits": {
+    "2026-11-12T23:59:00+08:00": "2026-11-13T23:59:00+08:00",
+    "runtime/alpha-r30-public02": "runtime/alpha-r34-public01",
+    "share/PTDS-R30-伙伴验收-重启02.png": "share/PTDS-R34-扫码测试-20261113.png",
+    "evidence/r30-verification01/result.json": "evidence/r34-alias02/candidate/evidence/full03/result.json",
+    "2026年11月12日23:59": "2026年11月13日23:59",
+    "Alpha 0.1 内测": "R34 外部测试"
+  },
+  "secretTransport": "User terminal hidden input -> anonymous pipe -> worker memory only",
+  "budget": "Existing runtime lease and ledger; no reset",
+  "realProviderCallsByAgent": 0,
+  "localServerToStop": {
+    "pid": 19304,
+    "port": 18791,
+    "reason": "Own no-OCR preview; public launcher requires port unoccupied"
+  },
+  "productSourceChanged": false,
+  "phoneClinicalPerformanceAcceptanceExpanded": false
+}

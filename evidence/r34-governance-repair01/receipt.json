@@ -1,0 +1,52 @@
+{
+  "repair": "R34-GOVERNANCE-REPAIR-01",
+  "capturedAt": "2026-11-12",
+  "paths": {
+    "ACCEPTANCE.json": {
+      "sha256": "d3d3c442f5295346037d5eaa02245a0e87fde8e378a6cd14fd96cb9bac9f793f",
+      "bytes": 46653
+    },
+    "STATUS.json": {
+      "sha256": "8a57de8c2d387c833573a2d80e7487deb1aad3e6be301e5f03dcf6b6d9f5d1d5",
+      "bytes": 45000
+    },
+    "DECISIONS.md": {
+      "sha256": "8c6595adbdb18a038ffb0dc55d43c0b61aa2c2819d54f2f9c49e36cbd0014a7d",
+      "bytes": 205099
+    },
+    "tools/acceptance_index.py": {
+      "sha256": "ce8264e918001f84eb7d1dd6a49ab5d5b8d5a330704ccbb98387a053d9266184",
+      "bytes": 2158
+    }
+  },
+  "formalDigest": "5ec9f2b0a1c84f4b1993f30af70dec212a5462827adaa3602c2e20b5687f5d21",
+  "proof": "evidence/r34-alias02/candidate/evidence/full03/result.json",
+  "independentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R34-audit-archive-20261112-212532/REPORT.md",
+  "independentReportSha256": "8a7950be64b0c6cf4374eecf32558ddb26f3560c7dee384238a785554a559f68",
+  "after": {
+    "ACCEPTANCE.json": {
+      "sha256": "9670ab5fedcb19d89fa43168ee7e2a7b27651404095264b66bd7a18ab07bc4db",
+      "bytes": 47106
+    },
+    "STATUS.json": {
+      "sha256": "e2d624bd0fabcdbb8d1e727da0ccb09ec818b67a9ff4a5b211fd66d3444df1c9",
+      "bytes": 45092
+    },
+    "DECISIONS.md": {
+      "sha256": "5917fe985c16f6ace121e4869635694727b2639c26b066d5341d330da356117c",
+      "bytes": 206430
+    },
+    "tools/acceptance_index.py": {
+      "sha256": "ce8264e918001f84eb7d1dd6a49ab5d5b8d5a330704ccbb98387a053d9266184",
+      "bytes": 2158
+    }
+  },
+  "checks": {
+    "acceptanceIndexValidate": "PASS",
+    "formalFingerprintExpected": "5ec9f2b0a1c84f4b1993f30af70dec212a5462827adaa3602c2e20b5687f5d21",
+    "productSourceChanged": "NOT_CHANGED",
+    "requireVerification": "PASS",
+    "npmTest": "166/166 PASS",
+    "acceptanceStatusConsistency": "PASS"
+  }
+}

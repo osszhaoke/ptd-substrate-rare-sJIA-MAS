@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "binding": "f7a4b2732f9ce478637448f9b257a249c1a41ad3b8f7f385b0b7b1553d4bc9c9",
+  "currentProofAccepted": true,
+  "sourceManifestFiles": 97,
+  "publicManifestExact": true,
+  "oldZIPExact": true,
+  "gatewayPidAlive": 56388,
+  "deadlineUnchanged": "2026-11-09T15:59:00+00:00",
+  "actualProviderCallsTotalThisTask": 1,
+  "formalRealDataSaves": 0,
+  "publicColdStartup": "OPEN_OBSERVATION; REOPEN_PASSED",
+  "independentOrHumanAcceptance": false
+}

@@ -1,0 +1,5 @@
+{"case": "draft-save-races", "pid": 50930, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "draft-save-races", "pid": 50948, "ok": false, "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}", "target": null, "p95Ms": null}
+{"case": "draft-save-races", "pid": 50962, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "draft-save-races", "pid": 50976, "ok": false, "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}", "target": null, "p95Ms": null}
+{"case": "draft-save-races", "pid": 50989, "ok": true, "error": null, "target": null, "p95Ms": null}

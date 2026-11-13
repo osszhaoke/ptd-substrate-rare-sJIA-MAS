@@ -1,0 +1,12 @@
+{
+  "id": "mainland-A-r02",
+  "provider": "tencent-general-accurate",
+  "region": "ap-guangzhou",
+  "currency": "CNY",
+  "maxCalls": 100,
+  "maxBudget": "50",
+  "minReservedUnitCost": "0.50",
+  "maxConcurrent": 1,
+  "maxPerMinute": 6,
+  "onlineImageBytes": 7340032
+}

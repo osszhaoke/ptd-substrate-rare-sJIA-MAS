@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "identity": "author synthetic exact independent-edge reproduction; not independent re-review",
+  "old": {
+    "footerRows": 4,
+    "rightNames": [
+      "虚构甲项目",
+      "白球比"
+    ],
+    "incompletePending": 0
+  },
+  "fixed": {
+    "footerRows": 5,
+    "rightNames": [
+      "虚构甲项目",
+      "白球比",
+      "虚构乙项目"
+    ],
+    "incompletePending": 1
+  },
+  "sameLiteralOrigin": true,
+  "ledgerUnchanged": true,
+  "noProviderCalls": true
+}

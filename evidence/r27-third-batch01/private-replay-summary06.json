@@ -1,0 +1,331 @@
+{
+  "ok": true,
+  "identity": "author authorized-image private replay with explicit automated test-operator corrections; not human/clinical acceptance",
+  "newRealProviderCalls": 0,
+  "fakeReplayCalls": 15,
+  "privateResultSha256": "67b3573b9d62293392978642ced28bec443e733b8a42b3b3e5a0be390c155708",
+  "privateEvidence": "runtime/r27-third-batch01/replay06",
+  "productBinding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+  "images": [
+    {
+      "index": 1,
+      "inputSha256": "e95bccbeba24b114643a075530ad9c89105590dcd470c35bef582a6961799828",
+      "responseSha256": "8b2e95d6a02b63442c97d4f8d4821faf4ccd38323294a435ae5f69e160085101",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56362,
+        56373
+      ]
+    },
+    {
+      "index": 3,
+      "inputSha256": "bfa98895fbde6a33cb206e54f02846a112ef997028b1843e7a8bab5526c9f082",
+      "responseSha256": "9656fe478beb3ff43dbab65b44756f0f54b8c2b7534be6f10b3b20e445e9635a",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56382,
+        56395
+      ]
+    },
+    {
+      "index": 9,
+      "inputSha256": "026cb5554cf323bc6af0503b8c54612dfb5c08d0ad475a33386c0e390b99b25c",
+      "responseSha256": "43d46404e25101c02cd9adb6df572e616a260310c8c2a0055990476722d33a98",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56404,
+        56410
+      ]
+    },
+    {
+      "index": 29,
+      "inputSha256": "a673db7135a9b01a3e232807b73cf00d49380a1a44bab15da3948dea021eaeb4",
+      "responseSha256": "2da217fa74295fac1bf70e003f2265387e14ed8dffd8b745891f6b2474b88ef7",
+      "rows": 0,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56415,
+        56424
+      ]
+    },
+    {
+      "index": 34,
+      "inputSha256": "c8de09ba3521c11b4d60622134bc676f7785a98fdd0450a50623f059a2175f81",
+      "responseSha256": "e2f78df30f93da5ebd06ff5a84a5fa1260c3175cefd69b38a88da18c40c94fda",
+      "rows": 21,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56431,
+        56442
+      ]
+    },
+    {
+      "index": 39,
+      "inputSha256": "a03935f49f600df011205d8e87444c832aca185a4fd667952fcc6be76fc038bc",
+      "responseSha256": "30e060e95a7af903f61be29ac72d1a513bad101c0fd28b0510bca16bc730af0b",
+      "rows": 38,
+      "pendingRows": 4,
+      "differentPIDs": [
+        56453,
+        56458
+      ]
+    },
+    {
+      "index": 46,
+      "inputSha256": "1cdaf8ca048e9b38a2accb7b5b52208800dbb968669819bc0345538be0c48b88",
+      "responseSha256": "99a2d25f67a073effa2981394e2ca293550d6c0f88a14c9fcbb4be86312a0f36",
+      "rows": 9,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56467,
+        56474
+      ]
+    },
+    {
+      "index": 49,
+      "inputSha256": "97813e497e6e3539cee65245bc7b051ff841ea176ee5d9e29b9f4a3f208a12fd",
+      "responseSha256": "f306ca05de6518308e8d7d04e8a016449b07a0566d0c46d21de20fbb553fc18b",
+      "rows": 1,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56484,
+        56489
+      ]
+    },
+    {
+      "index": 57,
+      "inputSha256": "33da8a3f7638cd27e6e8ab6c0765799887ff686b6b202fbc3adab5d9c5c811d1",
+      "responseSha256": "26fdf702e8247fd9d1c6c027b5babfdfd4819b814403603cc07e71fa0610626c",
+      "rows": 1,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56500,
+        56509
+      ]
+    },
+    {
+      "index": 61,
+      "inputSha256": "45065c4347f0f6ce66a9991512deb85bacb0a94bf67302b1930c16b19e8a9b88",
+      "responseSha256": "a0b0924dcb723f16181f930f11435d89722f8084ad46d386fbcf31d38c2ae62a",
+      "rows": 8,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56514,
+        56521
+      ]
+    },
+    {
+      "index": 98,
+      "inputSha256": "1c075f4969dd041d022888c888de5f7d8095e1c0bd194df428c42f196fda2c5b",
+      "responseSha256": "a0e57acae62f2eaa08f7f970de22bcecc079d290672ba271b55ed918dc153a30",
+      "rows": 10,
+      "pendingRows": 1,
+      "differentPIDs": [
+        56526,
+        56531
+      ]
+    },
+    {
+      "index": 102,
+      "inputSha256": "b84290897c14456c971821b1182fb1f27f1aa52d17258efee87ee01f375e1b0a",
+      "responseSha256": "0be82659214f2e7eaca96410bed2409948d3d917155d8aa87e013aa2564be909",
+      "rows": 8,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56538,
+        56549
+      ]
+    },
+    {
+      "index": 108,
+      "inputSha256": "e3288ad384cdb2a99ec936566172cc19697e63db5ca21d3d57cad0a9250913be",
+      "responseSha256": "700970554cc2814726b3d4abcab476dd1090ab481108b93a9571b00a54232140",
+      "rows": 2,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56554,
+        56561
+      ]
+    },
+    {
+      "index": 176,
+      "inputSha256": "c11be409779c7bc86e6c51560a257ef419484e5f87abd90c743c5db6a2ff6b52",
+      "responseSha256": "3f71b53831be909c1f24c1b7b4a675d320e399c7193abdce4e4c517edec5becf",
+      "rows": 10,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56566,
+        56574
+      ]
+    },
+    {
+      "index": 180,
+      "inputSha256": "11ac182d8aea6cb630f221a3f805120cc041c50f052fbe9eeea9ae54d428711c",
+      "responseSha256": "5f6d602cd2b34c74696ff725ba1b16e46ffbd91892247e3c8258d035cca275ca",
+      "rows": 20,
+      "pendingRows": 0,
+      "differentPIDs": [
+        56579,
+        56585
+      ]
+    }
+  ],
+  "totalRows": 128,
+  "pendingRows": 5,
+  "allWriteReadPassed": true,
+  "windowBindings": [
+    {
+      "name": "image-001-read.binding.json",
+      "sha256": "90e3e14613e9014a060d78712d3735eaa3cffc589fcd7894731a2a0b40d89067",
+      "pid": 56373
+    },
+    {
+      "name": "image-001-write.binding.json",
+      "sha256": "ccfa0c8b4d4863a20714090a076ebc1012cc8dd58122cc0bc4086bc215561f3c",
+      "pid": 56362
+    },
+    {
+      "name": "image-003-read.binding.json",
+      "sha256": "63282238b738f8c31127e3d5afbe0b044dc161f113f0ceb81c3413079cfa7370",
+      "pid": 56395
+    },
+    {
+      "name": "image-003-write.binding.json",
+      "sha256": "c306be2c3657132891e6138b6b3697d48278b4d47967d71e3ecd3af4f94eaab8",
+      "pid": 56382
+    },
+    {
+      "name": "image-009-read.binding.json",
+      "sha256": "261a64a42a1e2372ca63f01f511444fb4e5bcf07b1aa66b1c4d4045137a8f24d",
+      "pid": 56410
+    },
+    {
+      "name": "image-009-write.binding.json",
+      "sha256": "757c475565e93848a838a7bd2439dbddfc8bd11112c45362b059c71f3bf3add6",
+      "pid": 56404
+    },
+    {
+      "name": "image-029-read.binding.json",
+      "sha256": "036e1434046bd6098018c499f88cc4f9ccd421e4e4ba22bc7648ff076f96295b",
+      "pid": 56424
+    },
+    {
+      "name": "image-029-write.binding.json",
+      "sha256": "62f07c766108ff1638c390daa5d9c74451c1a7ad14f71796e84a3d8e72d04ff6",
+      "pid": 56415
+    },
+    {
+      "name": "image-034-read.binding.json",
+      "sha256": "8fcfd1be96389c1c5d16660070c78db5c29268538096acfcf32a69061c2a14bf",
+      "pid": 56442
+    },
+    {
+      "name": "image-034-write.binding.json",
+      "sha256": "174afddc562413a4711dcf8fc7f256df187991ecabb991ed5cb3395b12d74d9d",
+      "pid": 56431
+    },
+    {
+      "name": "image-039-read.binding.json",
+      "sha256": "2401e7b4d37b9d41085054ffebaa838eced7e003ebb1c1f557ae6f50d98c255a",
+      "pid": 56458
+    },
+    {
+      "name": "image-039-write.binding.json",
+      "sha256": "c309594872672900ca529c353461b3d59e64deb60e3aabedfdc7e5f982c47baf",
+      "pid": 56453
+    },
+    {
+      "name": "image-046-read.binding.json",
+      "sha256": "8d69eaf7e198d247e8592c14dafe8ec6e1058bb0ebeffef3e5ff84f8f05a5a3e",
+      "pid": 56474
+    },
+    {
+      "name": "image-046-write.binding.json",
+      "sha256": "37232f8c2f401a215e54550c91451aee8143062661dacf754445883dcd37e288",
+      "pid": 56467
+    },
+    {
+      "name": "image-049-read.binding.json",
+      "sha256": "060944f949cb1bcdc777c0858acef49bd6004a69aa2c1687d7943e850b251e7a",
+      "pid": 56489
+    },
+    {
+      "name": "image-049-write.binding.json",
+      "sha256": "45d7de5a2181d051c78e204fbe003f85de27d6cf34e88b6b15b372405f987f4d",
+      "pid": 56484
+    },
+    {
+      "name": "image-057-read.binding.json",
+      "sha256": "89d7be82c1f9f0d80591471c17f7e87ab2e5cdd53ad90ebcc44385f66d3be594",
+      "pid": 56509
+    },
+    {
+      "name": "image-057-write.binding.json",
+      "sha256": "052be6f1faf59855c1707662f6642b88d61dba7b2ad4db85e79e8a50cdf6907d",
+      "pid": 56500
+    },
+    {
+      "name": "image-061-read.binding.json",
+      "sha256": "33746e500f305287df8f4295d1112f30a8a561dcd4acd671ebe51789843435d1",
+      "pid": 56521
+    },
+    {
+      "name": "image-061-write.binding.json",
+      "sha256": "89f2dba79690c3c1633b69a911cce5682753e5503f3788ddf384dbe53cd79422",
+      "pid": 56514
+    },
+    {
+      "name": "image-098-read.binding.json",
+      "sha256": "0ef92a2d99026407f3024fe8f1827727dcc7b8137c860e74fd4e474b8a60e6f1",
+      "pid": 56531
+    },
+    {
+      "name": "image-098-write.binding.json",
+      "sha256": "7a82b45b74b8c55f5cd617e79393b898b8794c808aa16a0b02537a7b192c076b",
+      "pid": 56526
+    },
+    {
+      "name": "image-102-read.binding.json",
+      "sha256": "3e607c50842984369de7bf4f826e02466e927891b3db27680e41d43337f51452",
+      "pid": 56549
+    },
+    {
+      "name": "image-102-write.binding.json",
+      "sha256": "aa6f71f025521f6d483dcf4397de3f0428ddc1d44022f6a95b8139b5ef2a28cb",
+      "pid": 56538
+    },
+    {
+      "name": "image-108-read.binding.json",
+      "sha256": "83f270cb30abc33fea8294ebe924dbe6d0390e5d52663de9723509117c00f690",
+      "pid": 56561
+    },
+    {
+      "name": "image-108-write.binding.json",
+      "sha256": "65c66817dd51585b6b4d763b8a14850225c9d61e6f9b907e476fc25a706ddf57",
+      "pid": 56554
+    },
+    {
+      "name": "image-176-read.binding.json",
+      "sha256": "5f2c49afd45794ac0c0b0a3a8bf1591bbc057b1ce04cf126766051e92d9a7da5",
+      "pid": 56574
+    },
+    {
+      "name": "image-176-write.binding.json",
+      "sha256": "f80dfb1df3155f823227ce22b70ab9ac4aacd61e3beadf9c83ccf072137e018b",
+      "pid": 56566
+    },
+    {
+      "name": "image-180-read.binding.json",
+      "sha256": "badd07528147db238f491bca21ab3e29cd80b63f4c82df60da69e68e0bb0871b",
+      "pid": 56585
+    },
+    {
+      "name": "image-180-write.binding.json",
+      "sha256": "2fb4b61b954780206a36fe06852ca4d4552ab97c733faecc24efc5bde57a8e72",
+      "pid": 56579
+    }
+  ]
+}

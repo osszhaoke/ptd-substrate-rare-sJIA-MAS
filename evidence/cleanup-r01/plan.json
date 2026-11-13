@@ -1,0 +1,329 @@
+{
+  "authorization": [
+    "仅留存最新 H5 服务系列，对之前的进行清理删除",
+    "处理一下残存多余文件，清理工程文件"
+  ],
+  "keepRoot": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14",
+  "scope": "exact Downloads independent H5 roots only; no main PTDS, browser profiles, external .ptds/secrets/runtime or source semantics",
+  "deleteRoots": [
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-OCR-acceptance-r01",
+      "device": 16777231,
+      "inode": 102338670,
+      "allocatedKiBBefore": 16
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-OCR-local-r01",
+      "device": 16777231,
+      "inode": 101996584,
+      "allocatedKiBBefore": 1168
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-OCR-local-r02",
+      "device": 16777231,
+      "inode": 102336774,
+      "allocatedKiBBefore": 1064
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-accepted-r12",
+      "device": 16777231,
+      "inode": 113022122,
+      "allocatedKiBBefore": 91460
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-archive-20261106-r01",
+      "device": 16777231,
+      "inode": 93361133,
+      "allocatedKiBBefore": 7320
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-debt-plan-r05-r01",
+      "device": 16777231,
+      "inode": 96133089,
+      "allocatedKiBBefore": 64
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r11",
+      "device": 16777231,
+      "inode": 110777045,
+      "allocatedKiBBefore": 122680
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r13",
+      "device": 16777231,
+      "inode": 113027480,
+      "allocatedKiBBefore": 161600
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-invite-plan-r01",
+      "device": 16777231,
+      "inode": 102340103,
+      "allocatedKiBBefore": 16
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-mainland-guide-r01",
+      "device": 16777231,
+      "inode": 93482149,
+      "allocatedKiBBefore": 7020
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-public-24h-r01",
+      "device": 16777231,
+      "inode": 102770562,
+      "allocatedKiBBefore": 9092
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-public-plan-r01",
+      "device": 16777231,
+      "inode": 93361134,
+      "allocatedKiBBefore": 900
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-public-r01",
+      "device": 16777231,
+      "inode": 93385844,
+      "allocatedKiBBefore": 22104
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-public-r02",
+      "device": 16777231,
+      "inode": 93506522,
+      "allocatedKiBBefore": 3544
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-r05-report-r01",
+      "device": 16777231,
+      "inode": 98085543,
+      "allocatedKiBBefore": 8
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01",
+      "device": 16777231,
+      "inode": 92727235,
+      "allocatedKiBBefore": 67124
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-plan-r01",
+      "device": 16777231,
+      "inode": 93514822,
+      "allocatedKiBBefore": 48
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-plan-r02",
+      "device": 16777231,
+      "inode": 93557655,
+      "allocatedKiBBefore": 28
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r01",
+      "device": 16777231,
+      "inode": 93562245,
+      "allocatedKiBBefore": 35072
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r02",
+      "device": 16777231,
+      "inode": 93703840,
+      "allocatedKiBBefore": 24732
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r03",
+      "device": 16777231,
+      "inode": 95042212,
+      "allocatedKiBBefore": 44520
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r04",
+      "device": 16777231,
+      "inode": 95805839,
+      "allocatedKiBBefore": 45216
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r05",
+      "device": 16777231,
+      "inode": 96444664,
+      "allocatedKiBBefore": 132152
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r06",
+      "device": 16777231,
+      "inode": 99474057,
+      "allocatedKiBBefore": 49396
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07",
+      "device": 16777231,
+      "inode": 99700993,
+      "allocatedKiBBefore": 116456
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r08",
+      "device": 16777231,
+      "inode": 100536545,
+      "allocatedKiBBefore": 123208
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r09",
+      "device": 16777231,
+      "inode": 101142768,
+      "allocatedKiBBefore": 165344
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r10",
+      "device": 16777231,
+      "inode": 102343341,
+      "allocatedKiBBefore": 112212
+    }
+  ],
+  "retainStateWithoutReading": [
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-public-24h-r01/runtime/public-session.lock",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-24h-r01/public-session.lock",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-public-24h-r01/runtime/session.json",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-24h-r01/session.json",
+      "sizeKiB": 4
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-public-r01/runtime/local",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-r01/local",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-public-r01/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-r01/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/browser-001",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/browser-001",
+      "sizeKiB": 3268
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/checks-001",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/checks-001",
+      "sizeKiB": 8
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/demo",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/demo",
+      "sizeKiB": 96
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/scale-001",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/scale-001",
+      "sizeKiB": 55500
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/workbench-001",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/workbench-001",
+      "sizeKiB": 2816
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r01/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r01/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r01/runtime/service-check",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r01/service-check",
+      "sizeKiB": 4
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r02/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r02/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r03/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r03/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r04/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r04/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r05/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r05/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r06/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r06/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r07/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r08/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r08/preview",
+      "sizeKiB": 0
+    },
+    {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r09/runtime/preview",
+      "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r09/preview",
+      "sizeKiB": 0
+    }
+  ],
+  "latestTemporary": [
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/browser-test.lock",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-21da8a48-40d1-42ea-acde-1d4a636e4743",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-41476394-300a-4e89-bd2c-521bf780f2be",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-680af358-8f43-41b6-8952-25300e7b43e9",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-896c547e-c3c1-42e3-afe6-064df8cd21c8",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-95ed2b5b-fa71-4f3d-b3e3-da3a36b1c179",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-ad1769f6-0d10-49b0-aa98-095fa967f5e2",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-b4bd64bc-d56d-4923-adbc-6db04161f264",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-cba53fc4-8a64-4894-b13e-d913b286baba",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-dbeb2dd3-6ba0-44e2-8e85-b4d08d9b55c8",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-de4d8c40-c911-4312-84a4-4936402e3454",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-e0c08552-2bab-466e-a981-13b7d0889945",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-f8e38f88-a233-4675-b883-ebd003762344",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-201568c0-5e5e-4cee-94f7-37c78a38eac0",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-27ca34b7-ceb6-4f1e-a218-e3c64e0af0a9",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-4c94a9fe-8d10-445e-89f5-c23a966f106d",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-68925ffd-fd09-4fbf-8f1b-e841a88a655d",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-6e8c0661-79ce-4c67-94ae-3f9d9c61f184",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-76578be9-a2a7-4e0b-b1b6-3268db8bc4d6",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-7a9398a0-f4d9-4eb8-ab6a-f1256914fd1f",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-82a2d452-0963-40e4-9bd5-5f42051f8d15",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-8af18c42-6536-4f4c-82c8-09e08c7e03a7",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-8bf66f2f-2817-412a-b9fd-40669bb71022",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-91a40cf3-3ee5-4e90-8e8e-908190cc9156",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-95e4e66b-0891-4dab-89a2-9cece9ab3d68",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-df718e3b-3e5b-41c2-b224-2774ce0a3b0d",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-e7dc3898-95ff-45e3-936a-6a3d2835cbc4",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-e8c9ee6b-f8a0-40bd-a559-58d0f9131716",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-ff723694-bc81-4e9c-bc34-5134fba4ca05",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-2a5e4e6b-6151-4f2a-b63c-64d17a967909",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-4be82cda-91ee-4cae-8934-e5ff756357d6",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-6ae1169c-b21f-468d-9aff-f03f2d761ffd",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-bc2e0a39-b8a4-4490-bfef-19801f8416e6",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/ui-mutation-3e49f5d9-e75e-49df-a564-964e33346356",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/ui-mutation-b87e5d2b-a97c-40cc-b6a1-aea5c9305fbc",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/upgrade-r14-verification01-upgrade",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/upgrade-r14-verification02-upgrade",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/workflow-mutation-83d328cf-8938-4348-960e-5e499c516c9d",
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/workflow-mutation-f76c5806-14c7-4fb1-aec4-55db2fa02f8f"
+  ],
+  "latestCache": [
+    "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/gateway/__pycache__"
+  ],
+  "deleteStaleReport": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/REPORT_R02.md",
+  "preserve": "current source, tests and fixtures, all formal evidence including failures, Git, two current sealed archives",
+  "sealedArchives": {
+    "PTDS-H5-sjia-mas-r14-source.zip": "98829cf629d0d0ec3567d45c60c5daed1daad5b8d4e6d363992aff7a1878b192",
+    "PTDS-H5-sjia-mas-r14.zip": "89556076c60d23e6b263dc6c7b0071b77349ef98fefc02f7a64f1e36df10405e"
+  },
+  "verificationBindingBefore": "4106d6c0ff2b8407a50aa22c435f0bc1b4724a29b45accb90f1e482e17703a85",
+  "latestAllocatedKiBBefore": 301536,
+  "services": "paused; no start/stop",
+  "AIh": "UNMEASURED"
+}

@@ -1,0 +1,317 @@
+{
+  "ok": true,
+  "binding": "7fda886d7f62b63c86f55df901371862fc03beb88198c6af3890f282b3ecafee",
+  "previous": {
+    "report-rows-wire/layout-no-angle.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/qualitative-dropped.json": {
+      "error": "LAYOUT_PENDING_CHANGED",
+      "type": "str"
+    },
+    "report-rows-wire/empty-name-fallback.json": {
+      "error": "REPORT_EMPTY_NAME_STAGED",
+      "type": "str"
+    },
+    "report-rows-wire/layout-no-tables.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/hide-unknown.json": {
+      "error": "REPORT_UNMAPPED_HIDDEN",
+      "type": "str"
+    },
+    "report-rows-wire/stacked-footer-global.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/reuse-row-check.json": {
+      "error": "REPORT_EDIT_REUSES_CHECK",
+      "type": "str"
+    },
+    "review-mutations/mutant.json": {
+      "error": "async edit enabled stale review",
+      "type": "str"
+    },
+    "ocr-tables-wire/zero-regression.json": {
+      "error": "ZERO_SUCCESS_FEEDBACK",
+      "type": "str"
+    },
+    "startup-wire/no-fallback-startup_task.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "startup-wire/style-regression.json": {
+      "error": "STARTUP_STYLE_NOT_READY",
+      "type": "str"
+    },
+    "startup-wire/no-fallback-startup.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "startup-wire/no-fallback-startup_plan.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "startup-wire/original-entry.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "ocr-review-wire/no-snapshot.json": {
+      "error": "ORIGIN_SNAPSHOT_MISSING",
+      "type": "str"
+    },
+    "ocr-review-wire/url-leak.json": {
+      "error": "DRAFT_NAVIGATION_URL_LEAK",
+      "type": "str"
+    },
+    "workflow-mutations/mutant.json": {
+      "error": "WAIT ()=>$('#generate-consultation')",
+      "type": "str"
+    },
+    "draft-race-mutations/original/browser.json": {
+      "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+      "type": "str"
+    },
+    "draft-race-mutations/conflict-success/browser.json": {
+      "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+      "type": "str"
+    },
+    "async-ownership/original-flow/reload-error.json": {
+      "error": "RELOAD_REJECTION_ESCAPED_UI",
+      "type": "str"
+    },
+    "async-ownership/original-flow/consult-conflict.json": {
+      "error": "GENERATION_OVERWROTE_CONFLICTING_TEXT",
+      "type": "str"
+    },
+    "async-ownership/original-flow/consult-edit.json": {
+      "error": "GENERATION_OVERWROTE_NEW_MANUAL_EDIT",
+      "type": "str"
+    },
+    "async-ownership/ocr-cancel-mutant/ocr-hash-edit.json": {
+      "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+      "type": "str"
+    },
+    "async-ownership/ocr-cancel-mutant/ocr-edit.json": {
+      "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+      "type": "str"
+    },
+    "observer-mutations/mutant/browser.json": {
+      "error": "LOCAL_LISTENER_STARVED",
+      "type": "str"
+    },
+    "lifecycle-mutations/abandoned-upgrade/browser.json": {
+      "error": "ABANDONED_UPGRADE_CHANGED_SCHEMA {\"state\":\"rejected\",\"error\":\"UPGRADE_BLOCKED_CLOSE_OTHER_TABS\",\"version\":2,\"hasProductStores\":true,\"sentinel\":true}",
+      "type": "str"
+    },
+    "lifecycle-mutations/store-close/browser.json": {
+      "error": "CLOSED_STORE_RESURRECTED {\"state\":\"fulfilled\",\"connectionResurrected\":true}",
+      "type": "str"
+    },
+    "debt-mutations/ocr-mutant/browser.json": {
+      "error": "WAIT ()=>$('#export')",
+      "type": "str"
+    },
+    "debt-mutations/draft-mutant/browser.json": {
+      "error": "clinical notification erased manual additions",
+      "type": "str"
+    },
+    "debt-mutations/backup-mutant/browser.json": {
+      "error": "EXPECTED_AbortError",
+      "type": "str"
+    },
+    "records-consistency/guard-removal/intervening-write.json": {
+      "error": "HOME_PUBLISHED_OLD_TIMELINE",
+      "type": "str"
+    },
+    "records-consistency/original-r18/intervening-write.json": {
+      "error": "HOME_PUBLISHED_OLD_TIMELINE",
+      "type": "str"
+    }
+  },
+  "current": {
+    "report-rows-wire/layout-no-angle.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/incomplete-unit-bypass.json": {
+      "error": "REPORT_INCOMPLETE_UNIT_STAGED",
+      "type": "str"
+    },
+    "report-rows-wire/qualitative-dropped.json": {
+      "error": "LAYOUT_PENDING_CHANGED",
+      "type": "str"
+    },
+    "report-rows-wire/empty-name-fallback.json": {
+      "error": "REPORT_EMPTY_NAME_STAGED",
+      "type": "str"
+    },
+    "report-rows-wire/layout-no-tables.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/hide-unknown.json": {
+      "error": "REPORT_UNMAPPED_HIDDEN",
+      "type": "str"
+    },
+    "report-rows-wire/stacked-footer-global.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/footer-cross-panel.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    },
+    "report-rows-wire/reuse-row-check.json": {
+      "error": "REPORT_EDIT_REUSES_CHECK",
+      "type": "str"
+    },
+    "review-mutations/mutant.json": {
+      "error": "async edit enabled stale review",
+      "type": "str"
+    },
+    "ocr-tables-wire/zero-regression.json": {
+      "error": "ZERO_SUCCESS_FEEDBACK",
+      "type": "str"
+    },
+    "startup-wire/no-fallback-startup_task.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "startup-wire/style-regression.json": {
+      "error": "STARTUP_STYLE_NOT_READY",
+      "type": "str"
+    },
+    "startup-wire/no-fallback-startup.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "startup-wire/no-fallback-startup_plan.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "startup-wire/original-entry.json": {
+      "error": "STARTUP_FAILURE_NOT_EXPLAINED",
+      "type": "str"
+    },
+    "ocr-review-wire/no-snapshot.json": {
+      "error": "ORIGIN_SNAPSHOT_MISSING",
+      "type": "str"
+    },
+    "ocr-review-wire/url-leak.json": {
+      "error": "DRAFT_NAVIGATION_URL_LEAK",
+      "type": "str"
+    },
+    "workflow-mutations/mutant.json": {
+      "error": "WAIT ()=>$('#generate-consultation')",
+      "type": "str"
+    },
+    "draft-race-mutations/original/browser.json": {
+      "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+      "type": "str"
+    },
+    "draft-race-mutations/conflict-success/browser.json": {
+      "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+      "type": "str"
+    },
+    "async-ownership/original-flow/reload-error.json": {
+      "error": "RELOAD_REJECTION_ESCAPED_UI",
+      "type": "str"
+    },
+    "async-ownership/original-flow/consult-conflict.json": {
+      "error": "GENERATION_OVERWROTE_CONFLICTING_TEXT",
+      "type": "str"
+    },
+    "async-ownership/original-flow/consult-edit.json": {
+      "error": "GENERATION_OVERWROTE_NEW_MANUAL_EDIT",
+      "type": "str"
+    },
+    "async-ownership/ocr-cancel-mutant/ocr-hash-edit.json": {
+      "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+      "type": "str"
+    },
+    "async-ownership/ocr-cancel-mutant/ocr-edit.json": {
+      "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+      "type": "str"
+    },
+    "observer-mutations/mutant/browser.json": {
+      "error": "LOCAL_LISTENER_STARVED",
+      "type": "str"
+    },
+    "lifecycle-mutations/abandoned-upgrade/browser.json": {
+      "error": "ABANDONED_UPGRADE_CHANGED_SCHEMA {\"state\":\"rejected\",\"error\":\"UPGRADE_BLOCKED_CLOSE_OTHER_TABS\",\"version\":2,\"hasProductStores\":true,\"sentinel\":true}",
+      "type": "str"
+    },
+    "lifecycle-mutations/store-close/browser.json": {
+      "error": "CLOSED_STORE_RESURRECTED {\"state\":\"fulfilled\",\"connectionResurrected\":true}",
+      "type": "str"
+    },
+    "debt-mutations/ocr-mutant/browser.json": {
+      "error": "WAIT ()=>$('#export')",
+      "type": "str"
+    },
+    "debt-mutations/draft-mutant/browser.json": {
+      "error": "clinical notification erased manual additions",
+      "type": "str"
+    },
+    "debt-mutations/backup-mutant/browser.json": {
+      "error": "EXPECTED_AbortError",
+      "type": "str"
+    },
+    "records-consistency/guard-removal/intervening-write.json": {
+      "error": "HOME_PUBLISHED_OLD_TIMELINE",
+      "type": "str"
+    },
+    "records-consistency/original-r18/intervening-write.json": {
+      "error": "HOME_PUBLISHED_OLD_TIMELINE",
+      "type": "str"
+    }
+  },
+  "existingFailureErrorsAndTypesIdentical": true,
+  "configComparisons": {
+    "report-rows-wire/layout-no-angle.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "report-rows-wire/qualitative-dropped.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "report-rows-wire/empty-name-fallback.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "report-rows-wire/layout-no-tables.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "report-rows-wire/hide-unknown.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "report-rows-wire/stacked-footer-global.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "report-rows-wire/reuse-row-check.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "review-mutations/mutant.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "ocr-tables-wire/zero-regression.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "startup-wire/no-fallback-startup_task.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "startup-wire/style-regression.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "startup-wire/no-fallback-startup.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "startup-wire/no-fallback-startup_plan.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "startup-wire/original-entry.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "ocr-review-wire/no-snapshot.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "ocr-review-wire/url-leak.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "workflow-mutations/mutant.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "draft-race-mutations/original/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "draft-race-mutations/conflict-success/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "async-ownership/original-flow/reload-error.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "async-ownership/original-flow/consult-conflict.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "async-ownership/original-flow/consult-edit.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "async-ownership/ocr-cancel-mutant/ocr-hash-edit.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "async-ownership/ocr-cancel-mutant/ocr-edit.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "observer-mutations/mutant/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "lifecycle-mutations/abandoned-upgrade/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "lifecycle-mutations/store-close/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "debt-mutations/ocr-mutant/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "debt-mutations/draft-mutant/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "debt-mutations/backup-mutant/browser.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "records-consistency/guard-removal/intervening-write.json": "SAME_EXCEPT_RANDOM_PROFILE",
+    "records-consistency/original-r18/intervening-write.json": "SAME_EXCEPT_RANDOM_PROFILE"
+  },
+  "added": {
+    "report-rows-wire/incomplete-unit-bypass.json": {
+      "error": "REPORT_INCOMPLETE_UNIT_STAGED",
+      "type": "str"
+    },
+    "report-rows-wire/footer-cross-panel.json": {
+      "error": "LAYOUT_CANDIDATE_ROWS_LOST",
+      "type": "str"
+    }
+  }
+}

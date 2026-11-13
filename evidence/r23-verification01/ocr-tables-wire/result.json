@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "identity": "author synthetic automated, not human/phone/independent acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 3,
+  "zeroRegressionKilledBy": "ZERO_SUCCESS_FEEDBACK",
+  "differentPIDs": [
+    89886,
+    89892
+  ],
+  "observations": 5,
+  "sourceLines": 51,
+  "emptyHonest": true,
+  "manualCancellationPreserved": true
+}

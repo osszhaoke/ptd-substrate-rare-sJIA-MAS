@@ -1,0 +1,30 @@
+(async()=>{
+ const $=s=>document.querySelector(s),ok=(x,m)=>{if(!x)throw Error(m);};
+ const wait=async f=>{await new Promise(r=>setTimeout(r,0));for(let i=0;i<500;i++){if(f())return;await new Promise(r=>setTimeout(r,10));}throw Error('WAIT '+f);};
+ const clean=()=>{ok(!document.body.textContent.includes('虚构或脱敏')&&!document.body.textContent.includes('合成资料')&&!document.body.textContent.includes('真实资料'),'environment obstruction');ok(!$('#state-nature')&&!document.querySelector('select#nature'),'nature selector remained');};
+ await wait(()=>$('#start'));clean();$('#local-consent').checked=true;$('#timezone').value='Asia/Shanghai';$('#start').click();await wait(()=>$('.state-overview'));
+ const {RecordStore}=await import('/storage/store.js'),{RecordService}=await import('/domain/service.js');const store=new RecordStore(),service=new RecordService(store);
+ const p={formatVersion:2,clinicalDate:'2020-01-01',observedAt:null,instanceTimezone:'Asia/Shanghai',documentKind:'manual',nature:'SYNTHETIC',sourceKind:'MANUAL',trustTier:'USER_REVIEWED',note:'historical fixture',observations:[],clinicalFlags:{FEVER:true}};
+ let draft=await service.stage(p);draft=await service.confirm(draft,true);const old=await service.save(draft),oldBytes=JSON.stringify(await store.get('events',old.eventId));
+ await store.meta({id:'state-preferences',enabled:true,nature:'SYNTHETIC'});
+ document.querySelector('[data-nav="settings"]').click();await wait(()=>$('#export'));clean();
+ document.querySelector('[data-nav="records"]').click();await wait(()=>$('.state-overview'));ok([...document.querySelectorAll('.state-card strong')].map(e=>e.textContent).join('/')==='暂无数据/暂无数据/—'&&!$('.state-overview').textContent.includes('2020-01-01'),'synthetic event leaked into REAL');clean();
+ // Delay a real read. Only the latest of two navigation intentions must survive.
+ const page=RecordStore.prototype.page;let release,reading=false;
+ RecordStore.prototype.page=async function(...args){reading=true;await new Promise(r=>release=r);return page.apply(this,args);};
+ $('#clear-date').click();await wait(()=>reading);
+ document.querySelector('[data-nav="settings"]').click();document.querySelector('[data-nav="capture"]').click();release();
+ await wait(()=>$('#start-review'));RecordStore.prototype.page=page;$('#start-review').click();await wait(()=>!$('#review-step').hidden);ok($('#nature').value==='REAL','new entry default');clean();
+ $('#clinical-date').value='2020-01-02';$('#note').value='community entry';$('#note').dispatchEvent(new Event('input',{bubbles:true}));
+ const fever=$('[data-clinical-flag="FEVER"]');fever.value='true';fever.dispatchEvent(new Event('change',{bubbles:true}));
+ $('#prepare-review').click();await wait(()=>!$('#confirmed').disabled);$('#confirmed').checked=true;$('#confirmed').dispatchEvent(new Event('change'));
+ const save=RecordService.prototype.save;let saving=false,calls=0;
+ RecordService.prototype.save=async function(...args){saving=true;calls++;await new Promise(r=>release=r);return save.apply(this,args);};
+ $('#save').click();await wait(()=>saving);$('#save').click();
+ document.querySelector('[data-nav="settings"]').click();document.querySelector('[data-nav="consultation"]').click();release();
+ await wait(()=>$('#generate-consultation'));RecordService.prototype.save=save;ok(calls===1,'write replayed');clean();
+ document.querySelector('[data-nav="records"]').click();await wait(()=>$('.state-overview'));clean();
+ ok($('.state-overview').textContent.includes('2020-01-02'),'REAL card projection absent');ok(JSON.stringify(await store.get('events',old.eventId))===oldBytes,'historical event relabeled');
+ const events=(await store.snapshot()).events;ok(events.length===2&&events.filter(e=>e.payload.nature==='REAL').length===1,'new save count/nature');store.close();
+ window.webkit.messageHandlers.result.postMessage({ok:true,results:['no environment UI obstruction','REAL new flow','historical SYNTHETIC unchanged and excluded','latest navigation survives slow read and save','no queued/replayed write'],acceptance:'OWNER_AUTOMATED_NOT_HUMAN'});
+})().catch(e=>window.webkit.messageHandlers.result.postMessage({ok:false,error:e.message,stack:e.stack}));

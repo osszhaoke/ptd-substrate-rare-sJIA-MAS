@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "baselineCommit": "c71bb7938fead3a069d47214ab51b19e2a70e263",
+  "protectedFilesUnchanged": [
+    "deploy/CONFIG.example",
+    "deploy/Caddyfile",
+    "deploy/Dockerfile",
+    "deploy/PUBLIC_CONFIG.example.json",
+    "deploy/TRIAL_POLICY.json",
+    "deploy/_headers",
+    "deploy/compose.yaml",
+    "gateway/__init__.py",
+    "gateway/credentials.py",
+    "gateway/ocr.py",
+    "gateway/policy.py",
+    "gateway/tencent.py",
+    "public_trial/POLICY.json",
+    "public_trial/__init__.py",
+    "web/adapters/ocr.js",
+    "web/app/action_coordinator.js",
+    "web/app/backup_task.js",
+    "web/app/consultation_draft.js",
+    "web/app/consultation_flow.js",
+    "web/app/editor_flow.js",
+    "web/app/home_resources.js",
+    "web/app/ocr_task.js",
+    "web/app/state_controller.js",
+    "web/app/step_flow.js",
+    "web/app/ui.js",
+    "web/assets/sjia-knowledge-qr.jpg",
+    "web/domain/model.js",
+    "web/domain/service.js",
+    "web/domain/state/candidates.js",
+    "web/domain/state/catalog.js",
+    "web/domain/state/decimal.js",
+    "web/domain/state/evaluate.js",
+    "web/domain/state/ocr_fragments.js",
+    "web/domain/state/project.js",
+    "web/domain/state/select.js",
+    "web/features/clinical_flags.js",
+    "web/features/consultation.js",
+    "web/features/consultation_page.js",
+    "web/features/editor.js",
+    "web/features/health_labels.js",
+    "web/features/home_resources.css",
+    "web/features/home_resources.js",
+    "web/features/records.js",
+    "web/features/settings.js",
+    "web/features/states.js",
+    "web/features/step_labels.js",
+    "web/fixture.png",
+    "web/icon-180.png",
+    "web/icon-192.png",
+    "web/icon-512.png",
+    "web/icon.svg",
+    "web/manifest.webmanifest",
+    "web/rules/definitions.js",
+    "web/rules/h1-dictionary-0.1.json",
+    "web/rules/sjia-rulepack-0.1.json",
+    "web/shared/observe.js",
+    "web/storage/backup.js",
+    "web/storage/backup_reader.js",
+    "web/storage/backup_stream.js",
+    "web/storage/backup_task.js",
+    "web/storage/consultation_draft.js",
+    "web/storage/state_read.js",
+    "web/storage/store.js",
+    "web/typography.css"
+  ],
+  "protectedCount": 64,
+  "versionOnlyExact": [
+    "deploy/invite_runner.py",
+    "deploy/ptds-h5.service",
+    "gateway/server.py",
+    "public_trial/server.py"
+  ],
+  "largestByBytes": [
+    {
+      "path": "web/app/main.js",
+      "lines": 132,
+      "bytes": 15072
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 129,
+      "bytes": 11193
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/rules/definitions.js",
+      "lines": 4,
+      "bytes": 8047
+    },
+    {
+      "path": "web/storage/backup.js",
+      "lines": 78,
+      "bytes": 7543
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 96,
+      "bytes": 7397
+    },
+    {
+      "path": "web/domain/model.js",
+      "lines": 53,
+      "bytes": 6711
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    },
+    {
+      "path": "web/typography.css",
+      "lines": 275,
+      "bytes": 4791
+    }
+  ],
+  "largestByLines": [
+    {
+      "path": "web/style.css",
+      "lines": 293,
+      "bytes": 4672
+    },
+    {
+      "path": "web/typography.css",
+      "lines": 275,
+      "bytes": 4791
+    },
+    {
+      "path": "web/styles/shell.css",
+      "lines": 166,
+      "bytes": 2507
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 132,
+      "bytes": 15072
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 129,
+      "bytes": 11193
+    },
+    {
+      "path": "web/styles/responsive.css",
+      "lines": 106,
+      "bytes": 1663
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 96,
+      "bytes": 7397
+    },
+    {
+      "path": "web/features/states.css",
+      "lines": 94,
+      "bytes": 1711
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    }
+  ],
+  "mainBytesBefore": 18121,
+  "mainBytesAfter": 15072,
+  "mainLinesAfter": 132,
+  "cssConcatenationSha256": "e3d109c888d85e3ba642c21ef1dae4243e2dfe15dae85fd609e85bb344cf9d77",
+  "newGlobalLocks": 0,
+  "lockAlgorithmChanged": false,
+  "newStorageEnginesTimersQueuesCaches": 0,
+  "scope": "bounded H5 only; no claim about main PTDS tree",
+  "physicalPhoneMemoryAndQuota": "UNMEASURED",
+  "AIh": "UNMEASURED"
+}

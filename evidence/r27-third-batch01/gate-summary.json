@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "checks": 61,
+  "nodeTests": 119,
+  "pythonTests": 54,
+  "binding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+  "boundInputs": 240,
+  "productLineCounts": {
+    "gateway/ocr.py": 190,
+    "web/domain/report/fields.js": 43,
+    "web/domain/report/tables.js": 148,
+    "web/domain/report/table_fields.js": 11
+  },
+  "newGlobalLocksStoreNetworkTimerDependency": false,
+  "newModuleStaticScan": "no fetch/timer/Store/indexedDB/lock APIs; reviewed existing-module delta",
+  "oldExpectedFailures": 30,
+  "newExpectedMutations": 2,
+  "independentHumanClinical": "NOT_ACCEPTED"
+}

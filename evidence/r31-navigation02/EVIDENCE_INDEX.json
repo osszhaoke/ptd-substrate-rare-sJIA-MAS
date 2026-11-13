@@ -1,0 +1,33 @@
+{
+  "identity": "R31-A2R1 verification-governance repair; candidate NOT_ADOPTED; index excludes itself",
+  "files": {
+    "evidence/r31-navigation02/R31-A2R1-source-and-evidence.tar.gz": {
+      "bytes": 205990849,
+      "sha256": "eec2ab4a48cdb81caa54f32be9ee21cf56e98773e0f0f738901812d04bbc25c2"
+    },
+    "evidence/r31-navigation02/candidate.diff": {
+      "bytes": 3825,
+      "sha256": "c47a7cca2c2190dacee6c50ebcca5698d5e55ea3c2ae00bf67df478209410bce"
+    },
+    "evidence/r31-navigation02/closure-validation.json": {
+      "bytes": 463,
+      "sha256": "c78ea6fb6676d6783a40d73c69b9a21574a48d879628e4e2d7f767a4c6b7433c"
+    },
+    "evidence/r31-navigation02/freeze.json": {
+      "bytes": 502,
+      "sha256": "6de285cef7d15a823a1ca4c0b07914ce29dc5d301a74e287d5cfd30c774f0849"
+    },
+    "evidence/r31-navigation02/freeze.py": {
+      "bytes": 2723,
+      "sha256": "2d12467699ea9111438547ebfa2d1cff4866f62ca57ade9fbb9fbe7900986675"
+    },
+    "evidence/r31-navigation02/frozen-inventory.json": {
+      "bytes": 1855191,
+      "sha256": "f0a3c2fd0bc1b8bf27eaf9a38a36ed718e4d194b7b660cb5c652012f0c2a9d2c"
+    },
+    "evidence/r31-navigation02/final-response.md": {
+      "bytes": 818,
+      "sha256": "31755e18e075d697763a5b08d18f08c69d237eb3b159bc8d2b34050738d7ad2a"
+    }
+  }
+}

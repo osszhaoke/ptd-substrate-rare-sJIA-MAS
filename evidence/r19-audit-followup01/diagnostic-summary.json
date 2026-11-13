@@ -1,0 +1,171 @@
+{
+  "window": "scale02 only; never combined with scale01 or independent windows",
+  "samples": [
+    {
+      "target": 1000,
+      "coldP95Ms": 39,
+      "warmP95Ms": 1,
+      "coldMs": [
+        39,
+        29,
+        28,
+        31,
+        29,
+        29,
+        31
+      ],
+      "snapshotMs": [
+        18,
+        15,
+        13,
+        15,
+        17,
+        15,
+        15
+      ],
+      "getAllDispatchMs": [
+        12,
+        10,
+        9,
+        11,
+        11,
+        11,
+        10
+      ],
+      "projectionAndContinuationMs": [
+        18,
+        13,
+        13,
+        13,
+        12,
+        13,
+        12
+      ]
+    },
+    {
+      "target": 3000,
+      "coldP95Ms": 87,
+      "warmP95Ms": 1,
+      "coldMs": [
+        87,
+        79,
+        76,
+        74,
+        82,
+        78,
+        79
+      ],
+      "snapshotMs": [
+        40,
+        36,
+        32,
+        33,
+        40,
+        37,
+        33
+      ],
+      "getAllDispatchMs": [
+        23,
+        20,
+        19,
+        20,
+        25,
+        23,
+        20
+      ],
+      "projectionAndContinuationMs": [
+        46,
+        42,
+        40,
+        41,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "target": 6000,
+      "coldP95Ms": 171,
+      "warmP95Ms": 1,
+      "coldMs": [
+        169,
+        162,
+        162,
+        165,
+        159,
+        171,
+        169
+      ],
+      "snapshotMs": [
+        71,
+        67,
+        72,
+        72,
+        69,
+        74,
+        71
+      ],
+      "getAllDispatchMs": [
+        42,
+        42,
+        46,
+        46,
+        45,
+        48,
+        45
+      ],
+      "projectionAndContinuationMs": [
+        93,
+        91,
+        89,
+        89,
+        89,
+        88,
+        88
+      ]
+    },
+    {
+      "target": 10000,
+      "coldP95Ms": 379,
+      "warmP95Ms": 1,
+      "coldMs": [
+        300,
+        289,
+        296,
+        295,
+        379,
+        315,
+        300
+      ],
+      "snapshotMs": [
+        129,
+        120,
+        124,
+        129,
+        171,
+        148,
+        130
+      ],
+      "getAllDispatchMs": [
+        81,
+        80,
+        80,
+        86,
+        126,
+        96,
+        90
+      ],
+      "projectionAndContinuationMs": [
+        168,
+        168,
+        171,
+        166,
+        192,
+        166,
+        161
+      ]
+    }
+  ],
+  "uniqueCause": "NOT_ESTABLISHED",
+  "prior3251msFailureRetained": true
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "before": {
+    "lockInterpretation": "CGSSessionScreenIsLocked absent or false means unlocked; no account fields collected",
+    "onConsole": true,
+    "screenLocked": false,
+    "screenLockedKeyPresent": false
+  },
+  "after": {
+    "lockInterpretation": "CGSSessionScreenIsLocked absent or false means unlocked; no account fields collected",
+    "onConsole": true,
+    "screenLocked": false,
+    "screenLockedKeyPresent": false
+  },
+  "exit": 0,
+  "identity": "complete author fictional verification; not independent/human/physical",
+  "freshCompleteWindow": true,
+  "joinedSamples": false
+}

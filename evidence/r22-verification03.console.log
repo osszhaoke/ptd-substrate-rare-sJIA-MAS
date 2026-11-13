@@ -1,0 +1,33 @@
+probe-compile
+node
+python
+{"case": "core", "pid": 79139, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ui", "pid": 79152, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "file", "pid": 79169, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr", "pid": 79180, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "state", "pid": 79195, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "state-ui", "pid": 79212, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "experience", "pid": 79237, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "compat", "pid": 79249, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "workflow", "pid": 79264, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "backup-stream", "pid": 79276, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "consult-draft", "pid": 79305, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "backup-task", "pid": 79325, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "state-batch", "pid": 79333, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "store-notifications", "pid": 79339, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "store-lifecycle", "pid": 79344, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "draft-save-races", "pid": 79349, "ok": true, "error": null, "target": null, "p95Ms": null}
+startup-wire
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/tools/verify_debt.py", line 93, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/tools/verify_debt.py", line 54, in main
+    command(tool,[sys.executable,'-B','-m',module,'--output',str(out/tool)])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/tools/verify_debt.py", line 42, in command
+    if p.returncode:raise RuntimeError('CHECK_FAILED '+name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CHECK_FAILED startup-wire

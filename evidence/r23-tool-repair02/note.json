@@ -1,0 +1,4 @@
+{
+  "controls03": "incomplete long-wait; owned probe terminated after no accepted result; old logs preserved, no product pass/failure inferred",
+  "replacement": "delay bootstrap HTTP response31 seconds, then 503; assert elapsed server/client walltime>=31 and actual visible feedback; browser uses original short visible-feedback assertion. Tests actual loading interval beyond30s without long asynchronous probe timer."
+}

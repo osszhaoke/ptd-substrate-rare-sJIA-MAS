@@ -1,0 +1,66 @@
+[hidden] {
+  display: none !important;
+}
+.step-labels {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  color: var(--muted);
+}
+.step-labels li {
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 8px;
+  flex: 1;
+}
+.step-labels li.active {
+  color: #202222;
+  border-color: #ae0011;
+}
+.keep-lines {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.local-note {
+  margin: 0 0 20px;
+}
+.consult-selection {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  margin: 12px 0;
+  background: white;
+}
+.consult-selection label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.consult-selection label span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.consult-selection p {
+  margin: 8px 0 0 28px;
+  overflow-wrap: anywhere;
+}
+.consult-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.consult-actions button {
+  flex: 1;
+  min-width: 120px;
+}
+#ai-prompt {
+  min-height: 280px;
+}
+#consultation-records {
+  max-height: 55dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: 4px;
+}

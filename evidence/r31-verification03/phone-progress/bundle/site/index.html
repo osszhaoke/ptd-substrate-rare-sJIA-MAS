@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>PTDS · 虚构资料手机验收</title>
+<link rel="stylesheet" href="/phone.css">
+<main>
+  <h1>手机验收</h1>
+  <p>这是单独的测试工具，不是病程应用。只生成虚构资料，不读取正式资料，不调用在线识别。</p>
+  <p>请使用单独的 HTTPS 验收地址。不要将此工具放到正在使用的病程网站。测试会占用本机空间，结束后可删除本工具生成的资料。</p>
+  <label>机型、系统版本和打开方式<input id="device" placeholder="例如 iPhone 15 / iOS 18 / Safari"></label>
+  <label><input id="consent" type="checkbox">确认只运行虚构资料测试，并愿意保留结果。</label>
+  <section>
+    <button id="records1000">测试 1千条记录</button>
+    <button id="records10000">测试 1万条记录</button>
+    <button id="originals">测试 64 MB 虚构图片</button>
+    <button id="quota">模拟空间不足回滚</button>
+    <button id="cancel" disabled>停止后续处理</button>
+  </section>
+  <p id="progress" role="status">尚未开始</p>
+  <p>运行期间保持此页在前台。不要锁屏或切走；如中断，结果保留“未完成”，不会自动重发保存。</p>
+  <section>
+    <h2>保存后重开检查</h2>
+    <p>测试完成后，先下载结果，再真正退出浏览器进程并重新打开本页。点下面按钮核对已保存的虚构资料。网页只能证明重新加载后的读回；是否真正退出进程需本人记录。</p>
+    <label><input id="process-closed" type="checkbox">我确认已真正退出浏览器进程后重新打开</label>
+    <button id="reopen">核对已保存的测试资料</button>
+  </section>
+  <button id="download">下载测试结果</button>
+  <button id="cleanup">删除本工具生成的测试资料</button>
+  <p>Safari 通常不提供浏览器总内存峰值。结果会如实写“未测”，不会用帧缓冲大小代替总内存。空间不足回滚的自动化注入结果也不代表真机已经用尽空间。</p>
+  <p>“模拟空间不足回滚”只在本工具的虚构库中注入失败，不会填满手机存储；验证失败后无半条恢复、随后仍能成功恢复。</p>
+  <pre id="result" aria-label="测试结果"></pre>
+</main>
+<script type="module" src="/phone.js"></script>
+</html>

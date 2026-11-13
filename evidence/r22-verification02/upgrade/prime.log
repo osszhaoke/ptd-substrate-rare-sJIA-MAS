@@ -1,0 +1,14 @@
+{
+  "mode" : "prime",
+  "ok" : true,
+  "receipt" : {
+    "at" : "2026-11-09T15:22:38.122Z",
+    "deleted" : false,
+    "digest" : "246d674cb63ba856fa14142155936f2031db7da9b37ee6702b56e9cbd39a1339",
+    "eventId" : "80274f55-15d6-402c-ad43-4bd2106afd2f",
+    "id" : "3dac1bf1-3fe7-4060-a5ab-b20118db269e",
+    "scope" : "THIS_BROWSER_LOCAL_ONLY"
+  },
+  "sourceHash" : "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+  "title" : "PTDS synthetic shell 1"
+}

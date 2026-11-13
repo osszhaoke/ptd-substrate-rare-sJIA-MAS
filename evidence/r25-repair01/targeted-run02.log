@@ -1,0 +1,6 @@
+{"case": "report-rows", "pid": 27726, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27733, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27738, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27743, "ok": false, "error": "REPORT_EMPTY_NAME_STAGED", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27763, "ok": false, "error": "REPORT_UNMAPPED_HIDDEN", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27768, "ok": false, "error": "REPORT_EDIT_REUSES_CHECK", "target": null, "p95Ms": null}

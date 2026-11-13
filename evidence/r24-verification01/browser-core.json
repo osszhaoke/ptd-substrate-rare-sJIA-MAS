@@ -1,0 +1,15 @@
+{
+  "backupBytes" : 972839,
+  "fixtureHash" : "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+  "ok" : true,
+  "results" : [
+    "L02 unconfirmed\/edit invalidation",
+    "L07 two-connection CAS",
+    "L03 synthetic quota after event add: rollback (AbortError)",
+    "L04 idempotency conflict",
+    "L05 original blob duplicate and unmatched lines",
+    "L08 encrypted backup wrong password corruption conflict and no authorization replay",
+    "L10 delete source tombstone clear",
+    "L07 blocked upgrade explicit failure"
+  ]
+}

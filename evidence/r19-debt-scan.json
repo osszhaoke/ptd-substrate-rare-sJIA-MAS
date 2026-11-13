@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "baselineCommit": "663c3c0054333892c0ac346089e357700a4fde18",
+  "scope": "bounded current H5 review; app/storage/adapters/gateway/public wrapper resource and async boundaries; no main PTDS scan",
+  "protectedFilesUnchanged": [
+    "deploy/CONFIG.example",
+    "deploy/Caddyfile",
+    "deploy/Dockerfile",
+    "deploy/PUBLIC_CONFIG.example.json",
+    "deploy/TRIAL_POLICY.json",
+    "deploy/_headers",
+    "deploy/compose.yaml",
+    "gateway/__init__.py",
+    "gateway/credentials.py",
+    "gateway/ocr.py",
+    "gateway/policy.py",
+    "gateway/tencent.py",
+    "public_trial/POLICY.json",
+    "public_trial/__init__.py",
+    "web/adapters/ocr.js",
+    "web/app/action_coordinator.js",
+    "web/app/backup_task.js",
+    "web/app/consultation_draft.js",
+    "web/app/consultation_flow.js",
+    "web/app/editor_flow.js",
+    "web/app/home_resources.js",
+    "web/app/main.js",
+    "web/app/ocr_task.js",
+    "web/app/settings_flow.js",
+    "web/app/state_controller.js",
+    "web/app/step_flow.js",
+    "web/assets/sjia-knowledge-qr.jpg",
+    "web/domain/model.js",
+    "web/domain/service.js",
+    "web/domain/state/candidates.js",
+    "web/domain/state/catalog.js",
+    "web/domain/state/decimal.js",
+    "web/domain/state/evaluate.js",
+    "web/domain/state/ocr_fragments.js",
+    "web/domain/state/project.js",
+    "web/domain/state/select.js",
+    "web/features/clinical_flags.js",
+    "web/features/consultation.css",
+    "web/features/consultation.js",
+    "web/features/consultation_page.js",
+    "web/features/editor.css",
+    "web/features/editor.js",
+    "web/features/health_labels.js",
+    "web/features/home_resources.css",
+    "web/features/home_resources.js",
+    "web/features/records.js",
+    "web/features/settings.js",
+    "web/features/states.css",
+    "web/features/states.js",
+    "web/features/step_labels.js",
+    "web/fixture.png",
+    "web/icon-180.png",
+    "web/icon-192.png",
+    "web/icon-512.png",
+    "web/icon.svg",
+    "web/index.html",
+    "web/manifest.webmanifest",
+    "web/rules/definitions.js",
+    "web/rules/h1-dictionary-0.1.json",
+    "web/rules/sjia-rulepack-0.1.json",
+    "web/shared/observe.js",
+    "web/storage/backup.js",
+    "web/storage/backup_reader.js",
+    "web/storage/backup_stream.js",
+    "web/storage/backup_task.js",
+    "web/storage/consultation_draft.js",
+    "web/storage/state_read.js",
+    "web/style.css",
+    "web/styles/responsive.css",
+    "web/styles/shell.css",
+    "web/typography.css"
+  ],
+  "protectedCount": 71,
+  "versionOnlyExactFiles": [
+    "deploy/invite_runner.py",
+    "deploy/ptds-h5.service",
+    "gateway/server.py",
+    "public_trial/server.py"
+  ],
+  "semanticChangeFiles": [
+    "web/app/records_flow.js",
+    "web/app/ui.js",
+    "web/storage/store.js",
+    "web/app/records_snapshot.js"
+  ],
+  "storeOutsidePageBytesUnchanged": true,
+  "uiOnlyChange": "one visible continuous-update error mapping",
+  "mainBytesUnchanged": true,
+  "cssBytesUnchanged": true,
+  "largestByLines": [
+    {
+      "path": "web/style.css",
+      "lines": 293,
+      "bytes": 4672
+    },
+    {
+      "path": "web/typography.css",
+      "lines": 275,
+      "bytes": 4791
+    },
+    {
+      "path": "web/styles/shell.css",
+      "lines": 166,
+      "bytes": 2507
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 132,
+      "bytes": 15072
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 130,
+      "bytes": 11350
+    },
+    {
+      "path": "web/styles/responsive.css",
+      "lines": 106,
+      "bytes": 1663
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 96,
+      "bytes": 7397
+    },
+    {
+      "path": "web/features/states.css",
+      "lines": 94,
+      "bytes": 1711
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    }
+  ],
+  "largestByBytes": [
+    {
+      "path": "web/app/main.js",
+      "lines": 132,
+      "bytes": 15072
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 130,
+      "bytes": 11350
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/rules/definitions.js",
+      "lines": 4,
+      "bytes": 8047
+    },
+    {
+      "path": "web/storage/backup.js",
+      "lines": 78,
+      "bytes": 7543
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 96,
+      "bytes": 7397
+    },
+    {
+      "path": "web/domain/model.js",
+      "lines": 53,
+      "bytes": 6711
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    },
+    {
+      "path": "web/typography.css",
+      "lines": 275,
+      "bytes": 4791
+    }
+  ],
+  "newGlobalLocks": 0,
+  "newTimerQueueCacheOrStorage": 0,
+  "readLimit": "at most 3 page/state pairs; page<=50; existing StateController internal bound remains3",
+  "knownReproducibleLocalCodeOpen": 0,
+  "repaired": [
+    {
+      "severity": "P2",
+      "id": "R19-HOME-SNAPSHOT",
+      "original": "evidence/r19-audit01/original-intervening-write.json",
+      "controls": "evidence/r19-consistency01/result.json",
+      "failure": "HOME_PUBLISHED_OLD_TIMELINE",
+      "effect": "stale display, no data loss"
+    }
+  ],
+  "phoneAcceptance": "R18_USER_REPORTED_REAL_DEVICE_PASS; measurements not supplied",
+  "physicalMemoryAndQuota": "UNMEASURED",
+  "historicalStall": "NOT_UNIQUELY_ESTABLISHED",
+  "AIh": "UNMEASURED"
+}

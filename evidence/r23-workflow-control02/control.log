@@ -1,0 +1,17 @@
+PROBE_WINDOW_VISIBLE false APP_ACTIVE false
+{
+  "identity" : "author automated fictional UI, not human or clinical acceptance",
+  "ok" : true,
+  "results" : [
+    "exact notice and four nav labels",
+    "fixed cards despite old disabled preference",
+    "no persistence request",
+    "three progressive steps and explicit reconfirmation",
+    "home selection fully moved",
+    "cross-page consultation selection",
+    "explicit local deidentification then doctor-directed prompt",
+    "no identity or automatic network",
+    "edited card synchronizes prompt",
+    "selection\/data changes reject stale output"
+  ]
+}

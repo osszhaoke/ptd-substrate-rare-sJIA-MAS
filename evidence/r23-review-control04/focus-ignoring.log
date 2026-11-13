@@ -1,0 +1,12 @@
+before false true 1
+activated true
+after false
+-e:2:204: warning: 'activateIgnoringOtherApps' was deprecated in macOS 14.0: ignoringOtherApps is deprecated in macOS 14 and will have no effect. [#DeprecatedDeclaration]
+1 | #sourceLocation(file: "-e", line: 1)
+2 | import AppKit
+3 | if let app=NSRunningApplication(processIdentifier: 92770) {print("before",app.isActive,app.isFinishedLaunching,app.activationPolicy.rawValue);print("activated",app.activate(options:[.activateAllWindows,.activateIgnoringOtherApps]));print("after",app.isActive)}
+  |                                                                                                                                                                                                            `- warning: 'activateIgnoringOtherApps' was deprecated in macOS 14.0: ignoringOtherApps is deprecated in macOS 14 and will have no effect. [#DeprecatedDeclaration]
+4 | 
+5 | 
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>

@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "syntheticOnly": true,
+  "actualProviderCalls": 0,
+  "simulatedAdapterCalls": [
+    {
+      "imageSha256": "d3bcf2e7ca009a8e70097385a48009e4c6cd179b86c18cb0c3a9ea4244472b13",
+      "signed": true,
+      "action": "GeneralAccurateOCR"
+    }
+  ],
+  "reserved": 1,
+  "reservedCost": "0.50",
+  "clientResult": "browser.json",
+  "localHttpOriginOverride": "test harness only; not deployment/TLS evidence"
+}

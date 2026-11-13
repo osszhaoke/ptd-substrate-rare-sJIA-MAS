@@ -1,0 +1,327 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "navigation": true
+  },
+  {
+    "method": "GET",
+    "path": "/style.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/styles/shell.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/editor.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/states.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/styles/responsive.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/typography.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/home_resources.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/ocr_review.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/manifest.webmanifest",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup_plan.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup_task.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/ocr_review.css",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/home_resources.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/ocr_task.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/records_snapshot.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/step_flow.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/ui.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/ocr_review.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/decimal.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/ocr_aliases.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/ocr_tables.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/health_labels.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/home_resources.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/rules/definitions.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/shared/observe.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup_task.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/action_coordinator.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/backup_task.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/consultation_draft.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/catalog.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/evaluate.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/ocr_fragments.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/clinical_flags.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/settings.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/step_labels.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/model.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/candidates.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/select.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation_page.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/adapters/ocr.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/service.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/project.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/editor.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/ocr_evidence.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup_reader.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/consultation_draft.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/state_read.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/consultation_flow.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/ocr_review.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/state_controller.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/records.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/features/states.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup_stream.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/store.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/editor_flow.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/records_flow.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/settings_flow.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/app/main.js",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/api/ocr/config",
+    "navigation": false
+  },
+  {
+    "method": "GET",
+    "path": "/sw.js",
+    "navigation": false
+  }
+]

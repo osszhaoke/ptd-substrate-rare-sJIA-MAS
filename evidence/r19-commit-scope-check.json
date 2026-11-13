@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "pendingFiles": 678,
+  "expectedFictionalFixtureZips": [
+    "evidence/r19-verification01/phone-journal/bundle/PTDS-H5-phone-r19.zip",
+    "evidence/r19-verification01/phone-progress/bundle/PTDS-H5-phone-r19.zip",
+    "evidence/r19-verification01/phone-quota/bundle/PTDS-H5-phone-r19.zip",
+    "evidence/r19-verification01/phone-tool/bundle/PTDS-H5-phone-r19.zip"
+  ],
+  "privateRuntimeOrProductZipIncluded": false,
+  "rootOnly": "003-PTDS-FLASH-H5"
+}

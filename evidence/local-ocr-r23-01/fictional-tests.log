@@ -1,0 +1,8 @@
+test_fixed_loopback_only (__main__.LocalOperatorTests.test_fixed_loopback_only) ... ok
+test_original_origin_token_and_request_guards_before_fake_provider (__main__.LocalOperatorTests.test_original_origin_token_and_request_guards_before_fake_provider) ... ok
+test_original_public_https_gate_unchanged_and_missing_secret_rejected (__main__.LocalOperatorTests.test_original_public_https_gate_unchanged_and_missing_secret_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.535s
+
+OK

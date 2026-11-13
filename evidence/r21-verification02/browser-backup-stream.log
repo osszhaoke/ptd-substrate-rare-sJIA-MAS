@@ -1,0 +1,16 @@
+{
+  "backupBytes" : 9442936,
+  "frames" : 146,
+  "maxCryptoBytes" : 262145,
+  "memoryLimit" : "AES processing window only; output Blob, metadata and one <=8MiB original SHA256 buffer remain",
+  "ok" : true,
+  "originalBytes" : 9437184,
+  "results" : [
+    "ordered authenticated frames",
+    "authenticated header and end",
+    "truncation reorder trailing corruption rejected",
+    "no partial writes",
+    "exact originals and nature preserved",
+    "format2 readable"
+  ]
+}

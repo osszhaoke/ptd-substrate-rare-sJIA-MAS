@@ -1,0 +1,77 @@
+{
+  "identity": "R09 approved settings redesign: only 4 untouched original R07 page snapshots retained; changed pages still checked for fonts and overflow",
+  "approvedChangedPages": [
+    "capture source",
+    "capture review",
+    "capture confirmation",
+    "consultation selection",
+    "consultation generated",
+    "consultation conflict",
+    "settings",
+    "backup processing",
+    "backup preview",
+    "backup committing"
+  ],
+  "outputs": {
+    "layout-320-160": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-320-160.json",
+      "sha256": "1432e5a7191698e933359a75e79242d665682698d01468d1a3c92c56ab0dca1c",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ],
+      "pagesSha256": "4106a1fded2257f3a0e016685006e0b7ab5e115973fcc248037530c77d45572d"
+    },
+    "layout-430-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-430-100.json",
+      "sha256": "1df34e74417b60f850a5afd5942d8351d5533f2ad0deaa1ef8ea496874ba8034",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ],
+      "pagesSha256": "656593f398a8d098cc6119dd4e03704f91949f71e5acd922597f72feb5735786"
+    },
+    "layout-390-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-390-100.json",
+      "sha256": "6a4cca5edef7e216400bdc2bc72f598f968a1dda2ecdecc0f2a452534945eb42",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ],
+      "pagesSha256": "8f91b191cefbe52f1fdfb0a83c0e9a6d6634848293986698f3f1e0b70c2d6b3d"
+    },
+    "layout-620-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-620-100.json",
+      "sha256": "8ee107103a5ccf01a67f15a5e1e79338bb6d8f48688629f1a49016bfcf76ec3d",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ],
+      "pagesSha256": "810a1e718eef2f5ad6ec208e4b52cbfdc2aeae94576c4693fb83ca07db77be55"
+    },
+    "layout-320-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-320-100.json",
+      "sha256": "322a91bbfd3cda95a127d7287924076c0dcf6129dfee0620fd2f9fcfa2f81327",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts"
+      ],
+      "pagesSha256": "a935a1091256a5c7a1dedc89772d8f78a2e9bcfa60ebe2778bcd0a448e5a6aa4"
+    }
+  },
+  "allowedSubtreeDeletion": "settings app update SECTION/H2/button#check-update/p#update-status",
+  "approvedAddedPages": [
+    "consultation AI optional",
+    "backup format details"
+  ]
+}

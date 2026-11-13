@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "archive": "runtime/archives-r26-01/PTDS-H5-R26-current-source-with-modes.zip",
+  "sha256": "c71a10cb1530918b4d5b0b7e3ffe406cdd6988788399de01f4badf26a56d2ffc",
+  "bytes": 2421078,
+  "files": 253,
+  "binding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "contentsVerifiedIndividually": true,
+  "excludesPrivateInputsCredentialsAndDatabase": true,
+  "preservesFileModes": true,
+  "intermediateByteOnlyArchiveReplacedAfterVerification": true
+}

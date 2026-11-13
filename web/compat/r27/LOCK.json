@@ -1,0 +1,66 @@
+{
+  "policy": "cbc-report/r27-exact-source/1",
+  "commit": "fd59e94b4847d7881f5a90fe662a0c710f6738e5",
+  "entry": "web/domain/report/rows.js",
+  "files": {
+    "web/domain/report/rows.js": {
+      "sha256": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce",
+      "bytes": 5111
+    },
+    "web/domain/report/fields.js": {
+      "sha256": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b",
+      "bytes": 3864
+    },
+    "web/rules/definitions.js": {
+      "sha256": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+      "bytes": 8047
+    },
+    "web/domain/state/catalog.js": {
+      "sha256": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+      "bytes": 1612
+    },
+    "web/domain/state/ocr_aliases.js": {
+      "sha256": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+      "bytes": 827
+    },
+    "web/domain/state/ocr_tables.js": {
+      "sha256": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8",
+      "bytes": 5646
+    },
+    "web/domain/ocr_review.js": {
+      "sha256": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a",
+      "bytes": 1858
+    },
+    "web/domain/state/candidates.js": {
+      "sha256": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+      "bytes": 3078
+    },
+    "web/domain/state/ocr_fragments.js": {
+      "sha256": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+      "bytes": 3449
+    },
+    "web/domain/model.js": {
+      "sha256": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403",
+      "bytes": 6563
+    },
+    "web/domain/report/contract.js": {
+      "sha256": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403",
+      "bytes": 2394
+    },
+    "web/domain/report/tables.js": {
+      "sha256": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f",
+      "bytes": 11815
+    },
+    "web/domain/report/table_fields.js": {
+      "sha256": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2",
+      "bytes": 1230
+    },
+    "web/domain/report/layout.js": {
+      "sha256": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50",
+      "bytes": 1032
+    }
+  },
+  "bytes": 56526,
+  "scope": "restore-only exact historical parser transitive closure; no old service,Store,network,timer or shared mutable runtime",
+  "sameSourceRequired": "whole record origins all match one candidate set; no row-wise version mixing"
+}

@@ -1,0 +1,177 @@
+{
+  "baselineCommit": "97cb847",
+  "pureMovementCommit": "1abd406a897369c83dc6ab3b4c69b11adfa3d8f6",
+  "trackedChangedFilesAtScan": [
+    {
+      "path": "ACCEPTANCE.json",
+      "bytes": 1935,
+      "sha256": "2dc7567175c39f0692596e1576a5707847d1f6d706bb3bcdfd7b43bdb59a2d5e"
+    },
+    {
+      "path": "AUTHORIZATION.json",
+      "bytes": 687,
+      "sha256": "099b62dde1d37586bbbcab7c6ec47351e21fa45995871beb16dfc95e20661317"
+    },
+    {
+      "path": "DECISIONS.md",
+      "bytes": 98417,
+      "sha256": "f4f04ef7ba53b5bdd759c2b9bb925688efbd676801fdddeb144541c8ae4ac8c6"
+    },
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "bytes": 12164,
+      "sha256": "2b3105df04926cbd9c98ac0fc6d828e53c2de2dd16b1770335e4602686988b2d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2452,
+      "sha256": "7a92be145c519f8c8cf972a9a123c50d246b19bd579151c10803badc77df6f2c"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 1146,
+      "sha256": "7060aefe1deaad1f49cbaae41fbe47d30ec529123943a7d4969563594042afd2"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "bytes": 5910,
+      "sha256": "7c68b1eef7701ea0e69865ab7d35622416b6157b359150d815220f22f83c186a"
+    },
+    {
+      "path": "deploy/invite_runner.py",
+      "bytes": 7738,
+      "sha256": "7906d881f7fff526a67f66bddf7c1c17adbebccd588a9c4edd594fa5f141a402"
+    },
+    {
+      "path": "deploy/ptds-h5.service",
+      "bytes": 716,
+      "sha256": "a0e47c9e72d4c731ffb95830dcaf5f6066a6ab08f77d1b4995c516175a79d4fd"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 8439,
+      "sha256": "8337980aaa33c8262b0eb8291a8fef9c8cafc7403b23460387a1301fe6d51541"
+    },
+    {
+      "path": "docs/DEBT_RESCAN.md",
+      "bytes": 2793,
+      "sha256": "eeb0d90a6a2967d1d62595a8d7904eb08358e2c34ce2463afa6c9e82925bdb2c"
+    },
+    {
+      "path": "gateway/server.py",
+      "bytes": 7052,
+      "sha256": "e4a70f0aef039c88f873b2c6ed1dd7a88a84345e2a1ad7403e756c3a61c8f93e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 492,
+      "sha256": "f6141504bcf597d22263b30c4cd039ed59e1536425fa53eeb309b6c3c7862789"
+    },
+    {
+      "path": "public_trial/server.py",
+      "bytes": 12050,
+      "sha256": "4f18b07b84e81e4823bc4bcb12446d38271af4bf376dd180ff583c2cdfa4bfa0"
+    },
+    {
+      "path": "tests/test_deploy.py",
+      "bytes": 4967,
+      "sha256": "2f0961261489817125186d57bf71fa0517423ab950de8c721b3ba2c237fc528a"
+    },
+    {
+      "path": "tests/test_invite_runner.py",
+      "bytes": 5453,
+      "sha256": "7d7051340197bfd449b4447fdd6627d21aaef21d17096144688a679322823f94"
+    },
+    {
+      "path": "tests/test_phone_acceptance.py",
+      "bytes": 1852,
+      "sha256": "e4527dabeb7bfe4994a381e26b62d3aa01cc17d6c9fc4ad822f556803b161f2c"
+    },
+    {
+      "path": "tools/build.py",
+      "bytes": 5887,
+      "sha256": "b3ab98ceb13bfbfe8236c2e94da64df85731d7e8ff412ac1d65eda9cbfc58c7c"
+    },
+    {
+      "path": "tools/phone_acceptance.py",
+      "bytes": 3838,
+      "sha256": "2d1b46cc51f9f8109e85159ca31e6b2a59d39fe0a669e5d0830757047458fd01"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "bytes": 15205,
+      "sha256": "d37cb7f2002cf8d7f87dfc90d475eff6d9ec248a746050e6aaac2e69c5d85223"
+    },
+    {
+      "path": "tools/verify_debt.py",
+      "bytes": 8429,
+      "sha256": "c9833c35161d6715ca0f8c83d57d1ba1daec9d03e0b622d10d0da38bb651a5c3"
+    },
+    {
+      "path": "web/app/main.js",
+      "bytes": 15072,
+      "sha256": "928413a023ccd62c9e8cbe4d5e7cfd612f001e2457c8801ea90c87b528aacc09"
+    },
+    {
+      "path": "web/app/records_flow.js",
+      "bytes": 1486,
+      "sha256": "0406d7ccb57936a05d6ad5dbf90e0382fdd36c275a1d44e1933adde3d09883b8"
+    },
+    {
+      "path": "web/app/settings_flow.js",
+      "bytes": 2664,
+      "sha256": "ff17ba8821792948f87998ad5926548c06fbd964fd94f678b3c2b2a8383a085a"
+    },
+    {
+      "path": "web/features/consultation.css",
+      "bytes": 1125,
+      "sha256": "86699f5b31f3adf2c12616faa4dc334615142031ad0979d866854f692133c1bf"
+    },
+    {
+      "path": "web/features/editor.css",
+      "bytes": 1343,
+      "sha256": "2d32fd66940bb73bfe741a718ef87a674630fc8b2df2bd396f580b22d027ee00"
+    },
+    {
+      "path": "web/features/states.css",
+      "bytes": 1711,
+      "sha256": "3f29e0f08f0113618358f5cc895a8ac564bc59b1d3ab388572ace9e7839a6a39"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1703,
+      "sha256": "407c6cfe6ce3338445af38a0d5eae58b96a806e2f8872d2d79fe127c6616c021"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 4672,
+      "sha256": "812698ab4bf971d4522936b6d3f74858c3ffa67abff9388cdf240cc0e2f02224"
+    },
+    {
+      "path": "web/styles/responsive.css",
+      "bytes": 1663,
+      "sha256": "bb0f65fc0b2eec3e7a03569601fd63a92f0dbc451b936123d5dd42ca4aae1c14"
+    },
+    {
+      "path": "web/styles/shell.css",
+      "bytes": 2507,
+      "sha256": "04c55af50bcae44f187aeceb330b410d4d0d1041ad72006040d12a5614cd4cd8"
+    },
+    {
+      "path": "web/sw.js",
+      "bytes": 2101,
+      "sha256": "503bfbdb8349a2b3b06dda1a8b386b041876f870666f4e36d6de3ac7ce7a3da6"
+    }
+  ],
+  "newProductFiles": [
+    "web/app/records_flow.js",
+    "web/app/settings_flow.js",
+    "web/styles/shell.css",
+    "web/styles/responsive.css",
+    "web/features/editor.css",
+    "web/features/states.css",
+    "web/features/consultation.css"
+  ],
+  "note": "final authoritative runtime bytes come from verification fingerprint and generated manifests; docs may be completed after this scan",
+  "newProductGlobalLocks": 0
+}

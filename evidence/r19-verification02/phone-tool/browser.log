@@ -1,0 +1,9 @@
+{
+  "defaultDatabaseUntouched" : true,
+  "identity" : "Mac WebKit harness behavior only; not physical phone acceptance",
+  "ok" : true,
+  "ownedCleanupOnly" : true,
+  "readback" : "actual page reload",
+  "records" : 1000,
+  "totalBrowserMemoryPeak" : "UNMEASURED"
+}

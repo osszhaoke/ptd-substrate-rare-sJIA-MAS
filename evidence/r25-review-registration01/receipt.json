@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "identity": "original Writer registration of external independent targeted closure; not a new independent test execution",
+  "review": {
+    "conclusion": "PASS_TARGETED_FINDING_CLOSURE_ONLY",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R25-independent-review-20261110-01/REPORT.md",
+    "reportSha256": "6c437f91c8c0e91c10cc61e868620ae4352bd872d5b35a5d1f43684412d1e981",
+    "binding": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+    "staticVersion": "c2f621f8a2cac4d6",
+    "reviewedGitHead": "0b6ae26050ae0fa608a05eeff7e8122facb6f439",
+    "findings": {
+      "R24-A01": "CLOSED_INDEPENDENTLY_ON_R25",
+      "R24-A02": "CLOSED_INDEPENDENTLY_ON_R25"
+    },
+    "actualIndependentExecution": {
+      "nodeTests": 108,
+      "reportRowsPositiveWindows": 3,
+      "effectiveBehavioralMutations": 3,
+      "newProcessPIDs": [
+        32508,
+        32540
+      ],
+      "sourceManifestPositiveAndFiveNegativeControls": true,
+      "python53Rerun": false,
+      "full61Rerun": false
+    },
+    "scope": "exact R25 local fictional Mac WebKit targeted repair review; not complete product, phone, clinical, real-provider or online-service acceptance",
+    "retained": [
+      "iPhone total memory",
+      "actual low space",
+      "BFCache",
+      "human phone acceptance",
+      "clinical review",
+      "historical performance cause not uniquely attributed"
+    ],
+    "registrationEvidence": "evidence/r25-review-registration01/receipt.json",
+    "AIh": "UNMEASURED"
+  },
+  "selectedIndependentEvidenceSha256": {
+    "REPORT.md": "6c437f91c8c0e91c10cc61e868620ae4352bd872d5b35a5d1f43684412d1e981",
+    "identity-before.json": "f61a0055eadebdf14d94dcd57bea9290c6e40f6b722a996edbcaf02eb42cb07f",
+    "identity-after.json": "6715617ce90658b183e64dd2639ed95f2f55ab46d892749dfae9f6a3a54e1a92",
+    "manifest-review.json": "7ac21877efe3196af570aceed6596d2f84e00da255a2a8a59308428c30a51c0f",
+    "report-rows/result.json": "6db3cc91480b3b7718eb4e87073f7fa6d12760c4635cd0d9d61f31c630449962",
+    "report-rows/write.binding.json": "da0284a957ddd613e25eb8cfc4d2732a9c3b7dec4cf95ed0c814271de8e0d611",
+    "report-rows/read.binding.json": "d5416aa74a1ae974f882fd574a7fe956a8c98d6b1769a72cbb63e491c0513805",
+    "report-rows/empty-name-fallback.json": "6c031609a1cbd3cc54acd2f49536c905969827b9bd7b083512d5cb906f28469c"
+  },
+  "beforeMetadataSha256": {
+    "STATUS.json": "2dffc3284bdebba96f38d75c181a116b8bec449b10ec8238a9c5051e9bdfee50",
+    "ACCEPTANCE.json": "5849e8536cd063551a19b1ada1bd3c586fddafa84832524df7090e94df8b58f7",
+    "AUTHORIZATION.json": "0dc57e0f81b48f569ff22dc7fdba634afe602be93558b6fe7d8d6b287e4d44c3",
+    "DECISIONS.md": "48b1e34cbd0825bd4b596b07d993eecab28d6f91333fd120e24704cd1d3e3bab"
+  },
+  "afterMetadataSha256": {
+    "STATUS.json": "35b3322d09876cbfdd82701959db58e99c28df044be077cd46dce4efa1bbfc35",
+    "ACCEPTANCE.json": "badf9d33ff0bb4adcc4c49a0f115d57bab89a8a648ea0c59a9e61fb897c209d8",
+    "AUTHORIZATION.json": "71a7d8a4215c58b0508ad2b2e192bb77631c73b91b09a2b1b5aec77ecb8861df",
+    "DECISIONS.md": "0b5bb0eeafbab093c5b62700ccc9c1b453a2ca1a238d4fc215d6949d48645a75"
+  },
+  "current236InputBindingUnchanged": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+  "sourceManifestUnchanged": "344bb8ee4e378584a39fecdc0931552e9a054556390854b1712d768648a66c89",
+  "sourceChanged": false,
+  "testsRerunThisRegistration": false,
+  "serviceOperations": 0,
+  "realProviderCalls": 0,
+  "publicRestored": false
+}

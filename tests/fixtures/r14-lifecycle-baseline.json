@@ -1,0 +1,17 @@
+{
+  "sourceRoot": "PTDS-H5-debt-r13",
+  "sourceCommit": "c6b7990cea14ed666c0b3bcfc23e592aa6dea431",
+  "scope": "fixed regression mutation inputs; never loaded by the product",
+  "files": [
+    {
+      "path": "tests/fixtures/r14-original-store.js",
+      "sha256": "790438e8c7122acba4f3b8a9bcef868c9f718538c4ed183185dcb7ed2acfad42",
+      "sourcePath": "web/storage/store.js"
+    },
+    {
+      "path": "tests/fixtures/r14-original-reader.js",
+      "sha256": "e13274acb5ed0a83e01571ccb37f2b2ab85b2805d22865a0900bf028df3bc64e",
+      "sourcePath": "web/storage/backup_reader.js"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+✔ sequential reads cross window and length-prefix boundaries with bounded physical buffers (43.57375ms)
+✔ cancellation after physical read prevents consuming or requesting another window (0.149917ms)
+✔ short physical reads fail closed rather than looping or inventing bytes (0.080041ms)
+✔ UTF-8 metadata spanning crypto frames and read windows round-trips without Blob.text (10.768333ms)
+✖ a closed reader rejects new reads without touching the file (0.366917ms)
+✖ an in-flight read cannot refill the window after close (0.1145ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 4
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 105.143584
+
+✖ failing tests:
+
+test at tests/backup_reader.test.mjs:38:1
+✖ a closed reader rejects new reads without touching the file (0.366917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r31-navigation-candidate02/runtime/lifecycle-0b70665d-acb0-4b82-8f3f-cbf03da6119d/tests/backup_reader.test.mjs:40:17)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /BACKUP_READER_CLOSED/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/backup_reader.test.mjs:42:1
+✖ an in-flight read cannot refill the window after close (0.1145ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r31-navigation-candidate02/runtime/lifecycle-0b70665d-acb0-4b82-8f3f-cbf03da6119d/tests/backup_reader.test.mjs:46:2)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /BACKUP_READER_CLOSED/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

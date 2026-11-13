@@ -1,0 +1,14 @@
+✔ a matching revision publishes once, with unchanged page query and no writes (0.861417ms)
+✔ mixed list and card revisions are reread before publication (0.088375ms)
+✔ two matching old projections cannot publish after an intervening commit (0.4675ms)
+✔ continuous changes reject after exactly three read-only attempts (0.20975ms)
+✔ obsolete pages stop before version read and after late version completion (0.101792ms)
+✔ disabled cards and an empty unversioned database preserve existing behavior (0.078167ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.713959

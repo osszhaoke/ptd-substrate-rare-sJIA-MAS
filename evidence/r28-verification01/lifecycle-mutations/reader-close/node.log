@@ -1,0 +1,44 @@
+✔ sequential reads cross window and length-prefix boundaries with bounded physical buffers (49.314291ms)
+✔ cancellation after physical read prevents consuming or requesting another window (0.190917ms)
+✔ short physical reads fail closed rather than looping or inventing bytes (0.0795ms)
+✔ UTF-8 metadata spanning crypto frames and read windows round-trips without Blob.text (14.330625ms)
+✖ a closed reader rejects new reads without touching the file (0.362459ms)
+✖ an in-flight read cannot refill the window after close (0.115208ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 4
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 136.93925
+
+✖ failing tests:
+
+test at tests/backup_reader.test.mjs:38:1
+✖ a closed reader rejects new reads without touching the file (0.362459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/runtime/lifecycle-efba9c55-0cca-4ed9-a629-27ccc0e6a4df/tests/backup_reader.test.mjs:40:17)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /BACKUP_READER_CLOSED/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/backup_reader.test.mjs:42:1
+✖ an in-flight read cannot refill the window after close (0.115208ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/runtime/lifecycle-efba9c55-0cca-4ed9-a629-27ccc0e6a4df/tests/backup_reader.test.mjs:46:2)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /BACKUP_READER_CLOSED/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

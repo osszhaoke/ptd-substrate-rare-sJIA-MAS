@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "scope": "exact original stage validation moved, save semantics still R29; not an adopted product version or full gate",
+  "fragmentSha256": "78345e7b2495ecba4761536f853220d857f5f625f759eef5c7d4d861b7a441cc",
+  "fragmentBytes": 898,
+  "helperContainsExactOriginalFragment": true,
+  "pureServiceSha256": "feb9db90f45544534bec9b64c5711827e8094c69dd18486c7d650d62bf8ff02a",
+  "pureHelperSha256": "a152bab727e15c155fafa24ec6bb1e78e39574f24bfd41cc40f10c139dd695e7",
+  "servicePath": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r30-pure-extract01/web/domain/service.js",
+  "helperPath": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r30-pure-extract01/web/domain/write_binding.js",
+  "oldStageTests": 4
+}

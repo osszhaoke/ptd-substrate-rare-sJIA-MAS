@@ -1,0 +1,5 @@
+{
+  "error" : "LAYOUT_CANDIDATE_ROWS_LOST",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:64536\/:2:67\n@http:\/\/127.0.0.1:64536\/:67:261"
+}

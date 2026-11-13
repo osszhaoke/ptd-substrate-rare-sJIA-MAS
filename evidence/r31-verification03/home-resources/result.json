@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "enlargement": "actual image click/three open-close cycles",
+      "fontScale": "100",
+      "identity": "author fictional UI; not physical iPhone or independent acceptance",
+      "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+      "noRecordWrites": true,
+      "ok": true,
+      "originalQrSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "resources": 2,
+      "width": 320
+    },
+    {
+      "enlargement": "actual image click/three open-close cycles",
+      "fontScale": "100",
+      "identity": "author fictional UI; not physical iPhone or independent acceptance",
+      "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+      "noRecordWrites": true,
+      "ok": true,
+      "originalQrSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "resources": 2,
+      "width": 390
+    },
+    {
+      "enlargement": "actual image click/three open-close cycles",
+      "fontScale": "100",
+      "identity": "author fictional UI; not physical iPhone or independent acceptance",
+      "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+      "noRecordWrites": true,
+      "ok": true,
+      "originalQrSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "resources": 2,
+      "width": 430
+    },
+    {
+      "enlargement": "actual image click/three open-close cycles",
+      "fontScale": "100",
+      "identity": "author fictional UI; not physical iPhone or independent acceptance",
+      "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+      "noRecordWrites": true,
+      "ok": true,
+      "originalQrSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "resources": 2,
+      "width": 620
+    },
+    {
+      "enlargement": "actual image click/three open-close cycles",
+      "fontScale": "160",
+      "identity": "author fictional UI; not physical iPhone or independent acceptance",
+      "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+      "noRecordWrites": true,
+      "ok": true,
+      "originalQrSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "resources": 2,
+      "width": 320
+    },
+    {
+      "enlargement": "actual image click/three open-close cycles",
+      "fontScale": "100",
+      "identity": "author fictional UI; not physical iPhone or independent acceptance",
+      "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+      "noRecordWrites": true,
+      "ok": true,
+      "originalQrSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+      "resources": 2,
+      "width": 390
+    }
+  ],
+  "actualProviderCalls": 0,
+  "recordsRead": "fresh fictional profiles only",
+  "externalTargetFetched": false,
+  "navigation": {
+    "ok": true,
+    "identity": "author fictional actual navigation; not independent/human/iPhone",
+    "positive": [
+      {
+        "explicitFictionalSave": true,
+        "fontScale": "100",
+        "hiddenConsultationNotFocusable": true,
+        "navigationPreservesData": true,
+        "ok": true,
+        "oldDraftActualCrossPIDCoverage": "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+        "visibleLabels": [
+          "状态",
+          "录入",
+          "本机"
+        ],
+        "width": 320
+      },
+      {
+        "explicitFictionalSave": true,
+        "fontScale": "100",
+        "hiddenConsultationNotFocusable": true,
+        "navigationPreservesData": true,
+        "ok": true,
+        "oldDraftActualCrossPIDCoverage": "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+        "visibleLabels": [
+          "状态",
+          "录入",
+          "本机"
+        ],
+        "width": 390
+      },
+      {
+        "explicitFictionalSave": true,
+        "fontScale": "160",
+        "hiddenConsultationNotFocusable": true,
+        "navigationPreservesData": true,
+        "ok": true,
+        "oldDraftActualCrossPIDCoverage": "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+        "visibleLabels": [
+          "状态",
+          "录入",
+          "本机"
+        ],
+        "width": 320
+      }
+    ],
+    "mutations": {
+      "unhide": "NAVIGATION_VISIBLE_ROUTES",
+      "old-footer": "NAVIGATION_COPY_STILL_PROMISES_CONSULTATION",
+      "old-download-guide": "NAVIGATION_HIDDEN_DOWNLOAD_PROMISE"
+    },
+    "planRegistration": {
+      "productPaths": [
+        "web/features/settings.js",
+        "web/index.html"
+      ],
+      "mutations": [
+        "old-download-guide",
+        "old-footer",
+        "unhide"
+      ]
+    },
+    "positiveControl": "same nav-390-100 unmutated scenario",
+    "paidProviderCalls": 0
+  },
+  "approvedCondition": "actual QR image click enlarges original and closes correctly",
+  "identity": "author five sizes plus large fonts and actual modal; not physical iPhone acceptance"
+}

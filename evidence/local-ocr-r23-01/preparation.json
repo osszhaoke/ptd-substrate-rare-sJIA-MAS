@@ -1,0 +1,12 @@
+{
+  "operatorTerminalOpened": true,
+  "credentialInputHandledByUserOnly": true,
+  "ocrEnabledAtSnapshot": false,
+  "realProviderCallsByAgentThisTurn": 0,
+  "realLedgerOrCredentialsReadByAgent": false,
+  "publicServiceStarted": false,
+  "coreSourceProof": "evidence/r23-verification04/result.json",
+  "operatorVerification": "3 fictional tests; not included in core60 or independently audited",
+  "operatorSnapshotSha256": "3dbdc32b62a21b3d76966b38aafd7d4473b0feb59c2c7b583e75bd1693692919",
+  "initialPreflightIssue": "macOS resolves Python launch symlink to Python.app; bound actual executable, exact remaining argv, owned cwd before replacing only prior local process"
+}

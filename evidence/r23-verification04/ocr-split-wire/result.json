@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "author automated fictional UI; not human, physical or public acceptance",
+  "providerCalls": 0,
+  "fakeAdapterCalls": 1,
+  "browserPIDs": [
+    92454,
+    92460
+  ],
+  "eventId": "2e3132ea-d577-4fa8-9a0d-0a0804b71df3",
+  "observations": 6,
+  "sourceLines": 30,
+  "oneReservation": true
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "controlPassed": true,
+  "mutantKilledByBehaviorAssertion": true,
+  "failure": "WAIT ()=>$('#generate-consultation')",
+  "changedFiles": [
+    "app/consultation_flow.js"
+  ],
+  "productionSourceModified": false,
+  "scope": "synthetic isolated runtime copies"
+}

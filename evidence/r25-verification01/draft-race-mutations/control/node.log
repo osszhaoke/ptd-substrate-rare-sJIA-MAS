@@ -1,0 +1,21 @@
+✔ committed consultation survives a new owner; prompt is never a second stored authority (2.245667ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.197167ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.133167ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.153459ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.097958ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.150583ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.138083ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (0.341875ms)
+✔ an external conflict survives a late successful save acknowledgement (0.120334ms)
+✔ an external conflict survives a late non-conflict write failure (0.123667ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.106625ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.265625ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.089166ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.429958

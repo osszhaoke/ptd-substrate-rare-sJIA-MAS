@@ -1,0 +1,17 @@
+{
+  "version": "r18",
+  "files": [
+    {
+      "sourcePath": "web/storage/store.js",
+      "fixturePath": "tests/fixtures/r18-store.source.txt",
+      "sha256": "8543136caad7cd4965e687978f26c329605b5d431e93734715dd1763e35487a1"
+    },
+    {
+      "sourcePath": "web/app/records_flow.js",
+      "fixturePath": "tests/fixtures/r18-records_flow.source.txt",
+      "sha256": "0406d7ccb57936a05d6ad5dbf90e0382fdd36c275a1d44e1933adde3d09883b8"
+    }
+  ],
+  "originalFailure": "HOME_PUBLISHED_OLD_TIMELINE",
+  "evidence": "evidence/r19-audit01/original-intervening-write.json"
+}

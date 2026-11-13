@@ -1,0 +1,7 @@
+{"case": "report-rows", "pid": 48032, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 48039, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 48045, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 48056, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 48061, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 48067, "ok": false, "error": "LAYOUT_SOURCE_POLYGON_COUNT", "target": null, "p95Ms": null}
+BROWSER_FAILED /Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/evidence/r26-layout-wire02/layout-180-write

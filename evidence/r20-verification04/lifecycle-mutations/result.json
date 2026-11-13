@@ -1,0 +1,110 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "mode": "control",
+      "nodeExitCode": 0,
+      "browser": {
+        "identity": "author actual IDB lifecycle on isolated fictional databases; no patient data",
+        "ok": true,
+        "results": {
+          "activeWrite": {
+            "persisted": true,
+            "result": "committed"
+          },
+          "blocked": {
+            "error": "UPGRADE_BLOCKED_CLOSE_OTHER_TABS",
+            "hasProductStores": false,
+            "sentinel": true,
+            "state": "rejected",
+            "version": 1
+          },
+          "closedOpen": {
+            "connectionResurrected": false,
+            "error": "STORE_CLOSED",
+            "state": "rejected"
+          },
+          "lateBlocked": {
+            "error": "STORE_CLOSED",
+            "state": "rejected",
+            "stateCallbacksAfterClose": 0
+          },
+          "queuedWrite": {
+            "error": "STORE_CLOSED",
+            "persisted": false,
+            "state": "rejected"
+          },
+          "reopen": {
+            "currentOwner": true,
+            "currentState": "fulfilled",
+            "oldError": "STORE_CLOSED",
+            "oldState": "rejected"
+          }
+        }
+      }
+    },
+    {
+      "mode": "store-close",
+      "nodeExitCode": 0,
+      "browser": {
+        "error": "CLOSED_STORE_RESURRECTED {\"state\":\"fulfilled\",\"connectionResurrected\":true}",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:60878/:3:50\n@http://127.0.0.1:60878/:27:5"
+      }
+    },
+    {
+      "mode": "abandoned-upgrade",
+      "nodeExitCode": 0,
+      "browser": {
+        "error": "ABANDONED_UPGRADE_CHANGED_SCHEMA {\"state\":\"rejected\",\"error\":\"UPGRADE_BLOCKED_CLOSE_OTHER_TABS\",\"version\":2,\"hasProductStores\":true,\"sentinel\":true}",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:60997/:3:50\n@http://127.0.0.1:60997/:29:5"
+      }
+    },
+    {
+      "mode": "reader-close",
+      "nodeExitCode": 1,
+      "browser": {
+        "identity": "author actual IDB lifecycle on isolated fictional databases; no patient data",
+        "ok": true,
+        "results": {
+          "activeWrite": {
+            "persisted": true,
+            "result": "committed"
+          },
+          "blocked": {
+            "error": "UPGRADE_BLOCKED_CLOSE_OTHER_TABS",
+            "hasProductStores": false,
+            "sentinel": true,
+            "state": "rejected",
+            "version": 1
+          },
+          "closedOpen": {
+            "connectionResurrected": false,
+            "error": "STORE_CLOSED",
+            "state": "rejected"
+          },
+          "lateBlocked": {
+            "error": "STORE_CLOSED",
+            "state": "rejected",
+            "stateCallbacksAfterClose": 0
+          },
+          "queuedWrite": {
+            "error": "STORE_CLOSED",
+            "persisted": false,
+            "state": "rejected"
+          },
+          "reopen": {
+            "currentOwner": true,
+            "currentState": "fulfilled",
+            "oldError": "STORE_CLOSED",
+            "oldState": "rejected"
+          }
+        }
+      }
+    }
+  ],
+  "productMutated": false,
+  "killedBy": "actual lifecycle, schema and buffer behavior, not preflight",
+  "identity": "author isolated fictional controls and three mutants"
+}

@@ -1,0 +1,29 @@
+{"case": "report-rows", "pid": 49681, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49699, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49709, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49720, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49732, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49740, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49745, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49751, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49757, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49765, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49770, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49776, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49789, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49794, "ok": false, "error": "REPORT_EMPTY_NAME_STAGED", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49817, "ok": false, "error": "REPORT_UNMAPPED_HIDDEN", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49831, "ok": false, "error": "REPORT_EDIT_REUSES_CHECK", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49846, "ok": false, "error": "LAYOUT_CANDIDATE_ROWS_LOST", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49864, "ok": false, "error": "LAYOUT_CANDIDATE_ROWS_LOST", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49879, "ok": false, "error": "LAYOUT_PENDING_CHANGED", "target": null, "p95Ms": null}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r27-candidate01/tests/test_report_rows_runner.py", line 96, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r27-candidate01/tests/test_report_rows_runner.py", line 92, in main
+    result=json.loads((out/(name+'.json')).read_text());assert result.get('ok')is False and result.get('error')==error,result;killed[name]=error
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'error': 'LAYOUT_PENDING_CHANGED', 'ok': False, 'stack': 'ok@http://127.0.0.1:60876/:2:67\n@http://127.0.0.1:60876/:23:5'}

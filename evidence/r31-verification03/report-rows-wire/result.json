@@ -1,0 +1,619 @@
+{
+  "ok": true,
+  "identity": "author fictional automated, not independent/human/physical/clinical acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 30,
+  "reportRows": 27,
+  "projectedMetrics": 5,
+  "differentPIDs": [
+    58101,
+    58108
+  ],
+  "behavioralMutations": {
+    "empty-name-fallback": "REPORT_EMPTY_NAME_STAGED",
+    "hide-unknown": "REPORT_UNMAPPED_HIDDEN",
+    "reuse-row-check": "REPORT_EDIT_REUSES_CHECK",
+    "layout-no-angle": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "layout-no-tables": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "qualitative-dropped": "LAYOUT_PENDING_CHANGED",
+    "stacked-footer-global": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "footer-cross-panel": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "incomplete-unit-bypass": "REPORT_INCOMPLETE_UNIT_STAGED"
+  },
+  "historical": {
+    "write": {
+      "eventId": "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+      "exactOldBytes": true,
+      "inspectionReadOnly": true,
+      "noAuthorityReplay": true,
+      "ok": true,
+      "originalEventReceiptUnchanged": true,
+      "policies": {
+        "cbc-report/r27-exact-source/1": 1
+      },
+      "roundTrip": true,
+      "rows": 28
+    },
+    "read": {
+      "eventId": "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+      "newProcessRead": true,
+      "ok": true,
+      "rows": 28
+    },
+    "pids": [
+      58309,
+      58314
+    ],
+    "negative": {
+      "negativeControls": {
+        "cipher": "BACKUP_PASSWORD_OR_CORRUPTION",
+        "duplicate": "REPORT_ORIGIN_MISMATCH",
+        "line": "SOURCE_LINE_MISSING",
+        "origin": "REPORT_ORIGIN_MISMATCH",
+        "receipt": "BACKUP_RECEIPT",
+        "source": "BACKUP_SOURCE_HASH"
+      },
+      "ok": true,
+      "paidCalls": 0,
+      "records": 0
+    },
+    "compatRemovalKilled": "HISTORICAL_BACKUP_REJECTED REPORT_ORIGIN_MISMATCH",
+    "sameUnmutatedPositiveControl": "history-write"
+  },
+  "upgrade": {
+    "ok": true,
+    "identity": "author fictional actual oldUI stage/currentUI save across distinct PIDs; not human or independent",
+    "cases": [
+      {
+        "case": "footer",
+        "stage": {
+          "ok": true,
+          "records": 0,
+          "requestId": "bd65b8f8-fac6-4eb6-ab59-0df7b3a6e7c1",
+          "reviewId": "2471ec4f-c948-4bb0-97a2-92df084d35d8",
+          "rows": 28,
+          "unconfirmed": true
+        },
+        "save": {
+          "draftPreserved": true,
+          "notice": "\u8fd9\u4efd\u5f55\u5165\u9700\u8981\u91cd\u65b0\u6838\u5bf9\u3002\u8bf7\u70b9\u201c\u8fd4\u56de\u4fee\u6539\u201d\uff0c\u5bf9\u7167\u539f\u56fe\u79fb\u9664\u4e0d\u8be5\u5f55\u5165\u7684\u9879\u76ee\uff0c\u518d\u6838\u5bf9\u4fdd\u5b58\u3002",
+          "ok": true,
+          "receipts": 0,
+          "recheckPath": true,
+          "records": 0,
+          "requestIdUnchanged": true,
+          "sourcePreserved": true
+        },
+        "read": {
+          "draftPreserved": true,
+          "newProcessRead": true,
+          "ok": true,
+          "receipts": 0,
+          "records": 0
+        },
+        "correction": {
+          "corrected": true,
+          "eventId": "1bdfd94c-96a9-443d-8ec0-d90cdae6c405",
+          "explicitAutomatedConfirmation": true,
+          "ok": true,
+          "receiptIdempotency": false,
+          "records": 1,
+          "rows": 27,
+          "sourcePreserved": true
+        },
+        "pids": [
+          58343,
+          58352,
+          58363,
+          58368,
+          58373
+        ]
+      },
+      {
+        "case": "unit",
+        "stage": {
+          "ok": true,
+          "records": 0,
+          "requestId": "a522c8a3-af20-46e7-8ef4-5ea6bbb4a946",
+          "reviewId": "28c22c1d-dfc1-47fd-b2a8-5537713632cd",
+          "rows": 27,
+          "unconfirmed": true
+        },
+        "save": {
+          "draftPreserved": true,
+          "notice": "\u5355\u4f4d\u6ca1\u8bc6\u5168\uff0c\u5c1a\u672a\u4fdd\u5b58\u3002\u8bf7\u70b9\u201c\u8fd4\u56de\u4fee\u6539\u201d\uff0c\u5bf9\u7167\u539f\u56fe\u8865\u5168\u5355\u4f4d\u540e\u91cd\u65b0\u6838\u5bf9\u3002",
+          "ok": true,
+          "receipts": 0,
+          "recheckPath": true,
+          "records": 0,
+          "requestIdUnchanged": true,
+          "sourcePreserved": true
+        },
+        "read": {
+          "draftPreserved": true,
+          "newProcessRead": true,
+          "ok": true,
+          "receipts": 0,
+          "records": 0
+        },
+        "correction": {
+          "corrected": true,
+          "eventId": "baf013b5-a2a9-4f57-8c87-46a7f3013d07",
+          "explicitAutomatedConfirmation": true,
+          "ok": true,
+          "receiptIdempotency": false,
+          "records": 1,
+          "rows": 27,
+          "sourcePreserved": true
+        },
+        "pids": [
+          58379,
+          58384,
+          58389,
+          58394,
+          58399
+        ]
+      },
+      {
+        "case": "valid",
+        "stage": {
+          "ok": true,
+          "records": 0,
+          "requestId": "e8bc4cf5-c655-4ff9-8eff-7ea91a777b44",
+          "reviewId": "68ab8aa2-6038-4196-9783-e7dc42444b99",
+          "rows": 27,
+          "unconfirmed": true
+        },
+        "save": {
+          "corrected": false,
+          "eventId": "c6d68c75-9042-441b-990a-668a67923880",
+          "explicitAutomatedConfirmation": true,
+          "ok": true,
+          "receiptIdempotency": true,
+          "records": 1,
+          "rows": 27,
+          "sourcePreserved": true
+        },
+        "read": {
+          "eventId": "c6d68c75-9042-441b-990a-668a67923880",
+          "newProcessRead": true,
+          "ok": true,
+          "records": 1,
+          "rows": 27
+        },
+        "correction": null,
+        "pids": [
+          58405,
+          58410,
+          58415
+        ]
+      }
+    ],
+    "mutationsKilled": {
+      "save-binding": "UPGRADE_OLD_DRAFT_SAVED",
+      "source-reuse": "UPGRADE_RESTAGE_SOURCE_UNREADABLE NotFoundError The object can not be found here."
+    },
+    "sameUnmutatedControl": "footer",
+    "realOCR": 0
+  },
+  "write": {
+    "backupRoundTrip": true,
+    "emptyAndWhitespaceNamesRejected": true,
+    "eventId": "f301d773-baeb-4f8a-9355-f9091e91d373",
+    "explicitSyntheticRowChecks": true,
+    "explicitSyntheticSaveConfirmation": true,
+    "forgedOriginRejected": true,
+    "mappedNameSwitchPreserved": true,
+    "noAutomaticSave": true,
+    "nonemptyRenameSaved": true,
+    "noUnknownFieldsInAiProjection": true,
+    "ok": true,
+    "pendingRowsManuallyCompleted": 0,
+    "projectedMetrics": 5,
+    "reportRows": 27,
+    "unmappedRows": 22
+  },
+  "read": {
+    "eventId": "f301d773-baeb-4f8a-9355-f9091e91d373",
+    "newProcessRead": true,
+    "ok": true,
+    "reportRows": 27
+  },
+  "layouts": [
+    {
+      "angle": 90,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "83538195-28e6-40b4-a9f4-8b5ea9be5410",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "83538195-28e6-40b4-a9f4-8b5ea9be5410",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        58125,
+        58131
+      ]
+    },
+    {
+      "angle": 180,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "88f01f84-3e77-4241-8c00-56cf93cbd333",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "88f01f84-3e77-4241-8c00-56cf93cbd333",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        58137,
+        58143
+      ]
+    },
+    {
+      "angle": 270,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "45433745-23ba-4eeb-9827-8b7f850e01ce",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 2,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "45433745-23ba-4eeb-9827-8b7f850e01ce",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        58149,
+        58154
+      ]
+    },
+    {
+      "variant": "qualitative",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "39b8abf8-9e4f-459d-ad08-ab06cf01c371",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "39b8abf8-9e4f-459d-ad08-ab06cf01c371",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        58160,
+        58167
+      ]
+    },
+    {
+      "variant": "stacked",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "7615cf04-e232-4ddf-a9c7-2aaefb4f111b",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 12
+      },
+      "read": {
+        "eventId": "7615cf04-e232-4ddf-a9c7-2aaefb4f111b",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 12
+      },
+      "pids": [
+        58179,
+        58184
+      ]
+    },
+    {
+      "variant": "raw-only",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "b65d0878-bed2-4d9f-b21a-598f0e8a65cb",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": true,
+        "reportRows": 0
+      },
+      "read": {
+        "eventId": "b65d0878-bed2-4d9f-b21a-598f0e8a65cb",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 0
+      },
+      "pids": [
+        58190,
+        58197
+      ]
+    },
+    {
+      "variant": "footer-left-short",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "bc527519-0562-445d-8dcc-6863a7ab867f",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 5
+      },
+      "read": {
+        "eventId": "bc527519-0562-445d-8dcc-6863a7ab867f",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 5
+      },
+      "pids": [
+        58203,
+        58208
+      ]
+    },
+    {
+      "variant": "footer-right-short",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "6aebcdde-06c4-49c9-ba73-147b8efb6e71",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 5
+      },
+      "read": {
+        "eventId": "6aebcdde-06c4-49c9-ba73-147b8efb6e71",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 5
+      },
+      "pids": [
+        58214,
+        58225
+      ]
+    },
+    {
+      "variant": "footer-legacy",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "ef98a1b0-54ea-4326-b820-631eb52aaa92",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 27
+      },
+      "read": {
+        "eventId": "ef98a1b0-54ea-4326-b820-631eb52aaa92",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 27
+      },
+      "pids": [
+        58231,
+        58236
+      ]
+    },
+    {
+      "variant": "unit-legacy",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "6d456552-593b-4061-939e-39a532d9dd41",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 27
+      },
+      "read": {
+        "eventId": "6d456552-593b-4061-939e-39a532d9dd41",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 27
+      },
+      "pids": [
+        58242,
+        58247
+      ]
+    },
+    {
+      "variant": "unit-generic",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "fde93c93-1469-4b7f-b671-323331e9364f",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 0,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 2,
+        "rawOnly": false,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "fde93c93-1469-4b7f-b671-323331e9364f",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        58253,
+        58264
+      ]
+    },
+    {
+      "variant": "unit-flat",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "3a4ceb66-0821-4d80-951d-7ea99916d5d2",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 1
+      },
+      "read": {
+        "eventId": "3a4ceb66-0821-4d80-951d-7ea99916d5d2",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 1
+      },
+      "pids": [
+        58271,
+        58276
+      ]
+    },
+    {
+      "variant": "unit-cells",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "db2bc546-72a4-42ca-b575-2809ca7e7eb2",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 1
+      },
+      "read": {
+        "eventId": "db2bc546-72a4-42ca-b575-2809ca7e7eb2",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 1
+      },
+      "pids": [
+        58282,
+        58287
+      ]
+    },
+    {
+      "variant": "unit-inline",
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "1661a9da-21a5-4ec9-91da-95195bb3e34f",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "incompleteUnitsBlocked": 1,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "rawOnly": false,
+        "reportRows": 1
+      },
+      "read": {
+        "eventId": "1661a9da-21a5-4ec9-91da-95195bb3e34f",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 1
+      },
+      "pids": [
+        58293,
+        58304
+      ]
+    }
+  ],
+  "referenceQuality": {
+    "ok": true,
+    "identity": "author fictional automated; not independent/human/clinical",
+    "write": {
+      "encryptedRoundTrip": true,
+      "eventId": "4774017a-cb3b-4ec6-b60f-36c3e01291c9",
+      "noInventedBounds": true,
+      "ok": true,
+      "referenceEditRevokesCheck": true,
+      "referenceHintsPersist": true,
+      "syntheticExplicitSave": true
+    },
+    "read": {
+      "eventId": "4774017a-cb3b-4ec6-b60f-36c3e01291c9",
+      "newProcessRead": true,
+      "ok": true,
+      "referenceHintsPersist": true
+    },
+    "pids": [
+      58580,
+      58586
+    ],
+    "paidProviderCalls": 0,
+    "fakeProviderCalls": 4,
+    "mutations": {
+      "hide-hint": "REFERENCE_EDITOR_HINT_MISSING",
+      "scalar-as-range": "REFERENCE_EDIT_HINT_STALE",
+      "no-refresh": "REFERENCE_EDIT_HINT_STALE"
+    },
+    "positiveControl": "write; identical unmutated case for every mutation"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "identity": "unchanged page subsets from untouched R07 pre-refactor measurements; original R06 whole hashes retained",
+  "approvedChangedPages": [
+    "capture source",
+    "capture review",
+    "capture confirmation",
+    "consultation selection",
+    "consultation generated",
+    "consultation conflict"
+  ],
+  "outputs": {
+    "layout-320-160": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-320-160.json",
+      "sha256": "1432e5a7191698e933359a75e79242d665682698d01468d1a3c92c56ab0dca1c",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "b1dafbcbf6418c63faa5ec19b1438f16b8442c9b37b39dabf3f11a4eb0f9a41f"
+    },
+    "layout-430-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-430-100.json",
+      "sha256": "1df34e74417b60f850a5afd5942d8351d5533f2ad0deaa1ef8ea496874ba8034",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "a89cd287fae8c6d73ef056614b3a9d1051b2e4787aed3db0432f68d152169c10"
+    },
+    "layout-390-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-390-100.json",
+      "sha256": "6a4cca5edef7e216400bdc2bc72f598f968a1dda2ecdecc0f2a452534945eb42",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "96806475c3caa22f4ee1014dcb2699b283a9f78f6a48b438b4946094fbb09e8b"
+    },
+    "layout-620-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-620-100.json",
+      "sha256": "8ee107103a5ccf01a67f15a5e1e79338bb6d8f48688629f1a49016bfcf76ec3d",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "ee731863a2e4c1c1711194fc9925261279113751258ee08ffe3d9d4e6b12c5c5"
+    },
+    "layout-320-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-320-100.json",
+      "sha256": "322a91bbfd3cda95a127d7287924076c0dcf6129dfee0620fd2f9fcfa2f81327",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "d8385316debec62095ed1a17ec49f25c28158dac8082ee751e57c840bda3bec1"
+    }
+  }
+}

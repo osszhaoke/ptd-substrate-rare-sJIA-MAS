@@ -1,0 +1,5 @@
+{
+  "firstAttempt": "FAILED_AUTHOR_IDENTITY_UNKNOWN; no commit created",
+  "repair": "command-local user.name=Codex and user.email=codex@local.invalid; no persistent or global configuration changed",
+  "identity": "automation author, not impersonating product owner"
+}

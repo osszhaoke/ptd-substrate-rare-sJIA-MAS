@@ -1,0 +1,93 @@
+{
+  "ok": true,
+  "identity": "author exact local static adoption after complete isolated fictional proof; not independent/phone/clinical acceptance",
+  "batch": "R28",
+  "staticPatch": "r19-layout03",
+  "staticVersion": "bd2d50eab43d0cf2",
+  "binding": "7fda886d7f62b63c86f55df901371862fc03beb88198c6af3890f282b3ecafee",
+  "boundInputs": 240,
+  "checks": 61,
+  "verification": "evidence/r28-verification01/result.json",
+  "previousAdoption": "evidence/r27-adoption01/adoption-result.json",
+  "previousAdoptionSha256": "b471d3322f3c4b47d5da284be2c854ca6281f51b17da9863e99dbf234cd64e5d",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "a04820c16697930e93453ffbb9abf2e87939b57ff6bbb6ad14d04d10fc430528",
+      "after": "6f23ac89965320e017b36038cad7b4af5ee107704758cb6385342db2dcdb2b48"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "9eb9e7a744d8952590d213ac75c59dff6269d04fa08a036debcb15654c6fb331",
+      "after": "c5efce26effb18abede479c460da8b9bcb80cc42cbdf70661714bf6f82f7d8f9"
+    },
+    {
+      "path": "tests/browser.report-rows.js",
+      "before": "f74074ad318fc8ccd63ffffbbeeb7b15aa6e2217fd51f402d3a12f3191510c72",
+      "after": "c0be94797c806dec093ef28a255f7649f567d596588e1bb99fbb264eacb73a79"
+    },
+    {
+      "path": "tests/fixtures/report_layouts.mjs",
+      "before": "e11a3fb8bcec49cdc8e014801ba1e02c6529205df5872eb0dd15ba0a2ec01405",
+      "after": "b479fe12e74ca5d4992a39cef2390e1abe509e6a1c454405100c5ed76d41777d"
+    },
+    {
+      "path": "tests/report_contract.test.mjs",
+      "before": "025162999ccea819d9e62600a3cd4c4d9eba389e78eb7bd5e0c7aa8d2ae70bdf",
+      "after": "f918bad59a1685ddf012f512279839d73ba792b96c8aa825b2783de1fcab77a2"
+    },
+    {
+      "path": "tests/report_rows.test.mjs",
+      "before": "7ad5d07bd421b3ee32c05b02401c6ce9310138f6f15c2bdf16fab65d74ae698c",
+      "after": "05e99689220f6fe8f8872aacd3238ec093749108ee83ea14c5a0dad570dec12e"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": "932184d5eaf779c23bdd35c3d1766122f72e2223f98ba87597b63a12c1637354",
+      "after": "98cb2de2282c494a1dd48428e7cb1d0f6dcc0007e85dfd3438b19acd079495f0"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "0100cb91fea27411caaafbb766e9cc5a66f5bde456806d8f092a5f4e4ab149b8",
+      "after": "9e754ebc952bbc4586c437295f08c91c8f0114ccc857d946a6a5a849fb1058c9"
+    },
+    {
+      "path": "web/domain/report/rows.js",
+      "before": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce",
+      "after": "4364dd753a6ea1e071158c335bcac1ce08f0ecc32d56d9ac7649e69eeaaea3be"
+    },
+    {
+      "path": "web/domain/report/table_fields.js",
+      "before": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2",
+      "after": "4b9821e4eda49efa294b343fb2601f904ee9fcde356b73a91a52e6ac17702a94"
+    },
+    {
+      "path": "web/domain/report/tables.js",
+      "before": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f",
+      "after": "a7fe81640e63a1f964cd68a620e1b85d61a37e0ea04c7c6d1b380aa6b827ed45"
+    },
+    {
+      "path": "web/domain/service.js",
+      "before": "3e42a811de5418609e5f20ce098b3d6d1c4e0e6ea80119a0704f59182e09dca2",
+      "after": "530c37468ba806befb224b258cd579032acc9bfed1c2886eb3711e7d467ee9eb"
+    },
+    {
+      "path": "web/features/report_rows.js",
+      "before": "3a02808f7e2f480297a5a71087efd511a4f7c7380b038a1f99ea4bdea858d772",
+      "after": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "04d6ffce9297f344d182f9171e8f64c1527e84025906c0552cd001e8ff892132",
+      "after": "1646d5f2a4708ed860fb9c4c9ea0bb85c862a4dba69e1c8959560859fe18a661"
+    }
+  ],
+  "oldWebAt": "runtime/r28-web-swap01",
+  "otherBeforeBytes": "runtime/r28-source-before01",
+  "serviceRestarts": 0,
+  "newProviderCallsDuringAdoption": 0,
+  "runningGateway": "No gateway source change in R28; existing in-memory gateway identity is not inferred from files; no restart or credential access",
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "rollback": "atomic web exchange back plus exact non-web restoration/deletion; baseline asserted before and after"
+}

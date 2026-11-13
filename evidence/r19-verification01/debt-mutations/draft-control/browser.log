@@ -1,0 +1,14 @@
+{
+  "identity" : "author fictional browser verification",
+  "ok" : true,
+  "results" : [
+    "durable cross-page text",
+    "prompt projection",
+    "selection\/clinical changes preserve stale card",
+    "regenerate cancel",
+    "typed notifications",
+    "multi-tab CAS",
+    "quota failure and retry",
+    "clear context fence"
+  ]
+}

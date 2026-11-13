@@ -1,0 +1,258 @@
+[
+  {
+    "method": "GET",
+    "path": "/"
+  },
+  {
+    "method": "GET",
+    "path": "/style.css"
+  },
+  {
+    "method": "GET",
+    "path": "/styles/shell.css"
+  },
+  {
+    "method": "GET",
+    "path": "/features/states.css"
+  },
+  {
+    "method": "GET",
+    "path": "/features/editor.css"
+  },
+  {
+    "method": "GET",
+    "path": "/styles/responsive.css"
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation.css"
+  },
+  {
+    "method": "GET",
+    "path": "/typography.css"
+  },
+  {
+    "method": "GET",
+    "path": "/features/home_resources.css"
+  },
+  {
+    "method": "GET",
+    "path": "/features/ocr_review.css"
+  },
+  {
+    "method": "GET",
+    "path": "/manifest.webmanifest"
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup_plan.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/startup_task.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/home_resources.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/ocr_task.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/records_snapshot.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/step_flow.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/ui.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/ocr_review.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/decimal.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/ocr_aliases.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/ocr_tables.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/health_labels.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/home_resources.js"
+  },
+  {
+    "method": "GET",
+    "path": "/rules/definitions.js"
+  },
+  {
+    "method": "GET",
+    "path": "/shared/observe.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup_task.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/action_coordinator.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/backup_task.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/consultation_draft.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/catalog.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/evaluate.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/ocr_fragments.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/clinical_flags.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/settings.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/step_labels.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/model.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/candidates.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/select.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation_page.js"
+  },
+  {
+    "method": "GET",
+    "path": "/adapters/ocr.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/service.js"
+  },
+  {
+    "method": "GET",
+    "path": "/domain/state/project.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/consultation.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/editor.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/ocr_evidence.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup_reader.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/consultation_draft.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/state_read.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/consultation_flow.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/ocr_review.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/state_controller.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/records.js"
+  },
+  {
+    "method": "GET",
+    "path": "/features/states.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup_stream.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/store.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/editor_flow.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/records_flow.js"
+  },
+  {
+    "method": "GET",
+    "path": "/storage/backup.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/settings_flow.js"
+  },
+  {
+    "method": "GET",
+    "path": "/app/main.js"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ocr/config"
+  },
+  {
+    "method": "GET",
+    "path": "/sw.js"
+  }
+]

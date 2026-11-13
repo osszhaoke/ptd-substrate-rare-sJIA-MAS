@@ -1,0 +1,116 @@
+{
+  "ok": true,
+  "identity": "author fictional automated, not independent/human/physical/clinical acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 10,
+  "reportRows": 27,
+  "projectedMetrics": 5,
+  "differentPIDs": [
+    49869,
+    49875
+  ],
+  "behavioralMutations": {
+    "empty-name-fallback": "REPORT_EMPTY_NAME_STAGED",
+    "hide-unknown": "REPORT_UNMAPPED_HIDDEN",
+    "reuse-row-check": "REPORT_EDIT_REUSES_CHECK",
+    "layout-no-angle": "LAYOUT_CANDIDATE_ROWS_LOST",
+    "layout-no-tables": "LAYOUT_CANDIDATE_ROWS_LOST"
+  },
+  "write": {
+    "backupRoundTrip": true,
+    "emptyAndWhitespaceNamesRejected": true,
+    "eventId": "add1b789-a8a7-47b3-b46f-6440a2717c81",
+    "explicitSyntheticRowChecks": true,
+    "explicitSyntheticSaveConfirmation": true,
+    "forgedOriginRejected": true,
+    "mappedNameSwitchPreserved": true,
+    "noAutomaticSave": true,
+    "nonemptyRenameSaved": true,
+    "noUnknownFieldsInAiProjection": true,
+    "ok": true,
+    "pendingRowsManuallyCompleted": 0,
+    "projectedMetrics": 5,
+    "reportRows": 27,
+    "unmappedRows": 22
+  },
+  "read": {
+    "eventId": "add1b789-a8a7-47b3-b46f-6440a2717c81",
+    "newProcessRead": true,
+    "ok": true,
+    "reportRows": 27
+  },
+  "layouts": [
+    {
+      "angle": 90,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "7db058fa-d51f-47d6-a69d-80f7709e1980",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "7db058fa-d51f-47d6-a69d-80f7709e1980",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        49892,
+        49898
+      ]
+    },
+    {
+      "angle": 180,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "fef2e230-5e08-4de9-86ee-dfb888c2d99c",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 0,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "fef2e230-5e08-4de9-86ee-dfb888c2d99c",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        49904,
+        49910
+      ]
+    },
+    {
+      "angle": 270,
+      "write": {
+        "allRowSourcePolygons": true,
+        "backupRoundTrip": true,
+        "eventId": "f01b7732-86d6-4d61-b641-24fa95264ea6",
+        "explicitAutomatedChecks": true,
+        "explicitAutomatedSave": true,
+        "noAutomaticSave": true,
+        "ok": true,
+        "pendingRows": 2,
+        "reportRows": 6
+      },
+      "read": {
+        "eventId": "f01b7732-86d6-4d61-b641-24fa95264ea6",
+        "newProcessRead": true,
+        "ok": true,
+        "reportRows": 6
+      },
+      "pids": [
+        49916,
+        49935
+      ]
+    }
+  ]
+}

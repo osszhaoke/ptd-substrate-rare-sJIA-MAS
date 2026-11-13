@@ -1,0 +1,14 @@
+{
+  "identity": "approved one-off operational wrapper; not part of old full57 runtime audit",
+  "targetLocal": "2026-11-09T23:59:00+08:00",
+  "targetUTC": "2026-11-09T15:59:00+00:00",
+  "verificationProofCurrent": "153035cb1dde283c8594c0cc9d4331379189e6fa3feb0974e17f2aaee5d516ee",
+  "files": {
+    "operator_bootstrap.py": "7975790089bcba577c8209b05f55c6aab1435d0dd235bfa9eb13dafa86081806",
+    "test_operator.py": "f3d5169154ad8cdff3ee5f594b465d9cc41afe101d3bc508537bf9b2deb95d9a",
+    "START_ALPHA_01.command": "cd2e1139adce0792e0cb8dd73566c2592b66121ae1a79a345023ea83adcb7d13"
+  },
+  "testsLogSha256": "4b484667ad5d4686fb1782b2872be60f2fca18e20270d4295b99bf01080a8787",
+  "tests": 4,
+  "paidCallsDuringTests": 0
+}

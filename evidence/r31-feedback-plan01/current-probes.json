@@ -1,0 +1,30 @@
+{
+  "identity": "author synthetic pure-function inspection; not real report/provider/store execution",
+  "mappings": [
+    {
+      "name": "27 CRP C反应蛋白",
+      "currentMedicalCode": "crp"
+    },
+    {
+      "name": "WBC *白细胞",
+      "currentMedicalCode": "wbc"
+    },
+    {
+      "name": "16 MCV *平均红细胞体积",
+      "currentMedicalCode": null
+    },
+    {
+      "name": "MCV",
+      "currentMedicalCode": null
+    },
+    {
+      "name": "平均红细胞体积",
+      "currentMedicalCode": null
+    }
+  ],
+  "referenceLiteralOnlyValidatorAcceptsAmbiguousMinusNumber": true,
+  "semanticBoundary": "This proves literal schema accepts it, not that the actual source had a missing lower bound or that a formal event was saved.",
+  "networkCalls": 0,
+  "databaseWrites": 0,
+  "clinicalInputUsed": false
+}

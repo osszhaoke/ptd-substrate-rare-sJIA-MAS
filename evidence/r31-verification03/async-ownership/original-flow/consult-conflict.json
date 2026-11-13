@@ -1,0 +1,5 @@
+{
+  "error" : "GENERATION_OVERWROTE_CONFLICTING_TEXT",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:58040\/:4:50\n@http:\/\/127.0.0.1:58040\/:55:8"
+}

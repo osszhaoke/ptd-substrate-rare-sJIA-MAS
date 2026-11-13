@@ -1,0 +1,9 @@
+{
+  "oldZip": "deploy/PTDS-H5-sjia-mas-r17.zip",
+  "expectedSha256": "56d936183c9a765b07d132c111242de58b4b4b22e36fe82c3e703d7bbce58ee1",
+  "newZipChecked": true,
+  "oldSourceAndEvidenceRetainedInGit": true,
+  "privateStateTouched": false,
+  "deletedBytes": 1386666,
+  "ok": true
+}

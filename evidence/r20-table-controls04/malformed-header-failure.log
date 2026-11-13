@@ -1,0 +1,34 @@
+✔ two bilingual headed tables: five supported fields, literal values and original evidence (15.063458ms)
+✔ unknown units, missing result/geometry, mismatching bilingual names and duplicate result cells are rejected (11.1385ms)
+✔ reference numbers cannot fill missing result or unit, and page boundaries never join (6.082833ms)
+✔ no geometry does not invent parallel table column order (1.718833ms)
+✔ tenfold table fragments remain bounded at 100 candidates within 1000ms (98.591958ms)
+✖ missing left header cannot borrow columns or values from the neighboring table (1.69325ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 197.688125
+
+✖ failing tests:
+
+test at tests/ocr_tables.test.mjs:21:1
+✖ missing left header cannot borrow columns or values from the neighboring table (1.69325ms)
+  AssertionError [ERR_ASSERTION]: NEIGHBOR_TABLE_VALUE_SUBSTITUTED
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/tests/ocr_tables.test.mjs:24:9)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

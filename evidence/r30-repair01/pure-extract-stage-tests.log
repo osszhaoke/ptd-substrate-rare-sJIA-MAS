@@ -1,0 +1,12 @@
+✔ stage reparses exact immutable origins; corrections retain original values and no medical projection for unmapped rows (134.8715ms)
+✔ raw report schema bounded and no silent arbitrary fields or missing source allowed (40.049459ms)
+✔ pending original without a value requires an actual reviewed correction before save (34.367583ms)
+✔ R27-A02: new stage/save reject incomplete OCR units across entries without invalidating historical literal schemas (76.818666ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 343.780917

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "currentFullVerificationBindingStillValid": "4106d6c0ff2b8407a50aa22c435f0bc1b4724a29b45accb90f1e482e17703a85",
+  "prior52Checks": "not rerun; exact protected source/test/tool bytes unchanged",
+  "allCurrentProductManifestEntriesValid": true,
+  "sealedArchivesUnchanged": true,
+  "remainingH5Roots": [
+    "PTDS-H5-debt-r14"
+  ],
+  "stateRetainedWithoutReadingAndGitIgnored": true,
+  "sourceDiffLimitedToCleanupGovernanceAndStaleReport": [
+    ".gitignore",
+    "DECISIONS.md",
+    "REPORT_R02.md"
+  ],
+  "runtimeEntries": [
+    "browser-test.lock"
+  ],
+  "servicePorts": {
+    "18791": "NOT_LISTENING",
+    "18795": "NOT_LISTENING"
+  },
+  "directoryAllocatedKiBBefore": 1645100,
+  "directoryAllocatedKiBAfter": 298044,
+  "directoryAllocatedMiBReduction": 1315.48,
+  "sizeMeaning": "du directory usage difference; not a claim about physical free disk due to filesystem clones/caches",
+  "AIh": "UNMEASURED"
+}

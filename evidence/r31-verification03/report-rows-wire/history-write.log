@@ -1,0 +1,13 @@
+{
+  "eventId" : "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+  "exactOldBytes" : true,
+  "inspectionReadOnly" : true,
+  "noAuthorityReplay" : true,
+  "ok" : true,
+  "originalEventReceiptUnchanged" : true,
+  "policies" : {
+    "cbc-report\/r27-exact-source\/1" : 1
+  },
+  "roundTrip" : true,
+  "rows" : 28
+}

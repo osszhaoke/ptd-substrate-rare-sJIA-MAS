@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "identity": "author automated fictional WebKit; not human or phone acceptance",
+  "realProviderCalls": 0,
+  "fakeAdapterCalls": 1,
+  "browserPIDs": [
+    20018,
+    20023
+  ],
+  "visibleTrialCode": false,
+  "manualConfirmationRequired": true,
+  "observations": 6,
+  "sourceLines": 30,
+  "sameProfileNewPIDRead": true
+}

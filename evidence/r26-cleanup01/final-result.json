@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "archive": "runtime/archives-r26-01/engineering-candidates-content-addressed.zip",
+  "archiveSha256": "47eab5a26472515db3f08b5e23d05db7797520d5dc79a0b5e8b7ff888e2f3e4c",
+  "archiveBytes": 55785819,
+  "archivedFiles": 40213,
+  "uniqueBlobs": 6190,
+  "removedDirectories": [
+    "ocr-candidate01",
+    "ocr-review-candidate01",
+    "startup-candidate01",
+    "startup-candidate02",
+    "startup-fallback-candidate01",
+    "r24-candidate01",
+    "r25-candidate01",
+    "r26-candidate01"
+  ],
+  "logicalOriginalBytes": 1652197408,
+  "logicalBytesSaved": 1596411589,
+  "diskBefore": {
+    "total": 494384795648,
+    "used": 474736005120,
+    "free": 19648790528
+  },
+  "diskAfter": {
+    "total": 494384795648,
+    "used": 473021054976,
+    "free": 21363740672
+  },
+  "diskFreeDelta": 1714950144,
+  "intermediateArchiveRemovedOnlyAfterFullReplacementVerification": true,
+  "oldSealedZIPsChanged": false,
+  "retained": [
+    "runtime/local-ocr-r23-01",
+    "runtime/local-acceptance-r23-01",
+    "runtime/r26-web-swap01",
+    "runtime/r26-source-before01",
+    "runtime/r26-image-check01",
+    "web",
+    "evidence",
+    "deploy/PTDS-H5-sjia-mas-r19.zip"
+  ],
+  "currentProductSourceChanged": false,
+  "servicesRestarted": 0
+}

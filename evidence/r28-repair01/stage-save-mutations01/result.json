@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "scope": "author fictional direct service-stage/save behavioral mutations with unmodified positive control",
+  "noProductMutation": true,
+  "realProviderCalls": 0,
+  "results": {
+    "control": {
+      "exit": 0,
+      "guardSha256": "530c37468ba806befb224b258cd579032acc9bfed1c2886eb3711e7d467ee9eb",
+      "expectedBehavior": true
+    },
+    "stage-bypass": {
+      "exit": 1,
+      "guardSha256": "249696e67a96f70af5270640f9eb4bfc957e8cc72a49628f6a0a289e671139bb",
+      "expectedBehavior": true
+    },
+    "save-bypass": {
+      "exit": 1,
+      "guardSha256": "3c1c5d9ea65f7a44f554abf7978e71e57bc5c8b7e2399c99528a8c61436c3d7f",
+      "expectedBehavior": true
+    }
+  }
+}

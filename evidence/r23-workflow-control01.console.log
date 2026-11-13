@@ -1,0 +1,12 @@
+{"case": "workflow", "pid": 94750, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "workflow", "pid": 94769, "ok": false, "error": "BROWSER_EXIT_WITHOUT_RESULT", "target": null, "p95Ms": null}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-fallback-candidate01/tests/test_workflow_mutation_runner.py", line 61, in <module>
+    main()
+    ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-fallback-candidate01/tests/test_workflow_mutation_runner.py", line 45, in main
+    assert result.get('error') == "WAIT ()=>$('#generate-consultation')"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

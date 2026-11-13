@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "identity": "author isolated Mac WebKit on adopted HTTPS origin; private real response replay only; not new provider upload or phone/human acceptance",
+  "actualProviderCallsThisReplay": 0,
+  "formalSave": false,
+  "sourceLines": 178,
+  "reviewCandidates": 5,
+  "newPIDSameIsolatedProfileReopen": true,
+  "coldAttempts": [
+    {
+      "name": "public-ui01",
+      "result": {
+        "error": "Importing a module script failed.",
+        "ok": false
+      }
+    },
+    {
+      "name": "public-ui02",
+      "result": {
+        "error": "WAIT ()=>$('#start')",
+        "ok": false,
+        "stack": "@https://moms-background-utah-workplace.trycloudflare.com/:3:88\n@https://moms-background-utah-workplace.trycloudflare.com/:12:12"
+      }
+    },
+    {
+      "name": "public-ui03",
+      "result": {
+        "error": "BROWSER_TIMEOUT",
+        "ok": false
+      }
+    }
+  ],
+  "successfulReopen": {
+    "noFormalSave": true,
+    "observations": 5,
+    "ok": true,
+    "providerCalls": 0,
+    "sourceLines": 178
+  },
+  "publicAll46JsExact": true,
+  "coldStartup": "OPEN_OBSERVATION_NOT_UNIQUELY_ATTRIBUTED; first load not accepted; re-open succeeded",
+  "binding": "f7a4b2732f9ce478637448f9b257a249c1a41ad3b8f7f385b0b7b1553d4bc9c9"
+}

@@ -1,0 +1,362 @@
+--- R30/PUBLIC_SOURCE_MANIFEST.json
++++ R31-A1/PUBLIC_SOURCE_MANIFEST.json
+@@ -139,8 +139,8 @@
+     },
+     {
+       "path": "web/app/report_editor.js",
+-      "sha256": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48",
+-      "bytes": 819
++      "sha256": "a1e8e65b7d3e9836609c411232eac0aacc3e4d1529e19f8acff07e8d453af46f",
++      "bytes": 919
+     },
+     {
+       "path": "web/app/settings_flow.js",
+@@ -154,8 +154,8 @@
+     },
+     {
+       "path": "web/app/startup_plan.js",
+-      "sha256": "ba8c56535d7f141f5faf5cc2064ad36f13ec4393c0565944cae7f9c7c20f5486",
+-      "bytes": 2212
++      "sha256": "335a132b3b7928a75899c80cb2401901215c74776262520fe49c758b32b3fd92",
++      "bytes": 2242
+     },
+     {
+       "path": "web/app/startup_task.js",
+@@ -283,6 +283,11 @@
+       "bytes": 1032
+     },
+     {
++      "path": "web/domain/report/reference.js",
++      "sha256": "9ac041444ad13a0114d5cf6d1bd4a38e982693268b93527d37f47b201ff2db7d",
++      "bytes": 1984
++    },
++    {
+       "path": "web/domain/report/restore_binding.js",
+       "sha256": "5953f8b57288e5f0e5ceff82276159b843143c0450914b7caa3223741b12af37",
+       "bytes": 691
+@@ -419,8 +424,8 @@
+     },
+     {
+       "path": "web/features/report_rows.js",
+-      "sha256": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
+-      "bytes": 4683
++      "sha256": "55e2345b12cda7c5d44ef88e23b2fad71a84cbb931325de5b2458b6b6a170e2a",
++      "bytes": 5387
+     },
+     {
+       "path": "web/features/settings.js",
+@@ -549,8 +554,8 @@
+     },
+     {
+       "path": "web/sw.js",
+-      "sha256": "366ac59083bb1278f10cf71d919291100261193001bf41f1aaa95e9cef9d741f",
+-      "bytes": 3769
++      "sha256": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76",
++      "bytes": 3800
+     },
+     {
+       "path": "web/typography.css",
+--- R30/deploy/STATIC_MANIFEST.json
++++ R31-A1/deploy/STATIC_MANIFEST.json
+@@ -1,5 +1,5 @@
+ {
+-  "staticVersion": "f5079cbdc06b2bc6",
++  "staticVersion": "87fef183f091b968",
+   "assets": {
+     "adapters/ocr.js": "88ae1b81c967f71824142d3a56fbbf33455d731ac24e447fdf6a6bff36334fc5",
+     "app/action_coordinator.js": "ad3bda96b89e94347b74f3917a6993b17d9cbf6f1bb05de77a8abd613962e0d1",
+@@ -13,10 +13,10 @@
+     "app/ocr_task.js": "f9030ed8e8af38e815b2fa84f234d5b7a7a85515834579b4e1ae45ff37720ffd",
+     "app/records_flow.js": "f61b8b649de6861d212f131e87415dd5197764b8c37968e4c407265c9e9337f1",
+     "app/records_snapshot.js": "5907770fda227596a8ad10e5f32c28d927c1c793ea0e16d780b2ee55af886994",
+-    "app/report_editor.js": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48",
++    "app/report_editor.js": "a1e8e65b7d3e9836609c411232eac0aacc3e4d1529e19f8acff07e8d453af46f",
+     "app/settings_flow.js": "ff17ba8821792948f87998ad5926548c06fbd964fd94f678b3c2b2a8383a085a",
+     "app/startup.js": "4e7ee83c2572b27ada6b46eb022a538c0cc9c53129fd478d47171abe5beb15ae",
+-    "app/startup_plan.js": "ba8c56535d7f141f5faf5cc2064ad36f13ec4393c0565944cae7f9c7c20f5486",
++    "app/startup_plan.js": "335a132b3b7928a75899c80cb2401901215c74776262520fe49c758b32b3fd92",
+     "app/startup_task.js": "bcf4bd222b68e0a1771bac24875345dbba3f425b95809fc2972522982e8ea663",
+     "app/state_controller.js": "cdb6941a2941a7b389b050a842f0286be928e9a24ba446c5e96e61ec0c7d4d9f",
+     "app/step_flow.js": "2130bbf757aefb31fa818e4aa1a7f6c9c9db06c45c3b7d2fe27966beb096a3c1",
+@@ -42,6 +42,7 @@
+     "domain/report/contract.js": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403",
+     "domain/report/fields.js": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b",
+     "domain/report/layout.js": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50",
++    "domain/report/reference.js": "9ac041444ad13a0114d5cf6d1bd4a38e982693268b93527d37f47b201ff2db7d",
+     "domain/report/restore_binding.js": "5953f8b57288e5f0e5ceff82276159b843143c0450914b7caa3223741b12af37",
+     "domain/report/rows.js": "4364dd753a6ea1e071158c335bcac1ce08f0ecc32d56d9ac7649e69eeaaea3be",
+     "domain/report/table_fields.js": "4b9821e4eda49efa294b343fb2601f904ee9fcde356b73a91a52e6ac17702a94",
+@@ -69,7 +70,7 @@
+     "features/ocr_evidence.js": "ad43269b7b57e99817586855f5bca11a75e9c64fb29d8ba9de97710d1c06ac10",
+     "features/ocr_review.css": "d645f9bbf24a623dbaa96a361db3b3d357886d23afea26a138d7295045833619",
+     "features/records.js": "4bd3374444f842bf38aab9a0a805594011acf1b4af130817ff928ac6f75a6e14",
+-    "features/report_rows.js": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
++    "features/report_rows.js": "55e2345b12cda7c5d44ef88e23b2fad71a84cbb931325de5b2458b6b6a170e2a",
+     "features/settings.js": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+     "features/states.css": "3f29e0f08f0113618358f5cc895a8ac564bc59b1d3ab388572ace9e7839a6a39",
+     "features/states.js": "f3838dfc91b04dbe54876e15110365c7d198fef4a1c85bcce371e6ebeaa2853e",
+@@ -97,5 +98,5 @@
+     "styles/shell.css": "04c55af50bcae44f187aeceb330b410d4d0d1041ad72006040d12a5614cd4cd8",
+     "typography.css": "446eaa13a12b2d2ea030e18379a8885d7c1822205b9bb174783675eabf1d05a8"
+   },
+-  "serviceWorkerSha256": "366ac59083bb1278f10cf71d919291100261193001bf41f1aaa95e9cef9d741f"
++  "serviceWorkerSha256": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76"
+ }--- R30/package.json
++++ R31-A1/package.json
+@@ -2,6 +2,6 @@
+   "private": true,
+   "type": "module",
+   "scripts": {
+-    "test": "node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/ocr_tables.test.mjs tests/public_editor.test.mjs tests/backup_reader.test.mjs tests/backup_reader_regression.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs tests/ocr_review.test.mjs tests/ocr_aliases.test.mjs tests/startup.test.mjs tests/report_rows.test.mjs tests/report_contract.test.mjs"
++    "test": "node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/ocr_tables.test.mjs tests/public_editor.test.mjs tests/backup_reader.test.mjs tests/backup_reader_regression.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs tests/ocr_review.test.mjs tests/ocr_aliases.test.mjs tests/startup.test.mjs tests/report_rows.test.mjs tests/report_contract.test.mjs tests/report_reference.test.mjs"
+   }
+ }
+--- R30/tests/browser.report-reference.js
++++ R31-A1/tests/browser.report-reference.js
+@@ -0,0 +1,29 @@
++(async()=>{
++ const $=s=>document.querySelector(s),ok=(v,m)=>{if(!v)throw Error(m);},pause=ms=>new Promise(r=>setTimeout(r,ms)),wait=async f=>{for(let i=0;i<700;i++){if(f())return;await pause(10);}throw Error('WAIT '+f);};
++ const cfg=window.__PROBE_INPUT__,{RecordStore}=await import('/storage/store.js'),m=await import('/domain/model.js'),backup=await import('/storage/backup.js'),view=await import('/features/report_rows.js');
++ const store=new RecordStore();window.confirm=()=>true;
++ const assertDetail=d=>{const rows=d.event.payload.reportRows;ok(rows.length===27&&rows[1].referenceRange==='-9.99'&&rows[2].referenceRange==='','REFERENCE_LITERAL_CHANGED');const html=view.reportDetails(d.event.payload);ok(html.includes('data-reference-quality="ambiguous"')&&html.includes('参考范围待核对')&&html.includes('data-reference-quality="missing"')&&html.includes('参考范围未提供'),'REFERENCE_DETAIL_QUALITY_MISSING');};
++ if(cfg.mode==='read'){const marker=await store.get('meta','r31-reference'),d=await store.detail(marker.eventId);assertDetail(d);ok(m.canonical(d.event)===marker.event&&m.canonical(d.receipt)===marker.receipt&&(await store.reviews()).length===0,'REFERENCE_NEW_PID_CHANGED');store.close();window.webkit.messageHandlers.result.postMessage({ok:true,eventId:marker.eventId,newProcessRead:true,referenceHintsPersist:true});return;}
++ await wait(()=>$('#start'));$('#local-consent').checked=true;$('#timezone').value='Asia/Shanghai';$('#start').click();await wait(()=>$('.state-overview'));$('[data-nav="capture"]').click();await wait(()=>$('#ocr'));
++ const canvas=document.createElement('canvas');canvas.width=1300;canvas.height=550;canvas.getContext('2d').fillRect(0,0,1300,550);const file=new File([await new Promise(r=>canvas.toBlob(r,'image/png'))],'fictional-reference.png',{type:'image/png'});
++ Object.defineProperty($('#image'),'files',{value:[file],configurable:true});$('#image').dispatchEvent(new Event('change'));await wait(()=>$('#source-name').textContent===file.name);$('#trial-token').value=cfg.token;$('#upload-consent').checked=true;$('#ocr').click();await wait(()=>document.querySelectorAll('[data-report]').length===27&&!$('#ocr').disabled);
++ const elements=[...document.querySelectorAll('[data-report]')],rbc=elements[1],input=rbc.querySelector('.report-reference'),status=()=>rbc.querySelector('.reference-status');
++ ok(elements.every(el=>el.querySelector('.reference-status')),'REFERENCE_EDITOR_HINT_MISSING');
++ ok(status().dataset.referenceQuality==='range','REFERENCE_COMPLETE_NOT_SHOWN');
++ for(const [value,kind]of [['-9.99','ambiguous'],['','missing'],['1-','incomplete'],['1-9','range'],['<9','limit'],['阴性','text'],['-9.99','ambiguous']]){
++  const box=rbc.querySelector('.report-checked');box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}));input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}));
++  ok(!box.checked,'REFERENCE_EDIT_REUSES_CHECK');ok(status().dataset.referenceQuality===kind,'REFERENCE_EDIT_HINT_STALE');box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}));ok(status().dataset.referenceQuality===kind,'REFERENCE_CHECK_PROMOTES_QUALITY');
++ }
++ const missing=elements[2].querySelector('.report-reference');missing.value='';missing.dispatchEvent(new Event('input',{bubbles:true}));
++ $('#clinical-date').value='2020-01-01';$('#clinical-date').dispatchEvent(new Event('input',{bubbles:true}));
++ $('#prepare-review').click();await wait(()=>$('#notice').textContent.includes('逐项对照报告'));ok((await store.reviews()).length===0&&(await store.page()).items.length===0,'REFERENCE_UNCHECKED_STAGED');
++ for(const box of document.querySelectorAll('.report-checked')){box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}));}
++ $('#prepare-review').click();await wait(()=>!$('#confirmation').hidden&&!$('#confirmed').disabled);ok($('#review-summary').textContent.includes('参考范围待核对')&&$('#review-summary').textContent.includes('参考范围未提供'),'REFERENCE_SUMMARY_QUALITY_MISSING');ok(!$('#confirmed').checked&&$('#save').disabled&&(await store.page()).items.length===0,'REFERENCE_AUTO_SAVE');
++ $('#confirmed').checked=true;$('#confirmed').dispatchEvent(new Event('change'));$('#save').click();await wait(()=>$('#delete-record'));
++ const page=await store.page(),d=await store.detail(page.items[0].id);assertDetail(d);ok(page.items.length===1&&$('#main').textContent.includes('参考范围待核对')&&$('#main').textContent.includes('参考范围未提供'),'REFERENCE_SAVED_HINT_HIDDEN');
++ ok(await m.hash(await d.source.blob.arrayBuffer())===await m.hash(await file.arrayBuffer())&&d.event.payload.reportRows[1].origin.referenceRange==='3.8-5.1','REFERENCE_ORIGIN_CHANGED');
++ const target=new RecordStore('r31-restore-'+crypto.randomUUID()),encrypted=await backup.exportBackup(store,'fictional-r31-password');await backup.restoreBackup(target,await backup.inspectBackup(encrypted,'fictional-r31-password',target));const restored=await target.detail(d.event.id);assertDetail(restored);ok(m.canonical(restored.event)===m.canonical(d.event)&&m.canonical(restored.receipt)===m.canonical(d.receipt),'REFERENCE_BACKUP_CHANGED');
++ // Leaving report mode must remove the owned hints as well as the report controls.
++ const sandbox=document.createElement('div');sandbox.innerHTML=view.renderReportRows([d.event.payload.reportRows[2]],()=>'<div class="metric-row"></div>');(await import('/app/report_editor.js')).detachReportRows(sandbox);ok(!sandbox.querySelector('.reference-status'),'REFERENCE_DETACH_HINT_LEAK');
++ await store.meta({id:'r31-reference',eventId:d.event.id,event:m.canonical(d.event),receipt:m.canonical(d.receipt)});target.close();store.close();window.webkit.messageHandlers.result.postMessage({ok:true,eventId:d.event.id,syntheticExplicitSave:true,referenceEditRevokesCheck:true,referenceHintsPersist:true,encryptedRoundTrip:true,noInventedBounds:true});
++})().catch(e=>window.webkit.messageHandlers.result.postMessage({ok:false,error:e.message,stack:e.stack}));
+--- R30/tests/report_reference.test.mjs
++++ R31-A1/tests/report_reference.test.mjs
+@@ -0,0 +1,25 @@
++import test from 'node:test';import assert from 'node:assert/strict';
++import {readReference,referenceLabel} from '../web/domain/report/reference.js';
++import {reportDetails,renderReportRows} from '../web/features/report_rows.js';
++import {reportRows} from '../web/domain/report/rows.js';import {cbcLedger} from './fixtures/cbc_report.mjs';
++test('reference literals remain unchanged; complete ordered intervals and explicit limits classified without medical judgement',()=>{
++ for(const [raw,lower,upper]of [[' 3.80 - 5.10 ','3.80','5.10'],['-5--1','-5','-1'],['−5～−1','-5','-1'],['0至0','0','0'],['1 到 2','1','2'],['+1—+2','+1','+2']]){const r=readReference(raw);assert.equal(r.kind,'range');assert.equal(r.raw,raw);assert.equal(r.lower,lower);assert.equal(r.upper,upper);}
++ for(const raw of ['<5','<= 5','≥ -1','>0','≤3.00']){assert.equal(readReference(raw).kind,'limit');assert.equal(readReference(raw).raw,raw);}
++});
++test('missing, single numeric, reversed and incomplete bounds never become verified intervals or invented values',()=>{
++ for(const raw of ['', '  ',null])assert.equal(readReference(raw).kind,'missing');
++ for(const raw of ['-5.00','-150','5','+2.00']){assert.equal(readReference(raw).kind,'ambiguous');assert.match(referenceLabel(raw),/待核对/);assert.equal(readReference(raw).lower,undefined);}
++ for(const raw of ['5-1','1-','1至','~5','<','1 - 2 - 3','9'.repeat(101)+'-9'])assert.equal(readReference(raw).kind,'incomplete',raw);
++ for(const raw of ['阴性','未检出','年龄相关，详见原单','1e3-2e3'])assert.equal(readReference(raw).kind,'text');
++});
++test('saved checked rows still show absent or ambiguous references; display never mutates stored wire or origin',()=>{
++ const rows=reportRows(cbcLedger());for(const [referenceRange,kind]of [['-5.00','ambiguous'],['','missing'],['1-','incomplete'],['阴性','text']]){
++  const row={...rows[1],referenceRange,checked:true},payload={reportRows:[row]},before=JSON.stringify(payload),html=reportDetails(payload);
++  assert.ok(html.includes('data-reference-quality="'+kind+'"'),'REFERENCE_DETAIL_QUALITY_MISSING');assert.ok(html.includes('待核实的参考信息仍会提示'));
++  assert.equal(JSON.stringify(payload),before);assert.ok(renderReportRows([row],()=>{throw Error('unexpected mapped row');}).includes('data-reference-quality="'+kind+'"'));
++ }
++});
++test('quality projection is bounded over maximum report rows and 200-character references',()=>{
++ const before=performance.now();for(let repeat=0;repeat<10;repeat++)for(let i=0;i<100;i++){const raw='9'.repeat(150)+'-'+ '1'.repeat(49);assert.equal(raw.length,200);assert.equal(readReference(raw).kind,'incomplete');}
++ assert.ok(performance.now()-before<250,'REFERENCE_PROJECTION_10X_SLOW');
++});
+--- R30/tests/test_report_reference_runner.py
++++ R31-A1/tests/test_report_reference_runner.py
+@@ -0,0 +1,40 @@
++"""Mandatory R31 fictional reference quality behavior, no real provider."""
++import argparse,base64,hashlib,io,json,shutil,subprocess,threading,uuid
++from pathlib import Path
++from unittest.mock import patch
++from gateway.server import Server
++from gateway.ocr import Configuration
++from tools.run_browser import run
++ROOT=Path(__file__).resolve().parents[1]
++def verify(out):
++ out.mkdir(parents=True,exist_ok=False)
++ ledger=json.loads(subprocess.run(['node','--input-type=module','-e',"import {cbcLedger} from './tests/fixtures/cbc_report.mjs';console.log(JSON.stringify(cbcLedger()));"],cwd=ROOT,check=True,capture_output=True,text=True).stdout)
++ token='fictional-reference-token-00000000000';env=json.loads((ROOT/'deploy/PUBLIC_CONFIG.example.json').read_text());env['PTDS_PUBLIC_ORIGIN']='https://fictional.invalid'
++ config=Configuration(env,{'tencentSecretId':'FICTIONAL_ID','tencentSecretKey':'FICTIONAL_KEY','trialToken':token})
++ response={'Response':{'RequestId':'fictional-reference','TextDetections':[{'DetectedText':l['text'],'Confidence':99,'Polygon':[{'X':p['x'],'Y':p['y']}for p in l['coordinates']]}for l in ledger['lines']]}};calls=[]
++ class Opener:
++  def open(self,request,timeout):
++   assert request.full_url=='https://ocr.tencentcloudapi.com/' and timeout==25;assert base64.b64decode(json.loads(request.data)['ImageBase64'])[:8]==b'\x89PNG\r\n\x1a\n';calls.append(1);return io.BytesIO(json.dumps(response).encode())
++ server=Server(('127.0.0.1',0),ROOT/'web',out/'fictional-budget.json',config);config.origin=f'http://127.0.0.1:{server.server_port}';threading.Thread(target=server.serve_forever,daemon=True).start();profile=str(uuid.uuid4())
++ try:
++  with patch('gateway.tencent.urllib.request.build_opener',return_value=Opener()):
++   write=run('report-reference',out/'write',{'profile':profile,'mode':'write','token':token},config.origin+'/')
++   read=run('report-reference',out/'read',{'profile':profile,'mode':'read'},config.origin+'/')
++  pids=[json.loads((out/(m+'.binding.json')).read_text())['pid']for m in ['write','read']];assert pids[0]!=pids[1]and write['eventId']==read['eventId'];assert len(calls)==1;killed={}
++  for name,relative,old,new,error in [
++   ('hide-hint','web/features/report_rows.js','${referenceHint(r.referenceRange)}<label','<label','REFERENCE_EDITOR_HINT_MISSING'),
++   ('scalar-as-range','web/domain/report/reference.js',"state('ambiguous'","state('range'",'REFERENCE_EDIT_HINT_STALE'),
++   ('no-refresh','web/app/report_editor.js','refreshReferenceStatus(el);','/* mutation: removed refresh */','REFERENCE_EDIT_HINT_STALE')]:
++   tree=ROOT/'runtime'/('reference-mutation-'+str(uuid.uuid4()));shutil.copytree(ROOT/'web',tree/'web');path=tree/relative;source=path.read_text();assert source.count(old)==1;path.write_text(source.replace(old,new));(out/(name+'-served.json')).write_text(json.dumps({str(p.relative_to(tree)):hashlib.sha256(p.read_bytes()).hexdigest()for p in (tree/'web').rglob('*')if p.is_file()},indent=2))
++   mutated=Server(('127.0.0.1',0),tree/'web',out/(name+'-fictional-budget.json'),config);config.origin=f'http://127.0.0.1:{mutated.server_port}';threading.Thread(target=mutated.serve_forever,daemon=True).start()
++   try:
++    with patch('gateway.tencent.urllib.request.build_opener',return_value=Opener()):
++     try:run('report-reference',out/name,{'profile':str(uuid.uuid4()),'mode':'write','token':token},config.origin+'/')
++     except SystemExit:pass
++    result=json.loads((out/(name+'.json')).read_text());assert result.get('ok')is False and result.get('error')==error,result;killed[name]=error
++   finally:mutated.shutdown();mutated.server_close();shutil.rmtree(tree)
++  result={'ok':True,'identity':'author fictional automated; not independent/human/clinical','write':write,'read':read,'pids':pids,'paidProviderCalls':0,'fakeProviderCalls':len(calls),'mutations':killed,'positiveControl':'write; identical unmutated case for every mutation'};(out/'result.json').write_text(json.dumps(result,indent=2)+'\n');return result
++ finally:server.shutdown();server.server_close()
++def main():
++ p=argparse.ArgumentParser();p.add_argument('--output',required=True);a=p.parse_args();verify(ROOT/a.output)
++if __name__=='__main__':main()
+--- R30/tests/test_report_rows_runner.py
++++ R31-A1/tests/test_report_rows_runner.py
+@@ -149,6 +149,8 @@
+      except SystemExit:pass
+     result=json.loads((out/(name+'.json')).read_text());assert result.get('ok')is False and result.get('error')==error,result;killed[name]=error
+    finally:mutation.shutdown();mutation.server_close();shutil.rmtree(tree)
+-  (out/'result.json').write_text(json.dumps({'ok':True,'identity':'author fictional automated, not independent/human/physical/clinical acceptance','paidProviderCalls':0,'fakeProviderCalls':len(calls),'reportRows':27,'projectedMetrics':5,'differentPIDs':[wb['pid'],rb['pid']],'behavioralMutations':killed,'historical':historical,'upgrade':upgrade,'write':write,'read':read,'layouts':layouts},indent=2)+'\n')
++  from tests.test_report_reference_runner import verify as verify_reference
++  reference=verify_reference(out/'reference-quality')
++  (out/'result.json').write_text(json.dumps({'ok':True,'identity':'author fictional automated, not independent/human/physical/clinical acceptance','paidProviderCalls':0,'fakeProviderCalls':len(calls),'reportRows':27,'projectedMetrics':5,'differentPIDs':[wb['pid'],rb['pid']],'behavioralMutations':killed,'historical':historical,'upgrade':upgrade,'write':write,'read':read,'layouts':layouts,'referenceQuality':reference},indent=2)+'\n')
+  finally:server.shutdown();server.server_close()
+ if __name__=='__main__':main()
+--- R30/tools/test_plan.json
++++ R31-A1/tools/test_plan.json
+@@ -8,7 +8,7 @@
+     "limits": "Native IDB work, cloning and scheduling not separately attributable; retain all raw windows"
+   },
+   "commands": [
+-    "node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs tests/ocr_tables.test.mjs tests/ocr_review.test.mjs tests/ocr_aliases.test.mjs tests/startup.test.mjs",
++    "node --test tests/coordinator.test.mjs tests/consultation.test.mjs tests/domain.test.mjs tests/state.test.mjs tests/consultation_draft.test.mjs tests/ocr_task.test.mjs tests/backup_task.test.mjs tests/backup_stream.test.mjs tests/template_parity.test.mjs tests/ocr_fragments.test.mjs tests/frontend_structure.test.mjs tests/records_snapshot.test.mjs tests/ocr_tables.test.mjs tests/ocr_review.test.mjs tests/ocr_aliases.test.mjs tests/startup.test.mjs tests/report_reference.test.mjs",
+     "python3 -B -m unittest tests.test_policy tests.test_gateway tests.test_lock_boundaries tests.test_tencent tests.test_deploy tests.test_debt_build_gate tests.test_phone_acceptance tests.test_invite_runner tests.test_startup_plan -v",
+     "python3 -B -m tests.test_tencent_flow_runner --output <new-evidence-dir>",
+     "python3 -B -m tests.test_ui_mutation_runner --output <new-evidence-dir>",
+@@ -67,7 +67,8 @@
+     "browser.ocr-review.js",
+     "browser.startup.js",
+     "browser.report-rows.js",
+-    "browser.report-upgrade.js"
++    "browser.report-upgrade.js",
++    "browser.report-reference.js"
+   ],
+   "coverage": {
+     "core": [
+@@ -578,5 +579,23 @@
+     "unitEntry": "tests/report_contract.test.mjs",
+     "acceptanceMetadata": "mechanically check currentProof/verificationEvidence/binding/top counts with actual current proof/requiredChecks before delivery",
+     "original61AndThresholdsUnchanged": true
++  },
++  "r31ReferenceQuality": {
++    "unitEntry": "tests/report_reference.test.mjs",
++    "mandatoryBrowserEntry": "report-rows-wire -> tests.test_report_reference_runner",
++    "controls": [
++      "same UI review/stage/explicit synthetic confirmation/save",
++      "unknown reference remains visibly unknown after row check",
++      "encrypted backup and different PID same library",
++      "original reference literal/source retained",
++      "detach removes owned hint"
++    ],
++    "mutations": [
++      "hide-hint",
++      "scalar-as-range",
++      "no-refresh"
++    ],
++    "noRealProvider": true,
++    "wireAndMedicalRulesUnchanged": true
+   }
+ }
+--- R30/web/app/report_editor.js
++++ R31-A1/web/app/report_editor.js
+@@ -1,13 +1,13 @@
+ import {reportRows,reportCoverage} from '../domain/report/rows.js';
+-import {renderReportRows} from '../features/report_rows.js';
++import {renderReportRows,refreshReferenceStatus} from '../features/report_rows.js';
+ export function showReport(root,ledger,renderMetric){
+  const rows=reportRows(ledger);root.querySelector('#observations').innerHTML=renderReportRows(rows,renderMetric);return reportCoverage(ledger,rows);
+ }
+ export function resetRowCheck(event){
+- const el=event.target.closest('[data-report]');if(el&&!event.target.matches('.report-checked'))el.querySelector('.report-checked').checked=false;
++ const el=event.target.closest('[data-report]');if(el&&!event.target.matches('.report-checked')){el.querySelector('.report-checked').checked=false;refreshReferenceStatus(el);}
+ }
+ export function detachReportRows(root){
+  for(const el of root.querySelectorAll('[data-report]')){
+-  if(el.classList.contains('report-row'))el.remove();else{delete el.dataset.report;el.querySelectorAll('.report-reference,.report-flag,.report-checked').forEach(e=>e.closest('label').remove());}
++  if(el.classList.contains('report-row'))el.remove();else{delete el.dataset.report;el.querySelector('.reference-status')?.remove();el.querySelectorAll('.report-reference,.report-flag,.report-checked').forEach(e=>e.closest('label').remove());}
+  }
+ }
+--- R30/web/app/startup_plan.js
++++ R31-A1/web/app/startup_plan.js
+@@ -1,2 +1,2 @@
+ // Generated from exact static imports; dependencies precede dependents.
+-export const STARTUP_LEVELS=[["/app/home_resources.js","/app/ocr_task.js","/app/records_snapshot.js","/app/step_flow.js","/app/ui.js","/compat/r27/web/domain/ocr_review.js","/compat/r27/web/domain/report/layout.js","/compat/r27/web/domain/report/table_fields.js","/compat/r27/web/domain/state/ocr_aliases.js","/compat/r27/web/rules/definitions.js","/domain/ocr_review.js","/domain/report/layout.js","/domain/report/table_fields.js","/domain/state/decimal.js","/domain/state/ocr_aliases.js","/features/health_labels.js","/features/home_resources.js","/rules/definitions.js","/shared/observe.js","/storage/backup_task.js"],["/app/action_coordinator.js","/app/backup_task.js","/app/consultation_draft.js","/compat/r27/web/domain/state/catalog.js","/domain/state/catalog.js","/domain/state/evaluate.js","/features/clinical_flags.js","/features/settings.js","/features/step_labels.js"],["/compat/r27/web/domain/report/fields.js","/domain/report/fields.js","/domain/state/select.js","/features/consultation_page.js"],["/compat/r27/web/domain/report/contract.js","/compat/r27/web/domain/report/tables.js","/compat/r27/web/domain/state/ocr_tables.js","/domain/report/contract.js","/domain/report/tables.js","/domain/state/ocr_tables.js","/domain/state/project.js"],["/app/state_controller.js","/compat/r27/web/domain/state/ocr_fragments.js","/domain/state/ocr_fragments.js","/features/states.js"],["/compat/r27/web/domain/model.js","/compat/r27/web/domain/state/candidates.js","/domain/model.js","/domain/state/candidates.js"],["/adapters/ocr.js","/compat/r27/web/domain/report/rows.js","/domain/report/rows.js","/features/consultation.js","/features/ocr_evidence.js","/features/report_rows.js","/storage/backup_reader.js","/storage/consultation_draft.js","/storage/state_read.js"],["/app/consultation_flow.js","/app/ocr_review.js","/app/report_editor.js","/domain/report/restore_binding.js","/domain/write_binding.js","/features/editor.js","/storage/backup_stream.js","/storage/store.js"],["/app/editor_flow.js","/domain/service.js","/features/records.js","/storage/backup.js"],["/app/records_flow.js","/app/settings_flow.js"],["/app/main.js"]];
++export const STARTUP_LEVELS=[["/app/home_resources.js","/app/ocr_task.js","/app/records_snapshot.js","/app/step_flow.js","/app/ui.js","/compat/r27/web/domain/ocr_review.js","/compat/r27/web/domain/report/layout.js","/compat/r27/web/domain/report/table_fields.js","/compat/r27/web/domain/state/ocr_aliases.js","/compat/r27/web/rules/definitions.js","/domain/ocr_review.js","/domain/report/layout.js","/domain/report/table_fields.js","/domain/state/decimal.js","/domain/state/ocr_aliases.js","/features/health_labels.js","/features/home_resources.js","/rules/definitions.js","/shared/observe.js","/storage/backup_task.js"],["/app/action_coordinator.js","/app/backup_task.js","/app/consultation_draft.js","/compat/r27/web/domain/state/catalog.js","/domain/report/reference.js","/domain/state/catalog.js","/domain/state/evaluate.js","/features/clinical_flags.js","/features/settings.js","/features/step_labels.js"],["/compat/r27/web/domain/report/fields.js","/domain/report/fields.js","/domain/state/select.js","/features/consultation_page.js"],["/compat/r27/web/domain/report/contract.js","/compat/r27/web/domain/report/tables.js","/compat/r27/web/domain/state/ocr_tables.js","/domain/report/contract.js","/domain/report/tables.js","/domain/state/ocr_tables.js","/domain/state/project.js"],["/app/state_controller.js","/compat/r27/web/domain/state/ocr_fragments.js","/domain/state/ocr_fragments.js","/features/states.js"],["/compat/r27/web/domain/model.js","/compat/r27/web/domain/state/candidates.js","/domain/model.js","/domain/state/candidates.js"],["/adapters/ocr.js","/compat/r27/web/domain/report/rows.js","/domain/report/rows.js","/features/consultation.js","/features/ocr_evidence.js","/features/report_rows.js","/storage/backup_reader.js","/storage/consultation_draft.js","/storage/state_read.js"],["/app/consultation_flow.js","/app/ocr_review.js","/app/report_editor.js","/domain/report/restore_binding.js","/domain/write_binding.js","/features/editor.js","/storage/backup_stream.js","/storage/store.js"],["/app/editor_flow.js","/domain/service.js","/features/records.js","/storage/backup.js"],["/app/records_flow.js","/app/settings_flow.js"],["/app/main.js"]];
+--- R30/web/domain/report/reference.js
++++ R31-A1/web/domain/report/reference.js
+@@ -0,0 +1,26 @@
++// Read-only quality projection v1. Never invent a missing bound or change saved literals.
++import {dec} from '../state/decimal.js';
++export const REFERENCE_READER_VERSION='report-reference/1';
++const number='[-+]?\\d+(?:\\.\\d+)?';
++const interval=new RegExp('^('+number+')\\s*(?:[-–—~～]|至|到)\\s*('+number+')$');
++const limit=new RegExp('^(<=|>=|<|>|≤|≥)\\s*('+number+')$');
++const scalar=new RegExp('^'+number+'$');
++export function readReference(value){
++ const raw=String(value??''),s=raw.trim().replace(/[−﹣－]/g,'-');
++ const state=(kind,hint,extra={})=>({version:REFERENCE_READER_VERSION,kind,raw,hint,...extra});
++ if(!s)return state('missing','参考范围未提供。不能据此判断是否正常；原单未写时可以留空。');
++ const range=s.match(interval);
++ if(range&&range[1].length<=100&&range[2].length<=100){
++  if(dec(range[1]).cmp(range[2])>0)return state('incomplete','参考范围待核对：上下限顺序不清楚，请对照原图；不会自动调换。');
++  return state('range','参考范围来自报告，请对照原图核对。',{lower:range[1],upper:range[2]});
++ }
++ const boundary=s.match(limit);
++ if(boundary)return state('limit','这是原报告的单侧参考界限，请核对方向和数值。',{operator:boundary[1],value:boundary[2]});
++ if(scalar.test(s))return state('ambiguous','参考范围待核对：只识出一个数字，可能是单值，也可能缺少上下限；请对照原图。');
++ if(/^[\d\s.,+\-–—~～<>≤≥=/至到]+$/.test(s))return state('incomplete','参考范围待核对：数字或分隔符没有识全，请对照原图；不会猜填。');
++ return state('text','这是报告参考文字，尚未解析成数值范围；请按原单核对。');
++}
++export function referenceLabel(value){
++ const {kind}=readReference(value);
++ return kind==='missing'?'参考范围未提供':kind==='ambiguous'||kind==='incomplete'?'参考范围待核对（原文）':kind==='text'?'报告参考文字':'参考范围';
++}
+--- R30/web/features/report_rows.js
++++ R31-A1/web/features/report_rows.js
+@@ -1,9 +1,15 @@
++import {readReference,referenceLabel} from '../domain/report/reference.js';
+ import {reportUnitNeedsReview} from '../domain/report/table_fields.js';
+ import {DICTIONARY} from '../domain/model.js';
+ import {reportObservation,reportProjection} from '../domain/report/fields.js';
+ import {esc} from '../app/ui.js';
+ const compareOptions=selected=>[['','没有符号'],['<','< 小于'],['<=','≤ 小于或等于'],['>','> 大于'],['>=','≥ 大于或等于']].map(([v,t])=>`<option value="${esc(v)}" ${(selected||'')===v?'selected':''}>${t}</option>`).join('');
+-function extraFields(r){return `<label class="field">参考范围<input class="report-reference" maxlength="200" value="${esc(r.referenceRange)}"></label><label class="field">报告上的升降标记<select class="report-flag">${['','↑','↓','H','L'].map(v=>`<option value="${v}" ${r.abnormalFlag===v?'selected':''}>${v||'无标记'}</option>`).join('')}</select></label><label class="check report-check"><input type="checkbox" class="report-checked" ${r.checked?'checked':''}>我已对照这项的名称、结果和单位</label>`;}
++export function refreshReferenceStatus(el){
++ const input=el.querySelector('.report-reference'),status=el.querySelector('.reference-status');
++ if(input&&status){const info=readReference(input.value);status.textContent=info.hint;status.dataset.referenceQuality=info.kind;}
++}
++function referenceHint(value){const info=readReference(value);return `<small class="reference-status" role="status" data-reference-quality="${info.kind}">${esc(info.hint)}</small>`;}
++function extraFields(r){return `<label class="field">参考范围<input class="report-reference" maxlength="200" value="${esc(r.referenceRange)}"></label>${referenceHint(r.referenceRange)}<label class="field">报告上的升降标记<select class="report-flag">${['','↑','↓','H','L'].map(v=>`<option value="${v}" ${r.abnormalFlag===v?'selected':''}>${v||'无标记'}</option>`).join('')}</select></label><label class="check report-check"><input type="checkbox" class="report-checked" ${r.checked?'checked':''}>我已对照名称、结果、单位和参考信息；不清楚的仍待核实</label>`;}
+ export function renderReportRows(rows,renderMetric){return rows.map(r=>{
+  const o=reportObservation(r),data=esc(JSON.stringify(r));
+  if(o){const html=renderMetric({...o,unit:r.unit});return html.replace('<div ',`<div data-report="${data}" `).replace(/<\/div>$/,`<small>报告名称：${esc(r.name)}</small>${extraFields(r)}</div>`);}
+@@ -23,4 +29,4 @@
+ }
+ export function reportWasCorrected(r){return ['name','valueLiteral','unit','comparator','referenceRange','abnormalFlag'].some(k=>(r[k]??null)!==(r.origin[k]??null));}
+ export function reportOriginNote(r){return `<small class="ocr-origin-note">${reportWasCorrected(r)?'你修改后保存；识别时为：':'识别时为：'}${esc(r.origin.name)} ${esc(r.origin.comparator||'')}${esc(r.origin.valueLiteral)} ${esc(r.origin.unit)}${r.origin.abnormalFlag?' '+esc(r.origin.abnormalFlag):''}${r.origin.referenceRange?'；参考范围 '+esc(r.origin.referenceRange):''}</small>`;}
+-export function reportDetails(p){return p.reportRows?`<div class="report-details">${p.reportRows.map(r=>`<p><b>${esc(r.name)}</b> ${esc(r.comparator||'')}${esc(r.valueLiteral)} ${esc(r.unit)} ${esc(r.abnormalFlag)}${r.referenceRange?`<br>参考范围：${esc(r.referenceRange)}`:''}${reportOriginNote(r)}<small>已逐项核对</small></p>`).join('')}</div>`:'';}
++export function reportDetails(p){return p.reportRows?`<div class="report-details">${p.reportRows.map(r=>`<p><b>${esc(r.name)}</b> ${esc(r.comparator||'')}${esc(r.valueLiteral)} ${esc(r.unit)} ${esc(r.abnormalFlag)}<br>${esc(referenceLabel(r.referenceRange))}${r.referenceRange?'：'+esc(r.referenceRange):''}${referenceHint(r.referenceRange)}${reportOriginNote(r)}<small>已核对报告项目；待核实的参考信息仍会提示</small></p>`).join('')}</div>`:'';}
+--- R30/web/sw.js
++++ R31-A1/web/sw.js
+@@ -1,5 +1,5 @@
+-const CACHE='ptds-h5-f5079cbdc06b2bc6';
+-const SHELL=["/", "/adapters/ocr.js", "/app/action_coordinator.js", "/app/backup_task.js", "/app/consultation_draft.js", "/app/consultation_flow.js", "/app/editor_flow.js", "/app/home_resources.js", "/app/main.js", "/app/ocr_review.js", "/app/ocr_task.js", "/app/records_flow.js", "/app/records_snapshot.js", "/app/report_editor.js", "/app/settings_flow.js", "/app/startup.js", "/app/startup_plan.js", "/app/startup_task.js", "/app/state_controller.js", "/app/step_flow.js", "/app/ui.js", "/assets/sjia-knowledge-qr.jpg", "/compat/r27/web/domain/model.js", "/compat/r27/web/domain/ocr_review.js", "/compat/r27/web/domain/report/contract.js", "/compat/r27/web/domain/report/fields.js", "/compat/r27/web/domain/report/layout.js", "/compat/r27/web/domain/report/rows.js", "/compat/r27/web/domain/report/table_fields.js", "/compat/r27/web/domain/report/tables.js", "/compat/r27/web/domain/state/candidates.js", "/compat/r27/web/domain/state/catalog.js", "/compat/r27/web/domain/state/ocr_aliases.js", "/compat/r27/web/domain/state/ocr_fragments.js", "/compat/r27/web/domain/state/ocr_tables.js", "/compat/r27/web/rules/definitions.js", "/domain/model.js", "/domain/ocr_review.js", "/domain/report/contract.js", "/domain/report/fields.js", "/domain/report/layout.js", "/domain/report/restore_binding.js", "/domain/report/rows.js", "/domain/report/table_fields.js", "/domain/report/tables.js", "/domain/service.js", "/domain/state/candidates.js", "/domain/state/catalog.js", "/domain/state/decimal.js", "/domain/state/evaluate.js", "/domain/state/ocr_aliases.js", "/domain/state/ocr_fragments.js", "/domain/state/ocr_tables.js", "/domain/state/project.js", "/domain/state/select.js", "/domain/write_binding.js", "/features/clinical_flags.js", "/features/consultation.css", "/features/consultation.js", "/features/consultation_page.js", "/features/editor.css", "/features/editor.js", "/features/health_labels.js", "/features/home_resources.css", "/features/home_resources.js", "/features/ocr_evidence.js", "/features/ocr_review.css", "/features/records.js", "/features/report_rows.js", "/features/settings.js", "/features/states.css", "/features/states.js", "/features/step_labels.js", "/fixture.png", "/icon-180.png", "/icon-192.png", "/icon-512.png", "/icon.svg", "/index.html", "/manifest.webmanifest", "/rules/definitions.js", "/shared/observe.js", "/storage/backup.js", "/storage/backup_reader.js", "/storage/backup_stream.js", "/storage/backup_task.js", "/storage/consultation_draft.js", "/storage/state_read.js", "/storage/store.js", "/style.css", "/styles/responsive.css", "/styles/shell.css", "/typography.css"];
++const CACHE='ptds-h5-87fef183f091b968';
++const SHELL=["/", "/adapters/ocr.js", "/app/action_coordinator.js", "/app/backup_task.js", "/app/consultation_draft.js", "/app/consultation_flow.js", "/app/editor_flow.js", "/app/home_resources.js", "/app/main.js", "/app/ocr_review.js", "/app/ocr_task.js", "/app/records_flow.js", "/app/records_snapshot.js", "/app/report_editor.js", "/app/settings_flow.js", "/app/startup.js", "/app/startup_plan.js", "/app/startup_task.js", "/app/state_controller.js", "/app/step_flow.js", "/app/ui.js", "/assets/sjia-knowledge-qr.jpg", "/compat/r27/web/domain/model.js", "/compat/r27/web/domain/ocr_review.js", "/compat/r27/web/domain/report/contract.js", "/compat/r27/web/domain/report/fields.js", "/compat/r27/web/domain/report/layout.js", "/compat/r27/web/domain/report/rows.js", "/compat/r27/web/domain/report/table_fields.js", "/compat/r27/web/domain/report/tables.js", "/compat/r27/web/domain/state/candidates.js", "/compat/r27/web/domain/state/catalog.js", "/compat/r27/web/domain/state/ocr_aliases.js", "/compat/r27/web/domain/state/ocr_fragments.js", "/compat/r27/web/domain/state/ocr_tables.js", "/compat/r27/web/rules/definitions.js", "/domain/model.js", "/domain/ocr_review.js", "/domain/report/contract.js", "/domain/report/fields.js", "/domain/report/layout.js", "/domain/report/reference.js", "/domain/report/restore_binding.js", "/domain/report/rows.js", "/domain/report/table_fields.js", "/domain/report/tables.js", "/domain/service.js", "/domain/state/candidates.js", "/domain/state/catalog.js", "/domain/state/decimal.js", "/domain/state/evaluate.js", "/domain/state/ocr_aliases.js", "/domain/state/ocr_fragments.js", "/domain/state/ocr_tables.js", "/domain/state/project.js", "/domain/state/select.js", "/domain/write_binding.js", "/features/clinical_flags.js", "/features/consultation.css", "/features/consultation.js", "/features/consultation_page.js", "/features/editor.css", "/features/editor.js", "/features/health_labels.js", "/features/home_resources.css", "/features/home_resources.js", "/features/ocr_evidence.js", "/features/ocr_review.css", "/features/records.js", "/features/report_rows.js", "/features/settings.js", "/features/states.css", "/features/states.js", "/features/step_labels.js", "/fixture.png", "/icon-180.png", "/icon-192.png", "/icon-512.png", "/icon.svg", "/index.html", "/manifest.webmanifest", "/rules/definitions.js", "/shared/observe.js", "/storage/backup.js", "/storage/backup_reader.js", "/storage/backup_stream.js", "/storage/backup_task.js", "/storage/consultation_draft.js", "/storage/state_read.js", "/storage/store.js", "/style.css", "/styles/responsive.css", "/styles/shell.css", "/typography.css"];
+ async function installShell(){
+  const cache=await caches.open(CACHE),owner=new AbortController();let next=0;
+  const jobs=Array.from({length:Math.min(4,SHELL.length)},async()=>{

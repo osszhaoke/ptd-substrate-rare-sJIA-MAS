@@ -1,0 +1,11 @@
+{
+  "atUTC": "2026-11-10T07:52:39.841792+00:00",
+  "method": "GET_ONLY",
+  "health": {
+    "status": "ok",
+    "ocrEnabled": true,
+    "version": "h5-sjia-mas-r19"
+  },
+  "oldReportRowsHashExact": true,
+  "staticVersion": "fd6d5a6fda3b8ed0"
+}

@@ -1,0 +1,38 @@
+{
+  "identity" : "author actual IDB lifecycle on isolated fictional databases; no patient data",
+  "ok" : true,
+  "results" : {
+    "activeWrite" : {
+      "persisted" : true,
+      "result" : "committed"
+    },
+    "blocked" : {
+      "error" : "UPGRADE_BLOCKED_CLOSE_OTHER_TABS",
+      "hasProductStores" : false,
+      "sentinel" : true,
+      "state" : "rejected",
+      "version" : 1
+    },
+    "closedOpen" : {
+      "connectionResurrected" : false,
+      "error" : "STORE_CLOSED",
+      "state" : "rejected"
+    },
+    "lateBlocked" : {
+      "error" : "STORE_CLOSED",
+      "state" : "rejected",
+      "stateCallbacksAfterClose" : 0
+    },
+    "queuedWrite" : {
+      "error" : "STORE_CLOSED",
+      "persisted" : false,
+      "state" : "rejected"
+    },
+    "reopen" : {
+      "currentOwner" : true,
+      "currentState" : "fulfilled",
+      "oldError" : "STORE_CLOSED",
+      "oldState" : "rejected"
+    }
+  }
+}

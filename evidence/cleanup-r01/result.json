@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "oldRootsDeleted": 28,
+  "onlyRemainingH5Root": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14",
+  "generatedEntriesRemoved": 39,
+  "staleReportRemoved": true,
+  "retainedStateEntries": 19,
+  "privateContentRead": false,
+  "mainPTDSOrBrowserOrExternalSecretsChanged": false,
+  "sealedArchivesUnchanged": true,
+  "servicesStartedOrStopped": false,
+  "errors": []
+}

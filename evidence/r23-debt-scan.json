@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "identity": "author directed final source/required-behavior review; not universal debt absence",
+  "binding": "b4ce9d008c4365592f2b5229695be05d958c5db455a699cb8f205629b4e98906",
+  "boundInputs": 226,
+  "requiredChecks": 60,
+  "nodeTests": 94,
+  "pythonTests": 53,
+  "fixedFinding": "P2-D01",
+  "fixStatus": "LOCAL_SOURCE_ADOPTED; INDEPENDENT_SAME_CANDIDATE_TARGETED_PASS; INDEPENDENT_ADOPTION_RECEIPT_REVIEW_PENDING",
+  "knownReproducibleLocalCodeItemsOpen": 0,
+  "protectedExistingFiles": {
+    "count": 26,
+    "allExactToR22": true,
+    "names": [
+      "START_INVITE_TEST.command",
+      "START_LOCAL.command",
+      "START_PUBLIC_24H.command",
+      "deploy/PUBLIC_CONFIG.example.json",
+      "deploy/TRIAL_POLICY.json",
+      "deploy/invite_runner.py",
+      "deploy/ptds-h5.service",
+      "gateway/__init__.py",
+      "gateway/credentials.py",
+      "gateway/ocr.py",
+      "gateway/policy.py",
+      "gateway/server.py",
+      "gateway/tencent.py",
+      "public_trial/POLICY.json",
+      "public_trial/__init__.py",
+      "public_trial/server.py",
+      "web/rules/definitions.js",
+      "web/rules/h1-dictionary-0.1.json",
+      "web/rules/sjia-rulepack-0.1.json",
+      "web/storage/backup.js",
+      "web/storage/backup_reader.js",
+      "web/storage/backup_stream.js",
+      "web/storage/backup_task.js",
+      "web/storage/consultation_draft.js",
+      "web/storage/state_read.js",
+      "web/storage/store.js"
+    ]
+  },
+  "probeSourceUnchanged": true,
+  "ineffectiveProbeChangesAdopted": false,
+  "newGlobalLocks": 0,
+  "newTimersPollingQueuesStoreOrDependencies": 0,
+  "productLogicDelta": [
+    "web/index.html initial main fallback only; web/sw.js generated identity"
+  ],
+  "fixedCostAt10xData": "constant initial HTML; no extra runtime requests, state or work per record",
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "startup": {
+    "ok": true,
+    "identity": "author fictional automated; no human/phone/clinical acceptance",
+    "paidProviderCalls": 0,
+    "normalEntry": true,
+    "assetFailureExplained": true,
+    "missingStylesRepaired": true,
+    "styleRegressionKilledBy": "STARTUP_STYLE_NOT_READY",
+    "originalEntryWithoutFallbackKilledBy": "STARTUP_FAILURE_NOT_EXPLAINED",
+    "bootstrapManualRecovery": [
+      {
+        "asset": "/app/startup.js",
+        "manualReopenRecovered": true,
+        "rootGETs": 2,
+        "ocrOrWriteRequests": 0
+      },
+      {
+        "asset": "/app/startup_plan.js",
+        "manualReopenRecovered": true,
+        "rootGETs": 2,
+        "ocrOrWriteRequests": 0
+      },
+      {
+        "asset": "/app/startup_task.js",
+        "manualReopenRecovered": true,
+        "rootGETs": 2,
+        "ocrOrWriteRequests": 0
+      }
+    ],
+    "staticFallbackRemovalKilled": [
+      {
+        "asset": "/app/startup.js",
+        "error": "STARTUP_FAILURE_NOT_EXPLAINED"
+      },
+      {
+        "asset": "/app/startup_plan.js",
+        "error": "STARTUP_FAILURE_NOT_EXPLAINED"
+      },
+      {
+        "asset": "/app/startup_task.js",
+        "error": "STARTUP_FAILURE_NOT_EXPLAINED"
+      }
+    ],
+    "feedbackVisibleAfterMs": 31689,
+    "automaticReloads": 0,
+    "ocrOrWriteRequests": 0
+  },
+  "failureReconciliation": "evidence/r23-resume01/failure-reconciliation.json",
+  "currentScaleGate": {
+    "records": 10000,
+    "coldP95Ms": 350,
+    "warmP95Ms": 1,
+    "backupHeartbeatP95Ms": 17,
+    "notClaimed": "no improvement or unique attribution of historical anomaly"
+  },
+  "newProviderCalls": 0,
+  "formalRealRecordsWritten": 0,
+  "servicesRestartedOrPublicExtended": false,
+  "observations": [
+    "historical performance and transport failures not uniquely attributed",
+    "earlier console literal-key/default diagnosis invalid; lock cause not uniquely established; corrected current method uses system constant",
+    "test_plan browserExecutionEnvironment blockedAttemptObservation retained as historical misdiagnosis; superseded by DECISIONS R23 resume and current report"
+  ],
+  "evidenceGaps": [
+    "independent post-adoption root/receipt reconciliation",
+    "physical iPhone total memory and real low-space",
+    "current user and clinical acceptance",
+    "system BFCache matrix"
+  ],
+  "AIh": "UNMEASURED"
+}

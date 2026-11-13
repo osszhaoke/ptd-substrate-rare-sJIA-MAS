@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "samples": [
+    {
+      "attempt": 1,
+      "allRequiredStylesParsed": true,
+      "consentUnchecked": true,
+      "firstPageReady": true,
+      "formalRecordsWritten": 0,
+      "identity": "author isolated Mac WebKit fresh profile; no phone/human/clinical acceptance",
+      "navStyleReady": true,
+      "ok": true,
+      "paidProviderCalls": 0,
+      "readyMs": 9224
+    },
+    {
+      "attempt": 2,
+      "allRequiredStylesParsed": true,
+      "consentUnchecked": true,
+      "firstPageReady": true,
+      "formalRecordsWritten": 0,
+      "identity": "author isolated Mac WebKit fresh profile; no phone/human/clinical acceptance",
+      "navStyleReady": true,
+      "ok": true,
+      "paidProviderCalls": 0,
+      "readyMs": 7247
+    },
+    {
+      "attempt": 3,
+      "allRequiredStylesParsed": true,
+      "consentUnchecked": true,
+      "firstPageReady": true,
+      "formalRecordsWritten": 0,
+      "identity": "author isolated Mac WebKit fresh profile; no phone/human/clinical acceptance",
+      "navStyleReady": true,
+      "ok": true,
+      "paidProviderCalls": 0,
+      "readyMs": 8602
+    }
+  ],
+  "identity": "author bounded fresh-profile samples; not universal startup stability or phone acceptance",
+  "paidProviderCalls": 0
+}

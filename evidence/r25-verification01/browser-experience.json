@@ -1,0 +1,11 @@
+{
+  "acceptance" : "OWNER_AUTOMATED_NOT_HUMAN",
+  "ok" : true,
+  "results" : [
+    "no environment UI obstruction",
+    "REAL new flow",
+    "historical SYNTHETIC unchanged and excluded",
+    "latest navigation survives slow read and save",
+    "no queued\/replayed write"
+  ]
+}

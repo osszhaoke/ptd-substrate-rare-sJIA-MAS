@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "productZip": "deploy/PTDS-H5-sjia-mas-r19.zip",
+  "sha256": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "files": 122,
+  "allBytesAndPermissionsMatch": true,
+  "deterministicBuilds": 2,
+  "staticVersion": "736b9fe07bd4dbf6",
+  "manifestEntries": {
+    "SOURCE_MANIFEST.json": 96,
+    "PUBLIC_SOURCE_MANIFEST.json": 77
+  },
+  "staticAssetsMatch": true,
+  "verificationBinding": "4c51800a9e9189b898a6c944f2ab30e06321461095bb86af2d82ca42c6437bce",
+  "checks": 57,
+  "nodeTests": 74,
+  "pythonTests": 48,
+  "protectedRuntimeFiles": 71,
+  "mainAndCssUnchanged": true,
+  "newGlobalLocks": 0,
+  "singleCurrentProductZip": true,
+  "privateRetainedStateReadOrErased": false,
+  "AIh": "UNMEASURED"
+}

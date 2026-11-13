@@ -1,0 +1,5 @@
+{
+  "error" : "clinical notification erased manual additions",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:62391\/:2:67\n@http:\/\/127.0.0.1:62391\/:11:107"
+}

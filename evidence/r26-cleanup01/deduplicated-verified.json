@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "archive": "runtime/archives-r26-01/engineering-candidates-content-addressed.zip",
+  "sha256": "47eab5a26472515db3f08b5e23d05db7797520d5dc79a0b5e8b7ff888e2f3e4c",
+  "archiveBytes": 55785819,
+  "originalFiles": 40213,
+  "uniqueBlobs": 6190,
+  "allBlobHashesAndPathSizeModeMappingsVerified": true,
+  "format": "ptds-engineering-content-archive/1",
+  "supersedesIntermediateArchive": "runtime/archives-r26-01/engineering-candidates.tar.gz",
+  "originalHistoricalSealedPackagesModified": false
+}

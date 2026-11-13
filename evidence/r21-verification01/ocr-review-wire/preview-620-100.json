@@ -1,0 +1,5 @@
+{
+  "error" : "WAIT ()=>document.querySelectorAll('.metric-row').length===5&&!$('#ocr').disabled",
+  "ok" : false,
+  "stack" : "@http:\/\/127.0.0.1:63189\/:3:88\n@http:\/\/127.0.0.1:63189\/:28:12"
+}

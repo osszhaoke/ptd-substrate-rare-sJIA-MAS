@@ -1,0 +1,11 @@
+{
+  "backupRoundTrip" : true,
+  "eventId" : "b31ea89b-5157-4e7e-bb87-ca51cf47911d",
+  "explicitSyntheticConfirmation" : true,
+  "observations" : 5,
+  "ok" : true,
+  "original" : "8.20",
+  "previewReleased" : true,
+  "requests" : 1,
+  "sourcePolygons" : 4
+}

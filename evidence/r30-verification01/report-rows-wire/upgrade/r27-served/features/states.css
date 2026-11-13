@@ -1,0 +1,94 @@
+.state-cards {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 8px;
+  margin: 12px 0 20px;
+}
+.state-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  text-align: left;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow-wrap: anywhere;
+}
+.state-condition {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0;
+}
+.state-history {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0;
+}
+.state-history {
+  flex-wrap: wrap;
+}
+.state-result {
+  margin: 15px 0;
+}
+.table-scroll {
+  max-width: 100%;
+  overflow: auto;
+}
+.state-changes {
+  border-collapse: collapse;
+  width: 100%;
+}
+.state-changes th {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 8px;
+  overflow-wrap: anywhere;
+}
+.state-changes td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 8px;
+  overflow-wrap: anywhere;
+}
+.state-changes caption {
+  text-align: left;
+  padding: 12px 0;
+}
+.clinical-flags {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.state-overview .section-label h2 {
+  margin: 0;
+}
+nav button {
+  min-width: 44px;
+}
+@media(max-width:319px) {
+  .state-cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  * {
+    scroll-behavior: auto!important;
+  }
+}
+.score-trend svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.score-trend figcaption {
+  color: var(--muted);
+}

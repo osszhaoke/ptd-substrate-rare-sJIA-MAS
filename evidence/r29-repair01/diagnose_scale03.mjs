@@ -1,0 +1,10 @@
+import {performance}from'node:perf_hooks';import {writeFile}from'node:fs/promises';
+import {bilingualFooterLedger}from'../../runtime/r29-candidate01/tests/fixtures/report_layouts.mjs';
+import {reportRows as oldRows}from'../../runtime/r29-candidate01/web/compat/r27/web/domain/report/rows.js';
+import {reportRows}from'../../runtime/r29-candidate01/web/domain/report/rows.js';
+import {validateRestoredReportBinding}from'../../runtime/r29-candidate01/web/domain/report/restore_binding.js';
+import {need,canonical}from'../../runtime/r29-candidate01/web/domain/model.js';
+const results=[];for(const n of [2000,20000]){const ledger=bilingualFooterLedger();while(ledger.lines.length<n){const i=ledger.lines.length;ledger.lines.push({id:'fictional_noise_'+i,order:i,text:'虚构备注无检验数据',page:1,confidence:.99,coordinates:null});}ledger.rawText=ledger.lines.map(r=>r.text).join('\n');
+let t=performance.now();const current=reportRows(ledger),currentMs=performance.now()-t;t=performance.now();const old=oldRows(ledger),historicalMs=performance.now()-t;t=performance.now();const policy=await validateRestoredReportBinding({formatVersion:3,reportRows:old},{ledger},{need,canonical}),helperMs=performance.now()-t;
+need(current.length===27&&old.length===28&&policy==='cbc-report/r27-exact-source/1','SCALE_FIXTURE');results.push({fragments:n,rows:old.length,currentMs,historicalMs,helperMs,currentWithinOriginal1000:currentMs<1000,historicalWithinOriginal1000:historicalMs<1000,helperUnderExperimentalAggregate1000:helperMs<1000,extraParseExactlyOne:true});}
+const result={identity:'author supplemental isolated Node measurement, not phone/clinical/independent or universal performance',originalRequired61Unchanged:true,experimentalAggregateFailureRetained:true,explanation:'Original threshold applies to each reportRows parse; restore-only fallback deliberately performs two interpretations. New aggregate1000ms probe failed at20k and remains a performance observation; no acceptance threshold changed.',results};await writeFile(new URL('history-scale03.json',import.meta.url),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));

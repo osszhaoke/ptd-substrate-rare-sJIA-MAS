@@ -1,0 +1,18 @@
+{
+  "backupBytes" : 67127275,
+  "commitMs" : 29,
+  "exportMs" : 143,
+  "frames" : 696,
+  "heartbeatMaxMs" : 19,
+  "heartbeatP95Ms" : 19,
+  "heartbeatSamples" : 19,
+  "identity" : "Mac WebKit author fictional stage-confirm-save and backup restore",
+  "inspectMs" : 132,
+  "maxCryptoBytes" : 262145,
+  "mode" : "originals",
+  "ok" : true,
+  "originalBytes" : 67108864,
+  "physicalPhone" : false,
+  "target" : 8,
+  "totalBrowserMemory" : "UNMEASURED"
+}

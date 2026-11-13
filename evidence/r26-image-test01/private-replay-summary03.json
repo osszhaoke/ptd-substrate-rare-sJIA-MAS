@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "identity": "author authorized-image private replay with explicit automated test-operator corrections; not human/clinical acceptance",
+  "currentCandidateSource": "exact final 239-input candidate; private bindings and final product hashes recorded",
+  "realProviderCallsInCapturePhase": 6,
+  "additionalRealProviderCallsInReplay": 0,
+  "fakeReplayCalls": 6,
+  "rawFragments": 625,
+  "rowsTotal": 108,
+  "pendingRowsRequiringExplicitCorrection": 13,
+  "supplierAccuracy": "NOT_100_PERCENT; original image review required; at least numerical and unit errors observed; no hardcoded production correction",
+  "temporaryIsolatedProfilesOnly": true,
+  "items": [
+    {
+      "index": 1,
+      "rows": 27,
+      "pendingRows": 2,
+      "differentPIDs": [
+        51639,
+        51646
+      ],
+      "writeAndReadPassed": true,
+      "backupRoundTrip": true,
+      "explicitAutomatedChecks": true,
+      "privateBindingsSha256": {
+        "write": "c4bc5eba2b0402cee2043d00c3b2226b66b84366606ebe86202833ff2d1eba81",
+        "read": "119b9820ed3dd560a2f07edfc9e109212cd66b5d636662aab5ec154500f546f0"
+      }
+    },
+    {
+      "index": 2,
+      "rows": 39,
+      "pendingRows": 8,
+      "differentPIDs": [
+        51657,
+        51668
+      ],
+      "writeAndReadPassed": true,
+      "backupRoundTrip": true,
+      "explicitAutomatedChecks": true,
+      "privateBindingsSha256": {
+        "write": "a7a2bfdcf6d589059a9afe58ce9197aa416635a208be6b2de94425ecdc0694fa",
+        "read": "98b3580ca3cb0eef932e7b36a8cbd5f1dabbc5e533a859693f74ada64db5aae2"
+      }
+    },
+    {
+      "index": 3,
+      "rows": 7,
+      "pendingRows": 0,
+      "differentPIDs": [
+        51674,
+        51682
+      ],
+      "writeAndReadPassed": true,
+      "backupRoundTrip": true,
+      "explicitAutomatedChecks": true,
+      "privateBindingsSha256": {
+        "write": "2be0cfad7743c85a7e28a17c69b73d02f309f7b5094b5e15c585e874d75b704f",
+        "read": "0e210fe63c9b796fc2d577f4dcda0179fe9b6933f8e09458ffd0d9a55fb662c5"
+      }
+    },
+    {
+      "index": 4,
+      "rows": 1,
+      "pendingRows": 0,
+      "differentPIDs": [
+        51689,
+        51704
+      ],
+      "writeAndReadPassed": true,
+      "backupRoundTrip": true,
+      "explicitAutomatedChecks": true,
+      "privateBindingsSha256": {
+        "write": "01cc895d377a1d2d8c79ff7407bf867ec4adec3d68b0c2b465027f36ca73af29",
+        "read": "8e9aa033b263791d1ac3d041b0b756807151baba1ecc0b6c71c13d0eff4cbeca"
+      }
+    },
+    {
+      "index": 5,
+      "rows": 32,
+      "pendingRows": 3,
+      "differentPIDs": [
+        51746,
+        51769
+      ],
+      "writeAndReadPassed": true,
+      "backupRoundTrip": true,
+      "explicitAutomatedChecks": true,
+      "privateBindingsSha256": {
+        "write": "ba151461d185f3d6e46db74387cd6b32afe608ff1c6d2af639949f63904f09ff",
+        "read": "9069db28e624193ccf7b1c3085eb4dc36a6718c33ccebe0792cd78e36a0577ba"
+      }
+    },
+    {
+      "index": 6,
+      "rows": 2,
+      "pendingRows": 0,
+      "differentPIDs": [
+        51775,
+        51786
+      ],
+      "writeAndReadPassed": true,
+      "backupRoundTrip": true,
+      "explicitAutomatedChecks": true,
+      "privateBindingsSha256": {
+        "write": "d69f86c1ee9ae72c1fa1330edb396d3ed8d2a6e90e8f5bff6d5fb87384688763",
+        "read": "3edbf1c38a22fc7c9e5bcb486af3a18d9967ff38806ba4e714b1d027bb11e1f5"
+      }
+    }
+  ],
+  "privateEvidence": "runtime/r26-image-check01/replay03; do not publish raw bindings or screenshots",
+  "verificationBinding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301"
+}

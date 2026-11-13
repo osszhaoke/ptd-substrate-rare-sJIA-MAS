@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "session": {
+    "pid": 7138,
+    "state": "SERVING",
+    "expiresAt": "2026-11-12T15:59:00+00:00",
+    "credentialsStored": false,
+    "ocrEnabled": true,
+    "operatorSourceSha256": "9ec9d6dbb173407232a08dc5ac02a7d45928952415390a3edfcea153c7ea4c14",
+    "url": "https://cliff-joe-advertisers-dover.trycloudflare.com",
+    "startedAt": "2026-11-11T13:42:10.151938+00:00",
+    "restartWithNoLocalOwner": true
+  },
+  "operatorTests": 5,
+  "exactPublicAssets": 93,
+  "firstOpen": "FAIL_DATABASE_OPEN_FALLBACK_PRESERVED",
+  "sameProfileNewPid": "PASS",
+  "paidCallsByAgent": 0,
+  "productInputsUnchanged": true,
+  "defaultAcceptanceIndexValid": true,
+  "hashes": {
+    "browser-smoke01.log": "bde573217dfcee2a0b6aa0fb26aced63bb3b66b0e5b165d841d1cc3582b5ad99",
+    "browser-smoke02.json": "7e1cd558bd761296bac7bee69d871ad9179fee71e20802d28dc4fbe15938c975",
+    "browser-smoke02.log": "235426875aab82daa318b8ec3f4a0b74ade9c300f89e680adb15f1ad551977fa",
+    "START_PARTNER_TEST.command": "173d8349bbef4cf6576275f5eb5f954d2d5a39f899d9162c52eb96a179572086",
+    "test_operator.py": "4a29163a61dfeb1c0e4fccdca44e7cbf0766975f358ecf04b9f263e4e344383b",
+    "operator-tests01.log": "9b75a488baec0d92d068b8a867d50002d61116c8b051e3ed300c54c1e1f3d239",
+    "operator_bootstrap.py": "9ec9d6dbb173407232a08dc5ac02a7d45928952415390a3edfcea153c7ea4c14",
+    "probe_public.py": "beb79cb0a9bd8c6e49af0aa0e10f8a50c2b9a0e36d349be85bdb8af6c759f14c",
+    "browser-smoke01.binding.json": "3b9c961e1456d09a79935defbf5b8c479639a956748df94b1aab18625194b1b1",
+    "browser-smoke.js": "dfb9067fcb25588141ad24ebb8c6cb12e6f60a091332f63446d0812423f37096",
+    "browser-smoke02.binding.json": "3100dd1cd89efc8113a5b82ea08f9662b669a20c8f7341e8245e6cb66599e655",
+    "browser-smoke01.png": "9826c59c4f2a1f7591a4bb2fe6683a587c1c1e542351bc89ec762e4e7eae09c7",
+    "browser-smoke02.png": "35b7687a8f0e56e6c969361c80a637544b0c3e81f33221225798e07d6bfada30",
+    "public-probes02.json": "607fde19b15f1e867782441f373a1e5b898477d64499ab1b9e43a22307860c98",
+    "resume.json": "81a72753f3512f92637068e6bb81165ae3c8870ada2c4e903fd52bb04b7de897",
+    "browser-smoke01.json": "803392b4cbf6c83eb2c162b835a07e98906ab10982d6b8de1a9ae2d7aeb72cac"
+  }
+}

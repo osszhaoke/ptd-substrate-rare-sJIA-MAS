@@ -1,0 +1,11 @@
+{
+  "healthEvents" : 0,
+  "ok" : true,
+  "provider" : "SIMULATED_CLIENT_RESPONSES_ONLY",
+  "results" : [
+    "O01 consent and configured gate, zero fetches",
+    "O03 429 exactly one attempt",
+    "O03 lost response exactly one attempt",
+    "O03 cancellation exactly one attempt"
+  ]
+}

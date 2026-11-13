@@ -1,0 +1,34 @@
+✔ cancel before commit prevents all persistence (0.928ms)
+✔ commit boundary disables cancellation and executes exactly once (0.087916ms)
+✔ tasks never queue or overlap; quota failure unlocks without success (0.096167ms)
+✔ start observer failure releases ownership and permits a later task (0.085542ms)
+✔ the same job cannot commit twice or be reused after it finishes (0.115875ms)
+✔ finish observer cannot turn an actual completed commit into failure (0.082958ms)
+✔ finish observer cannot replace the original persistence failure (0.098625ms)
+✔ an asynchronous finish observer rejection is counted without changing commit outcome (2.782625ms)
+✔ committed consultation survives a new owner; prompt is never a second stored authority (4.709167ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.171667ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.485542ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.170167ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.105875ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.15325ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.140375ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (1.32475ms)
+✔ an external conflict survives a late successful save acknowledgement (0.259708ms)
+✔ an external conflict survives a late non-conflict write failure (0.212917ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.125125ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.27675ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.095959ms)
+✔ one replaceable navigation; rejected writes do not replay (0.994875ms)
+✔ rendered navigation releases immediately without old completion clearing new write (0.38625ms)
+✔ navigation failure drains latest and reports original error (0.092666ms)
+✔ error display failure cannot replace a failed action result (0.110042ms)
+✔ error display failure cannot throw or replay a rejected duplicate write (0.082875ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 62.024166

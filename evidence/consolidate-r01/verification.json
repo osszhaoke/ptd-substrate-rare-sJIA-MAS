@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "root": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5",
+  "oldRootAbsent": true,
+  "otherH5Roots": [],
+  "directoryMiBAfter": 106.95,
+  "directoryMiBReductionThisRound": 184.23,
+  "units": "du directory allocation; not physical free disk",
+  "node61": "PASS; rerun in new root",
+  "python46": "PASS; rerun in new root",
+  "startupShellSyntaxChecks": 3,
+  "original52CheckProofStillMatches": "4106d6c0ff2b8407a50aa22c435f0bc1b4724a29b45accb90f1e482e17703a85",
+  "productAndPublicManifests": "all paths/hash/bytes verified",
+  "publicEntryProductVerifier": "PASS; no service start",
+  "productZipSha256Unchanged": "89556076c60d23e6b263dc6c7b0071b77349ef98fefc02f7a64f1e36df10405e",
+  "sourceZip": "removed, exact Git reproduction verified before removal",
+  "gitHistoryIntegrity": "fsck --full PASS",
+  "historicalEvidenceRecoverableFiles": 1641,
+  "stateRetainedEntries": 19,
+  "privateStateContentReadOrErased": false,
+  "cachePathsRemoved": [
+    ".DS_Store",
+    "gateway/__pycache__"
+  ],
+  "ports": {
+    "18791": "NOT_LISTENING",
+    "18795": "NOT_LISTENING"
+  },
+  "AIh": "UNMEASURED"
+}

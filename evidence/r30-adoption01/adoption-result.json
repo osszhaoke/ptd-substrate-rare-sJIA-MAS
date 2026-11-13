@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "identity": "author exact local static adoption after complete isolated fictional proof; not independent/phone/clinical acceptance",
+  "batch": "R30",
+  "staticPatch": "r19-save01",
+  "staticVersion": "f5079cbdc06b2bc6",
+  "binding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+  "boundInputs": 263,
+  "checks": 61,
+  "verification": "evidence/r30-verification01/result.json",
+  "previousAdoption": "evidence/r29-adoption01/adoption-result.json",
+  "previousAdoptionSha256": "a774e8c623803213bd308ef2a63ee2e2a005f2c6b8b00dc8e465a2bf25aa6ff4",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "e934be4a4714a1ad2878c3b6aba45d038f7ad533d9ca27799bc9bd1d5505df8f",
+      "after": "f57a112d9b4db2ecee7383fe656019755e62ab6f9e7d67b672091eba34e51414"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "b462de749d33e0c8d250fcb3f270c06103c252b23d06161ffd57f870325190c1",
+      "after": "973428ebea256f1af31ec4889948302ccfbb1d6952e1c7fbc25dc016786d5a1a"
+    },
+    {
+      "path": "tests/browser.report-rows.js",
+      "before": "46ceeae1e8a7ce461d90e7d6677a8ce0aceaa259d95b333e52715574b2e134db",
+      "after": "3629ead1746b26759e13faddf84de3af55d60eadfacaa054f08321da1f52d86b"
+    },
+    {
+      "path": "tests/browser.report-upgrade.js",
+      "before": null,
+      "after": "c31870c1e21097327048251925e4621a3e5c4629272051ad4156e6d3c5747e3c"
+    },
+    {
+      "path": "tests/fixtures/r27-draft-web.lock.json",
+      "before": null,
+      "after": "6b85688c7528cf8cb4c46489c8c177ddc39bda6f75c514494c9726b8bc705f7c"
+    },
+    {
+      "path": "tests/fixtures/r27-draft-web.tgz",
+      "before": null,
+      "after": "3f2df07fa256caa0b7daf494a8676cff4b7e0a3d9fdaa01b3b6777e17ca150ba"
+    },
+    {
+      "path": "tests/report_contract.test.mjs",
+      "before": "f51e0c873cea9fe824905dc6a2bf5c8496f9e845e516f4f57e716f40645179f7",
+      "after": "27803661ce3c62e40f9b132a25968b0676ea5c3dc122883f2d2f7a1354b6000f"
+    },
+    {
+      "path": "tests/report_upgrade.py",
+      "before": null,
+      "after": "22a2b3dbad9630c6c5ea0c5eb8add47d9f3bac269f5fa4f792e7e5ea22e62f53"
+    },
+    {
+      "path": "tests/test_debt_build_gate.py",
+      "before": "5ccda669c19429edd582dfe36d3f4ddb7105b93007fcd08e85e25e60ea8a3c9a",
+      "after": "4a8c59ce1090747340235d4df0a47df2a08b34913cda1d5ad52bf4e62cabc93f"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": "f61f8cd5a9aafbfcce4634cca356f22385adcb97e7b66d48b7fedd9bff5729f1",
+      "after": "26b6cabf30f6e7b090b4c4ea764d7802b388eef0956a0fafc5c5d17ac36224c6"
+    },
+    {
+      "path": "tools/acceptance_index.py",
+      "before": null,
+      "after": "ce8264e918001f84eb7d1dd6a49ab5d5b8d5a330704ccbb98387a053d9266184"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "9845bcc4122d08501b4cabd494adda761a52d5fedfff8fbc0d6957d40ed809d9",
+      "after": "beaf046d0a5e71aae00256036d8140ea9f8d35d324c4b739b132b859a3ad70c5"
+    },
+    {
+      "path": "web/app/startup_plan.js",
+      "before": "98b63cae986517e569b85a0f522e5e6f3a795a83d9fedff36245058ba311d8a9",
+      "after": "ba8c56535d7f141f5faf5cc2064ad36f13ec4393c0565944cae7f9c7c20f5486"
+    },
+    {
+      "path": "web/app/ui.js",
+      "before": "f0bb1a9f5aa40e5f20244e1110961a134eb78ff46afca0059dbfc7bcfbea4127",
+      "after": "f40b7e32f08597cf14e609404e5cd82a1989eefc6208207cc27ed91da7824021"
+    },
+    {
+      "path": "web/domain/service.js",
+      "before": "530c37468ba806befb224b258cd579032acc9bfed1c2886eb3711e7d467ee9eb",
+      "after": "4588cb21fb7579b2cb25a86bd6647f05cef321928f2307a7681813421cc11e04"
+    },
+    {
+      "path": "web/domain/write_binding.js",
+      "before": null,
+      "after": "a152bab727e15c155fafa24ec6bb1e78e39574f24bfd41cc40f10c139dd695e7"
+    },
+    {
+      "path": "web/storage/store.js",
+      "before": "7ebbe6d860c0745c2234392fcdbffec93647e4884e16312229f2d28a1c9b35a8",
+      "after": "20b6405d7af6434ae4effe5664c2606a377ecab230a530da4e951efe5f79b4d7"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "b1beee26578e5f0e36caa366aa03f87fd91736b8e08bdd00cad7e701552d1796",
+      "after": "366ac59083bb1278f10cf71d919291100261193001bf41f1aaa95e9cef9d741f"
+    }
+  ],
+  "oldWebAt": "runtime/r30-web-swap01",
+  "otherBeforeBytes": "runtime/r30-source-before01",
+  "serviceRestarts": 0,
+  "newProviderCallsDuringAdoption": 0,
+  "runningGateway": "No gateway source change in R30; existing in-memory gateway identity is not inferred from files; no restart or credential access",
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "rollback": "atomic web exchange back plus exact non-web restoration/deletion; baseline asserted before and after"
+}

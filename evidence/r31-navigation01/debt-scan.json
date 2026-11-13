@@ -1,0 +1,21 @@
+{
+  "identity": "author scoped debt review; independent pending",
+  "sourceProductPaths": [
+    "web/index.html",
+    "web/features/settings.js"
+  ],
+  "newLocksStoresNetworksTimersDependencies": 0,
+  "htmlLineCountBefore": 3,
+  "htmlLineCountAfter": 3,
+  "mainCssStoreDomainAndConsultationModulesUnchanged": true,
+  "fixedDomCost": "one hidden attribute and footer text; existing flex layout has three visible children",
+  "newKnownReproducedUnrepairedInSlice": 0,
+  "retained": [
+    "A1 unknown lower-bound source chain",
+    "O29-01 aggregate compatibility performance",
+    "physical phone, real low-space, BFCache, human/clinical",
+    "normal users cannot access hidden consultation entry; old draft code/storage retained, no draft download promise",
+    "all remaining A slices not implemented"
+  ],
+  "independent": "PENDING_USER_TRANSFER"
+}

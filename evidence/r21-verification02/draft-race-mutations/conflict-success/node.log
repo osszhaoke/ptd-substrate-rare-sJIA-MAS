@@ -1,0 +1,40 @@
+✔ committed consultation survives a new owner; prompt is never a second stored authority (2.189125ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.223917ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.408333ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.151959ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.097833ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.144792ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.127959ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (0.345458ms)
+✖ an external conflict survives a late successful save acknowledgement (0.494166ms)
+✔ an external conflict survives a late non-conflict write failure (0.119292ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.104333ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.254708ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.088ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.275291
+
+✖ failing tests:
+
+test at tests/consultation_draft.test.mjs:73:1
+✖ an external conflict survives a late successful save acknowledgement (0.494166ms)
+  AssertionError [ERR_ASSERTION]: late save acknowledgement hid external conflict
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-review-candidate01/runtime/r15-draft-mutant-db523874-70a5-4e7c-8bd1-927424309332/tests/consultation_draft.test.mjs:80:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

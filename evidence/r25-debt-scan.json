@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "scope": "R25 A01/A02 minimal repair plus current 61 checks; not universal absence of debt",
+  "binding": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+  "protectedPathsExact": [
+    "deploy/TRIAL_POLICY.json",
+    "gateway/__init__.py",
+    "gateway/credentials.py",
+    "gateway/ocr.py",
+    "gateway/policy.py",
+    "gateway/server.py",
+    "gateway/tencent.py",
+    "public_trial/POLICY.json",
+    "public_trial/__init__.py",
+    "public_trial/server.py",
+    "tools/browser_probe.swift",
+    "web/app/action_coordinator.js",
+    "web/app/ocr_task.js",
+    "web/rules/definitions.js",
+    "web/rules/h1-dictionary-0.1.json",
+    "web/rules/sjia-rulepack-0.1.json",
+    "web/storage/store.js"
+  ],
+  "changedRuntimeSource": [
+    "web/features/report_rows.js"
+  ],
+  "newProductModules": 0,
+  "newLocksStoresNetworksTimersDependencies": 0,
+  "reportRowLimitUnchanged": 100,
+  "baselineBehaviorFailure": "evidence/r25-repair01/r25-before01/write.json",
+  "fullVerification": "evidence/r25-verification01/result.json",
+  "currentInputCount": 236,
+  "checks": 61,
+  "knownCoveredCodeItemsOpen": 0,
+  "auditFindings": {
+    "R24-A01": "AUTHOR_FIXED_AND_VERIFIED; INDEPENDENT_REVIEW_PENDING",
+    "R24-A02": "CURRENT_INDEX_REGENERATED_VALIDATED; INDEPENDENT_REVIEW_PENDING"
+  },
+  "retained": [
+    "historical performance cause not uniquely attributed",
+    "physical phone total memory and actual low space untested",
+    "R25 independent/human/clinical pending",
+    "no new original image or real OCR accuracy claim"
+  ],
+  "AIh": "UNMEASURED"
+}

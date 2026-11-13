@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "enforced": true,
+  "measurements": {
+    "1000": {
+      "commitMs": 61,
+      "exactEventsAndReceipts": true,
+      "exportMs": 529,
+      "fileArrayBufferReads": 3,
+      "fileBytes": 2339658,
+      "frames": 12008,
+      "heartbeatMaxMs": 28,
+      "heartbeatP95Ms": 17,
+      "heartbeatSamples": 84,
+      "identity": "author Mac WebKit fictional profile; not iPhone acceptance",
+      "inspectMs": 772,
+      "maxCryptoBytes": 1908,
+      "maxFileReadBytes": 1048576,
+      "metadataBlobTexts": 0,
+      "ok": true,
+      "phaseHeartbeats": {
+        "commit": {
+          "maxMs": 28,
+          "p95Ms": 28,
+          "samples": 3
+        },
+        "decrypt": {
+          "maxMs": 19,
+          "p95Ms": 19,
+          "samples": 9
+        },
+        "encrypt": {
+          "maxMs": 18,
+          "p95Ms": 16,
+          "samples": 28
+        },
+        "preview": {
+          "maxMs": 16,
+          "p95Ms": 16,
+          "samples": 3
+        },
+        "read": {
+          "maxMs": 19,
+          "p95Ms": 19,
+          "samples": 6
+        },
+        "ready": {
+          "maxMs": 16,
+          "p95Ms": 16,
+          "samples": 1
+        },
+        "validate": {
+          "maxMs": 17,
+          "p95Ms": 17,
+          "samples": 34
+        }
+      },
+      "phases": {
+        "commit": 61,
+        "decrypt": 144,
+        "encrypt": 456,
+        "export": 0,
+        "inspect": 0,
+        "preview": 35,
+        "read": 121,
+        "ready": 2,
+        "validate": 544
+      },
+      "target": 1000,
+      "totalBrowserMemory": "UNMEASURED",
+      "totalFileReadBytes": 2339658
+    },
+    "10000": {
+      "commitMs": 675,
+      "exactEventsAndReceipts": true,
+      "exportMs": 3876,
+      "fileArrayBufferReads": 23,
+      "fileBytes": 23404160,
+      "frames": 120008,
+      "heartbeatMaxMs": 240,
+      "heartbeatP95Ms": 17,
+      "heartbeatSamples": 703,
+      "identity": "author Mac WebKit fictional profile; not iPhone acceptance",
+      "inspectMs": 7048,
+      "maxCryptoBytes": 1909,
+      "maxFileReadBytes": 1048576,
+      "metadataBlobTexts": 0,
+      "ok": true,
+      "phaseHeartbeats": {
+        "commit": {
+          "maxMs": 240,
+          "p95Ms": 23,
+          "samples": 27
+        },
+        "decrypt": {
+          "maxMs": 19,
+          "p95Ms": 16,
+          "samples": 88
+        },
+        "encrypt": {
+          "maxMs": 32,
+          "p95Ms": 16,
+          "samples": 231
+        },
+        "preview": {
+          "maxMs": 22,
+          "p95Ms": 22,
+          "samples": 14
+        },
+        "read": {
+          "maxMs": 51,
+          "p95Ms": 51,
+          "samples": 9
+        },
+        "ready": {
+          "maxMs": 17,
+          "p95Ms": 17,
+          "samples": 1
+        },
+        "validate": {
+          "maxMs": 19,
+          "p95Ms": 17,
+          "samples": 333
+        }
+      },
+      "phases": {
+        "commit": 675,
+        "decrypt": 1425,
+        "encrypt": 3729,
+        "export": 1,
+        "inspect": 0,
+        "preview": 233,
+        "read": 193,
+        "ready": 4,
+        "validate": 5339
+      },
+      "target": 10000,
+      "totalBrowserMemory": "UNMEASURED",
+      "totalFileReadBytes": 23404160
+    }
+  },
+  "identity": "complete author fictional measurement window; not phone acceptance",
+  "realProviderCalls": 0,
+  "environment": "shared Mac; load recorded, no causal attribution solely from elapsed time"
+}

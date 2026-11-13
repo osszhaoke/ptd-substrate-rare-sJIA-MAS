@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "archive": "r34-alias02.zip",
+  "sha256": "5f3498600393c7b9340e81ac2d1ffc6b28c57690a7f325aec8e6ada08a000260",
+  "bytes": 50743898,
+  "members": 1584,
+  "everyMemberHashSizeModeReadback": true,
+  "excludedPrivateRuntime": true,
+  "sealSha256": "d849bbcc0502b4a1d42ad023cfc85a261c925eb4724f7451e94c99ba8e2d3fd1"
+}

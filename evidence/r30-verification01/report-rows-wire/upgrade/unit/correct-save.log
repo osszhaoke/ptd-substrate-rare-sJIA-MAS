@@ -1,0 +1,10 @@
+{
+  "corrected" : true,
+  "eventId" : "7279e387-0c4e-4c37-9773-d976035bab48",
+  "explicitAutomatedConfirmation" : true,
+  "ok" : true,
+  "receiptIdempotency" : false,
+  "records" : 1,
+  "rows" : 27,
+  "sourcePreserved" : true
+}

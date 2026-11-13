@@ -1,0 +1,8 @@
+{
+  "atUTC": "2026-11-11T07:12:25.793219+00:00",
+  "listenerPIDs": [
+    "45593"
+  ],
+  "readOnlyListenerInspection": true,
+  "secretsEnvironmentAndDatabaseNotRead": true
+}

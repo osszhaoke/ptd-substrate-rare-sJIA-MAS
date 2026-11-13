@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "identity": "author fictional actual navigation; not independent/human/iPhone",
+  "positive": [
+    {
+      "explicitFictionalSave": true,
+      "fontScale": "100",
+      "hiddenConsultationNotFocusable": true,
+      "navigationPreservesData": true,
+      "ok": true,
+      "oldDraftActualCrossPIDCoverage": "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+      "visibleLabels": [
+        "\u72b6\u6001",
+        "\u5f55\u5165",
+        "\u672c\u673a"
+      ],
+      "width": 320
+    },
+    {
+      "explicitFictionalSave": true,
+      "fontScale": "100",
+      "hiddenConsultationNotFocusable": true,
+      "navigationPreservesData": true,
+      "ok": true,
+      "oldDraftActualCrossPIDCoverage": "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+      "visibleLabels": [
+        "\u72b6\u6001",
+        "\u5f55\u5165",
+        "\u672c\u673a"
+      ],
+      "width": 390
+    },
+    {
+      "explicitFictionalSave": true,
+      "fontScale": "160",
+      "hiddenConsultationNotFocusable": true,
+      "navigationPreservesData": true,
+      "ok": true,
+      "oldDraftActualCrossPIDCoverage": "existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry",
+      "visibleLabels": [
+        "\u72b6\u6001",
+        "\u5f55\u5165",
+        "\u672c\u673a"
+      ],
+      "width": 320
+    }
+  ],
+  "mutations": {
+    "unhide": "NAVIGATION_VISIBLE_ROUTES",
+    "old-footer": "NAVIGATION_COPY_STILL_PROMISES_CONSULTATION",
+    "old-download-guide": "NAVIGATION_HIDDEN_DOWNLOAD_PROMISE"
+  },
+  "planRegistration": {
+    "productPaths": [
+      "web/features/settings.js",
+      "web/index.html"
+    ],
+    "mutations": [
+      "old-download-guide",
+      "old-footer",
+      "unhide"
+    ]
+  },
+  "positiveControl": "same nav-390-100 unmutated scenario",
+  "paidProviderCalls": 0
+}

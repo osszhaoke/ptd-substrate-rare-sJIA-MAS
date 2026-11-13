@@ -1,0 +1,9 @@
+{
+  "commit": "663c3c0054333892c0ac346089e357700a4fde18",
+  "version": "h5-sjia-mas-r18",
+  "verificationBinding": "aad1f38d30f75ceea54390625fab7407f11a002934a3f3e31231c52f60114048",
+  "checks": 56,
+  "userStatement": "实机验证通过，继续扫描或处理技术债",
+  "scope": "current H5 only; paused product services; fresh fictional tests; no secrets/real instances",
+  "AIh": "UNMEASURED"
+}

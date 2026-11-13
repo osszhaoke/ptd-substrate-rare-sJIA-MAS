@@ -1,0 +1,13 @@
+{
+  "negativeControls" : {
+    "cipher" : "BACKUP_PASSWORD_OR_CORRUPTION",
+    "duplicate" : "REPORT_ORIGIN_MISMATCH",
+    "line" : "SOURCE_LINE_MISSING",
+    "origin" : "REPORT_ORIGIN_MISMATCH",
+    "receipt" : "BACKUP_RECEIPT",
+    "source" : "BACKUP_SOURCE_HASH"
+  },
+  "ok" : true,
+  "paidCalls" : 0,
+  "records" : 0
+}

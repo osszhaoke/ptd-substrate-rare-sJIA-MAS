@@ -1,0 +1,1080 @@
+{
+  "version": "h5-sjia-mas-r19",
+  "source": "IMPLEMENTED",
+  "productAdoption": "R34_EXACT_SOURCE_AND_STATIC_ADOPTED_AFTER_INDEPENDENT_CONDITIONAL_PASS; P1_CLOSED; HUMAN_CLINICAL_PENDING",
+  "authorVerification": "PASS_66_CHECKS_166_NODE_55_PYTHON; R34_INDEPENDENT_FULL66_CONDITIONAL; P1_CLOSED; PERFORMANCE_DEVICE_CLINICAL_PENDING",
+  "publicDeployment": "EXISTING_PARTNER_SESSION_R31_A2_STATIC_GET_EXACT; ORIGINAL_DEADLINE_UNCHANGED",
+  "oldService": "PID7138/PPID1 on18795 unchanged; no restart or gateway change; deadline unchanged",
+  "physicalPhone": "PENDING; MEMORY_QUOTA_NOT_TESTED",
+  "independentTester": "R34_INDEPENDENT_FULL66_CONDITIONAL; P1_CLOSED; HUMAN_CLINICAL_PENDING",
+  "humanAcceptance": "PENDING",
+  "clinicalExpert": "PENDING",
+  "actualProviderCallsByAgent": 0,
+  "realCredentialsOrLedgerReadByAgent": false,
+  "AIh": "UNMEASURED",
+  "verificationEvidence": "evidence/r36-ocr7mb01/candidate/evidence/full01/result.json",
+  "projectRoot": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5",
+  "workspaceConsolidation": "COMPLETE; evidence/consolidate-r01",
+  "debtSummary": {
+    "knownReproducibleLocalCodeItemsOpen": 0,
+    "knownVerificationToolDefectsOpen": 0,
+    "independentFindingsAwaitingClosure": 0,
+    "scope": "R34 alias repair and OCR/state/metrics adoption; independent conditional; performance/device/clinical and real corpus gaps retained",
+    "verificationToolInputBinding": "CURRENT_282_INPUTS_EXACT",
+    "runtimeAdoption": "R34 exact source/static adopted; current 282-file fingerprint bound; no service restart; no paid calls",
+    "physicalPhoneMemoryAndQuota": "UNMEASURED",
+    "historicalFirstStall": "CAUSE_NOT_UNIQUELY_ESTABLISHED",
+    "performanceAnomaly": "HISTORICAL_OBSERVATION_NOT_UNIQUELY_ATTRIBUTED",
+    "report": "docs/AUDIT_R34.md",
+    "evidence": "evidence/r34-adoption01/adoption-closure.json",
+    "providerError": "R27 index200 uncertain unchanged; exact exception and actual fee unknown; no retry",
+    "humanIndependentClinicalAcceptance": "R34 independent full66 conditional only; iPhone/device/human/clinical pending",
+    "newAggregateRestorePerformanceObservation": {
+      "status": "OPEN_OBSERVATION",
+      "fragments": 20000,
+      "helperMs": 1500.2595,
+      "experimentalAggregateLimitMs": 1000,
+      "experimentalProbePassed": false,
+      "originalCurrentAndHistoricalIndividual1000Ms": true,
+      "evidence": "evidence/r29-repair01/history-scale03.json"
+    }
+  },
+  "homeResources": "APPROVED_DESIGN_IMPLEMENTED; ACTUAL_QR_CLICK_ENLARGEMENT_VERIFIED_AUTHOR",
+  "structureR18": {
+    "mainBytesBefore": 18121,
+    "mainBytesAfter": 15072,
+    "mainLinesBefore": 163,
+    "mainLinesAfter": 132,
+    "cssLinesBefore": 808,
+    "largestCssLinesAfter": 293,
+    "cssCascadeBytesIdentical": true,
+    "newGlobalLocks": 0,
+    "lockBoundaryTests": "PASS; existing Budget/owner/HTTP/IDB protections preserved",
+    "report": "docs/STRUCTURE_R18.md"
+  },
+  "verificationBinding": "0e4f82d6f57cf74136f4126502c42a412f221538fbf39b134520a8a7d281a783",
+  "recordsConsistencyR19": {
+    "status": "REPAIRED_AND_AUTHOR_VERIFIED",
+    "report": "docs/DEBT_AUDIT_R19.md",
+    "originalFailure": "HOME_PUBLISHED_OLD_TIMELINE",
+    "sameTransactionPageRevision": true,
+    "maxReadonlyAttempts": 3,
+    "knownReproducibleLocalCodeItemsOpen": 0,
+    "newGlobalLocks": 0,
+    "mainAndCssUnchanged": true
+  },
+  "productTreeSha256": "90dc77649936ec09c355715693e79f34d7969c6d432e37f18fa7f19a08882225",
+  "auditFollowup": {
+    "status": "INPUT_BINDING_REPAIRED_AND_AUTHOR_FULL_VERIFIED; PERFORMANCE_OBSERVATION_RETAINED",
+    "report": "docs/AUDIT_FOLLOWUP_R19.md",
+    "productRuntimeBytes": "HISTORICAL_R19_SNAPSHOT; CURRENT_OCR_STATIC_PATCH_OUTSIDE_OLD_AUDIT",
+    "independentReviewOfToolRepair": "PASS_CURRENT_INPUT_BINDING_ONLY; 49_PYTHON_AND_DIAGNOSTICS_INDEPENDENTLY_RUN; NOT_FULL_57",
+    "performanceAnomaly": "UNRESOLVED_OBSERVATION; AUDIT_SCALE01_COLD_P95_3251MS_RETAINED",
+    "verification": "evidence/r19-verification02/result.json",
+    "boundFileCount": 204,
+    "independentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R19-independent-audit-20261108-02/REPORT.md"
+  },
+  "independentEngineeringAudit": {
+    "conclusion": "CONDITIONAL_PASS",
+    "scope": "audited R19 frozen runtime, local fictional Mac WebKit only",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R19-independent-audit-20261108-01/REPORT.md",
+    "notEquivalentTo": "designated Tester, human, device-specialty, clinical acceptance or deployment approval",
+    "followupReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R19-independent-audit-20261108-02/REPORT.md",
+    "currentStaticPatch": "R31_A2_EXACT_SOURCE_STATIC_ADOPTED_AFTER_A2R2_INDEPENDENT_FULL61_CONDITIONAL; PERFORMANCE_DEVICE_CLINICAL_PENDING",
+    "latestR22Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R21-R22-independent-audit-20261109-01/REPORT.md",
+    "latestR23TargetedSupplement": "/Users/osszhaoke/Downloads/PTDS-Flash-R23-independent-review-20261110-01/REVIEW_ADDENDUM.md",
+    "r23StaticPatchReview": "EXACT_CANDIDATE_TARGETED_PASS; AUTHOR_FULL_AND_ADOPTION_DONE; AUDITOR_ADOPTION_RECONCILIATION_PENDING",
+    "latestR24Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R24-independent-audit-20261110-01/REPORT.md",
+    "latestR25Review": "/Users/osszhaoke/Downloads/PTDS-Flash-R25-independent-review-20261110-01/REPORT.md",
+    "latestR30Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R30-independent-review-20261111-01/REPORT.md",
+    "latestR31A1Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A1-independent-audit-20261111-01/REPORT.md",
+    "latestR31A2Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2-independent-audit-20261112-01/REPORT.md",
+    "latestR31A2R1Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2R1-independent-audit-20261112-01/REPORT.md",
+    "latestR31A2R2Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2R2-independent-audit-20261112-01/REPORT.md"
+  },
+  "priorAuthorVerification": {
+    "result": "PASS_57_CHECKS_74_NODE_48_PYTHON",
+    "proof": "evidence/r19-verification01/result.json",
+    "scope": "archived original R19 tool combination; not current patched combination"
+  },
+  "packageSnapshot": {
+    "path": "deploy/PTDS-H5-sjia-mas-r19.zip",
+    "sha256": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+    "status": "ARCHIVED_ORIGINAL_R19_UNCHANGED; DOES_NOT_CONTAIN_LATER_TOOL_OR_STATIC_PATCHES",
+    "currentRuntimeBytes": "R31_A2_EXACT_SOURCE_STATIC_ADOPTED; OLD_R19_ZIP_UNCHANGED",
+    "currentToolCombination": "PASS_61_CHECKS_134_NODE_55_PYTHON; A2R2_INDEPENDENT_FULL61_PASS; PERFORMANCE_OBSERVATION_RETAINED",
+    "newPackageCreated": false
+  },
+  "alpha01": {
+    "authorization": "current direct user request recorded in DECISIONS",
+    "mode": "public no-login QR; detached worker; explicitly authorized absolute deadline",
+    "status": "EXPIRED; NOT_RESTARTED; ORIGINAL_PID_ABSENT_AT_LATEST_SNAPSHOT",
+    "evidence": "evidence/r19-alpha02",
+    "guide": "docs/ALPHA_01_ACCESS.md",
+    "phoneCellularReachability": "NOT_TESTED",
+    "realProviderEndToEnd": "PRIOR_REAL_HTTP_ONCE_PASS; FINAL_PUBLIC_UI_EXISTING_RESPONSE_REPLAY_PASS; NO_NEW_UPLOAD_OR_FORMAL_SAVE",
+    "expiresAt": "2026-11-09T15:59:00+00:00",
+    "expiresAtLocal": "2026-11-09T23:59:00+08:00",
+    "sessionFile": "runtime/alpha-01-r02/session.json",
+    "previousStop": "USER_CLOSED_TERMINAL; old QR not to be used",
+    "url": "https://moms-background-utah-workplace.trycloudflare.com",
+    "pid": 56388,
+    "qr": "share/PTDS-Alpha-0.1-扫码内测.png",
+    "ocrConfiguration": "ENABLED; REAL_HTTP_ONCE_PASS",
+    "operatorWrapperTests": "4_PASS_SEPARATE_FROM_PRODUCT_57",
+    "operatorWrapperIndependentAudit": "NOT_PERFORMED",
+    "serviceLifetime": "explicit absolute deadline; not automatic renewal",
+    "snapshotAtUTC": "2026-11-10T04:24:46.705699+00:00",
+    "lifecycleAuthority": "runtime/alpha-01-r02/session.json plus live PID/health; root status is a snapshot",
+    "latestEvidence": "evidence/r23-resume01/service-snapshot.json"
+  },
+  "currentVideoFeedback": {
+    "video": "1133da1267e0241ba8e375260ebcfc9c.mp4",
+    "videoSha256": "cfef79d3770ca484e44c42a2a5e631c03c11d5151d474f917cb08cd96586fda5",
+    "report": "docs/VIDEO_OCR_REVIEW_R19.md",
+    "status": "ASSOCIATED_ZERO_CANDIDATE_FEEDBACK_REPAIRED; PHONE_RETEST_PENDING",
+    "observed": "OCR success notice + blank metric review + retained 185 text lines + manual fallback save",
+    "scope": "one supplied real-device video; device/OS not asserted; not memory/low-space acceptance",
+    "analysisEvidence": "/Users/osszhaoke/Downloads/PTDS-Alpha-video-review-20261109-01/verification.json",
+    "newConfirmedCodeItems": 1,
+    "sourceOrServiceChanged": true,
+    "rawProviderResponseRead": false,
+    "independentReviewOfThisFinding": "NOT_PERFORMED",
+    "repairReport": "docs/OCR_TABLE_REPAIR_R20.md",
+    "videoRawResponseStillUnavailable": true
+  },
+  "staticPatch": {
+    "id": "r36-ocr7mb01",
+    "batch": "R36",
+    "staticVersion": "011a0595d77fa44f",
+    "status": "AUTHOR_VERIFIED_SOURCE_ADOPTED_AND_PUBLIC_7MIB_DEPLOYED; NO_INDEPENDENT_R36_REVIEW",
+    "verification": "evidence/r36-ocr7mb01/candidate/evidence/full01/result.json",
+    "binding": "0e4f82d6f57cf74136f4126502c42a412f221538fbf39b134520a8a7d281a783",
+    "boundInputs": 282,
+    "report": "evidence/r36-ocr7mb01/DELIVERY.md",
+    "adoption": "evidence/r36-ocr7mb01/adoption.json",
+    "staticWebUnchanged": true
+  },
+  "specifiedImageCheck": {
+    "realProviderCalls": 1,
+    "realProviderHttp": "200;178_LINES",
+    "realProviderFee": "UNKNOWN_CONSOLE_AUTHORITATIVE",
+    "originalCandidates": 0,
+    "fixedCandidates": 5,
+    "privateLocalAndPublicReopenUI": "FINAL_FRESH_PUBLIC_PAGE_REPLAY_PASS; ORIGINAL_PREVIEW_CORRECTION_CLEANUP; NO_NEW_UPLOAD_OR_FORMAL_SAVE",
+    "syntheticSaveAndNewPIDRead": "PASS",
+    "evidence": "evidence/r22-private-final-summary.json",
+    "phoneRetest": "PENDING",
+    "independentOldResponseReplay": "PASS_ON_EXACT_R23_CANDIDATE; 5_CANDIDATES_178_LINES; NO_NEW_PROVIDER_CALL_OR_FORMAL_SAVE",
+    "independentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-image-local-review-20261110-01/REPORT.md",
+    "reportRows": 27,
+    "resultsReadyForReview": 25,
+    "requiresUserCompletion": 2,
+    "currentScope": "R24 current old-response local replay; no new provider request or real formal save",
+    "scopeNote": "HISTORICAL prior 178-fragment response only; R26 six new real captures, 179 fragments for first image, are separately recorded in ocrImagesR26"
+  },
+  "auditR23": {
+    "status": "LOCAL_SOURCE_ADOPTED_AND_AUTHOR_FULL_PASS; INDEPENDENT_SAME_CANDIDATE_TARGETED_PASS; POST_ADOPTION_INDEPENDENT_REVIEW_PENDING",
+    "finding": "P2-D01",
+    "authorCodeItem": "CLOSED_AFTER_COMPLETE_GATE_AND_EXACT_ADOPTION",
+    "originalIndependentConclusion": "R22_CONDITIONAL_PASS",
+    "independentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R21-R22-independent-audit-20261109-01/REPORT.md",
+    "targetedIndependentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R23-independent-review-20261110-01/REVIEW_ADDENDUM.md",
+    "imageIndependentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-image-local-review-20261110-01/REPORT.md",
+    "exactIndependentCandidateBinding": "b4ce9d008c4365592f2b5229695be05d958c5db455a699cb8f205629b4e98906",
+    "fullProof": "evidence/r23-verification04/result.json",
+    "adoption": "evidence/r23-adoption01/adoption-result.json",
+    "currentBlockingCondition": null,
+    "ineffectiveProbeExperimentsAdopted": false,
+    "environmentCorrection": "prior literal console key/default false invalid; latest system constant console true, absent lock field unknown; previous cause not established",
+    "report": "docs/STARTUP_FALLBACK_R23.md"
+  },
+  "priorStaticPatchR22": {
+    "id": "r19-ocr04",
+    "batch": "R22",
+    "staticVersion": "383a6b8eb56098fc",
+    "status": "ADOPTED; AUTHOR_COMPLETE_VERIFIED; HUMAN_AND_INDEPENDENT_NOT_ACCEPTED",
+    "verification": "evidence/r22-verification04/result.json",
+    "binding": "07ce0e3e2ac01590bab6879a11718d7f95c6689fab218f1f64f612b36d7f3411",
+    "boundInputs": 226,
+    "report": "docs/OCR_REVIEW_R21.md",
+    "adoption": "evidence/r22-adoption02/adoption-result.json",
+    "adoptionChain": [
+      "evidence/r21-adoption01/adoption-result.json",
+      "evidence/r22-adoption01/adoption-result.json",
+      "evidence/r22-adoption02/adoption-result.json"
+    ],
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19",
+    "coldPublicStartup": "3_FRESH_MAC_WEBKIT_PROFILES_PASS_WITH_ALL_CSS; NOT_UNIVERSAL_STABILITY",
+    "publicStartupEvidence": "evidence/r22-public-startup02/summary.json"
+  },
+  "reportRowsR24": {
+    "status": "LOCAL_SOURCE_ADOPTED_AFTER_FULL_GATE",
+    "schema": "ptds-browser/3",
+    "dictionary": "cbc-report/1",
+    "report": "docs/REPORT_ROWS_R24.md",
+    "verification": "evidence/r24-verification01/result.json",
+    "adoption": "evidence/r24-adoption01/adoption-result.json",
+    "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+    "sourceInputs": 236,
+    "checks": 61,
+    "nodeTests": 108,
+    "pythonTests": 53,
+    "specifiedOldResponseFragments": 178,
+    "specifiedReportRows": 27,
+    "specifiedResultsReadyForReview": 25,
+    "specifiedResultsRequiringUserCompletion": 2,
+    "medicalCandidateCount": 5,
+    "realProviderCallsThisBatch": 0,
+    "independentAcceptance": "CONDITIONAL_PASS; R24-A01/P2 and R24-A02/P3",
+    "humanPhoneAcceptance": "PENDING",
+    "clinicalAcceptance": "PENDING",
+    "localURL": "http://127.0.0.1:18791/",
+    "localOCR": "ENABLED_EXISTING_PROCESS_NO_RESTART",
+    "publicService": "NOT_RESTORED",
+    "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+    "independentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R24-independent-audit-20261110-01/REPORT.md"
+  },
+  "priorStaticPatchR23": {
+    "id": "r19-startup01",
+    "batch": "R23",
+    "staticVersion": "7859252c9ed293a4",
+    "status": "LOCAL_SOURCE_ADOPTED; AUTHOR_FULL_VERIFIED; INDEPENDENT_SAME_CANDIDATE_TARGETED_PASS; PUBLIC_NOT_DEPLOYED",
+    "verification": "evidence/r23-verification04/result.json",
+    "binding": "b4ce9d008c4365592f2b5229695be05d958c5db455a699cb8f205629b4e98906",
+    "boundInputs": 226,
+    "report": "docs/STARTUP_FALLBACK_R23.md",
+    "adoption": "evidence/r23-adoption01/adoption-result.json",
+    "adoptionChain": [
+      "evidence/r21-adoption01/adoption-result.json",
+      "evidence/r22-adoption01/adoption-result.json",
+      "evidence/r22-adoption02/adoption-result.json",
+      "evidence/r23-adoption01/adoption-result.json"
+    ],
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19",
+    "publicStartup": "NOT_TESTED_FOR_R23; PREVIOUS_R22_PUBLIC_SAMPLES_HISTORICAL_ONLY"
+  },
+  "priorStaticPatchR24": {
+    "id": "r19-report01",
+    "batch": "R24",
+    "staticVersion": "fd6d5a6fda3b8ed0",
+    "status": "LOCAL_SOURCE_ADOPTED; AUTHOR_FULL_VERIFIED; INDEPENDENT_HUMAN_CLINICAL_PENDING",
+    "verification": "evidence/r24-verification01/result.json",
+    "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+    "boundInputs": 236,
+    "report": "docs/REPORT_ROWS_R24.md",
+    "adoption": "evidence/r24-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "auditR24": {
+    "conclusion": "CONDITIONAL_PASS",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R24-independent-audit-20261110-01/REPORT.md",
+    "reportSha256": "bde1921c800d4898f34e2ab12bf102d870a092a8a93a437fc99c168f72055384",
+    "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+    "scope": "independent exact R24 local fictional Mac WebKit; selected risk-based runs, not complete 61",
+    "actualIndependentNodeTests": 108,
+    "actualIndependentPythonTests": 53,
+    "findings": {
+      "R24-A01": "P2; empty name fallback; open at audit close, R25 author repair independently pending",
+      "R24-A02": "P3; source-index identity; open at audit close, R25 author correction independently pending"
+    },
+    "currentR25IndependentlyAccepted": false,
+    "historicalSnapshot": "R24 report and pre-review adoption snapshot; current finding closure is independentReviewR25"
+  },
+  "auditFollowupR25": {
+    "status": "LOCAL_SOURCE_ADOPTED_AFTER_FULL_GATE",
+    "batch": "R25",
+    "staticPatch": "r19-report02",
+    "staticVersion": "c2f621f8a2cac4d6",
+    "binding": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+    "sourceInputs": 236,
+    "checks": 61,
+    "nodeTests": 108,
+    "pythonTests": 53,
+    "verification": "evidence/r25-verification01/result.json",
+    "adoption": "evidence/r25-adoption01/adoption-result.json",
+    "report": "docs/REPORT_ROWS_FOLLOWUP_R25.md",
+    "findings": {
+      "R24-A01": "CLOSED_INDEPENDENTLY_ON_R25",
+      "R24-A02": "CLOSED_INDEPENDENTLY_ON_R25"
+    },
+    "independentAcceptance": "PASS_TARGETED_A01_A02_ONLY; NOT_FULL_61_OR_PRODUCT_ACCEPTANCE",
+    "humanPhoneAcceptance": "PENDING",
+    "clinicalAcceptance": "PENDING",
+    "realProviderCallsThisBatch": 0,
+    "serviceRestarts": 0,
+    "publicService": "NOT_RESTORED",
+    "AIh": "UNMEASURED",
+    "independentReport": "/Users/osszhaoke/Downloads/PTDS-Flash-R25-independent-review-20261110-01/REPORT.md",
+    "independentReportSha256": "6c437f91c8c0e91c10cc61e868620ae4352bd872d5b35a5d1f43684412d1e981",
+    "closeoutReport": "docs/REVIEW_CLOSEOUT_R25.md"
+  },
+  "independentReviewR25": {
+    "conclusion": "PASS_TARGETED_FINDING_CLOSURE_ONLY",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R25-independent-review-20261110-01/REPORT.md",
+    "reportSha256": "6c437f91c8c0e91c10cc61e868620ae4352bd872d5b35a5d1f43684412d1e981",
+    "binding": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+    "staticVersion": "c2f621f8a2cac4d6",
+    "reviewedGitHead": "0b6ae26050ae0fa608a05eeff7e8122facb6f439",
+    "findings": {
+      "R24-A01": "CLOSED_INDEPENDENTLY_ON_R25",
+      "R24-A02": "CLOSED_INDEPENDENTLY_ON_R25"
+    },
+    "actualIndependentExecution": {
+      "nodeTests": 108,
+      "reportRowsPositiveWindows": 3,
+      "effectiveBehavioralMutations": 3,
+      "newProcessPIDs": [
+        32508,
+        32540
+      ],
+      "sourceManifestPositiveAndFiveNegativeControls": true,
+      "python53Rerun": false,
+      "full61Rerun": false
+    },
+    "scope": "exact R25 local fictional Mac WebKit targeted repair review; not complete product, phone, clinical, real-provider or online-service acceptance",
+    "retained": [
+      "iPhone total memory",
+      "actual low space",
+      "BFCache",
+      "human phone acceptance",
+      "clinical review",
+      "historical performance cause not uniquely attributed"
+    ],
+    "registrationEvidence": "evidence/r25-review-registration01/receipt.json",
+    "AIh": "UNMEASURED"
+  },
+  "priorStaticPatchR25": {
+    "id": "r19-report02",
+    "batch": "R25",
+    "staticVersion": "c2f621f8a2cac4d6",
+    "status": "LOCAL_SOURCE_ADOPTED; AUTHOR_FULL_VERIFIED; INDEPENDENT_TARGETED_A01_A02_PASS; HUMAN_CLINICAL_PENDING",
+    "verification": "evidence/r25-verification01/result.json",
+    "binding": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+    "boundInputs": 236,
+    "report": "docs/REPORT_ROWS_FOLLOWUP_R25.md",
+    "adoption": "evidence/r25-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "ocrImagesR26": {
+    "ok": true,
+    "identity": "author authorized-image private replay with explicit automated test-operator corrections; not human/clinical acceptance",
+    "currentCandidateSource": "exact final 239-input candidate; private bindings and final product hashes recorded",
+    "realProviderCallsInCapturePhase": 6,
+    "additionalRealProviderCallsInReplay": 0,
+    "fakeReplayCalls": 6,
+    "rawFragments": 625,
+    "rowsTotal": 108,
+    "pendingRowsRequiringExplicitCorrection": 13,
+    "supplierAccuracy": "NOT_100_PERCENT; original image review required; at least numerical and unit errors observed; no hardcoded production correction",
+    "temporaryIsolatedProfilesOnly": true,
+    "items": [
+      {
+        "index": 1,
+        "rows": 27,
+        "pendingRows": 2,
+        "differentPIDs": [
+          51639,
+          51646
+        ],
+        "writeAndReadPassed": true,
+        "backupRoundTrip": true,
+        "explicitAutomatedChecks": true,
+        "privateBindingsSha256": {
+          "write": "c4bc5eba2b0402cee2043d00c3b2226b66b84366606ebe86202833ff2d1eba81",
+          "read": "119b9820ed3dd560a2f07edfc9e109212cd66b5d636662aab5ec154500f546f0"
+        }
+      },
+      {
+        "index": 2,
+        "rows": 39,
+        "pendingRows": 8,
+        "differentPIDs": [
+          51657,
+          51668
+        ],
+        "writeAndReadPassed": true,
+        "backupRoundTrip": true,
+        "explicitAutomatedChecks": true,
+        "privateBindingsSha256": {
+          "write": "a7a2bfdcf6d589059a9afe58ce9197aa416635a208be6b2de94425ecdc0694fa",
+          "read": "98b3580ca3cb0eef932e7b36a8cbd5f1dabbc5e533a859693f74ada64db5aae2"
+        }
+      },
+      {
+        "index": 3,
+        "rows": 7,
+        "pendingRows": 0,
+        "differentPIDs": [
+          51674,
+          51682
+        ],
+        "writeAndReadPassed": true,
+        "backupRoundTrip": true,
+        "explicitAutomatedChecks": true,
+        "privateBindingsSha256": {
+          "write": "2be0cfad7743c85a7e28a17c69b73d02f309f7b5094b5e15c585e874d75b704f",
+          "read": "0e210fe63c9b796fc2d577f4dcda0179fe9b6933f8e09458ffd0d9a55fb662c5"
+        }
+      },
+      {
+        "index": 4,
+        "rows": 1,
+        "pendingRows": 0,
+        "differentPIDs": [
+          51689,
+          51704
+        ],
+        "writeAndReadPassed": true,
+        "backupRoundTrip": true,
+        "explicitAutomatedChecks": true,
+        "privateBindingsSha256": {
+          "write": "01cc895d377a1d2d8c79ff7407bf867ec4adec3d68b0c2b465027f36ca73af29",
+          "read": "8e9aa033b263791d1ac3d041b0b756807151baba1ecc0b6c71c13d0eff4cbeca"
+        }
+      },
+      {
+        "index": 5,
+        "rows": 32,
+        "pendingRows": 3,
+        "differentPIDs": [
+          51746,
+          51769
+        ],
+        "writeAndReadPassed": true,
+        "backupRoundTrip": true,
+        "explicitAutomatedChecks": true,
+        "privateBindingsSha256": {
+          "write": "ba151461d185f3d6e46db74387cd6b32afe608ff1c6d2af639949f63904f09ff",
+          "read": "9069db28e624193ccf7b1c3085eb4dc36a6718c33ccebe0792cd78e36a0577ba"
+        }
+      },
+      {
+        "index": 6,
+        "rows": 2,
+        "pendingRows": 0,
+        "differentPIDs": [
+          51775,
+          51786
+        ],
+        "writeAndReadPassed": true,
+        "backupRoundTrip": true,
+        "explicitAutomatedChecks": true,
+        "privateBindingsSha256": {
+          "write": "d69f86c1ee9ae72c1fa1330edb396d3ed8d2a6e90e8f5bff6d5fb87384688763",
+          "read": "3edbf1c38a22fc7c9e5bcb486af3a18d9967ff38806ba4e714b1d027bb11e1f5"
+        }
+      }
+    ],
+    "privateEvidence": "runtime/r26-image-check01/replay03; do not publish raw bindings or screenshots",
+    "verificationBinding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301"
+  },
+  "actualProviderCallsByAgentScope": "R28 zero; R27 historical15 valid plus1 uncertain remain separately recorded; no retry",
+  "priorStaticPatchR26": {
+    "id": "r19-layout01",
+    "batch": "R26",
+    "staticVersion": "1c9c5fc2065208ad",
+    "status": "LOCAL_SOURCE_ADOPTED; AUTHOR_FULL_VERIFIED; R26_INDEPENDENT_HUMAN_CLINICAL_PENDING",
+    "verification": "evidence/r26-verification01/result.json",
+    "binding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+    "boundInputs": 239,
+    "report": "docs/IMAGE_COVERAGE_R26.md",
+    "adoption": "evidence/r26-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "ocrImagesR27": {
+    "status": "AUTHOR_SCOPED_PASS; NOT_ALL_278_TENCENT_OR_CLINICAL_ACCURACY",
+    "inputs": 278,
+    "uniqueImageHashes": 273,
+    "offlineVisionImages": 278,
+    "mediaChecks": 278,
+    "jpegTrailerRejectionsRepaired": 19,
+    "providerAttemptRecords": 16,
+    "validTencentResponses": 15,
+    "uncertainAttempt": 200,
+    "unattemptedRepresentatives": [
+      220,
+      240,
+      260,
+      278
+    ],
+    "automaticRetries": 0,
+    "responseFragments": 1022,
+    "reportRows": 128,
+    "pendingResults": 5,
+    "rawOnlyReports": 4,
+    "privateFinalReplay": "runtime/r27-third-batch01/replay06",
+    "privateFinalSummary": "evidence/r27-third-batch01/private-replay-summary06.json",
+    "fullProof": "evidence/r27-verification01/result.json",
+    "independentAcceptance": "PENDING",
+    "humanClinicalConfirmation": "NOT_PERFORMED",
+    "supplierAccuracy": "REQUIRES_VISIBLE_MANUAL_REVIEW; NOT_100_PERCENT",
+    "fee": "UNKNOWN_CONSOLE_AUTHORITATIVE",
+    "AIh": "UNMEASURED"
+  },
+  "localRuntimeR27": {
+    "status": "STATIC_GET_MATCHES_R27; GATEWAY_NEW_PROCESS_PENDING",
+    "listeningPID": 45593,
+    "ocrEnabled": true,
+    "loadedGateway": "R26 already imported; never hot-reloaded",
+    "onDiskGateway": "R27 verified source",
+    "url": "http://127.0.0.1:18791/",
+    "healthDoesNotProveNewGateway": true,
+    "evidence": "evidence/r27-adoption01/local-http-after.json",
+    "sourceAdoptionServiceRestarts": 0,
+    "safeUserLauncher": "runtime/r27-local-verify01/START_R27_LOCAL.command",
+    "automaticProviderCallsOnSafeLauncher": 0,
+    "public": "NOT_RESTORED",
+    "snapshotAtUTC": "2026-11-11T06:36:12.898325+00:00"
+  },
+  "independentReviewR27": {
+    "conclusion": "CONDITIONAL_PASS_TARGETED",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R27-independent-audit-20261111-01/REPORT.md",
+    "reportSha256": "09af4e59271beae9741bb4af8ce1c44fb58073f9356be2d98c6a40be0bb429e0",
+    "binding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+    "independentExecution": {
+      "nodeTests": 119,
+      "pythonTests": 54,
+      "full61Rerun": false,
+      "reportBrowserWindows": 22,
+      "newEdgeWindows": 2,
+      "privateImagesRead": false
+    },
+    "findings": {
+      "R27-A01": "OPEN_P2",
+      "R27-A02": "OPEN_P2"
+    },
+    "currentR28": "AUTHOR_REPAIRED; NEW_INDEPENDENT_CLOSURE_PENDING"
+  },
+  "priorStaticPatchR27": {
+    "id": "r19-layout02",
+    "batch": "R27",
+    "staticVersion": "8826bf968d1ed140",
+    "status": "LOCAL_SOURCE_AND_STATIC_ADOPTED; AUTHOR_FULL_PASS; EXISTING_GATEWAY_R26_PENDING_NEW_PROCESS; INDEPENDENT_HUMAN_CLINICAL_PENDING",
+    "verification": "evidence/r27-verification01/result.json",
+    "binding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+    "boundInputs": 240,
+    "report": "docs/OCR_COVERAGE_R27.md",
+    "adoption": "evidence/r27-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "repairR28": {
+    "status": "R27_A01_A02_CLOSED_INDEPENDENTLY_ON_R28_NEW_CANDIDATES_AND_WRITES",
+    "findings": {
+      "R27-A01": "CLOSED_INDEPENDENTLY_ON_R28",
+      "R27-A02": "CLOSED_INDEPENDENTLY_ON_R28"
+    },
+    "independentOpenFindings": 0,
+    "authorKnownReproducibleDefectsRemainingInTestedSlice": 0,
+    "sourceChanges": [
+      "web/domain/report/tables.js",
+      "web/domain/report/table_fields.js",
+      "web/domain/report/rows.js",
+      "web/features/report_rows.js",
+      "web/domain/service.js"
+    ],
+    "originalAudit": "/Users/osszhaoke/Downloads/PTDS-Flash-R27-independent-audit-20261111-01/REPORT.md",
+    "report": "docs/REPAIR_R28.md",
+    "verification": "evidence/r28-verification01/result.json",
+    "evidence": "evidence/r28-repair01",
+    "auditPrompt": "docs/AUDIT_REVIEW_R28.md",
+    "newRealProviderCalls": 0,
+    "serviceRestarts": 0,
+    "publicRestored": false,
+    "AIh": "UNMEASURED"
+  },
+  "localRuntimeR28": {
+    "snapshotAtUTC": "2026-11-11T08:34:59.715216+00:00",
+    "listenerPID": 45593,
+    "staticStatus": "76_ASSETS_PLUS_SW_EXACT_GET",
+    "staticVersion": "bd2d50eab43d0cf2",
+    "gatewaySourceChangedInR28": false,
+    "gatewayLoadedCode": "NOT_REVERIFIED; historical R27 handoff was R26 gateway in this PID",
+    "currentHealthCannotProveLoadedGatewayIdentity": true,
+    "serviceRestarts": 0,
+    "public": "NOT_RESTORED",
+    "evidence": "evidence/r28-adoption01/local-http-after.json",
+    "priorJPEGGatewayRuntimeAdoption": "STILL_REQUIRES_NEW_SESSION_PID_LOADED_BYTES_EVIDENCE; NOT_CLOSED_BY_R28"
+  },
+  "independentReviewR28": {
+    "conclusion": "CONDITIONAL_PASS",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R28-independent-review-20261111-01/REPORT.md",
+    "reportSha256": "ac65248fc5596a0c95123b2808021df5a7e676a42e98be6c51b793d2f898ac66",
+    "binding": "7fda886d7f62b63c86f55df901371862fc03beb88198c6af3890f282b3ecafee",
+    "closed": {
+      "R27-A01": "CLOSED_INDEPENDENTLY_ON_R28_NEW_CANDIDATES",
+      "R27-A02": "CLOSED_INDEPENDENTLY_ON_R28_NEW_STAGE_SAVE"
+    },
+    "newFindings": {
+      "R28-A01": "CLOSED_INDEPENDENTLY_ON_R29_OLD_FORMAL_BACKUP"
+    },
+    "actualExecution": {
+      "nodeTests": 124,
+      "pythonTests": 54,
+      "full61Rerun": false,
+      "browserWindows": 48,
+      "realProviderCalls": 0,
+      "privateHealthInputsRead": false
+    },
+    "currentR29": "R28_A01_CLOSED_INDEPENDENTLY_ON_R29_RESTORE_ONLY"
+  },
+  "priorStaticPatchR28": {
+    "id": "r19-layout03",
+    "batch": "R28",
+    "staticVersion": "bd2d50eab43d0cf2",
+    "status": "LOCAL_ADOPTED; R27_A01_A02_INDEPENDENT_CLOSED_ON_NEW_WRITES; R28_A01_FOUND",
+    "verification": "evidence/r28-verification01/result.json",
+    "binding": "7fda886d7f62b63c86f55df901371862fc03beb88198c6af3890f282b3ecafee",
+    "boundInputs": 240,
+    "report": "docs/REPAIR_R28.md",
+    "adoption": "evidence/r28-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "repairR29": {
+    "status": "OLD_FORMAL_BACKUP_RESTORE_CLOSED_INDEPENDENTLY; SAVE_BOUNDARY_FINDING_R29_A01_OPEN",
+    "findings": {
+      "R28-A01": "CLOSED_INDEPENDENTLY_ON_R29_OLD_FORMAL_BACKUP"
+    },
+    "independentOpenFindings": 0,
+    "knownUnrepairedCorrectnessItemsInTestedSlice": 0,
+    "performanceObservation": "R29_AGGREGATE20K_APPROX1500MS; EXTRA_AGGREGATE1000MS_PROBE_NOT_MET; ORIGINAL_SINGLE_PARSE_THRESHOLDS_UNCHANGED",
+    "verification": "evidence/r29-verification01/result.json",
+    "binding": "3b1dd760cdcb840c526fb903984d98d8e2a8710a2f83b25e8f565bb6258e56b9",
+    "boundInputs": 257,
+    "checks": 61,
+    "nodeTests": 127,
+    "pythonTests": 54,
+    "reportWindows": 44,
+    "reportPositiveWindows": 34,
+    "effectiveReportMutations": 10,
+    "adoption": "evidence/r29-adoption01/adoption-result.json",
+    "report": "docs/REPAIR_R29.md",
+    "auditPrompt": "docs/AUDIT_REVIEW_R29.md",
+    "sameExactHistoricalFixtureSha256": "8130233a30cc090d05655aed74445ee0bb7c6e66b9ac380d2b36ea04708661e2",
+    "frozenParserPolicy": "cbc-report/r27-exact-source/1",
+    "newRealProviderCalls": 0,
+    "serviceRestarts": 0,
+    "publicRestored": false,
+    "AIh": "UNMEASURED"
+  },
+  "independentReviewR29": {
+    "conclusion": "FAIL_CURRENT_SAVE_BOUNDARY; OLD_FORMAL_BACKUP_RESTORE_CLOSED",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R29-independent-review-20261111-01/REPORT.md",
+    "reportSha256": "99be891eaf451cd99178d2baa5e77ac748f461089a49156af6578454a23e4000",
+    "binding": "3b1dd760cdcb840c526fb903984d98d8e2a8710a2f83b25e8f565bb6258e56b9",
+    "closed": {
+      "R28-A01": "CLOSED_INDEPENDENTLY_ON_R29_OLD_FORMAL_BACKUP"
+    },
+    "newFindings": {
+      "R29-A01": "CLOSED_INDEPENDENTLY_ON_R30_FIRST_SAVE_BOUNDARY",
+      "R29-A02": "CLOSED_INDEPENDENTLY_ON_R30_CURRENT_ACCEPTANCE_INDEX"
+    },
+    "actualExecution": {
+      "nodeTests": 127,
+      "pythonTests": 54,
+      "reportWindows": 44,
+      "full61Rerun": false,
+      "realOCR": 0
+    },
+    "retained": "aggregate restore performance/physical/human/clinical/gateway loading",
+    "currentR30": "R29_A01_A02_CLOSED_INDEPENDENTLY_ON_R30_TARGETED_REVIEW"
+  },
+  "priorStaticPatchR29": {
+    "id": "r19-restore01",
+    "batch": "R29",
+    "staticVersion": "8d16c8db0b4a0edb",
+    "status": "OLD_FORMAL_BACKUP_RESTORE_CLOSED_INDEPENDENTLY; NEW_SAVE_BOUNDARY_R29_A01_OPEN_ON_R29",
+    "verification": "evidence/r29-verification01/result.json",
+    "binding": "3b1dd760cdcb840c526fb903984d98d8e2a8710a2f83b25e8f565bb6258e56b9",
+    "boundInputs": 257,
+    "report": "docs/REPAIR_R29.md",
+    "adoption": "evidence/r29-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "repairR30": {
+    "status": "R29_A01_A02_CLOSED_INDEPENDENTLY_ON_EXACT_R30; OBSERVATIONS_AND_ACCEPTANCE_GAPS_RETAINED",
+    "findings": {
+      "R29-A01": "CLOSED_INDEPENDENTLY_ON_R30_FIRST_SAVE_BOUNDARY",
+      "R29-A02": "CLOSED_INDEPENDENTLY_ON_R30_CURRENT_ACCEPTANCE_INDEX"
+    },
+    "supplement": "same original immutable source reused on resumed stage; behavioral mutation and full regression",
+    "independentOpenFindings": 0,
+    "knownUnrepairedCorrectnessItemsInTestedSlice": 0,
+    "verification": "evidence/r30-verification01/result.json",
+    "binding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+    "boundInputs": 263,
+    "checks": 61,
+    "nodeTests": 130,
+    "pythonTests": 55,
+    "reportWindows": 63,
+    "reportPositiveWindows": 51,
+    "effectiveReportMutations": 12,
+    "adoption": "evidence/r30-adoption01/adoption-result.json",
+    "report": "docs/REPAIR_R30.md",
+    "auditPrompt": "docs/AUDIT_REVIEW_R30.md",
+    "realProviderCalls": 0,
+    "serviceRestarts": 0,
+    "publicRestored": false,
+    "AIh": "UNMEASURED",
+    "independentReview": "/Users/osszhaoke/Downloads/PTDS-Flash-R30-independent-review-20261111-01/REPORT.md",
+    "closeoutReport": "docs/REVIEW_CLOSEOUT_R30.md"
+  },
+  "independentReviewR30": {
+    "conclusion": "CONDITIONAL_PASS_TARGETED_ONLY",
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R30-independent-review-20261111-01/REPORT.md",
+    "reportSha256": "65c23aca7c19ed91b45f7a5fe0b3716867450af3b2346797180e6eb5d5960122",
+    "reviewedHead": "9e1f4649337e9f7bae3f1a9c20e203a4d2208eaf",
+    "productCommit": "e6e19976a41f4a687062b87d7556637baee5583b",
+    "binding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+    "staticPatch": "r19-save01",
+    "staticVersion": "f5079cbdc06b2bc6",
+    "closed": {
+      "R29-A01": "CLOSED_INDEPENDENTLY_ON_R30_FIRST_SAVE_BOUNDARY",
+      "R29-A02": "CLOSED_INDEPENDENTLY_ON_R30_CURRENT_ACCEPTANCE_INDEX"
+    },
+    "oldFormalBackupR28A01": "INDEPENDENT_CLOSURE_MAINTAINED_AND_RERUN_ON_R30",
+    "sourceBlobReuse": "INDEPENDENT_CURRENT_MAC_WEBKIT_POSITIVE_AND_EFFECTIVE_MUTATION_PASS",
+    "actualExecution": {
+      "nodeTests": 130,
+      "pythonTests": 55,
+      "reportWindows": 63,
+      "positiveReportWindows": 51,
+      "effectiveReportMutations": 12,
+      "legacyDifferentPIDPairs": 16,
+      "upgradeDifferentPIDGroups": {
+        "footer": [
+          12503,
+          12521,
+          12528,
+          12533,
+          12539
+        ],
+        "unit": [
+          12545,
+          12552,
+          12559,
+          12565,
+          12571
+        ],
+        "valid": [
+          12585,
+          12594,
+          12600
+        ]
+      },
+      "browserCore": true,
+      "indexCLIPositiveAndNineNegatives": true,
+      "sourceManifestPositiveAndFiveNegatives": true,
+      "full61Rerun": false,
+      "paidProviderCalls": 0,
+      "productServicesContacted": false
+    },
+    "retained": [
+      "O29-01 aggregate restore20k approx1.5s; not remeasured onR30",
+      "physical iPhone peak memory/actual low space/BFCache",
+      "human/clinical acceptance",
+      "loaded-keyed-gateway identity",
+      "historical first stall unique cause",
+      "not arbitrary historical versions or real OCR accuracy/public acceptance"
+    ],
+    "closeout": "docs/REVIEW_CLOSEOUT_R30.md",
+    "registrationEvidence": "evidence/r30-review-registration01/receipt.json",
+    "AIh": "UNMEASURED"
+  },
+  "partnerAcceptanceTrialR30": {
+    "pid": 7138,
+    "state": "SERVING",
+    "expiresAt": "2026-11-12T15:59:00+00:00",
+    "credentialsStored": false,
+    "ocrEnabled": true,
+    "operatorSourceSha256": "9ec9d6dbb173407232a08dc5ac02a7d45928952415390a3edfcea153c7ea4c14",
+    "url": "https://cliff-joe-advertisers-dover.trycloudflare.com",
+    "startedAt": "2026-11-11T13:42:10.151938+00:00",
+    "restartWithNoLocalOwner": true,
+    "snapshotAtUTC": "2026-11-11T13:44:24.644533+00:00",
+    "deadlineLocal": "2026-11-12T23:59:00+08:00",
+    "sessionFile": "runtime/alpha-r30-public02/session.json",
+    "guide": "docs/PARTNER_ACCEPTANCE_R30_RESTART02.md",
+    "qr": "share/PTDS-R30-伙伴验收-重启02.png",
+    "sourceBinding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+    "publicExactAssets": 93,
+    "browserSmoke": "SAME_ISOLATED_PROFILE_NEW_PID_PASS; FIRST_OPEN_DATABASE_FALLBACK_RETAINED; CAUSE_UNRESOLVED",
+    "phoneCellularReachability": "PENDING",
+    "newRealOcrCallsByAgent": 0,
+    "realOcrEndToEndThisRound": "NOT_TESTED; CONFIGURED_ONLY",
+    "evidence": "evidence/r30-public02/public-probes02.json"
+  },
+  "priorPartnerAcceptanceTrialR30BeforeRestart02": {
+    "pid": 17575,
+    "state": "SERVING",
+    "expiresAt": "2026-11-12T15:59:00+00:00",
+    "credentialsStored": false,
+    "ocrEnabled": true,
+    "operatorSourceSha256": "72169881587ab055dc4052bc1fa37a290588dca1bc8ea7153e8715a7ceda27ce",
+    "url": "https://lid-installations-compaq-stuff.trycloudflare.com",
+    "startedAt": "2026-11-11T10:22:42.862350+00:00",
+    "previousLocalStopped": true,
+    "snapshotAtUTC": "2026-11-11T10:25:38.058562+00:00",
+    "deadlineLocal": "2026-11-12T23:59:00+08:00",
+    "sessionFile": "runtime/alpha-r30-public01/session.json",
+    "guide": "docs/PARTNER_ACCEPTANCE_R30.md",
+    "qr": "share/PTDS-R30-伙伴验收-20261112.png",
+    "sourceBinding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+    "staticVersion": "f5079cbdc06b2bc6",
+    "publicExactAssets": 93,
+    "browserSmoke": "PASS_FRESH_MAC_WEBKIT_GET_ONLY",
+    "phoneCellularReachability": "PENDING_PARTNER",
+    "newRealOcrCallsByAgent": 0,
+    "realOcrEndToEndThisRound": "NOT_TESTED; CONFIGURATION_ENABLED_ONLY",
+    "fullIndependent61": "NOT_RUN",
+    "clinicalAcceptance": "PENDING",
+    "evidence": "evidence/r30-public01/public-probes03.json",
+    "lifecycleAuthority": "session file plus live health/process; metadata is a snapshot"
+  },
+  "priorStaticPatchR30": {
+    "id": "r19-save01",
+    "batch": "R30",
+    "staticVersion": "f5079cbdc06b2bc6",
+    "status": "LOCAL_SOURCE_AND_STATIC_ADOPTED; AUTHOR_FULL61_PASS; INDEPENDENT_TARGETED_R29_A01_A02_CLOSED; O29_01_AND_DEVICE_GATEWAY_HUMAN_CLINICAL_GAPS_RETAINED",
+    "verification": "evidence/r30-verification01/result.json",
+    "binding": "14a437750d0b84b00c266dff2888684b6f70a930b4c52d52ccfcc82943690649",
+    "boundInputs": 263,
+    "report": "docs/REPAIR_R30.md",
+    "adoption": "evidence/r30-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19",
+    "independentCloseout": "docs/REVIEW_CLOSEOUT_R30.md"
+  },
+  "independentReviewR31A1": {
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A1-independent-audit-20261111-01/REPORT.md",
+    "reportSha256": "3ceffc64beb020dea93eea77fdc74096b8e9d62c8cb85ad43a0790313f432ad8",
+    "binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+    "scope": "reference quality targeted conditional pass; no new findings; NOT_INDEPENDENT_FULL61",
+    "independentExecution": {
+      "node": 134,
+      "python": 55,
+      "reportWindows": 68,
+      "positiveReportWindows": 53,
+      "reportMutations": 15,
+      "additionalUIPositiveWindows": 6,
+      "additionalDetailMutation": 1,
+      "referencePIDs": [
+        25422,
+        25438
+      ]
+    },
+    "retained": [
+      "real missing lower bound root cause unknown",
+      "O29-01 aggregate compatibility performance",
+      "physical phone memory, real low space, BFCache",
+      "human and clinical",
+      "full independent61 and gateway loaded identity"
+    ],
+    "status": "TARGETED_CONDITIONAL_PASS_EXACT_CANDIDATE_ADOPTED_BY_WRITER",
+    "registration": "evidence/r31-adoption01/review-registration.json",
+    "adoption": "evidence/r31-adoption01/adoption-result.json",
+    "fullIndependent61": false,
+    "realLowerBoundLoss": "UNKNOWN_SOURCE_CHAIN; NO_GUESSED_REPAIR",
+    "humanOrClinicalAcceptance": false
+  },
+  "currentPublicStatic": {
+    "snapshotAtUTC": "2026-11-12T03:16:34.553048+00:00",
+    "sourceBinding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+    "staticVersion": "f2f3393ff7cd92f7",
+    "sourceStaticAdopted": true,
+    "exactGETAssetsPerOrigin": 94,
+    "listenerPID": 7138,
+    "serviceRestarts": 0,
+    "url": "https://cliff-joe-advertisers-dover.trycloudflare.com",
+    "expiresAt": "2026-11-12T15:59:00+00:00",
+    "deadlineChanged": false,
+    "gatewayChanged": false,
+    "gatewayLoadedIdentity": "not reverified; GET/health not runtime OCR proof",
+    "evidence": "evidence/r31-adoption02/http-after.json",
+    "phoneHumanClinicalAcceptance": "PENDING"
+  },
+  "priorPendingCandidate": {
+    "batch": "R31-A2",
+    "status": "AUTHOR_VERIFIED_PENDING_EXTERNAL_AUDIT_NOT_ADOPTED",
+    "binding": "51cf6b1d9872144a3d2215181233c0c952005214ab779de736eed38edf5d3b70",
+    "boundInputs": 270,
+    "staticVersion": "f2f3393ff7cd92f7",
+    "checks": 61,
+    "nodeTests": 134,
+    "pythonTests": 55,
+    "productWriteSet": [
+      "web/index.html",
+      "web/features/settings.js"
+    ],
+    "deltaPaths": 14,
+    "added": 3,
+    "removed": 0,
+    "unchangedInputs": 256,
+    "proofInArchive": "candidate/evidence/r31-navigation-verification02/result.json",
+    "archive": "evidence/r31-navigation01/R31-A2-source-and-evidence.tar.gz",
+    "archiveSha256": "68f9246d498ff503af9cd75e068d35b5af026a5a1ff6ad15d9c653a579d99d10",
+    "archiveBytes": 93736969,
+    "auditPrompt": "docs/AUDIT_R31_A2.md",
+    "delivery": "docs/DELIVERY_R31_A2.md",
+    "externalAuditorSession": "01a1bb80-c6d5-7ab3-a959-e6c281a9c5c6",
+    "auditTransport": "USER_TRANSFER_ONLY_NO_AGENT_CONTACT",
+    "independentAudit": "PENDING",
+    "adopted": false,
+    "normalUserConsultationAvailableInCandidate": false,
+    "draftStorageAndModulesPreserved": true,
+    "ordinaryDraftDownloadPromised": false,
+    "serviceOperationsOrPaidCallsThisSlice": 0,
+    "AIh": "UNMEASURED"
+  },
+  "priorPendingGovernanceRepair": {
+    "batch": "R31-A2R1",
+    "status": "AUTHOR_VERIFIED_PENDING_EXTERNAL_AUDIT_NOT_ADOPTED",
+    "binding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+    "archive": "evidence/r31-navigation02/R31-A2R1-source-and-evidence.tar.gz",
+    "archiveSha256": "eec2ab4a48cdb81caa54f32be9ee21cf56e98773e0f0f738901812d04bbc25c2",
+    "archiveBytes": 205990849,
+    "sourceDeltaPaths": [
+      "tools/test_plan.json",
+      "tests/test_navigation_runner.py"
+    ],
+    "productDeltaPaths": [],
+    "authorChecks": 61,
+    "authorNodeTests": 134,
+    "authorPythonTests": 55,
+    "oldStage": "PASS_NEW_WINDOW",
+    "auditPrompt": "docs/AUDIT_R31_A2R1.md",
+    "delivery": "docs/DELIVERY_R31_A2R1.md",
+    "externalAuditorSession": "01a1bb80-c6d5-7ab3-a959-e6c281a9c5c6",
+    "candidateAdopted": false,
+    "productOrServiceOperations": 0,
+    "AIh": "UNMEASURED"
+  },
+  "priorStaticPatchR31A1": {
+    "id": "r19-reference01",
+    "batch": "R31-A1",
+    "staticVersion": "87fef183f091b968",
+    "status": "EXACT_SOURCE_AND_STATIC_ADOPTED_AFTER_TARGETED_INDEPENDENT_CONDITIONAL_PASS; NOT_FULL_INDEPENDENT61_OR_HUMAN_CLINICAL",
+    "verification": "evidence/r31-verification02/result.json",
+    "binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+    "boundInputs": 267,
+    "report": "docs/REVIEW_CLOSEOUT_R31_A1.md",
+    "adoption": "evidence/r31-adoption01/adoption-result.json",
+    "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+  },
+  "independentReviewR31A2": {
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2-independent-audit-20261112-01/REPORT.md",
+    "reportSha256": "1614a8a245ddc1139a71d545519ea62a416975a06545ecc247831956f3ca1a0f",
+    "scope": "R31-A2 navigation targeted conditional pass; A2R1 governance repair and A2R2 full61 closure",
+    "binding": "51cf6b1d9872144a3d2215181233c0c952005214ab779de736eed38edf5d3b70",
+    "candidateAdopted": true,
+    "a2r1Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2R1-independent-audit-20261112-01/REPORT.md",
+    "a2r1ReportSha256": "80c2f092f8a37382263758795ba4c536cfb3f87c5d1277894e53a6efe5571e46",
+    "a2r2Report": "/Users/osszhaoke/Downloads/PTDS-Flash-R31-A2R2-independent-audit-20261112-01/REPORT.md",
+    "a2r2ReportSha256": "b6360cc9e58396032908b839a68241cc5d5d8a11922c60fff11726c3170d6d9f",
+    "a2r2IndependentFull61": true,
+    "a2r2NodeFirstAttempt": "133_PASS_1_NEAR_THRESHOLD_FAIL",
+    "a2r2NodeCleanRerun": "134_PASS",
+    "retained": [
+      "performance stability observation",
+      "iPhone memory",
+      "real low-space",
+      "BFCache",
+      "human/clinical",
+      "real lower-bound source chain unknown"
+    ]
+  },
+  "independentGovernanceReviewR34": {
+    "report": "/Users/osszhaoke/Downloads/PTDS-Flash-R34-governance-independent-20261112-220906/REPORT.md",
+    "sha256": "c5f1c55fc28f922c237eaf613eb546cc07fb59823b90ef3689f74fc0f33178cd",
+    "P2-A01": "CLOSED_BY_INDEPENDENT_REVIEW",
+    "P3-A02": "CLOSED_BY_INDEPENDENT_REVIEW",
+    "P1-001": "REMAINS_CLOSED",
+    "overall": "CONDITIONAL_PASS",
+    "recordedAtUTC": "2026-11-12T16:13:46.374139+00:00",
+    "scope": "Independent targeted governance review only; no repeated product tests",
+    "retainedGaps": [
+      "performance stability",
+      "iPhone memory",
+      "real low space",
+      "BFCache",
+      "human acceptance",
+      "clinical acceptance",
+      "real corpus ground truth"
+    ]
+  },
+  "previousStaticPatches": [
+    {
+      "id": "r34-alias02",
+      "batch": "R34",
+      "staticVersion": "5ec9f2b0a1c84f4b",
+      "status": "EXACT_SOURCE_AND_STATIC_ADOPTED_AFTER_INDEPENDENT_R34_CONDITIONAL_PASS; P1_CLOSED; HUMAN_CLINICAL_PENDING",
+      "verification": "evidence/r34-alias02/candidate/evidence/full03/result.json",
+      "binding": "5ec9f2b0a1c84f4b1993f30af70dec212a5462827adaa3602c2e20b5687f5d21",
+      "boundInputs": 282,
+      "report": "docs/AUDIT_R34.md",
+      "adoption": "evidence/r34-adoption01/adoption-closure.json",
+      "gatewayVersionUnchanged": "h5-sjia-mas-r19"
+    }
+  ],
+  "r36OnlineOCR7MiB": {
+    "maxImageBytes": 7340032,
+    "encodedBytesAtLimit": 9786712,
+    "deployment": "SERVING_PUBLIC_CONFIG_VERIFIED",
+    "deadlineUTC": "2026-11-13T15:59:00+00:00",
+    "budgetReset": false,
+    "independentReview": "NOT_RUN",
+    "realProviderTest": "NOT_RUN",
+    "deviceClinicalGaps": "UNCHANGED",
+    "applicationURL": "https://qui-ecological-diane-even.trycloudflare.com",
+    "exampleURL": "https://twelve-wish-starting-conduct.trycloudflare.com",
+    "activePid": 38004,
+    "verifiedAtUTC": "2026-11-12T16:52:22.503791+00:00",
+    "deploymentEvidence": "evidence/r36-ocr7mb01/public-probes01.json"
+  },
+  "ocrFlowRepairR38": {
+    "status": "AUTHOR_VERIFIED_AND_PACKAGED",
+    "scope": [
+      "核信息按钮只读本机流程",
+      "AST/ALT双语显示",
+      "前白蛋白g/L映射保留"
+    ],
+    "verification": "evidence/r38-ocr-fix01/result.json",
+    "checks": 66,
+    "nodeTests": 167,
+    "staticVersion": "5125c2aa4b97074b",
+    "transportSha256": "95b04af96d22f190fb8489ea08a7d3b2426c60f59d8b09f42c803ef979873797",
+    "loinc": "FUTURE_DICTIONARY_SCOPE_ONLY",
+    "realProviderCallsByAgent": 0,
+    "humanPhoneClinicalAcceptance": "PENDING"
+  },
+  "r38Followup": {
+    "status": "P3_TEST_GAP_CLOSED_AUTHOR_VERIFIED; PERFORMANCE_OBSERVATION_RETAINED",
+    "testChange": "tests/browser.ocr-tables.js",
+    "targetedEvidence": "evidence/r38-independent-audit/ocr-tables-wire-r38-recheck/result.json",
+    "fullVerification": "evidence/r38-independent-audit/verify-followup/result.json",
+    "fullVerificationChecks": 66,
+    "fullVerificationBinding": "e7a51a4548f9a44f71402c019b5ee831205697b6b8ad97c850e51cbb149b1987",
+    "performanceRerun": "evidence/r38-independent-audit/state-scale-repeat01/summary.json",
+    "performanceRerunColdP95Ms": [
+      433,
+      623,
+      480
+    ],
+    "performanceRerunWarmP95Ms": [
+      1,
+      2,
+      1
+    ],
+    "priorColdP95FailureMs": 1145,
+    "realProviderCallsByAgent": 0,
+    "retainedGaps": [
+      "performance cause not uniquely established",
+      "iPhone memory",
+      "real low space",
+      "BFCache",
+      "LOINC",
+      "human acceptance",
+      "clinical acceptance",
+      "real corpus"
+    ]
+  }
+}

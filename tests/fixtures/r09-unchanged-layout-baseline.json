@@ -1,0 +1,94 @@
+{
+  "identity": "R09 source is the same R07 original measurements with exact manual-update subtree deletion only",
+  "approvedChangedPages": [
+    "capture source",
+    "capture review",
+    "capture confirmation",
+    "consultation selection",
+    "consultation generated",
+    "consultation conflict"
+  ],
+  "outputs": {
+    "layout-320-160": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-320-160.json",
+      "sha256": "1432e5a7191698e933359a75e79242d665682698d01468d1a3c92c56ab0dca1c",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "1d8732316f35f9ccce09364a066f18648ba2f78b569e734f8e326f9664cf7a4f",
+      "deletedSections": 4
+    },
+    "layout-430-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-430-100.json",
+      "sha256": "1df34e74417b60f850a5afd5942d8351d5533f2ad0deaa1ef8ea496874ba8034",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "b92e5cf17f78647acd64d2e626ae81fcd48e5fb8ee628d1c950141338a95ddfb",
+      "deletedSections": 4
+    },
+    "layout-390-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-390-100.json",
+      "sha256": "6a4cca5edef7e216400bdc2bc72f598f968a1dda2ecdecc0f2a452534945eb42",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "5ae81ff407dc868b78e72fbb6a8c16e7fac6b25fd4cce0981bda8bd9eaa51b2a",
+      "deletedSections": 4
+    },
+    "layout-620-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-620-100.json",
+      "sha256": "8ee107103a5ccf01a67f15a5e1e79338bb6d8f48688629f1a49016bfcf76ec3d",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "21d0e4113fda941f64a66db14ee4cb74cb9ba09a4424b5dea0bf2fb1d6b78700",
+      "deletedSections": 4
+    },
+    "layout-320-100": {
+      "source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/evidence/r07-style-before01/layout-320-100.json",
+      "sha256": "322a91bbfd3cda95a127d7287924076c0dcf6129dfee0620fd2f9fcfa2f81327",
+      "pageNames": [
+        "home",
+        "state detail",
+        "calendar filtered",
+        "drafts",
+        "settings",
+        "backup processing",
+        "backup preview",
+        "backup committing"
+      ],
+      "pagesSha256": "c6c4728615afbc057b800256b1fbfbb9793a6c49e083616e577633813229decd",
+      "deletedSections": 4
+    }
+  },
+  "allowedSubtreeDeletion": "settings app update SECTION/H2/button#check-update/p#update-status"
+}

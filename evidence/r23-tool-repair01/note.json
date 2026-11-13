@@ -1,0 +1,6 @@
+{
+  "firstToolFailure": "r23-controls01 rejected legitimate read-only /api/ocr/config by prefix; corrected exact paid API path and document-navigation classification, original output retained",
+  "secondAttempt": "r23-controls02 incomplete: WebKit long timer/snapshot completion overlapped probe150s timeout; log contains BROWSER_TIMEOUT, exit failed despite later ok:true file. Not accepted as pass or product failure.",
+  "plannedToolChange": "test-only 31-second loopback response to keep WebKit task active and measure real elapsed wall time; no product route or timer change",
+  "repair": "test-only 31-second loopback response; browser validates actual monotonic elapsed time, then feedback; no change to product/probe timeouts or assertions"
+}

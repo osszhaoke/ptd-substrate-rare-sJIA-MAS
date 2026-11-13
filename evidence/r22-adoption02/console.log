@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "binding": "07ce0e3e2ac01590bab6879a11718d7f95c6689fab218f1f64f612b36d7f3411",
+  "boundInputs": 226,
+  "checks": 60,
+  "staticVersion": "383a6b8eb56098fc",
+  "gatewayVersion": "h5-sjia-mas-r19",
+  "staticPatch": "r19-ocr04",
+  "pidUnchanged": 56388,
+  "deadlineUnchanged": "2026-11-09T15:59:00+00:00",
+  "publicExactGETs": [
+    {
+      "path": "web/app/startup.js",
+      "sha256": "4e7ee83c2572b27ada6b46eb022a538c0cc9c53129fd478d47171abe5beb15ae",
+      "http": 200
+    },
+    {
+      "path": "web/app/startup_task.js",
+      "sha256": "bcf4bd222b68e0a1771bac24875345dbba3f425b95809fc2972522982e8ea663",
+      "http": 200
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "c1c359115f3e5eb64eef0e4a7fb74f3910e59967618ebdb7a471bb73aa5af2d8",
+      "http": 200
+    },
+    {
+      "path": "web/sw.js",
+      "sha256": "b3d548f74e5920930d98e2b8c4b649f1ecf366bf8b1e07689d4456f3c1ccec74",
+      "http": 200
+    }
+  ],
+  "providerCallsThisOperation": 0,
+  "dataOrBudgetReadOrChanged": false,
+  "oldZIPUnchanged": true,
+  "verification": "evidence/r22-verification04/result.json",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "e74be53983d32bb090cb7f3d18a085a543ed3647ac10ff492505e0ee46e5451a",
+      "after": "a8673255a7ac4fa38b31041bbbd49ddcef4f1f6d04628fe7bdab175bb1445cc6"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "7fb739601ff39e33c4c5ada00d56bef1972310fe2666c638857ac171476addf5",
+      "after": "41688455f129921a066ea51725e7dd9b38f22829eb76f6f1e208963ccb59c19b"
+    },
+    {
+      "path": "tests/browser.startup.js",
+      "before": "e1b12badd3293b6ee10167f7596090b8b9b2b1fe0b5a9cde615980b599e15a40",
+      "after": "4004a31e36dfe8a06f39407c044da96dead58987ab44b49bbbcf11de349c2f03"
+    },
+    {
+      "path": "tests/startup.test.mjs",
+      "before": "c12021c484d0a3064fc204bccb65cbde768033c2f7680b1d964c550ed63e7a60",
+      "after": "6b74d0d4df774c32f09e0a279e87a410aaca746c647b04204d4e3d3d4e62e1f4"
+    },
+    {
+      "path": "tests/test_startup_runner.py",
+      "before": "ab1610d1010eb264143c9dd9273d8dab8d5c8b1c9ff676832dc06130bda5bd36",
+      "after": "888c554c4bd08b721aef50f5a6c2d8cb7e8e8fcf92d42dd73f16cd05cc510eff"
+    },
+    {
+      "path": "web/app/startup.js",
+      "before": "80ad8951775031baeda5e799006b593ad88fbf97d8c0cee9670cebe69032d9cb",
+      "after": "4e7ee83c2572b27ada6b46eb022a538c0cc9c53129fd478d47171abe5beb15ae"
+    },
+    {
+      "path": "web/app/startup_task.js",
+      "before": "dcd8906a7533cbe49610db94b0cff1a9a6ed2aae1c3f5f4b321fc0eb34545f67",
+      "after": "bcf4bd222b68e0a1771bac24875345dbba3f425b95809fc2972522982e8ea663"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "4592f51781a5c02c54490c7735df3edbf946606704ced940a26e9da224bdb90b",
+      "after": "b3d548f74e5920930d98e2b8c4b649f1ecf366bf8b1e07689d4456f3c1ccec74"
+    }
+  ],
+  "identity": "author exact static adoption and HTTP byte checks; not physical/human/independent acceptance"
+}

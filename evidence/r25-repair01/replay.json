@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "before": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+  "after": "66161ed619163a01a008d9bb60850d901fba5b1c8bbb63f43e7c53fc8e89677f",
+  "files": 236,
+  "changedPaths": [
+    "PUBLIC_SOURCE_MANIFEST.json",
+    "deploy/STATIC_MANIFEST.json",
+    "tests/browser.report-rows.js",
+    "tests/test_report_rows_runner.py",
+    "tools/test_plan.json",
+    "web/features/report_rows.js",
+    "web/sw.js"
+  ],
+  "forwardExact": true,
+  "reverseExact": true,
+  "nullOrMissingEntries": []
+}

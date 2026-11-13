@@ -1,0 +1,72 @@
+{
+  "baselineCommit": "663c3c0054333892c0ac346089e357700a4fde18",
+  "changedExistingRuntimeFiles": [
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "beforeSha256": "7c68b1eef7701ea0e69865ab7d35622416b6157b359150d815220f22f83c186a",
+      "afterSha256": "74d7a20392a8fb2115c113aea0b1eb7f6b9fefbffb4780401a72e7363e74404c",
+      "beforeBytes": 5910,
+      "afterBytes": 6009
+    },
+    {
+      "path": "deploy/invite_runner.py",
+      "beforeSha256": "7906d881f7fff526a67f66bddf7c1c17adbebccd588a9c4edd594fa5f141a402",
+      "afterSha256": "fa90296dde769921d23cdf945bf764aa568f9556070ba8440345f880c4aa0e7c",
+      "beforeBytes": 7738,
+      "afterBytes": 7738
+    },
+    {
+      "path": "deploy/ptds-h5.service",
+      "beforeSha256": "a0e47c9e72d4c731ffb95830dcaf5f6066a6ab08f77d1b4995c516175a79d4fd",
+      "afterSha256": "61ef771c8b1a40d7274b6d1f1bc06a75d34cf60ef3c7566f63ee4d8e441b600c",
+      "beforeBytes": 716,
+      "afterBytes": 716
+    },
+    {
+      "path": "gateway/server.py",
+      "beforeSha256": "e4a70f0aef039c88f873b2c6ed1dd7a88a84345e2a1ad7403e756c3a61c8f93e",
+      "afterSha256": "03e82c1b6ea1cd358890caa1d9fce4633214001afd0f7197d019ca917d39afc0",
+      "beforeBytes": 7052,
+      "afterBytes": 7052
+    },
+    {
+      "path": "public_trial/server.py",
+      "beforeSha256": "4f18b07b84e81e4823bc4bcb12446d38271af4bf376dd180ff583c2cdfa4bfa0",
+      "afterSha256": "ce36c9ab18fbf1453f508278db959c976ac8327b86961aec6bef898210f5a8a6",
+      "beforeBytes": 12050,
+      "afterBytes": 12050
+    },
+    {
+      "path": "web/app/records_flow.js",
+      "beforeSha256": "0406d7ccb57936a05d6ad5dbf90e0382fdd36c275a1d44e1933adde3d09883b8",
+      "afterSha256": "f61b8b649de6861d212f131e87415dd5197764b8c37968e4c407265c9e9337f1",
+      "beforeBytes": 1486,
+      "afterBytes": 1409
+    },
+    {
+      "path": "web/app/ui.js",
+      "beforeSha256": "94eb1d057b8ac9aac9562d7e61a29468a180842a7826af1da62759dbcb125ee4",
+      "afterSha256": "f0bb1a9f5aa40e5f20244e1110961a134eb78ff46afca0059dbfc7bcfbea4127",
+      "beforeBytes": 3541,
+      "afterBytes": 3624
+    },
+    {
+      "path": "web/storage/store.js",
+      "beforeSha256": "8543136caad7cd4965e687978f26c329605b5d431e93734715dd1763e35487a1",
+      "afterSha256": "7ebbe6d860c0745c2234392fcdbffec93647e4884e16312229f2d28a1c9b35a8",
+      "beforeBytes": 11193,
+      "afterBytes": 11350
+    },
+    {
+      "path": "web/sw.js",
+      "beforeSha256": "503bfbdb8349a2b3b06dda1a8b386b041876f870666f4e36d6de3ac7ce7a3da6",
+      "afterSha256": "4b30b6c2bac380d0bbc0f1ff0aae68ca474f62fff144f6fbe4231e0beb5850a4",
+      "beforeBytes": 2101,
+      "afterBytes": 2129
+    }
+  ],
+  "newRuntimeFiles": [
+    "web/app/records_snapshot.js"
+  ],
+  "note": "current authority is full verification binding/manifests; generated final shell frozen by verifier"
+}

@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "identity": "author exact local source adoption after isolated automated proof; not public deployment, independent, phone or clinical acceptance",
+  "staticPatch": "r19-startup01",
+  "batch": "R23",
+  "staticVersion": "7859252c9ed293a4",
+  "binding": "b4ce9d008c4365592f2b5229695be05d958c5db455a699cb8f205629b4e98906",
+  "boundInputs": 226,
+  "checks": 60,
+  "verification": "evidence/r23-verification04/result.json",
+  "previousAdoption": "evidence/r22-adoption02/adoption-result.json",
+  "previousAdoptionSha256": "41258df4d7a65d41ac6ba3b767bbc0b9fde10aed1dc3774baa652612c8359a7c",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "a8673255a7ac4fa38b31041bbbd49ddcef4f1f6d04628fe7bdab175bb1445cc6",
+      "after": "75a548d637c4ae78a0ff0da22acf24e4d341dd00827a05c52d7df07d43b3b332"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "41688455f129921a066ea51725e7dd9b38f22829eb76f6f1e208963ccb59c19b",
+      "after": "cbcae5e5a2c874b5991480967510ebe1ffd8783a06133468cf6ac5fc93c949d6"
+    },
+    {
+      "path": "tests/browser.startup.js",
+      "before": "4004a31e36dfe8a06f39407c044da96dead58987ab44b49bbbcf11de349c2f03",
+      "after": "26fa9e26f8eb6983c3f636c7206469d7d255894aaf572cb5bb946b81a62f3f6a"
+    },
+    {
+      "path": "tests/test_startup_runner.py",
+      "before": "888c554c4bd08b721aef50f5a6c2d8cb7e8e8fcf92d42dd73f16cd05cc510eff",
+      "after": "e73965dae87c0c17bac1958a8120343196e4972618802a2b28b582555e14a21a"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "67ed2bc1de3a128cbb066414203ea69b405b0f79bf9f9216660780e3cb786634",
+      "after": "b5c7ee7da4d7ec0d12ae21dd5a19674736a89b6841f85c5d5cce635d338b231c"
+    },
+    {
+      "path": "web/index.html",
+      "before": "c1c359115f3e5eb64eef0e4a7fb74f3910e59967618ebdb7a471bb73aa5af2d8",
+      "after": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "b3d548f74e5920930d98e2b8c4b649f1ecf366bf8b1e07689d4456f3c1ccec74",
+      "after": "b432bc780e6125e9c039ffeb1e75bfc35c5aed5815552343d51c5fead5072d44"
+    }
+  ],
+  "sourceBackup": "runtime/r23-source-before01",
+  "serviceActions": 0,
+  "newProviderCalls": 0,
+  "realDataOrCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d"
+}

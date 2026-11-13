@@ -1,0 +1,7 @@
+{
+  "pid": 94636,
+  "args": "/opt/homebrew/Cellar/python@3.14/3.14.8/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -B -m gateway.server --host 127.0.0.1 --port 18791 --runtime /Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/local-acceptance-r23-01/service",
+  "cwd": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5",
+  "priorSessionSha256": "80f834906a5b066db034008bdbe2eb243dfbbc1d21a5bebb68ece1908e90d2e5",
+  "note": "macOS Python.app actual executable differs from launch symlink; tail args and owned cwd matched at preparation"
+}

@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "mechanism": "one-off contract-driven validation; canonical checker unavailable, not invoked",
+  "rulePath": "/Users/osszhaoke/Downloads/000-PTDSv0.3-StarTorchv2 - astra/docs/reference/AI_REPORTING_R02.source.txt",
+  "ruleSha256": "7e5f073b2a21ba9d2ddcde775eacc8a69a4347e2b72de09c6a2fa7a09674137b",
+  "bodyFile": "evidence/r25-repair01/final-reply.md",
+  "nonWhitespaceUnicodeCharacters": 274
+}

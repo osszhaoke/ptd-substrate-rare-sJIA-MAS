@@ -1,0 +1,33 @@
+{
+  "identity": "preparation errors retained separately from product defects",
+  "items": [
+    {
+      "id": "baseline-cli-01",
+      "error": "leading-minus fixture parsed as Node option",
+      "originalLogs": [
+        "baseline-ambiguous-minus.log"
+      ],
+      "repair": "pass -- before fixture in attempt02",
+      "businessEvidence": "baseline02 logs and baseline.json"
+    },
+    {
+      "id": "implement-path-01",
+      "error": "script creation used root-relative evidence path with isolated candidate cwd; no such file, then module/script not found",
+      "originalOutput": "prior tool transcript; no log file was created",
+      "productMutation": false,
+      "repair": "create and run root evidence script with explicit root workdir; implement.py then succeeded"
+    },
+    {
+      "id": "progress-read-01",
+      "error": "read report-rows-wire.log before full runner reached that check; file not yet created",
+      "productMutation": false,
+      "repair": "read only after creation; no test result inferred"
+    },
+    {
+      "id": "environment-preflight-01",
+      "error": "first full61 window started without separate GUI preflight snapshot; during/late snapshot confirmed unlocked on-console",
+      "productDefect": false,
+      "repair": "retain first complete result, use new r31-verification02 full fresh profiles/window with before+after environment snapshots; do not join samples"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "atUTC": "2026-11-10T05:12:54.571511+00:00",
+  "url": "http://127.0.0.1:18791/health",
+  "status": 200,
+  "health": {
+    "ocrEnabled": true,
+    "version": "h5-sjia-mas-r19"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "identity": "exact local static adoption after A2R2 independent full61; no service restart, provider, DB or secrets",
+  "batch": "R31-A2",
+  "staticPatch": "r31-navigation01",
+  "staticVersion": "f2f3393ff7cd92f7",
+  "binding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "boundInputs": 270,
+  "checks": 61,
+  "verification": "evidence/r31-verification03/result.json",
+  "previousAdoption": "evidence/r31-adoption01/adoption-result.json",
+  "a2ReportSha256": "1614a8a245ddc1139a71d545519ea62a416975a06545ecc247831956f3ca1a0f",
+  "a2r1ReportSha256": "80c2f092f8a37382263758795ba4c536cfb3f87c5d1277894e53a6efe5571e46",
+  "a2r2ReportSha256": "b6360cc9e58396032908b839a68241cc5d5d8a11922c60fff11726c3170d6d9f",
+  "a2r2IndependentFull61": true,
+  "a2r2NodeFirstAttempt": "133_PASS_1_NEAR_THRESHOLD_FAIL",
+  "a2r2NodeCleanRerun": "134_PASS",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "4cb9354810cb9c6cac7d349d330c612659802e28f347e53d4cc0857f85c95da1",
+      "after": "250fd0500c4a13e3c01920dce956717f0bc0fecc433ba9f8d45b1f5a0dc11fa4"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "2fd9404950293eab6d1eda7a9aeae049bee33b21a5996d40c796472888a1fb42",
+      "after": "ce8cfc992755ad3b0879218f8249932e70f7c2a0e437c784d4444cfc50202e3b"
+    },
+    {
+      "path": "tests/browser.css.js",
+      "before": "4695286995c8fffe70e42f04e5270307abcc5f04fefd1cce146165b33318785c",
+      "after": "1945cba5d0aff52b182d7fea8ba41293ba1bb1b14d98bc6078eecd0f22f0f8cc"
+    },
+    {
+      "path": "tests/browser.mobile.js",
+      "before": "a56fd7d154472c3a228df6d215d74ba1d1924e6cdb48371a6a5203818874321d",
+      "after": "62cf36eee9c8fb416cb78b5d09cf55138fe167df1e379f108d630ae1355d996c"
+    },
+    {
+      "path": "tests/browser.navigation.js",
+      "before": null,
+      "after": "3ab2532db9412f1a69fa2aa037ca679a8e02111fa81a36ebe8ac7ff0f5090571"
+    },
+    {
+      "path": "tests/fixtures/r31-navigation-parity.json",
+      "before": null,
+      "after": "42e784275dd7d144a6d09954021e1a490d27112e9f8f04da1816c5db603c728a"
+    },
+    {
+      "path": "tests/template_parity.test.mjs",
+      "before": "df7dfee00d098f708771afd6eb9067f05683122fda43b3a4982a7f77d4fad9e9",
+      "after": "aca2cc3fba6db7904a4a263eb5bcf6e563cf4bfa675c27f1f98c64b3155867d4"
+    },
+    {
+      "path": "tests/test_home_resources_runner.py",
+      "before": "5c0f4e368d7a90dab97b87f3bee76ae45ecd562172b2254da9ec39ad52bea2d1",
+      "after": "2ed0ca63076e4b2e046003a7e47d27aade5d697da0fecdfaa4b9626e1ca66fd9"
+    },
+    {
+      "path": "tests/test_navigation_runner.py",
+      "before": null,
+      "after": "d12712bebf78a1507c4af4074bd448c53067e72d8a42a745c1549cfe7b3c8e85"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "f3051642e3538e219e148ece4c5f8fa848cefe721732013b4478a01fe8c60457",
+      "after": "3e0b532e664c735d3ae385b022ea686056e6f537c5dbe6920f1cb5e6ebef6c6a"
+    },
+    {
+      "path": "tools/verify_debt.py",
+      "before": "d6684a3df312ba2d817bc8f7f51853a791fca7e2dcf8fc23879e3e0c6fabef13",
+      "after": "bb226e00ba059381b68563806bf2c81160e0b6e421d041c0d02f4be5bb689878"
+    },
+    {
+      "path": "web/features/settings.js",
+      "before": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+      "after": "580867a275b3e1103de9e5a008b8710a606f1d07e7c70ae105412ac031e1d182"
+    },
+    {
+      "path": "web/index.html",
+      "before": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d",
+      "after": "c3a72383baeb46d5ecc8e97ddcc9641f69b8a3bc127bb909fe2146bb9c4a72e6"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76",
+      "after": "24a86352cc1833ca7baeb8535a128d5526942d2c8d9316eba55aeb50e6a839b1"
+    }
+  ],
+  "oldWebAt": "runtime/r31-a2-web-swap02",
+  "otherBeforeBytes": "runtime/r31-a2-source-before02",
+  "serviceRestarts": 0,
+  "newProviderCallsDuringAdoption": 0,
+  "listenerPID": 7138,
+  "deadlineUnchanged": "2026-11-12T15:59:00+00:00",
+  "publicAssetCountPerOrigin": 94,
+  "oldA1Binding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
+  "oldA1StaticVersion": "87fef183f091b968",
+  "candidateProofAuthor": "evidence/r31-navigation-governance-verification01/result.json",
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "rollback": "atomic web exchange plus exact non-web restoration/deletion; baseline asserted before and after",
+  "adopted": true
+}

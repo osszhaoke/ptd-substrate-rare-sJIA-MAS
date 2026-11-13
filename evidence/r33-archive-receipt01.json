@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "archive": "r33-ocr-state01.zip",
+  "sha256": "3dbffaaa1d183ce1184454ddc70332a825f49c3305aa62dd1bb2a2a864a30d78",
+  "bytes": 99432081,
+  "members": 2907,
+  "everyMemberHashSizeModeReadback": true,
+  "excludedPrivateRuntime": true,
+  "sealSha256": "695694425037c6dcabd7d841830f94d18db53e57cf30f916ae2abbd3175ab115"
+}

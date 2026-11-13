@@ -1,0 +1,38 @@
+probe-compile
+node
+python
+{"case": "core", "pid": 89382, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ui", "pid": 89387, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "file", "pid": 89401, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr", "pid": 89406, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "state", "pid": 89412, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "state-ui", "pid": 89417, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "experience", "pid": 89435, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "compat", "pid": 89453, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "workflow", "pid": 89459, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "backup-stream", "pid": 89475, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "consult-draft", "pid": 89497, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "backup-task", "pid": 89515, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "state-batch", "pid": 89530, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "store-notifications", "pid": 89537, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "store-lifecycle", "pid": 89542, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "draft-save-races", "pid": 89547, "ok": true, "error": null, "target": null, "p95Ms": null}
+startup-wire
+ocr-review-wire
+ocr-tables-wire
+ocr-wire
+ocr-split-wire
+review-mutations
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-fallback-candidate01/tools/verify_debt.py", line 93, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-fallback-candidate01/tools/verify_debt.py", line 54, in main
+    command(tool,[sys.executable,'-B','-m',module,'--output',str(out/tool)])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-fallback-candidate01/tools/verify_debt.py", line 42, in command
+    if p.returncode:raise RuntimeError('CHECK_FAILED '+name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CHECK_FAILED review-mutations

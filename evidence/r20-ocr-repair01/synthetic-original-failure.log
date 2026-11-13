@@ -1,0 +1,83 @@
+✖ two bilingual headed tables: five supported fields, literal values and original evidence (8.887375ms)
+✔ unknown units, missing result/geometry, mismatching bilingual names and duplicate result cells are rejected (8.104208ms)
+✔ reference numbers cannot fill missing result or unit, and page boundaries never join (4.069042ms)
+✔ no geometry does not invent parallel table column order (1.317083ms)
+✖ tenfold table fragments remain bounded at 100 candidates within 1000ms (49.395625ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 3
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 122.678167
+
+✖ failing tests:
+
+test at tests/ocr_tables.test.mjs:4:1
+✖ two bilingual headed tables: five supported fields, literal values and original evidence (8.887375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   [
+  -     'wbc',
+  -     '8.20',
+  -     '10^9/L'
+  -   ],
+  -   [
+  -     'plt',
+  -     '287',
+  -     '10^9/L'
+  -   ],
+  -   [
+  -     'crp',
+  -     '4.2',
+  -     'mg/L'
+  -   ],
+  -   [
+  -     'anc',
+  -     '5.00',
+  -     '10^9/L'
+  -   ],
+  -   [
+  -     'hb',
+  -     '119',
+  -     'g/L'
+  -   ]
+  - ]
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/tests/ocr_tables.test.mjs:5:59)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ [ 'wbc', '8.20', '10^9/L' ], [ 'plt', '287', '10^9/L' ], [ 'crp', '4.2', 'mg/L' ], [ 'anc', '5.00', '10^9/L' ], [ 'hb', '119', 'g/L' ] ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ocr_tables.test.mjs:18:1
+✖ tenfold table fragments remain bounded at 100 candidates within 1000ms (49.395625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 100
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/tests/ocr_tables.test.mjs:19:334)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 100,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

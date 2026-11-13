@@ -1,0 +1,13 @@
+{
+  "capture" : {
+    "injected" : true,
+    "localText" : "local text must remain available",
+    "persistedText" : "newer text from competing page",
+    "result" : false,
+    "status" : "conflict",
+    "unsaved" : true,
+    "writes" : 1
+  },
+  "identity" : "author actual IDB draft CAS and notification race; isolated fictional database",
+  "ok" : true
+}

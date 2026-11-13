@@ -1,0 +1,21 @@
+✔ user-reported 30-line synthetic OCR replay yields six exact reviewable candidates and preserves all source fragments (8.127208ms)
+✔ spatial rows use same page/vertical alignment and x order, irrespective of provider array order (1.759292ms)
+✔ unknown/missing units, missing names, wrong column order and lack of table context remain manual (2.617125ms)
+✔ reference values never substitute for results; an invalid row cannot shift later row alignment (1.096375ms)
+✔ ambiguous spatial values, overlapping cells, different pages, and partially missing geometry are not joined (3.500833ms)
+✔ single-line duplicates and mixed text keep prior behavior; joined fields do not duplicate single-line rows (1.649584ms)
+✔ tenfold 2000-to-20000 fragment scale remains capped at 100 candidates and under 1000ms (66.716125ms)
+✔ two bilingual headed tables: five supported fields, literal values and original evidence (15.195583ms)
+✔ unknown units, missing result/geometry, mismatching bilingual names and duplicate result cells are rejected (13.021417ms)
+✔ reference numbers cannot fill missing result or unit, and page boundaries never join (6.097833ms)
+✔ no geometry does not invent parallel table column order (2.705667ms)
+✔ tenfold table fragments remain bounded at 100 candidates within 1000ms (97.645041ms)
+✔ missing left header cannot borrow columns or values from the neighboring table (4.578459ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 193.935041

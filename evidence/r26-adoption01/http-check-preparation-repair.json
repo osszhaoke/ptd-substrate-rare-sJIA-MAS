@@ -1,0 +1,7 @@
+{
+  "attempt01": "HTTP404 on two rule JSON delivery assets: not in generated SW shell; static handler intentionally serves compiled rule JS only",
+  "repair": "match pre-existing build.prepare_shell selection, exclude .json delivery assets; no product/service change or widened server media policy",
+  "initialScript": "check_local_http-attempt01.py",
+  "priorMetadataNarrative": "resource check statement finalized only after repaired check actually passes; first failure retained",
+  "notPassedAttempt01": true
+}

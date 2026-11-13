@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "binding": "3b1dd760cdcb840c526fb903984d98d8e2a8710a2f83b25e8f565bb6258e56b9",
+  "boundInputs": 257,
+  "checks": 61,
+  "nodeTests": 127,
+  "pythonTests": 54,
+  "reportWindows": 44,
+  "reportPositiveWindows": 34,
+  "reportExpectedFailures": 10,
+  "historical": {
+    "write": {
+      "eventId": "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+      "exactOldBytes": true,
+      "inspectionReadOnly": true,
+      "noAuthorityReplay": true,
+      "ok": true,
+      "originalEventReceiptUnchanged": true,
+      "policies": {
+        "cbc-report/r27-exact-source/1": 1
+      },
+      "roundTrip": true,
+      "rows": 28
+    },
+    "read": {
+      "eventId": "8af7658e-3e2b-4ed7-95b0-2d6bfe2ac3ba",
+      "newProcessRead": true,
+      "ok": true,
+      "rows": 28
+    },
+    "pids": [
+      94224,
+      94229
+    ],
+    "negative": {
+      "negativeControls": {
+        "cipher": "BACKUP_PASSWORD_OR_CORRUPTION",
+        "duplicate": "REPORT_ORIGIN_MISMATCH",
+        "line": "SOURCE_LINE_MISSING",
+        "origin": "REPORT_ORIGIN_MISMATCH",
+        "receipt": "BACKUP_RECEIPT",
+        "source": "BACKUP_SOURCE_HASH"
+      },
+      "ok": true,
+      "paidCalls": 0,
+      "records": 0
+    },
+    "compatRemovalKilled": "HISTORICAL_BACKUP_REJECTED REPORT_ORIGIN_MISMATCH",
+    "sameUnmutatedPositiveControl": "history-write"
+  },
+  "delta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "6f23ac89965320e017b36038cad7b4af5ee107704758cb6385342db2dcdb2b48",
+      "after": "e934be4a4714a1ad2878c3b6aba45d038f7ad533d9ca27799bc9bd1d5505df8f"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "c5efce26effb18abede479c460da8b9bcb80cc42cbdf70661714bf6f82f7d8f9",
+      "after": "b462de749d33e0c8d250fcb3f270c06103c252b23d06161ffd57f870325190c1"
+    },
+    {
+      "path": "tests/browser.report-rows.js",
+      "before": "c0be94797c806dec093ef28a255f7649f567d596588e1bb99fbb264eacb73a79",
+      "after": "46ceeae1e8a7ce461d90e7d6677a8ce0aceaa259d95b333e52715574b2e134db"
+    },
+    {
+      "path": "tests/fixtures/r27-footer-backup.ptds",
+      "before": null,
+      "after": "8130233a30cc090d05655aed74445ee0bb7c6e66b9ac380d2b36ea04708661e2"
+    },
+    {
+      "path": "tests/report_contract.test.mjs",
+      "before": "f918bad59a1685ddf012f512279839d73ba792b96c8aa825b2783de1fcab77a2",
+      "after": "f51e0c873cea9fe824905dc6a2bf5c8496f9e845e516f4f57e716f40645179f7"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": "98cb2de2282c494a1dd48428e7cb1d0f6dcc0007e85dfd3438b19acd079495f0",
+      "after": "f61f8cd5a9aafbfcce4634cca356f22385adcb97e7b66d48b7fedd9bff5729f1"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "9e754ebc952bbc4586c437295f08c91c8f0114ccc857d946a6a5a849fb1058c9",
+      "after": "9845bcc4122d08501b4cabd494adda761a52d5fedfff8fbc0d6957d40ed809d9"
+    },
+    {
+      "path": "web/app/startup_plan.js",
+      "before": "85a0f7e49b134af0dde8eb45b72428a95e352d71e324ebb232ae68bf601c9862",
+      "after": "98b63cae986517e569b85a0f522e5e6f3a795a83d9fedff36245058ba311d8a9"
+    },
+    {
+      "path": "web/compat/r27/LOCK.json",
+      "before": null,
+      "after": "420b3d43eed961cd89d246179b84fdceb6b412259f3c71061d0e082b462d8229"
+    },
+    {
+      "path": "web/compat/r27/web/domain/model.js",
+      "before": null,
+      "after": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403"
+    },
+    {
+      "path": "web/compat/r27/web/domain/ocr_review.js",
+      "before": null,
+      "after": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a"
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/contract.js",
+      "before": null,
+      "after": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403"
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/fields.js",
+      "before": null,
+      "after": "d217772692b9aab33853a8c70dad18b00f2597c1681e584163b79d84bdcfd42b"
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/layout.js",
+      "before": null,
+      "after": "13669148eadecf058d051026a2053510ef2c2012cf277e1959ee90cfa27dce50"
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/rows.js",
+      "before": null,
+      "after": "135eb177b1f67f7eaaf2657577a5f3537567de09c900df17e9629a32ab0f8bce"
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/table_fields.js",
+      "before": null,
+      "after": "4bde553509ce1da108777cd97c32f0c3ccd3b453762dcdaf6f9c125522000ef2"
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/tables.js",
+      "before": null,
+      "after": "a5323963641f5521b12df3bfd19f21aef141e20f5ed71843d5e6d9f842e6104f"
+    },
+    {
+      "path": "web/compat/r27/web/domain/state/candidates.js",
+      "before": null,
+      "after": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97"
+    },
+    {
+      "path": "web/compat/r27/web/domain/state/catalog.js",
+      "before": null,
+      "after": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c"
+    },
+    {
+      "path": "web/compat/r27/web/domain/state/ocr_aliases.js",
+      "before": null,
+      "after": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e"
+    },
+    {
+      "path": "web/compat/r27/web/domain/state/ocr_fragments.js",
+      "before": null,
+      "after": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514"
+    },
+    {
+      "path": "web/compat/r27/web/domain/state/ocr_tables.js",
+      "before": null,
+      "after": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8"
+    },
+    {
+      "path": "web/compat/r27/web/rules/definitions.js",
+      "before": null,
+      "after": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09"
+    },
+    {
+      "path": "web/domain/report/restore_binding.js",
+      "before": null,
+      "after": "5953f8b57288e5f0e5ceff82276159b843143c0450914b7caa3223741b12af37"
+    },
+    {
+      "path": "web/storage/backup.js",
+      "before": "9aff59c3fc933d2ad874d99f51015c44635519f8d5c440155e95bd64f2fa7c2f",
+      "after": "c954ed9e02d52bf9889729089727045c1d7621e92202e2013a09348d4711ce70"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "1646d5f2a4708ed860fb9c4c9ea0bb85c862a4dba69e1c8959560859fe18a661",
+      "after": "b1beee26578e5f0e36caa366aa03f87fd91736b8e08bdd00cad7e701552d1796"
+    }
+  ],
+  "added": 17,
+  "removed": 0,
+  "unchangedInputs": 231,
+  "expectedFailuresOld": 34,
+  "expectedFailuresCurrent": 35,
+  "realCalls": 0,
+  "independent": "PENDING_R28_A01_ONLY",
+  "AIh": "UNMEASURED"
+}

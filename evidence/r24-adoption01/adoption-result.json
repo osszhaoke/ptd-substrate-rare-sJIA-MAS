@@ -1,0 +1,192 @@
+{
+  "ok": true,
+  "identity": "author exact local static adoption after complete isolated fictional proof; not independent/phone/clinical acceptance",
+  "batch": "R24",
+  "staticPatch": "r19-report01",
+  "staticVersion": "fd6d5a6fda3b8ed0",
+  "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+  "boundInputs": 236,
+  "checks": 61,
+  "verification": "evidence/r24-verification01/result.json",
+  "previousAdoption": "evidence/r23-adoption01/adoption-result.json",
+  "previousAdoptionSha256": "caa9101c9bf317627b50d9be0287539fa3dcadec6d76eb9666d528c803cf39af",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "75a548d637c4ae78a0ff0da22acf24e4d341dd00827a05c52d7df07d43b3b332",
+      "after": "a8cd621c0aa23ce87191c28c4a51e4dcfffaed90110eef1165d95f8f95f124f0"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "cbcae5e5a2c874b5991480967510ebe1ffd8783a06133468cf6ac5fc93c949d6",
+      "after": "7738ff90592a5291e3c24a81fc0fbdb2730a6047153cd433fce1a39398d04002"
+    },
+    {
+      "path": "package.json",
+      "before": "83fac915e539e662bda86ec67894cb36872222152925029a4bf2f48cad8a3575",
+      "after": "770497fdc1337850a99c8c1691adcfa35a80808cee1d917113b15d30a1a29b5b"
+    },
+    {
+      "path": "tests/browser.ocr-review.js",
+      "before": "2cee3a18fc65b19dc92cc529aff676b2e1d184afdd4fe3ba0a946d052086a900",
+      "after": "eca88c41b9490135360c98906543e8a39b5e818154c470087aa0a48ae57fcfd3"
+    },
+    {
+      "path": "tests/browser.ocr-tables.js",
+      "before": "9f890fea56fc0d9ed768a7ef1ddfd5608e42e1c66cb26c8e4e78e93a6dd771c3",
+      "after": "0ef6a3162e517be4f956b54ca34dcb9817b715ef9ca6f619288339a6496cf946"
+    },
+    {
+      "path": "tests/browser.public-24h.js",
+      "before": "902ee9e0966adfd41bf45139459a8d7eb15a5a756fcb228ac7f707970dab0d0b",
+      "after": "518404f719fc101e885377950cc16d820b870ff11f712859b046c4ede8ff5786"
+    },
+    {
+      "path": "tests/browser.report-rows.js",
+      "before": null,
+      "after": "f7c07435cb975dab6323ff4fb1822834da2c1821650b689ebb5bdf8adf933ef4"
+    },
+    {
+      "path": "tests/browser.tencent-split.js",
+      "before": "7e4ccae95d2cfbfddf5b2a1db1176cd4ce9e8b1f5e42e49d8f0d5f0478592f1c",
+      "after": "ad2b7e8864cee9980ecdbb9be462ae5a9b08d8cce8afa679eb6ede6070531295"
+    },
+    {
+      "path": "tests/fixtures/cbc_report.mjs",
+      "before": null,
+      "after": "ebd14a4fbc7ab2cde38f86af2e3cd8f7e4bb8c8eecf3bb81b350ba2c8bb40f80"
+    },
+    {
+      "path": "tests/report_contract.test.mjs",
+      "before": null,
+      "after": "025162999ccea819d9e62600a3cd4c4d9eba389e78eb7bd5e0c7aa8d2ae70bdf"
+    },
+    {
+      "path": "tests/report_rows.test.mjs",
+      "before": null,
+      "after": "a4638600ddeeab1ff17bb4cbe9d06cf9855b9fde35fd45f1edbb819092bc84c4"
+    },
+    {
+      "path": "tests/test_ocr_review_runner.py",
+      "before": "3ed5bd20a015fcace2c40fb80815da8f9c982d0502fed73e53f44ba535debd5f",
+      "after": "635916f8d38395107c66ffa0bfdcd47ee9d964ea8bfacc3a27544fdbd4eb531f"
+    },
+    {
+      "path": "tests/test_ocr_tables_runner.py",
+      "before": "ba7c44f63929366760b7c2cee8508014207cd8ff53b7a251ddd8fc71d77be1c9",
+      "after": "2f55c5dea2fe9cdd664851e236516a9b10f3a9767308f797a7f7bc862d5dd411"
+    },
+    {
+      "path": "tests/test_report_rows_runner.py",
+      "before": null,
+      "after": "678ec302f0ff9ebf7e7e3732e21626a3e729456c200f04528e58a16d799280f1"
+    },
+    {
+      "path": "tools/run_browser.py",
+      "before": "0532e08419616b72f38caea7500b0a8e7c9b93ef9e1a281a21b840d7290de323",
+      "after": "83c385bcfc621d9126aaa9dea3c6fdbf4c705c2199594652f0693798aa796b7e"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "b5c7ee7da4d7ec0d12ae21dd5a19674736a89b6841f85c5d5cce635d338b231c",
+      "after": "b145c50ce28c1b975c81c9bcb48d7ae4b98534cd6efeafc108f573d23e0d170b"
+    },
+    {
+      "path": "tools/verify_debt.py",
+      "before": "de25709299dc7f2686f518a7c8b08a84f900c80477e2dee0c126ea6499b38fac",
+      "after": "d6684a3df312ba2d817bc8f7f51853a791fca7e2dcf8fc23879e3e0c6fabef13"
+    },
+    {
+      "path": "web/app/editor_flow.js",
+      "before": "43044690dd7fbd8cc1e4ab417398aed8304816f5ba87efede8523bb9e5a32773",
+      "after": "41b45206702efe7f8da1404da1cd99bf48cf40af4cffd97ab97e66b27ca5651e"
+    },
+    {
+      "path": "web/app/main.js",
+      "before": "e459e4b1e036632a02d31e9fa921d19ed2ff634101140e78d7b47db6d9ef33c7",
+      "after": "8505af35f5a1128b2a2ee79070dc07a6ae9a37f366e2521bc2633cf76b05c0b2"
+    },
+    {
+      "path": "web/app/ocr_review.js",
+      "before": "f5c35037c1c57b49bb865e3006654d6949509398c68d0ca4331669d6466c8fbd",
+      "after": "8570add1382a57bee5f70213477fdd0abfadf35e41c74e710860bb36a5195ee8"
+    },
+    {
+      "path": "web/app/report_editor.js",
+      "before": null,
+      "after": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48"
+    },
+    {
+      "path": "web/app/startup_plan.js",
+      "before": "a714d8e680bcc289993229a1ecc18132e842fcf22fa960a53d166c66e915ed80",
+      "after": "5e6c37017133aa8c1ef58bf80e18d199fc9ce189fd7dd5a983757c762b303829"
+    },
+    {
+      "path": "web/domain/model.js",
+      "before": "b2cd8d9a5ac6192960270a8fa3376688241b3b4895b581fd507efe1a36d66c9f",
+      "after": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403"
+    },
+    {
+      "path": "web/domain/report/contract.js",
+      "before": null,
+      "after": "5ccf9952e88fda78b42ed88b865682535784c93b4df5d6c894e1ea12c7f31403"
+    },
+    {
+      "path": "web/domain/report/fields.js",
+      "before": null,
+      "after": "027820da8c13e6a1f3e8dca4ae976588173b2ca8e4daf48e97414695c059a4c9"
+    },
+    {
+      "path": "web/domain/report/rows.js",
+      "before": null,
+      "after": "f695ed9379460e211968934587f0501bc05030f50fb09681da42591ff96392fe"
+    },
+    {
+      "path": "web/domain/service.js",
+      "before": "85379ce938709e2c05f6045c616861b7540d1b15d41de6091871ef0c83be3cda",
+      "after": "3e42a811de5418609e5f20ce098b3d6d1c4e0e6ea80119a0704f59182e09dca2"
+    },
+    {
+      "path": "web/domain/state/ocr_tables.js",
+      "before": "43858e5245e282db27cda71f3a910387a0385d11ecbce9ccfb3c834549935146",
+      "after": "3c0eeea41aea4d5d7112833cd92ccf452b538a89ff4ce7c90d97ec5684e9a8d8"
+    },
+    {
+      "path": "web/features/editor.js",
+      "before": "462b1ee2635434ba18919c654ba34a91b4421d00646dd669bbed20a6daefc064",
+      "after": "9fe65d8f85aa9cfe3eba2c7c25b438b0c89fa6ca7609cf957660d2b0109c1faf"
+    },
+    {
+      "path": "web/features/ocr_review.css",
+      "before": "f1e092a1bda17a5f56bef05a375ee3697862c1dceb676a61551b2c00c64efa6f",
+      "after": "d645f9bbf24a623dbaa96a361db3b3d357886d23afea26a138d7295045833619"
+    },
+    {
+      "path": "web/features/records.js",
+      "before": "d557508b2c9c327543b85ead93866eb6265b8817ef0aa42d7fbca7062eba8cd0",
+      "after": "4bd3374444f842bf38aab9a0a805594011acf1b4af130817ff928ac6f75a6e14"
+    },
+    {
+      "path": "web/features/report_rows.js",
+      "before": null,
+      "after": "e7312d74e8e17a98b48fb409aade1da61d16d50de5b05b42f27a938b42a67be6"
+    },
+    {
+      "path": "web/storage/backup.js",
+      "before": "fa8a75120bf6050941c722e35722b7afe2b5d5b86b2095e80eef26105729cf06",
+      "after": "9aff59c3fc933d2ad874d99f51015c44635519f8d5c440155e95bd64f2fa7c2f"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "b432bc780e6125e9c039ffeb1e75bfc35c5aed5815552343d51c5fead5072d44",
+      "after": "1c9bb0b223528e7008cf9e07a7edab39ebed55cec3d8306a9285e49347efe974"
+    }
+  ],
+  "oldWebAt": "runtime/r24-web-swap01",
+  "otherBeforeBytes": "runtime/r24-source-before01",
+  "serviceRestarts": 0,
+  "newProviderCalls": 0,
+  "realDatabaseCredentialsOrBudgetReadOrModified": false,
+  "oldZIPUnchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "rollback": "atomic web exchange back plus exact non-web restoration/deletion; baseline asserted before and after"
+}

@@ -1,0 +1,5 @@
+{
+  "priorReceipt": "evidence/r22-adoption01/adoption-result.json",
+  "priorReceiptSha256": "92aead2e03443c3688e353e446dd4d5277d05127f89a379e2ccba8d1b4f56852",
+  "reason": "missing-stylesheet actual public replay failure; bounded stylesheet readiness and same-order repair"
+}

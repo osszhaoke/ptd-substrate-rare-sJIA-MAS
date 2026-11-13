@@ -1,0 +1,35 @@
+{
+  "cases" : [
+    {
+      "allStoresRolledBack" : true,
+      "error" : {
+        "message" : "IDBTransaction will abort due to uncaught exception in an event handler",
+        "name" : "AbortError"
+      },
+      "location" : 1,
+      "queuedWritesBeforeFailure" : 0
+    },
+    {
+      "allStoresRolledBack" : true,
+      "error" : {
+        "message" : "IDBTransaction will abort due to uncaught exception in an event handler",
+        "name" : "AbortError"
+      },
+      "location" : 13,
+      "queuedWritesBeforeFailure" : 12
+    },
+    {
+      "allStoresRolledBack" : true,
+      "error" : {
+        "message" : "IDBTransaction will abort due to uncaught exception in an event handler",
+        "name" : "AbortError"
+      },
+      "location" : 25,
+      "queuedWritesBeforeFailure" : 24
+    }
+  ],
+  "identity" : "Mac WebKit injected faults only, not physical low storage",
+  "ok" : true,
+  "ownedCleanup" : true,
+  "successfulRestoreAfterFaults" : true
+}

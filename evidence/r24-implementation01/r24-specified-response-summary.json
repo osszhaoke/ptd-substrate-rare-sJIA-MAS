@@ -1,0 +1,21 @@
+{
+  "scope": "authorized specified prior response, local read-only parser replay; no image upload, formal save or new provider call",
+  "responseSha256": "d134157b8d2e4c6ffe6ab119c50f709575af7f4988c12948dfddf69524397966",
+  "sourceFragments": 178,
+  "reportRows": 24,
+  "supportedMetrics": [
+    "wbc",
+    "plt",
+    "anc",
+    "crp",
+    "hb"
+  ],
+  "coverage": {
+    "items": 24,
+    "unpairedFragments": 59,
+    "capped": false
+  },
+  "sourceReferencesValid": true,
+  "providerCalls": 0,
+  "formalSaves": 0
+}

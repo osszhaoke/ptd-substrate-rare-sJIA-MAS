@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "case": "phone-journal",
+  "source": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r24-candidate01",
+  "bundle": {
+    "site": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r24-candidate01/evidence/r24-verification01/phone-journal/bundle/site",
+    "treeSha256": "3c29b7ae79ea8176fcf4ed75062d05fa2f734906cd0941ced6194f245520bdad",
+    "zipSha256": "5a596f635eac359631ce9c22e244deb86360344c66d7ef17bc4833e19cd57603",
+    "files": 29,
+    "servicesStarted": false,
+    "cloudCalls": 0
+  },
+  "browser": {
+    "failureEvidenceVisible": true,
+    "identity": "Mac fictional localStorage quota injection, not physical exhaustion",
+    "inMemoryFailureDownload": true,
+    "ok": true,
+    "ownedDatabasesOpened": 0
+  },
+  "physicalPhone": "NOT_TESTED"
+}

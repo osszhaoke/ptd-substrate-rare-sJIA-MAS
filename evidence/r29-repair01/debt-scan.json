@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "knownReproducibleUnrepairedLocalCodeItems": 0,
+  "independentFindingsAwaitingClosure": 1,
+  "frozenClosureBytes": 56526,
+  "frozenModuleCount": 14,
+  "newGlobalLocksStoresNetworksTimersDependencies": 0,
+  "unchanged": [
+    "gateway",
+    "current parser and stage/save",
+    "medical rules",
+    "Store",
+    "frontend main",
+    "package.json"
+  ],
+  "largestWebJSByLines": [
+    {
+      "path": "web/domain/report/tables.js",
+      "lines": 151,
+      "bytes": 12147
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/tables.js",
+      "lines": 148,
+      "bytes": 11815
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 133,
+      "bytes": 15525
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 130,
+      "bytes": 11350
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 97,
+      "bytes": 7771
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    }
+  ],
+  "retained": [
+    "independent R28-A01 closure",
+    "phone memory/real low space/BFCache",
+    "human and clinical",
+    "in-memory gateway loading identity",
+    "historical performance unique cause",
+    "no all-historical-version compatibility or OCR accuracy claim"
+  ],
+  "newPerformanceObservation": {
+    "status": "OPEN",
+    "evidence": "evidence/r29-repair01/history-scale03.json",
+    "experimentalAggregate1000MsPassed": false,
+    "originalIndividual1000MsPassed": true,
+    "currentMs": 808.0237079999999,
+    "historicalMs": 746.2275419999999,
+    "helperMs": 1500.2595
+  }
+}

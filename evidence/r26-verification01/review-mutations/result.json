@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "controlPassed": true,
+  "mutantKilledByBehaviorAssertion": true,
+  "failure": "async edit enabled stale review",
+  "changedFiles": [
+    "app/main.js"
+  ],
+  "productionSourceModified": false,
+  "scope": "synthetic isolated runtime copies"
+}

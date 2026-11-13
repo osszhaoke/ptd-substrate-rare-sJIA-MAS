@@ -1,0 +1,11 @@
+{
+  "legacyDigest" : "4161a607384d530d08a676360238bc46b197e03402836841d11f3ce73c800e43",
+  "ok" : true,
+  "results" : [
+    "version1 IDB upgraded without rewriting event",
+    "legacy format1\/AAD\/digest accepted",
+    "unknown clinical flags not fabricated",
+    "old client version1 fail closed",
+    "format2 preserves v1 event bytes"
+  ]
+}

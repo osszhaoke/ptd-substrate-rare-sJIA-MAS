@@ -1,0 +1,166 @@
+:root {
+  color: #1a1c1c;
+  background: #e8e8e8;
+  --muted: #686868;
+  --green: #373737;
+  --line: #dedede;
+  --orange: #ae0011;
+}
+.pill {
+  border-color: #dadada;
+  color: #555;
+}
+.primary {
+  background: #202222;
+  border-color: #202222;
+}
+.primary:active {
+  background: #ae0011;
+  border-color: #ae0011;
+}
+.timeline {
+  border-color: #dedede;
+}
+.event:before {
+  background: #454545;
+  border-color: #f9f9f9;
+}
+.badge {
+  background: #eee;
+  color: #444;
+}
+nav button {
+  color: #eee;
+}
+nav button.active {
+  background: #444;
+}
+.source-ledger {
+  background: #f0f0f0;
+}
+input[type=checkbox] {
+  accent-color: #ae0011;
+}
+#notice {
+  background: #262828;
+}
+button:focus-visible {
+  outline-color: #ae0011;
+}
+a:focus-visible {
+  outline-color: #ae0011;
+}
+.review-source {
+  background: #fff;
+}
+header {
+  height: 64px;
+}
+#connection {
+  padding-bottom: 10px;
+}
+.home-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+.home-heading h1 {
+  margin: 0;
+}
+.section-label {
+  margin-top: 22px;
+}
+.section-label h2 {
+  margin: 0;
+}
+.metric-value {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin: 10px 0 8px;
+}
+.calendar-head {
+  margin: 22px 0 8px;
+}
+.calendar-head h2 {
+  margin: 0;
+}
+.event {
+  padding-bottom: 18px;
+}
+.event p {
+  margin: 10px 0;
+}
+.empty {
+  border-color: #d3d3d3;
+  padding: 26px 14px;
+}
+.shell {
+  background: #f9f9f9;
+}
+nav {
+  background: #1e2020;
+  border-color: #444;
+  box-shadow: 0 6px 24px #0002;
+  bottom: max(14px,env(safe-area-inset-bottom));
+}
+button:focus-visible {
+  outline: 2px solid #ae0011;
+  outline-offset: 3px;
+}
+input:focus-visible {
+  outline: 2px solid #ae0011;
+  outline-offset: 3px;
+}
+select:focus-visible {
+  outline: 2px solid #ae0011;
+  outline-offset: 3px;
+}
+textarea:focus-visible {
+  outline: 2px solid #ae0011;
+  outline-offset: 3px;
+}
+@media(max-width:360px) {
+  .shell {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+#connection {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+}
+.shell {
+  padding-top: 18px;
+}
+.home-heading {
+  margin: 12px 0 22px;
+}
+.day {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+}
+.day.selected {
+  background: #202222;
+  color: white;
+  border-color: #202222;
+}
+@media(max-width:480px) {
+  .metric-value {
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .shell {
+    padding-top: 12px;
+  }
+}

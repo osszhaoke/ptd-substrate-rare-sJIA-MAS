@@ -1,0 +1,38 @@
+{
+  "identity": "author current-feature/document review; no product or external application write",
+  "reviewTimeUTC": "2026-11-10T09:46:41.391854+00:00",
+  "productCommit": "7922c53",
+  "verificationBinding": "cf586470516688a24500f3579990744773cf074880d72f1ab04b0d7fa8c26301",
+  "primaryProposalSource": "user-pasted six-section body and 18 questions in this conversation",
+  "optionalPDF": {
+    "path": "/Users/osszhaoke/Downloads/sJIA 合并 MAS 动态预警平台｜Demo 用户测试方案 V1.0.pdf",
+    "exists": false,
+    "extraction": "PDF_READ_FAILED; supplied path absent; no content or hash available",
+    "limitedNameLookup": "Downloads top-level matching filenames only; no personal-directory recursive scan",
+    "limitations": "PDF-only tables/changes not verified"
+  },
+  "currentSourceFilesRead": {
+    "web/features/states.js": "f3838dfc91b04dbe54876e15110365c7d198fef4a1c85bcce371e6ebeaa2853e",
+    "web/features/consultation_page.js": "916fe768dbedca09985fa9bac148871927767333a4d7b07a51f84c68abcb1fa3",
+    "web/features/consultation.js": "b30a46314e4eb16856f99c1517bdafd5960aa5710f9ae786d37d4039c15ee89d",
+    "web/features/editor.js": "9fe65d8f85aa9cfe3eba2c7c25b438b0c89fa6ca7609cf957660d2b0109c1faf",
+    "web/features/settings.js": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+    "web/features/report_rows.js": "3a02808f7e2f480297a5a71087efd511a4f7c7380b038a1f99ea4bdea858d772",
+    "web/domain/state/select.js": "34592de86d4e691063a1e25d4a715231e15a2c2cc0fef93acf72461a954759b2",
+    "web/domain/model.js": "5302c5328f49be9be80853960e576a8e7bf9cb13a4e6717a7b94bcbd004d0403",
+    "deploy/PUBLIC_CONFIG.example.json": "1d4e6fe41c99dcd3e83a9ad72178d29697954c9c7a6bb17b24c63a96ccc8f27a"
+  },
+  "outputs": [
+    "docs/DEMO_TEST_REVIEW_R26.md",
+    "docs/DEMO_USER_TEST_V1_1_R26.md"
+  ],
+  "featuresNotImplementedInCurrentVersion": [
+    "stable-period baseline selection/calculation",
+    "prior flare trajectory alignment or velocity",
+    "arbitrary lab indicator trend charts",
+    "built-in AI chat",
+    "validated real clinical warning/diagnosis"
+  ],
+  "oldInputOrPDFModified": false,
+  "externalMessagesSent": false
+}

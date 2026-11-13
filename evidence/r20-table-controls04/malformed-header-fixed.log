@@ -1,0 +1,41 @@
+✔ user-reported 30-line synthetic OCR replay yields six exact reviewable candidates and preserves all source fragments (9.424542ms)
+✔ spatial rows use same page/vertical alignment and x order, irrespective of provider array order (3.019417ms)
+✔ unknown/missing units, missing names, wrong column order and lack of table context remain manual (2.727125ms)
+✔ reference values never substitute for results; an invalid row cannot shift later row alignment (1.408708ms)
+✔ ambiguous spatial values, overlapping cells, different pages, and partially missing geometry are not joined (0.778083ms)
+✔ single-line duplicates and mixed text keep prior behavior; joined fields do not duplicate single-line rows (0.825542ms)
+✔ tenfold 2000-to-20000 fragment scale remains capped at 100 candidates and under 1000ms (84.373375ms)
+✔ two bilingual headed tables: five supported fields, literal values and original evidence (16.521ms)
+✔ unknown units, missing result/geometry, mismatching bilingual names and duplicate result cells are rejected (10.204416ms)
+✔ reference numbers cannot fill missing result or unit, and page boundaries never join (6.625834ms)
+✔ no geometry does not invent parallel table column order (2.235916ms)
+✔ tenfold table fragments remain bounded at 100 candidates within 1000ms (129.055917ms)
+✖ missing left header cannot borrow columns or values from the neighboring table (1.747209ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 226.484333
+
+✖ failing tests:
+
+test at tests/ocr_tables.test.mjs:21:1
+✖ missing left header cannot borrow columns or values from the neighboring table (1.747209ms)
+  AssertionError [ERR_ASSERTION]: NEIGHBOR_TABLE_VALUE_SUBSTITUTED
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/tests/ocr_tables.test.mjs:24:9)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,25 @@
+✖ R27-A02: new stage/save reject incomplete OCR units across entries without invalidating historical literal schemas (55.931542ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 104.19625
+
+✖ failing tests:
+
+test at tests/report_contract.test.mjs:43:1
+✖ R27-A02: new stage/save reject incomplete OCR units across entries without invalidating historical literal schemas (55.931542ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection: legacy
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-service-mutant-e56c0ca2-7fa1-469e-b3c8-9c2641643553/tests/report_contract.test.mjs:50:4)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /REPORT_UNIT_INCOMPLETE/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

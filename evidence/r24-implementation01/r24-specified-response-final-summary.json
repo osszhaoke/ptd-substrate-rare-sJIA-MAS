@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "scope": "adopted exact source, authorized old-response local parser replay; not new provider recognition or formal save",
+  "binding": "5978214cd3646ef0bc6104041eaec38e8644f8c56b025ab5ed9c4566adaf32e5",
+  "responseSha256": "d134157b8d2e4c6ffe6ab119c50f709575af7f4988c12948dfddf69524397966",
+  "sourceFragments": 178,
+  "reportRows": 27,
+  "resultsReadyForHumanReview": 25,
+  "resultsRequiringHumanCompletion": 2,
+  "supportedMetricCodes": [
+    "wbc",
+    "plt",
+    "anc",
+    "crp",
+    "hb"
+  ],
+  "coverage": {
+    "items": 27,
+    "unpairedFragments": 49,
+    "pendingRows": 2,
+    "capped": false
+  },
+  "sourceReferencesValid": true,
+  "providerCalls": 0,
+  "formalSaves": 0
+}

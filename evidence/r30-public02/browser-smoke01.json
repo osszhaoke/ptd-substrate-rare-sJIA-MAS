@@ -1,0 +1,5 @@
+{
+  "error" : "WAIT ()=>$('#start')",
+  "ok" : false,
+  "stack" : "@https:\/\/cliff-joe-advertisers-dover.trycloudflare.com\/:4:112\n@https:\/\/cliff-joe-advertisers-dover.trycloudflare.com\/"
+}

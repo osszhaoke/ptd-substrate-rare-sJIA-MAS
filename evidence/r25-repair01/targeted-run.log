@@ -1,0 +1,16 @@
+{"case": "report-rows", "pid": 27602, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27608, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27613, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27627, "ok": false, "error": "REPORT_EMPTY_NAME_STAGED", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27644, "ok": false, "error": "REPORT_UNMAPPED_HIDDEN", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 27655, "ok": false, "error": "REPORT_RENAME_ORIGIN_OR_CHECK_LOST", "target": null, "p95Ms": null}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r25-candidate01/tests/test_report_rows_runner.py", line 59, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r25-candidate01/tests/test_report_rows_runner.py", line 55, in main
+    result=json.loads((out/(name+'.json')).read_text());assert result.get('ok')is False and result.get('error')==error,result;killed[name]=error
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'error': 'REPORT_RENAME_ORIGIN_OR_CHECK_LOST', 'ok': False, 'stack': 'ok@http://127.0.0.1:49483/:2:67\n@http://127.0.0.1:49483/:42:4'}

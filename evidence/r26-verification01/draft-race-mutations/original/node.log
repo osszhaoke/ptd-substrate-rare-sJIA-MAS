@@ -1,0 +1,126 @@
+✔ committed consultation survives a new owner; prompt is never a second stored authority (1.979917ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.160875ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.421958ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.172833ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.105042ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.157958ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.12675ms)
+✖ a failed active save cannot be retried by a debounce from an earlier edit (0.699542ms)
+✖ an external conflict survives a late successful save acknowledgement (0.201541ms)
+✖ an external conflict survives a late non-conflict write failure (0.361917ms)
+✖ a draft notification during initial load invalidates the captured older snapshot (0.14675ms)
+✖ continuous changes during reload are bounded and preserve the local conflicting text (0.231917ms)
+✖ a clinical notification during initial load cannot leave a generated card falsely current (0.125083ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 7
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.624041
+
+✖ failing tests:
+
+test at tests/consultation_draft.test.mjs:60:1
+✖ a failed active save cannot be retried by a debounce from an earlier edit (0.699542ms)
+  AssertionError [ERR_ASSERTION]: failed save automatically retried by pending debounce
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/runtime/r15-draft-mutant-7d717977-d0f0-4e8d-a101-47f1e5807450/tests/consultation_draft.test.mjs:68:34)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:73:1
+✖ an external conflict survives a late successful save acknowledgement (0.201541ms)
+  AssertionError [ERR_ASSERTION]: late save acknowledgement hid external conflict
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/runtime/r15-draft-mutant-7d717977-d0f0-4e8d-a101-47f1e5807450/tests/consultation_draft.test.mjs:80:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:85:1
+✖ an external conflict survives a late non-conflict write failure (0.361917ms)
+  AssertionError [ERR_ASSERTION]: late write error reopened a conflicted draft for retry
+  + actual - expected
+  
+  + 'error'
+  - 'conflict'
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/runtime/r15-draft-mutant-7d717977-d0f0-4e8d-a101-47f1e5807450/tests/consultation_draft.test.mjs:91:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'error',
+    expected: 'conflict',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:96:1
+✖ a draft notification during initial load invalidates the captured older snapshot (0.14675ms)
+  AssertionError [ERR_ASSERTION]: load published an older snapshot after a competing commit
+  + actual - expected
+  
+  + ''
+  - 'latest competing draft'
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/runtime/r15-draft-mutant-7d717977-d0f0-4e8d-a101-47f1e5807450/tests/consultation_draft.test.mjs:105:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: 'latest competing draft',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:110:1
+✖ continuous changes during reload are bounded and preserve the local conflicting text (0.231917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection: continuous reload ignored intervening changes
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/runtime/r15-draft-mutant-7d717977-d0f0-4e8d-a101-47f1e5807450/tests/consultation_draft.test.mjs:116:3)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /DRAFT_CHANGED_TRY_AGAIN/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:122:1
+✖ a clinical notification during initial load cannot leave a generated card falsely current (0.125083ms)
+  AssertionError [ERR_ASSERTION]: initial load hid an intervening clinical change
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r26-candidate01/runtime/r15-draft-mutant-7d717977-d0f0-4e8d-a101-47f1e5807450/tests/consultation_draft.test.mjs:129:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

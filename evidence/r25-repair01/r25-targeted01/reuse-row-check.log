@@ -1,0 +1,5 @@
+{
+  "error" : "REPORT_RENAME_ORIGIN_OR_CHECK_LOST",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:49483\/:2:67\n@http:\/\/127.0.0.1:49483\/:42:4"
+}

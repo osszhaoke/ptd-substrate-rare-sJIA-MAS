@@ -1,0 +1,7 @@
+{
+  "rawEvidence": "Original stdout logs include intentional whitespace from test diagnostics; bytes retained unchanged",
+  "sourceWhitespaceCheck": "git diff --cached --check excludes only raw .log evidence; product/code/documentation still checked",
+  "gitIdentity": "Repository has no configured author. Use explicit per-command Codex <codex@localhost>; do not edit global/repository identity or impersonate the user.",
+  "priorCommitAttempt": "No commit created; whitespace check and author discovery failures retained in session output",
+  "runtimeOrProductChanges": 0
+}

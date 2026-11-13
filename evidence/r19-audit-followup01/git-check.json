@@ -1,0 +1,6 @@
+{
+  "fullCachedDiffCheck": "reports whitespace in unmodified raw console logs only; exact output retained",
+  "sourceDocsAndGovernanceDiffCheck": "PASS using pathspec excluding evidence only",
+  "rawEvidenceBytes": "PRESERVED; no stripping, assertion or git-config change",
+  "outputSha256": "4e84e40fd770dc12ca5746996e91ea086799f5992a8164303af95ba825cbdabd"
+}

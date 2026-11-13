@@ -1,0 +1,30 @@
+{
+  "identity": "author supplemental isolated Node measurement, not phone/clinical/independent or universal performance",
+  "originalRequired61Unchanged": true,
+  "experimentalAggregateFailureRetained": true,
+  "explanation": "Original threshold applies to each reportRows parse; restore-only fallback deliberately performs two interpretations. New aggregate1000ms probe failed at20k and remains a performance observation; no acceptance threshold changed.",
+  "results": [
+    {
+      "fragments": 2000,
+      "rows": 28,
+      "currentMs": 103.856125,
+      "historicalMs": 94.52841699999999,
+      "helperMs": 168.109708,
+      "currentWithinOriginal1000": true,
+      "historicalWithinOriginal1000": true,
+      "helperUnderExperimentalAggregate1000": true,
+      "extraParseExactlyOne": true
+    },
+    {
+      "fragments": 20000,
+      "rows": 28,
+      "currentMs": 808.0237079999999,
+      "historicalMs": 746.2275419999999,
+      "helperMs": 1500.2595,
+      "currentWithinOriginal1000": true,
+      "historicalWithinOriginal1000": true,
+      "helperUnderExperimentalAggregate1000": false,
+      "extraParseExactlyOne": true
+    }
+  ]
+}

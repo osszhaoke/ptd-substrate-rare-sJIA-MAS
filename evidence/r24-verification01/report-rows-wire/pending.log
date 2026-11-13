@@ -1,0 +1,14 @@
+{
+  "backupRoundTrip" : true,
+  "eventId" : "d354242d-b827-4064-ad62-b7c89a970ea3",
+  "explicitSyntheticRowChecks" : true,
+  "explicitSyntheticSaveConfirmation" : true,
+  "forgedOriginRejected" : true,
+  "noAutomaticSave" : true,
+  "noUnknownFieldsInAiProjection" : true,
+  "ok" : true,
+  "pendingRowsManuallyCompleted" : 1,
+  "projectedMetrics" : 5,
+  "reportRows" : 27,
+  "unmappedRows" : 22
+}

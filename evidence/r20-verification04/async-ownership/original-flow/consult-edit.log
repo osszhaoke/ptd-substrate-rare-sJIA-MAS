@@ -1,0 +1,5 @@
+{
+  "error" : "GENERATION_OVERWROTE_NEW_MANUAL_EDIT",
+  "ok" : false,
+  "stack" : "ok@http:\/\/127.0.0.1:62552\/:4:50\n@http:\/\/127.0.0.1:62552\/:55:8"
+}

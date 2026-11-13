@@ -1,0 +1,95 @@
+{
+  "scope": "raw ok=false leaves in archived original and current complete verification, including deliberate variants",
+  "originalCount": 17,
+  "currentCount": 17,
+  "addedPaths": [],
+  "removedPaths": [],
+  "changedFailureDescriptors": {},
+  "currentFailures": {
+    "review-mutations/mutant.json": {
+      "error": "async edit enabled stale review",
+      "phase": null,
+      "failure": null
+    },
+    "workflow-mutations/mutant.json": {
+      "error": "WAIT ()=>$('#generate-consultation')",
+      "phase": null,
+      "failure": null
+    },
+    "draft-race-mutations/original/browser.json": {
+      "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+      "phase": null,
+      "failure": null
+    },
+    "draft-race-mutations/conflict-success/browser.json": {
+      "error": "SAVED_AFTER_COMPETING_DRAFT {\"result\":true,\"status\":\"saved\",\"unsaved\":false,\"localText\":\"local text must remain available\",\"persistedText\":\"newer text from competing page\",\"injected\":true,\"writes\":1}",
+      "phase": null,
+      "failure": null
+    },
+    "async-ownership/original-flow/reload-error.json": {
+      "error": "RELOAD_REJECTION_ESCAPED_UI",
+      "phase": null,
+      "failure": null
+    },
+    "async-ownership/original-flow/consult-conflict.json": {
+      "error": "GENERATION_OVERWROTE_CONFLICTING_TEXT",
+      "phase": null,
+      "failure": null
+    },
+    "async-ownership/original-flow/consult-edit.json": {
+      "error": "GENERATION_OVERWROTE_NEW_MANUAL_EDIT",
+      "phase": null,
+      "failure": null
+    },
+    "async-ownership/ocr-cancel-mutant/ocr-hash-edit.json": {
+      "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+      "phase": null,
+      "failure": null
+    },
+    "async-ownership/ocr-cancel-mutant/ocr-edit.json": {
+      "error": "OCR_OVERWROTE_NEW_MANUAL_EDIT",
+      "phase": null,
+      "failure": null
+    },
+    "observer-mutations/mutant/browser.json": {
+      "error": "LOCAL_LISTENER_STARVED",
+      "phase": null,
+      "failure": null
+    },
+    "lifecycle-mutations/abandoned-upgrade/browser.json": {
+      "error": "ABANDONED_UPGRADE_CHANGED_SCHEMA {\"state\":\"rejected\",\"error\":\"UPGRADE_BLOCKED_CLOSE_OTHER_TABS\",\"version\":2,\"hasProductStores\":true,\"sentinel\":true}",
+      "phase": null,
+      "failure": null
+    },
+    "lifecycle-mutations/store-close/browser.json": {
+      "error": "CLOSED_STORE_RESURRECTED {\"state\":\"fulfilled\",\"connectionResurrected\":true}",
+      "phase": null,
+      "failure": null
+    },
+    "debt-mutations/ocr-mutant/browser.json": {
+      "error": "WAIT ()=>$('#export')",
+      "phase": null,
+      "failure": null
+    },
+    "debt-mutations/draft-mutant/browser.json": {
+      "error": "clinical notification erased manual additions",
+      "phase": null,
+      "failure": null
+    },
+    "debt-mutations/backup-mutant/browser.json": {
+      "error": "EXPECTED_AbortError",
+      "phase": null,
+      "failure": null
+    },
+    "records-consistency/guard-removal/intervening-write.json": {
+      "error": "HOME_PUBLISHED_OLD_TIMELINE",
+      "phase": null,
+      "failure": null
+    },
+    "records-consistency/original-r18/intervening-write.json": {
+      "error": "HOME_PUBLISHED_OLD_TIMELINE",
+      "phase": null,
+      "failure": null
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "case": "phone-progress",
+  "source": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01",
+  "bundle": {
+    "site": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/evidence/r20-verification03/phone-progress/bundle/site",
+    "treeSha256": "9dbc7802da89f2e6f58745870e8e80f3eff730052dfd00707d8dac8469d2440b",
+    "zipSha256": "be863fb1be536a2adeb885bae649bfe251fe0828ffdeb2536651ec6c6d31100c",
+    "files": 24,
+    "servicesStarted": false,
+    "cloudCalls": 0
+  },
+  "browser": {
+    "elapsedMs": 5235,
+    "identity": "Mac WebKit fictional UI progress bound only",
+    "limit": 125,
+    "mutations": 84,
+    "ok": true
+  },
+  "physicalPhone": "NOT_TESTED"
+}

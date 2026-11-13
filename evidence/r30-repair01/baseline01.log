@@ -1,0 +1,3 @@
+{"case": "report-rows", "pid": 5713, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-upgrade", "pid": 5728, "ok": false, "error": "UPGRADE_OLD_DRAFT_SAVED", "target": null, "p95Ms": null}
+{"baselineReproduced": true, "result": {"error": "UPGRADE_OLD_DRAFT_SAVED", "ok": false, "stack": "ok@http://127.0.0.1:56742/:2:67\n@http://127.0.0.1:56742/:25:5"}}

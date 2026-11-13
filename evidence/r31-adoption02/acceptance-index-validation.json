@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "currentDefaultProof": "evidence/r31-verification03/result.json",
+  "binding": "34d6a5d267d2c55cc7d6576eb2534a94e821dbd18ea3bf5094782a3553d6aa9d",
+  "checks": 61,
+  "nodeTests": 134,
+  "pythonTests": 55,
+  "independentA2R2Full61": true,
+  "firstNodeFailureRetained": true,
+  "staticPatch": "r31-navigation01",
+  "defaultAliasesUpdated": true,
+  "oldA1DefaultPreservedAsHistory": true
+}

@@ -1,0 +1,7 @@
+{
+  "manualRecovery" : true,
+  "modules" : 55,
+  "noRecordWrites" : true,
+  "normalEntryReady" : true,
+  "ok" : true
+}

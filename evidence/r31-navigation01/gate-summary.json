@@ -1,0 +1,95 @@
+{
+  "ok": true,
+  "status": "AUTHOR_VERIFIED_PENDING_EXTERNAL_AUDIT_NOT_ADOPTED",
+  "binding": "51cf6b1d9872144a3d2215181233c0c952005214ab779de736eed38edf5d3b70",
+  "boundInputs": 270,
+  "checks": 61,
+  "nodeTests": 134,
+  "pythonTests": 55,
+  "delta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "4cb9354810cb9c6cac7d349d330c612659802e28f347e53d4cc0857f85c95da1",
+      "after": "250fd0500c4a13e3c01920dce956717f0bc0fecc433ba9f8d45b1f5a0dc11fa4"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "2fd9404950293eab6d1eda7a9aeae049bee33b21a5996d40c796472888a1fb42",
+      "after": "ce8cfc992755ad3b0879218f8249932e70f7c2a0e437c784d4444cfc50202e3b"
+    },
+    {
+      "path": "tests/browser.css.js",
+      "before": "4695286995c8fffe70e42f04e5270307abcc5f04fefd1cce146165b33318785c",
+      "after": "1945cba5d0aff52b182d7fea8ba41293ba1bb1b14d98bc6078eecd0f22f0f8cc"
+    },
+    {
+      "path": "tests/browser.mobile.js",
+      "before": "a56fd7d154472c3a228df6d215d74ba1d1924e6cdb48371a6a5203818874321d",
+      "after": "62cf36eee9c8fb416cb78b5d09cf55138fe167df1e379f108d630ae1355d996c"
+    },
+    {
+      "path": "tests/browser.navigation.js",
+      "before": null,
+      "after": "3ab2532db9412f1a69fa2aa037ca679a8e02111fa81a36ebe8ac7ff0f5090571"
+    },
+    {
+      "path": "tests/fixtures/r31-navigation-parity.json",
+      "before": null,
+      "after": "42e784275dd7d144a6d09954021e1a490d27112e9f8f04da1816c5db603c728a"
+    },
+    {
+      "path": "tests/template_parity.test.mjs",
+      "before": "df7dfee00d098f708771afd6eb9067f05683122fda43b3a4982a7f77d4fad9e9",
+      "after": "aca2cc3fba6db7904a4a263eb5bcf6e563cf4bfa675c27f1f98c64b3155867d4"
+    },
+    {
+      "path": "tests/test_home_resources_runner.py",
+      "before": "5c0f4e368d7a90dab97b87f3bee76ae45ecd562172b2254da9ec39ad52bea2d1",
+      "after": "2ed0ca63076e4b2e046003a7e47d27aade5d697da0fecdfaa4b9626e1ca66fd9"
+    },
+    {
+      "path": "tests/test_navigation_runner.py",
+      "before": null,
+      "after": "956d1222ad301ef838f212f77f325ec3c67dfa9dbd1cf459d0b4346e683d54d5"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "f3051642e3538e219e148ece4c5f8fa848cefe721732013b4478a01fe8c60457",
+      "after": "0e20510af9dda9075ab9eb8c7aea74fe41dba07f13bc996d97cf8ea9a6471d51"
+    },
+    {
+      "path": "tools/verify_debt.py",
+      "before": "d6684a3df312ba2d817bc8f7f51853a791fca7e2dcf8fc23879e3e0c6fabef13",
+      "after": "bb226e00ba059381b68563806bf2c81160e0b6e421d041c0d02f4be5bb689878"
+    },
+    {
+      "path": "web/features/settings.js",
+      "before": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+      "after": "580867a275b3e1103de9e5a008b8710a606f1d07e7c70ae105412ac031e1d182"
+    },
+    {
+      "path": "web/index.html",
+      "before": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d",
+      "after": "c3a72383baeb46d5ecc8e97ddcc9641f69b8a3bc127bb909fe2146bb9c4a72e6"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76",
+      "after": "24a86352cc1833ca7baeb8535a128d5526942d2c8d9316eba55aeb50e6a839b1"
+    }
+  ],
+  "added": 3,
+  "removed": 0,
+  "unchangedInputs": 256,
+  "expectedFailuresOld": 40,
+  "expectedFailuresCurrent": 43,
+  "originalR09FixtureByteUnchanged": true,
+  "originalCssMainStoreMedicalBytesUnchanged": true,
+  "navigationPositiveWindows": 3,
+  "navigationMutations": 3,
+  "twoTreesForwardReverseExact": true,
+  "missingNewTestRejected": true,
+  "rootA1Unchanged": true,
+  "publicAdoptionServiceOrProviderActionsThisSlice": 0,
+  "AIh": "UNMEASURED"
+}

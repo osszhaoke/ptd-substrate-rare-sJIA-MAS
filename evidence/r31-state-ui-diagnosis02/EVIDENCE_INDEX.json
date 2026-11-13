@@ -1,0 +1,57 @@
+{
+  "identity": "R31 state-ui diagnostic 02; Writer evidence only; excludes index itself",
+  "files": {
+    "evidence/r31-state-ui-diagnosis02/diagnosis.json": {
+      "bytes": 1157,
+      "sha256": "44549767aca359f64fbb3abdffcc8bc9996b3e1a2e8657c305543f6f7a7dd490"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-0.binding.json": {
+      "bytes": 11499,
+      "sha256": "cc0f5050a1ccb38fa4aa19a7ffb4bc8743fe0d5606d4edd80a2592f30f7029a8"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-0.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-0.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-0.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-1.binding.json": {
+      "bytes": 11499,
+      "sha256": "b26e97c61d03a211a8e65fb72a118aa058c71f805c347206e268d0469179068d"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-1.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-1.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-1.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-2.binding.json": {
+      "bytes": 11499,
+      "sha256": "e805683b65b6af4c16ebcfc8754a72040e553a64319c193ed07db8ab5d423a5b"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-2.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-2.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis02/standalone-2.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    }
+  }
+}

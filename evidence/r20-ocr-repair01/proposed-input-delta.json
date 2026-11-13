@@ -1,0 +1,82 @@
+[
+  {
+    "path": "PUBLIC_SOURCE_MANIFEST.json",
+    "before": "f5609b95eef1909e2da3bb6d49d8b9d524997d77400a00610362f43d656f6c64",
+    "after": "13aab3d4a7ebccb71857a654495429bfb63ad1ec1b58256e355a0a49c05ee57a"
+  },
+  {
+    "path": "deploy/STATIC_MANIFEST.json",
+    "before": "74d7a20392a8fb2115c113aea0b1eb7f6b9fefbffb4780401a72e7363e74404c",
+    "after": "fdc364c2d1697927c876fe622c04eb478690e78e1f9c04d07b44d9402447814d"
+  },
+  {
+    "path": "package.json",
+    "before": "35def07a2982280394c5f076c081a7c57c517e44563ba2ebbbc17e37b2769ead",
+    "after": "92781ae975387e382c37f718c6b726888bb41fbaeb9c23b7261b35ee2dc9c3e2"
+  },
+  {
+    "path": "tests/browser.ocr-tables.js",
+    "before": null,
+    "after": "9f890fea56fc0d9ed768a7ef1ddfd5608e42e1c66cb26c8e4e78e93a6dd771c3"
+  },
+  {
+    "path": "tests/fixtures/ocr_parallel.mjs",
+    "before": null,
+    "after": "fb7c3248add92b7adfeddf399a7c35d03a87b923ac470ff48905c3f7321acda5"
+  },
+  {
+    "path": "tests/ocr_tables.test.mjs",
+    "before": null,
+    "after": "717cd08a0dc33b6c7d8904512b2ab016cbd7875ff5f9c76e60c0e569ef078d79"
+  },
+  {
+    "path": "tests/test_ocr_tables_runner.py",
+    "before": null,
+    "after": "ba7c44f63929366760b7c2cee8508014207cd8ff53b7a251ddd8fc71d77be1c9"
+  },
+  {
+    "path": "tools/run_browser.py",
+    "before": "3aeeebebc4c23947e0d7f1eb40ef905ab351d46de0819a29c739c53278906438",
+    "after": "28cc64a19902ef9c5544d75db30e67cbac493d327af0de858e845b90ea25c9d7"
+  },
+  {
+    "path": "tools/test_plan.json",
+    "before": "fc9d644976b66c8f239057deeabd38ad2033eed7e94c90eba8a99ed9fc942a7f",
+    "after": "8b4e54f0a7222f484c0e287d25ed9ed30e7eade8425d3932baf1b220780e793b"
+  },
+  {
+    "path": "tools/verify_debt.py",
+    "before": "4cca45ca7af1c9a555e0ddaa20919cd0e163c79ef8243794f54681bd999d8ae5",
+    "after": "9bbe450afa7f71a90bd03db88608895938897dc34f84ffc343c12e38802e5e4c"
+  },
+  {
+    "path": "web/app/editor_flow.js",
+    "before": "45eb5a1ad2231bd958706fee3aab56468bde96cc4c0989f514900508f71461de",
+    "after": "e6ed85eaca8239ec0c16201355d26c4653f7c57cb7b72bfcfd1699bd5426695d"
+  },
+  {
+    "path": "web/app/main.js",
+    "before": "928413a023ccd62c9e8cbe4d5e7cfd612f001e2457c8801ea90c87b528aacc09",
+    "after": "f9a0cc10813a2c54a8220156ce97c9cce1836e75d0b8ed43212ff59a9f97067f"
+  },
+  {
+    "path": "web/domain/state/candidates.js",
+    "before": "b1d208c142038da49de41cf2c519e5eba3309cb42ad448b73925a78e9bf0b6cb",
+    "after": "61e6d7d9d7f0dad75fc279729625c1fef23f4cb0dbf77a36a665454440e280d9"
+  },
+  {
+    "path": "web/domain/state/ocr_fragments.js",
+    "before": "75da74b55c155f5a78a71a34707c67f05828314886c8c0c2c55a5d709903fcf5",
+    "after": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514"
+  },
+  {
+    "path": "web/domain/state/ocr_tables.js",
+    "before": null,
+    "after": "43858e5245e282db27cda71f3a910387a0385d11ecbce9ccfb3c834549935146"
+  },
+  {
+    "path": "web/sw.js",
+    "before": "4b30b6c2bac380d0bbc0f1ff0aae68ca474f62fff144f6fbe4231e0beb5850a4",
+    "after": "a35359c98ccc4a7dedccdeb5c0a8e8e9d16f1033966ea120013b907b3724a77b"
+  }
+]

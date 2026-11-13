@@ -1,0 +1,37 @@
+let phase='start';
+// Optional test-only instrumentation. Native IDB time includes cloning and scheduling;
+// these timings do not claim to separate either, or measure physical phone memory.
+function measureReads(store){
+ let active=null,timer=null,previous=0,projectionStart=null;
+ const get=store.get,snapshot=store.stateSnapshot,getAll=IDBObjectStore.prototype.getAll;
+ store.get=async function(...args){
+  const start=performance.now();
+  if(active&&projectionStart!==null){active.projectionAndContinuationMs+=start-projectionStart;projectionStart=null;}
+  try{return await get.apply(this,args);}finally{if(active)active.metaReadMs.push(performance.now()-start);}
+ };
+ store.stateSnapshot=async function(...args){
+  const start=performance.now();
+  try{return await snapshot.apply(this,args);}finally{if(active){active.snapshotMs.push(performance.now()-start);projectionStart=performance.now();}}
+ };
+ IDBObjectStore.prototype.getAll=function(...args){
+  const start=performance.now(),sample=active,request=getAll.apply(this,args);
+  if(sample)request.addEventListener('success',()=>{if(sample.idbGetAllDispatchMs.length<64)sample.idbGetAllDispatchMs.push(performance.now()-start);},{once:true});
+  return request;
+ };
+ return {
+  begin(kind){active={kind,metaReadMs:[],snapshotMs:[],idbGetAllDispatchMs:[],projectionAndContinuationMs:0,heartbeatDelayMs:[]};projectionStart=null;previous=performance.now();timer=setInterval(()=>{const now=performance.now();if(active.heartbeatDelayMs.length<128)active.heartbeatDelayMs.push(Math.max(0,now-previous-16));previous=now;},16);},
+  end(totalMs){clearInterval(timer);timer=null;const out=active;out.finalHeartbeatDelayMs=Math.max(0,performance.now()-previous-16);active=null;projectionStart=null;return {...out,totalMs};},
+  close(){clearInterval(timer);active=null;store.get=get;store.stateSnapshot=snapshot;IDBObjectStore.prototype.getAll=getAll;}
+ };
+}
+(async()=>{
+ const {RecordStore}=await import('/storage/store.js'),{RecordService}=await import('/domain/service.js'),{StateController}=await import('/app/state_controller.js');
+ const s=new RecordStore('ptds-state-scale-v2'),svc=new RecordService(s),target=Number(window.__PROBE_INPUT__.target);await s.open();const count=(await s.snapshot()).events.length;
+ const metric=(code,valueLiteral,unit)=>({code,displayName:code,valueLiteral,unit,context:'LAB',comparator:null,sourceLineIds:[]});
+ const start=performance.now();async function add(n){phase='save-'+n;const observedAt=new Date(Date.UTC(2020,0,1,0,0,Math.floor(n/2))).toISOString();let r=await svc.stage({formatVersion:2,clinicalDate:'2020-01-01',observedAt,instanceTimezone:'Asia/Shanghai',documentKind:'manual',nature:n%2?'REAL':'SYNTHETIC',sourceKind:'MANUAL',trustTier:'USER_REVIEWED',note:'synthetic scale '+n,observations:[metric('ferritin','1000','ng/mL'),metric('plt','100','10^9/L'),metric('fib','6','g/L'),metric('ldh','500','U/L'),metric('ast','80','U/L'),metric('tg','3.0','mmol/L'),metric('hb','89','g/L'),metric('anc','0.9','10^9/L'),metric('scd25','2400','U/mL')],clinicalFlags:{FEVER:true,SJIA_KNOWN_OR_SUSPECTED:true,LAB_NOT_OTHERWISE_EXPLAINED:true,SPLENOMEGALY:false,HEMOPHAGOCYTOSIS:false,NK_LOW:false,CNS_INVOLVEMENT:false,HEMORRHAGE:false,ARTHRITIS:false}});r=await svc.confirm(r,true);await svc.save(r);}
+ for(let n=count;n<target;n+=10)await Promise.all(Array.from({length:Math.min(10,target-n)},(_,i)=>add(n+i)));
+ const insertMs=performance.now()-start,ctl=new StateController(s),q={nature:'SYNTHETIC',zone:'Asia/Shanghai'},cold=[],warm=[],diagnostics=[],probe=window.__PROBE_INPUT__.diagnostics==='yes'?measureReads(s):null;phase='measure';
+ try{for(let i=0;i<7;i++){ctl.invalidate();probe?.begin('cold');let start=performance.now(),snap=await ctl.load(q);cold.push(performance.now()-start);if(probe)diagnostics.push(probe.end(cold.at(-1)));if(snap.points[0].rules.R3.score!=='-2.1')throw Error('SCALE_SELECTION_SCORE');probe?.begin('warm');start=performance.now();await ctl.load(q);warm.push(performance.now()-start);if(probe)diagnostics.push(probe.end(warm.at(-1)));}}finally{probe?.close();}
+ const p95=a=>[...a].sort((x,y)=>x-y)[Math.ceil(a.length*.95)-1];
+ const result={ok:p95(cold)<=1000&&p95(warm)<=250,target,added:target-count,insertMs,coldMs:cold,warmMs:warm,coldP95Ms:p95(cold),warmP95Ms:p95(warm),diagnostics,diagnosticLimits:probe?'snapshot includes IDB wait, clone, filtering and commit; getAll dispatch includes native work, clone and scheduling; projectionAndContinuation includes synchronous projection and promise continuation; heartbeat delay is event-loop observation, not unique cause':'disabled',shape:'9 metrics +9 flags / record; 2 natures; same-day worst-case cursor and LATEST ordering; all writes via stage-confirm-save',device:navigator.userAgent};if(!result.ok)result.error='STATE_SCALE_TARGET_NOT_MET';s.close();window.webkit.messageHandlers.result.postMessage(result);
+})().catch(e=>window.webkit.messageHandlers.result.postMessage({ok:false,error:e.message,phase,stack:e.stack}));

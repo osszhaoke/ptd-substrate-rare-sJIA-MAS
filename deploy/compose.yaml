@@ -1,0 +1,25 @@
+services:
+  h5:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "127.0.0.1:18791:8080"
+    volumes:
+      - ocr-budget-r02:/runtime
+      - type: bind
+        source: ${PTDS_PRIVATE_DIR:?Set_private_directory_owned_by_uid_10001_mode_700}
+        target: /run/ptds-secrets
+        read_only: true
+      - type: bind
+        source: ${PTDS_PUBLIC_CONFIG:?Set_public_config_json_path}
+        target: /run/ptds-public.json
+        read_only: true
+    command: ["python3", "-u", "-m", "gateway.server", "--host", "0.0.0.0", "--port", "8080", "--runtime", "/runtime", "--config-file", "/run/ptds-public.json", "--secrets-file", "/run/ptds-secrets/h5-r02.json", "--require-ocr"]
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m
+volumes:
+  ocr-budget-r02:
+    external: true
+    name: ${PTDS_EXISTING_BUDGET_VOLUME:?Set_single_authoritative_existing_budget_volume}

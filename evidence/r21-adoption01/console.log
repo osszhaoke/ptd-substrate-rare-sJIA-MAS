@@ -1,0 +1,215 @@
+{
+  "ok": true,
+  "binding": "32ab5d52ac2c388a055328e336caabf858a30f4bf1c3dae4dbf817b30427be38",
+  "boundInputs": 218,
+  "checks": 59,
+  "staticVersion": "15c569be0c708135",
+  "gatewayVersion": "h5-sjia-mas-r19",
+  "staticPatch": "r19-ocr02",
+  "pidUnchanged": 56388,
+  "deadlineUnchanged": "2026-11-09T15:59:00+00:00",
+  "publicExactGETs": [
+    {
+      "path": "web/app/editor_flow.js",
+      "sha256": "43044690dd7fbd8cc1e4ab417398aed8304816f5ba87efede8523bb9e5a32773",
+      "http": 200
+    },
+    {
+      "path": "web/app/main.js",
+      "sha256": "e459e4b1e036632a02d31e9fa921d19ed2ff634101140e78d7b47db6d9ef33c7",
+      "http": 200
+    },
+    {
+      "path": "web/app/ocr_review.js",
+      "sha256": "f5c35037c1c57b49bb865e3006654d6949509398c68d0ca4331669d6466c8fbd",
+      "http": 200
+    },
+    {
+      "path": "web/domain/model.js",
+      "sha256": "b2cd8d9a5ac6192960270a8fa3376688241b3b4895b581fd507efe1a36d66c9f",
+      "http": 200
+    },
+    {
+      "path": "web/domain/ocr_review.js",
+      "sha256": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a",
+      "http": 200
+    },
+    {
+      "path": "web/domain/service.js",
+      "sha256": "85379ce938709e2c05f6045c616861b7540d1b15d41de6091871ef0c83be3cda",
+      "http": 200
+    },
+    {
+      "path": "web/domain/state/candidates.js",
+      "sha256": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+      "http": 200
+    },
+    {
+      "path": "web/domain/state/ocr_aliases.js",
+      "sha256": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+      "http": 200
+    },
+    {
+      "path": "web/features/editor.js",
+      "sha256": "462b1ee2635434ba18919c654ba34a91b4421d00646dd669bbed20a6daefc064",
+      "http": 200
+    },
+    {
+      "path": "web/features/ocr_evidence.js",
+      "sha256": "ad43269b7b57e99817586855f5bca11a75e9c64fb29d8ba9de97710d1c06ac10",
+      "http": 200
+    },
+    {
+      "path": "web/features/ocr_review.css",
+      "sha256": "f1e092a1bda17a5f56bef05a375ee3697862c1dceb676a61551b2c00c64efa6f",
+      "http": 200
+    },
+    {
+      "path": "web/features/records.js",
+      "sha256": "d557508b2c9c327543b85ead93866eb6265b8817ef0aa42d7fbca7062eba8cd0",
+      "http": 200
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "c1b1a789ee1ecbe7fe004004f01fc810b39b41035bc72e1bab3ca36628756ef8",
+      "http": 200
+    },
+    {
+      "path": "web/sw.js",
+      "sha256": "1f40280977bbfd9ab50399ee0a9b4f2aea04018b59871a22468887217fce3d72",
+      "http": 200
+    }
+  ],
+  "providerCallsThisOperation": 0,
+  "dataOrBudgetReadOrChanged": false,
+  "oldZIPUnchanged": true,
+  "verification": "evidence/r21-verification03/result.json",
+  "exactDelta": [
+    {
+      "path": "PUBLIC_SOURCE_MANIFEST.json",
+      "before": "13aab3d4a7ebccb71857a654495429bfb63ad1ec1b58256e355a0a49c05ee57a",
+      "after": "9db89caa96d9e1edad6eeba27cf6d41e3777000745dbbbdb81276d2d9fa3056e"
+    },
+    {
+      "path": "deploy/STATIC_MANIFEST.json",
+      "before": "fdc364c2d1697927c876fe622c04eb478690e78e1f9c04d07b44d9402447814d",
+      "after": "21c691b8548632354880ea761b15daf6cdba37320df6c94937bba563f0a1c7a8"
+    },
+    {
+      "path": "package.json",
+      "before": "92781ae975387e382c37f718c6b726888bb41fbaeb9c23b7261b35ee2dc9c3e2",
+      "after": "8370321c5ed1186a002a6515d184decae7dd64aa3c2358d4e97ad07612cb799c"
+    },
+    {
+      "path": "tests/browser.ocr-review.js",
+      "before": null,
+      "after": "2cee3a18fc65b19dc92cc529aff676b2e1d184afdd4fe3ba0a946d052086a900"
+    },
+    {
+      "path": "tests/frontend_structure.test.mjs",
+      "before": "c18cb9fceb29dd0a0259aef9226fc7cd02416c48a2a3868e3410be1c5695ac4c",
+      "after": "29409ade699f7074b7566c64b8f6fd64b5cb41d362b41e29ee4e8effebc5ddda"
+    },
+    {
+      "path": "tests/ocr_aliases.test.mjs",
+      "before": null,
+      "after": "8a24f9137f81ebdf571e52b7f3340ee657dd906fb5dc2b4862578c5a638aaa5b"
+    },
+    {
+      "path": "tests/ocr_review.test.mjs",
+      "before": null,
+      "after": "212ac24609f7ab1c8ce77b95f4df733c2459be8de13b236c9280ba8cff2de865"
+    },
+    {
+      "path": "tests/test_ocr_review_runner.py",
+      "before": null,
+      "after": "3ed5bd20a015fcace2c40fb80815da8f9c982d0502fed73e53f44ba535debd5f"
+    },
+    {
+      "path": "tools/run_browser.py",
+      "before": "28cc64a19902ef9c5544d75db30e67cbac493d327af0de858e845b90ea25c9d7",
+      "after": "4756df90d2d27f0e5b8bd65bfda92427266a822d7867ab793c66d85bafeec38b"
+    },
+    {
+      "path": "tools/test_plan.json",
+      "before": "8b4e54f0a7222f484c0e287d25ed9ed30e7eade8425d3932baf1b220780e793b",
+      "after": "9c3c271aa5f6d89c2ef7e4173aab384053c0d3905c56280ae09ecc652251f523"
+    },
+    {
+      "path": "tools/verify_debt.py",
+      "before": "9bbe450afa7f71a90bd03db88608895938897dc34f84ffc343c12e38802e5e4c",
+      "after": "cc513c551e5ccef9beb2ebba38f56e9871d6e61c8bfd83b2129d90e75fa8187f"
+    },
+    {
+      "path": "web/app/editor_flow.js",
+      "before": "e6ed85eaca8239ec0c16201355d26c4653f7c57cb7b72bfcfd1699bd5426695d",
+      "after": "43044690dd7fbd8cc1e4ab417398aed8304816f5ba87efede8523bb9e5a32773"
+    },
+    {
+      "path": "web/app/main.js",
+      "before": "f9a0cc10813a2c54a8220156ce97c9cce1836e75d0b8ed43212ff59a9f97067f",
+      "after": "e459e4b1e036632a02d31e9fa921d19ed2ff634101140e78d7b47db6d9ef33c7"
+    },
+    {
+      "path": "web/app/ocr_review.js",
+      "before": null,
+      "after": "f5c35037c1c57b49bb865e3006654d6949509398c68d0ca4331669d6466c8fbd"
+    },
+    {
+      "path": "web/domain/model.js",
+      "before": "c416918b6c1e7679ff2a722432a1e35fa137741e7728878111c682a2fcd47eb4",
+      "after": "b2cd8d9a5ac6192960270a8fa3376688241b3b4895b581fd507efe1a36d66c9f"
+    },
+    {
+      "path": "web/domain/ocr_review.js",
+      "before": null,
+      "after": "c06589b316c1cbd472d66c14a603a5a7006a20d955e4a9d7d687a8efb6da2f1a"
+    },
+    {
+      "path": "web/domain/service.js",
+      "before": "0f29476e8ae4f4137111059649beb881315e775b21e73d9ed60446c3afef751b",
+      "after": "85379ce938709e2c05f6045c616861b7540d1b15d41de6091871ef0c83be3cda"
+    },
+    {
+      "path": "web/domain/state/candidates.js",
+      "before": "61e6d7d9d7f0dad75fc279729625c1fef23f4cb0dbf77a36a665454440e280d9",
+      "after": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97"
+    },
+    {
+      "path": "web/domain/state/ocr_aliases.js",
+      "before": null,
+      "after": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e"
+    },
+    {
+      "path": "web/features/editor.js",
+      "before": "f9c2672d7a280ff3d998a5459c17b563779f41815c618b01a22728d7b33ca6b5",
+      "after": "462b1ee2635434ba18919c654ba34a91b4421d00646dd669bbed20a6daefc064"
+    },
+    {
+      "path": "web/features/ocr_evidence.js",
+      "before": null,
+      "after": "ad43269b7b57e99817586855f5bca11a75e9c64fb29d8ba9de97710d1c06ac10"
+    },
+    {
+      "path": "web/features/ocr_review.css",
+      "before": null,
+      "after": "f1e092a1bda17a5f56bef05a375ee3697862c1dceb676a61551b2c00c64efa6f"
+    },
+    {
+      "path": "web/features/records.js",
+      "before": "17946ded554a342e8b15da91c398cd66e95a6befd45be116ab8fc23fd52b80dd",
+      "after": "d557508b2c9c327543b85ead93866eb6265b8817ef0aa42d7fbca7062eba8cd0"
+    },
+    {
+      "path": "web/index.html",
+      "before": "407c6cfe6ce3338445af38a0d5eae58b96a806e2f8872d2d79fe127c6616c021",
+      "after": "c1b1a789ee1ecbe7fe004004f01fc810b39b41035bc72e1bab3ca36628756ef8"
+    },
+    {
+      "path": "web/sw.js",
+      "before": "a35359c98ccc4a7dedccdeb5c0a8e8e9d16f1033966ea120013b907b3724a77b",
+      "after": "1f40280977bbfd9ab50399ee0a9b4f2aea04018b59871a22468887217fce3d72"
+    }
+  ],
+  "identity": "author exact static adoption and HTTP byte checks; not physical/human/independent acceptance"
+}

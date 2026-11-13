@@ -1,0 +1,89 @@
+{"preserved": "existing fictional provider check metadata"}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-public-24h-r01/runtime/public-session.lock", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-24h-r01/public-session.lock", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-public-24h-r01/runtime/session.json", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-24h-r01/session.json", "sizeKiB": 4}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-public-r01/runtime/local", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-r01/local", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-public-r01/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-public-r01/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/browser-001", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/browser-001", "sizeKiB": 3268}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/checks-001", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/checks-001", "sizeKiB": 8}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/demo", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/demo", "sizeKiB": 96}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/scale-001", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/scale-001", "sizeKiB": 55500}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01/runtime/workbench-001", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-resume-r01/workbench-001", "sizeKiB": 2816}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r01/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r01/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r01/runtime/service-check", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r01/service-check", "sizeKiB": 4}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r02/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r02/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r03/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r03/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r04/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r04/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r05/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r05/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r06/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r06/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r07/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r08/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r08/preview", "sizeKiB": 0}}
+{"retainedWithoutContentRead": {"source": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r09/runtime/preview", "destination": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/local-state-retained/PTDS-H5-sjia-mas-r09/preview", "sizeKiB": 0}}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-OCR-acceptance-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-OCR-local-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-OCR-local-r02"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-accepted-r12"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-archive-20261106-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-debt-plan-r05-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r11"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r13"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-invite-plan-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-mainland-guide-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-public-24h-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-public-plan-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-public-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-public-r02"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-r05-report-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-resume-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-plan-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-plan-r02"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r01"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r02"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r03"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r04"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r05"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r06"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r07"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r08"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r09"}
+{"deletedOldRoot": "/Users/osszhaoke/Downloads/PTDS-H5-sjia-mas-r10"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-21da8a48-40d1-42ea-acde-1d4a636e4743"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-41476394-300a-4e89-bd2c-521bf780f2be"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-680af358-8f43-41b6-8952-25300e7b43e9"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-896c547e-c3c1-42e3-afe6-064df8cd21c8"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-95ed2b5b-fa71-4f3d-b3e3-da3a36b1c179"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-ad1769f6-0d10-49b0-aa98-095fa967f5e2"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-b4bd64bc-d56d-4923-adbc-6db04161f264"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-cba53fc4-8a64-4894-b13e-d913b286baba"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-dbeb2dd3-6ba0-44e2-8e85-b4d08d9b55c8"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-de4d8c40-c911-4312-84a4-4936402e3454"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-e0c08552-2bab-466e-a981-13b7d0889945"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/debt-f8e38f88-a233-4675-b883-ebd003762344"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-201568c0-5e5e-4cee-94f7-37c78a38eac0"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-27ca34b7-ceb6-4f1e-a218-e3c64e0af0a9"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-4c94a9fe-8d10-445e-89f5-c23a966f106d"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-68925ffd-fd09-4fbf-8f1b-e841a88a655d"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-6e8c0661-79ce-4c67-94ae-3f9d9c61f184"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-76578be9-a2a7-4e0b-b1b6-3268db8bc4d6"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-7a9398a0-f4d9-4eb8-ab6a-f1256914fd1f"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-82a2d452-0963-40e4-9bd5-5f42051f8d15"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-8af18c42-6536-4f4c-82c8-09e08c7e03a7"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-8bf66f2f-2817-412a-b9fd-40669bb71022"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-91a40cf3-3ee5-4e90-8e8e-908190cc9156"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-95e4e66b-0891-4dab-89a2-9cece9ab3d68"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-df718e3b-3e5b-41c2-b224-2774ce0a3b0d"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-e7dc3898-95ff-45e3-936a-6a3d2835cbc4"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-e8c9ee6b-f8a0-40bd-a559-58d0f9131716"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/lifecycle-ff723694-bc81-4e9c-bc34-5134fba4ca05"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-2a5e4e6b-6151-4f2a-b63c-64d17a967909"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-4be82cda-91ee-4cae-8934-e5ff756357d6"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-6ae1169c-b21f-468d-9aff-f03f2d761ffd"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/observer-bc2e0a39-b8a4-4490-bfef-19801f8416e6"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/ui-mutation-3e49f5d9-e75e-49df-a564-964e33346356"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/ui-mutation-b87e5d2b-a97c-40cc-b6a1-aea5c9305fbc"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/upgrade-r14-verification01-upgrade"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/upgrade-r14-verification02-upgrade"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/workflow-mutation-83d328cf-8938-4348-960e-5e499c516c9d"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/runtime/workflow-mutation-f76c5806-14c7-4fb1-aec4-55db2fa02f8f"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/gateway/__pycache__"}
+{"deletedGeneratedOrStale": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14/REPORT_R02.md"}
+{"completed": {"ok": true, "oldRootsDeleted": 28, "onlyRemainingH5Root": "/Users/osszhaoke/Downloads/PTDS-H5-debt-r14", "generatedEntriesRemoved": 39, "staleReportRemoved": true, "retainedStateEntries": 19, "privateContentRead": false, "mainPTDSOrBrowserOrExternalSecretsChanged": false, "sealedArchivesUnchanged": true, "servicesStartedOrStopped": false, "errors": []}}

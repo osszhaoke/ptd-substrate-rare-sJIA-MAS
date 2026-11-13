@@ -1,0 +1,11 @@
+{
+  "pid": 7138,
+  "state": "SERVING",
+  "expiresAt": "2026-11-12T15:59:00+00:00",
+  "credentialsStored": false,
+  "ocrEnabled": true,
+  "operatorSourceSha256": "9ec9d6dbb173407232a08dc5ac02a7d45928952415390a3edfcea153c7ea4c14",
+  "url": "https://cliff-joe-advertisers-dover.trycloudflare.com",
+  "startedAt": "2026-11-11T13:42:10.151938+00:00",
+  "restartWithNoLocalOwner": true
+}

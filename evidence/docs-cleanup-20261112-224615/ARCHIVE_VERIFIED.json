@@ -1,0 +1,29 @@
+{
+  "archive": "archive.zip",
+  "sha256": "dff27306145e63730f9c61b7d3349995eb4226ee84fc918893b644254aa14409",
+  "bytes": 6305336,
+  "uniqueBlobs": 696,
+  "files": 3104,
+  "allMembersReadBackAndHashed": true,
+  "manifestExact": true,
+  "restoreSmoke": [
+    {
+      "path": "evidence/r19-verification01/backup-scale-1000.binding.json",
+      "sha256": "40fceefad9482a10f2c500a5aa1822efce4d5ae81176891ee4e4b874cf87d8cd",
+      "mode": 420,
+      "ok": true
+    },
+    {
+      "path": "evidence/r19-verification01/phone-journal/bundle/site/domain/model.js",
+      "sha256": "c416918b6c1e7679ff2a722432a1e35fa137741e7728878111c682a2fcd47eb4",
+      "mode": 420,
+      "ok": true
+    },
+    {
+      "path": "evidence/r19-verification01/backup-scale-1000.png",
+      "sha256": "19a38911cd4712f0b99a27f95e31ca43ebcefb41c7b4054edf339b0e4f829607",
+      "mode": 420,
+      "ok": true
+    }
+  ]
+}

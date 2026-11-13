@@ -1,0 +1,322 @@
+--- R31-A1/PUBLIC_SOURCE_MANIFEST.json
++++ R31-A2/PUBLIC_SOURCE_MANIFEST.json
+@@ -429,8 +429,8 @@
+     },
+     {
+       "path": "web/features/settings.js",
+-      "sha256": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
+-      "bytes": 2618
++      "sha256": "580867a275b3e1103de9e5a008b8710a606f1d07e7c70ae105412ac031e1d182",
++      "bytes": 2591
+     },
+     {
+       "path": "web/features/states.css",
+@@ -474,8 +474,8 @@
+     },
+     {
+       "path": "web/index.html",
+-      "sha256": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d",
+-      "bytes": 1922
++      "sha256": "c3a72383baeb46d5ecc8e97ddcc9641f69b8a3bc127bb909fe2146bb9c4a72e6",
++      "bytes": 1932
+     },
+     {
+       "path": "web/manifest.webmanifest",
+@@ -554,7 +554,7 @@
+     },
+     {
+       "path": "web/sw.js",
+-      "sha256": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76",
++      "sha256": "24a86352cc1833ca7baeb8535a128d5526942d2c8d9316eba55aeb50e6a839b1",
+       "bytes": 3800
+     },
+     {
+--- R31-A1/deploy/STATIC_MANIFEST.json
++++ R31-A2/deploy/STATIC_MANIFEST.json
+@@ -1,5 +1,5 @@
+ {
+-  "staticVersion": "87fef183f091b968",
++  "staticVersion": "f2f3393ff7cd92f7",
+   "assets": {
+     "adapters/ocr.js": "88ae1b81c967f71824142d3a56fbbf33455d731ac24e447fdf6a6bff36334fc5",
+     "app/action_coordinator.js": "ad3bda96b89e94347b74f3917a6993b17d9cbf6f1bb05de77a8abd613962e0d1",
+@@ -71,7 +71,7 @@
+     "features/ocr_review.css": "d645f9bbf24a623dbaa96a361db3b3d357886d23afea26a138d7295045833619",
+     "features/records.js": "4bd3374444f842bf38aab9a0a805594011acf1b4af130817ff928ac6f75a6e14",
+     "features/report_rows.js": "55e2345b12cda7c5d44ef88e23b2fad71a84cbb931325de5b2458b6b6a170e2a",
+-    "features/settings.js": "4aff366021ccb743e7115f84fcf4a20a82d88a71f1993efc88b6173228b43b7a",
++    "features/settings.js": "580867a275b3e1103de9e5a008b8710a606f1d07e7c70ae105412ac031e1d182",
+     "features/states.css": "3f29e0f08f0113618358f5cc895a8ac564bc59b1d3ab388572ace9e7839a6a39",
+     "features/states.js": "f3838dfc91b04dbe54876e15110365c7d198fef4a1c85bcce371e6ebeaa2853e",
+     "features/step_labels.js": "a4acd4278451288b4d1350dd0ce85f7a527b75a1f8bef6b76a09c1f3f4df07d4",
+@@ -80,7 +80,7 @@
+     "icon-192.png": "c931ba8a5e04e056511ef39ac5964e6be7079dca354c5558dface31304258f9d",
+     "icon-512.png": "3f2da187388cf81769e92754b0b6a38f276a84566c1c251c30a147b415be5516",
+     "icon.svg": "b384db00af1cd0c891e215654be47c60f1c7c15fa0d847d1cd1ea5c3753323ad",
+-    "index.html": "b910744a83c681c77bfd992921fe2c911bf206c63d4c961f7a57d49abd545f2d",
++    "index.html": "c3a72383baeb46d5ecc8e97ddcc9641f69b8a3bc127bb909fe2146bb9c4a72e6",
+     "manifest.webmanifest": "e32f5cccd1ce751564a74ea86c64b3c25c1ada2183bf8e04003735f379e478f9",
+     "rules/definitions.js": "fc2187c3fdecba8addc2650163d279a99b7c06237bb494f6d57cd721333b1e09",
+     "rules/h1-dictionary-0.1.json": "8796767e230fc5705b78956d715832cff607872e67ddeb2c2ef427a202dc4ce8",
+@@ -98,5 +98,5 @@
+     "styles/shell.css": "04c55af50bcae44f187aeceb330b410d4d0d1041ad72006040d12a5614cd4cd8",
+     "typography.css": "446eaa13a12b2d2ea030e18379a8885d7c1822205b9bb174783675eabf1d05a8"
+   },
+-  "serviceWorkerSha256": "19f656c4d7712e7148da0ac9afb6c501f07279729683a2e7aa2b7a96945efa76"
++  "serviceWorkerSha256": "24a86352cc1833ca7baeb8535a128d5526942d2c8d9316eba55aeb50e6a839b1"
+ }--- R31-A1/tests/browser.css.js
++++ R31-A2/tests/browser.css.js
+@@ -9,9 +9,9 @@
+  await wait(()=>document.querySelectorAll('[data-state-rule]').length===3);
+  const pages=[];
+  function checkPage(name){
+-  const rootSize=parseFloat(getComputedStyle(document.documentElement).fontSize),nav=[...document.querySelectorAll('nav button')],calendar=[...document.querySelectorAll('.day')];
++  const rootSize=parseFloat(getComputedStyle(document.documentElement).fontSize),nav=[...document.querySelectorAll('nav button')].filter(e=>e.getClientRects().length),calendar=[...document.querySelectorAll('.day')];
+   ok(document.documentElement.scrollWidth<=innerWidth+1,name+' horizontal overflow');
+-  ok(nav.length===4&&nav.every(x=>parseFloat(getComputedStyle(x.querySelector('span')).fontSize)>=14),'bottom labels too small');
++  ok(nav.length===3&&nav.every(x=>parseFloat(getComputedStyle(x.querySelector('span')).fontSize)>=14),'bottom labels too small');
+   ok(nav.every(x=>x.getBoundingClientRect().width>=44&&x.getBoundingClientRect().height>=44),'bottom hit area');
+   ok(rootSize>=16,'root type too small');
+   const textNodes=[...document.querySelectorAll('#main *, header *, nav *, .lead, .footer')].filter(el=>el.children.length===0&&el.textContent.trim()&&getComputedStyle(el).display!=='none'&&getComputedStyle(el).visibility!=='hidden'&&!el.closest('svg,.sr-only,[hidden]'));
+@@ -19,7 +19,7 @@
+   ok(!tooSmall.length,name+' text below 14px: '+tooSmall.map(el=>el.tagName+'.'+el.className).slice(0,5).join(','));
+   if(calendar.length){ok(calendar.length===7&&calendar.every(x=>parseFloat(getComputedStyle(x.querySelector('strong')).fontSize)>=20),'calendar dates too small');ok(calendar.every(x=>x.getBoundingClientRect().width>=44),'calendar hit area');}
+   const properties=['display','position','color','backgroundColor','fontFamily','fontSize','fontWeight','lineHeight','letterSpacing','textAlign','whiteSpace','overflowWrap','borderTopWidth','borderTopColor','borderRadius','paddingTop','paddingRight','paddingBottom','paddingLeft','marginTop','marginRight','marginBottom','marginLeft','width','height','minWidth','minHeight','maxWidth','maxHeight','flexDirection','flexWrap','flexGrow','gap','gridTemplateColumns','alignItems','justifyContent','overflowX','overflowY'];
+-  const styles=[...document.querySelectorAll('#main *,header *,nav *,.local-note')].filter(e=>e.getClientRects().length&&!e.closest('[hidden],.home-resources')).map(e=>{const style=getComputedStyle(e);return {tag:e.tagName,id:e.id,classes:e.className?.baseVal??e.className,values:Object.fromEntries(properties.map(p=>[p,style[p]]))};});
++  const styles=[...document.querySelectorAll('#main *,header *,nav *,.local-note')].filter(e=>e.getClientRects().length&&!e.closest('[hidden],.home-resources,nav')).map(e=>{const style=getComputedStyle(e);return {tag:e.tagName,id:e.id,classes:e.className?.baseVal??e.className,values:Object.fromEntries(properties.map(p=>[p,style[p]]))};});
+   pages.push({name,styles,scrollWidth:document.documentElement.scrollWidth,viewport:innerWidth,rootSize,navLabels:nav.map(x=>parseFloat(getComputedStyle(x.querySelector('span')).fontSize)),calendarDateSize:calendar.length?parseFloat(getComputedStyle(calendar[0].querySelector('strong')).fontSize):null});
+  }
+  checkPage('home');ok(!$('#main').textContent.includes('我的病程'),'removed heading visible');
+--- R31-A1/tests/browser.mobile.js
++++ R31-A2/tests/browser.mobile.js
+@@ -8,9 +8,9 @@
+  await wait(()=>document.querySelectorAll('[data-state-rule]').length===3);
+  const pages=[];
+  function checkPage(name){
+-  const rootSize=parseFloat(getComputedStyle(document.documentElement).fontSize),nav=[...document.querySelectorAll('nav button')],calendar=[...document.querySelectorAll('.day')];
++  const rootSize=parseFloat(getComputedStyle(document.documentElement).fontSize),nav=[...document.querySelectorAll('nav button')].filter(e=>e.getClientRects().length),calendar=[...document.querySelectorAll('.day')];
+   ok(document.documentElement.scrollWidth<=innerWidth+1,name+' horizontal overflow');
+-  ok(nav.length===4&&nav.every(x=>parseFloat(getComputedStyle(x.querySelector('span')).fontSize)>=14),'bottom labels too small');
++  ok(nav.length===3&&nav.every(x=>parseFloat(getComputedStyle(x.querySelector('span')).fontSize)>=14),'bottom labels too small');
+   ok(nav.every(x=>x.getBoundingClientRect().width>=44&&x.getBoundingClientRect().height>=44),'bottom hit area');
+   ok(rootSize>=16,'root type too small');
+   const textNodes=[...document.querySelectorAll('#main *, header *, nav *, .lead, .footer')].filter(el=>el.children.length===0&&el.textContent.trim()&&getComputedStyle(el).display!=='none'&&getComputedStyle(el).visibility!=='hidden'&&!el.closest('svg,.sr-only,[hidden]'));
+--- R31-A1/tests/browser.navigation.js
++++ R31-A2/tests/browser.navigation.js
+@@ -0,0 +1,11 @@
++(async()=>{
++ const $=s=>document.querySelector(s),ok=(v,m)=>{if(!v)throw Error(m);},wait=async f=>{for(let i=0;i<600;i++){if(f())return;await new Promise(r=>setTimeout(r,10));}throw Error('WAIT '+f);};
++ window.confirm=()=>true;const cfg=window.__PROBE_INPUT__;if(cfg.fontScale)document.documentElement.style.fontSize=cfg.fontScale+'%';
++ const routes=()=>[...document.querySelectorAll('nav button')].filter(e=>e.getClientRects().length),assertNav=()=>{ok(routes().map(e=>e.dataset.nav).join(',')==='records,capture,settings','NAVIGATION_VISIBLE_ROUTES');ok(routes().map(e=>e.querySelector('span').textContent).join(',')==='状态,录入,本机','NAVIGATION_LABELS');const hidden=$('[data-nav="consultation"]');ok(hidden?.hidden&&getComputedStyle(hidden).display==='none','NAVIGATION_CONSULTATION_NOT_HIDDEN');hidden.focus();ok(document.activeElement!==hidden,'NAVIGATION_HIDDEN_FOCUSABLE');ok(routes().every(e=>e.getBoundingClientRect().width>=44&&e.getBoundingClientRect().height>=44&&parseFloat(getComputedStyle(e.querySelector('span')).fontSize)>=14),'NAVIGATION_TOUCH_OR_FONT');ok(document.documentElement.scrollWidth<=innerWidth+1,'NAVIGATION_OVERFLOW');};
++ await wait(()=>$('#start'));assertNav();ok($('.footer').textContent==='帮你整理病程和检查记录 · 不代替医生','NAVIGATION_COPY_STILL_PROMISES_CONSULTATION');
++ $('#local-consent').checked=true;$('#timezone').value='Asia/Shanghai';$('#start').click();await wait(()=>$('.state-overview'));assertNav();
++ $('[data-nav="capture"]').click();await wait(()=>$('#start-review'));$('#start-review').click();await wait(()=>!$('#review-step').hidden);$('#clinical-date').value='2020-01-01';$('#clinical-date').dispatchEvent(new Event('input',{bubbles:true}));$('#note').value='虚构三项导航验收记录';$('#note').dispatchEvent(new Event('input',{bubbles:true}));$('#prepare-review').click();await wait(()=>!$('#confirmation').hidden&&!$('#confirmed').disabled);ok(!$('#confirmed').checked&&$('#save').disabled,'NAVIGATION_AUTO_CONFIRM');$('#confirmed').checked=true;$('#confirmed').dispatchEvent(new Event('change'));$('#save').click();await wait(()=>$('#delete-record'));assertNav();
++ const {RecordStore}=await import('/storage/store.js'),m=await import('/domain/model.js'),s=new RecordStore(),page=await s.page(),d=await s.detail(page.items[0].id);ok(page.items.length===1,'NAVIGATION_RECORD_SAVE');const event=m.canonical(d.event),receipt=m.canonical(d.receipt),draft=JSON.stringify(await s.readConsultationDraft());
++ $('[data-nav="settings"]').click();await wait(()=>$('#export'));assertNav();ok(!$('#main').textContent.includes('问诊卡请另行下载')&&$('#main').textContent.includes('不含未完成的录入和问诊草稿'),'NAVIGATION_HIDDEN_DOWNLOAD_PROMISE');$('[data-nav="records"]').click();await wait(()=>$('.state-overview'));assertNav();$('[data-nav="capture"]').click();await wait(()=>$('#start-review'));assertNav();$('[data-nav="records"]').click();await wait(()=>$('.state-overview'));
++ const again=await s.detail(d.event.id);ok(m.canonical(again.event)===event&&m.canonical(again.receipt)===receipt&&JSON.stringify(await s.readConsultationDraft())===draft,'NAVIGATION_CHANGED_PERSISTED_DATA');s.close();window.webkit.messageHandlers.result.postMessage({ok:true,visibleLabels:['状态','录入','本机'],hiddenConsultationNotFocusable:true,explicitFictionalSave:true,navigationPreservesData:true,width:innerWidth,fontScale:cfg.fontScale||'100',oldDraftActualCrossPIDCoverage:'existing mandatory draft-reopen and consult-draft cases exercise retained component via programmatic click; not user-visible entry'});
++})().catch(e=>window.webkit.messageHandlers.result.postMessage({ok:false,error:e.message,stack:e.stack}));
+--- R31-A1/tests/fixtures/r31-navigation-parity.json
++++ R31-A2/tests/fixtures/r31-navigation-parity.json
+@@ -0,0 +1,63 @@
++{
++  "scope": "approved R31-A2 primary nav only; all existing page content38 styles remain exact",
++  "sourceBinding": "eb4367b928962e422f409df5d7e5f8d7df9aa7e585070dd0cb7ffc0425e27980",
++  "sourceProof": "evidence/r31-verification02/result.json",
++  "originalR09FixtureSha256": "3e38a02688315087b208a798b3e3018324259e1cf6a5c5845f277f7df8931c38",
++  "outputs": {
++    "layout-320-160": {
++      "originalPagesSha256": "4106a1fded2257f3a0e016685006e0b7ab5e115973fcc248037530c77d45572d",
++      "sourceResultSha256": "9856f25a352018ba16c5a8b93cd5cbb1201c3c079f6d787e8b91b8ac708a2c76",
++      "withoutPrimaryNavigationSha256": "01ec672493df6079d2854d53605f5f612fd025998a73a4e45537b96d17359216",
++      "pageNames": [
++        "home",
++        "state detail",
++        "calendar filtered",
++        "drafts"
++      ]
++    },
++    "layout-430-100": {
++      "originalPagesSha256": "656593f398a8d098cc6119dd4e03704f91949f71e5acd922597f72feb5735786",
++      "sourceResultSha256": "f96752c24c2b0d9076c17b4803bab65f41b09aca41bdda838292c5fcac3fe7fa",
++      "withoutPrimaryNavigationSha256": "2759301515c44b8608e6486a21e805afcc772b3292b867604e19e143c19005be",
++      "pageNames": [
++        "home",
++        "state detail",
++        "calendar filtered",
++        "drafts"
++      ]
++    },
++    "layout-390-100": {
++      "originalPagesSha256": "8f91b191cefbe52f1fdfb0a83c0e9a6d6634848293986698f3f1e0b70c2d6b3d",
++      "sourceResultSha256": "8d6bdeb37cc6ea3e3947bc52d8a20d6761157eb41296024717e5b6c8a06ce3d4",
++      "withoutPrimaryNavigationSha256": "38fa8369ae04be4628ea0bea81fa299356312dc6e9d25d6f757c4404369a1fae",
++      "pageNames": [
++        "home",
++        "state detail",
++        "calendar filtered",
++        "drafts"
++      ]
++    },
++    "layout-620-100": {
++      "originalPagesSha256": "810a1e718eef2f5ad6ec208e4b52cbfdc2aeae94576c4693fb83ca07db77be55",
++      "sourceResultSha256": "2609ce506cbab15eaa78ddb75422447d4c3aa7dd832cf2ab7b12ef688d2f9ec0",
++      "withoutPrimaryNavigationSha256": "ca1e53de9cef9e31da6660092f1496c80baa24bb8f9f2d680ce983ec969790c4",
++      "pageNames": [
++        "home",
++        "state detail",
++        "calendar filtered",
++        "drafts"
++      ]
++    },
++    "layout-320-100": {
++      "originalPagesSha256": "a935a1091256a5c7a1dedc89772d8f78a2e9bcfa60ebe2778bcd0a448e5a6aa4",
++      "sourceResultSha256": "8bf70f4f8e54588e5a22978d74099ed9240566de56d6ecf1f38562bda80866cf",
++      "withoutPrimaryNavigationSha256": "8c4e723fccf6cc17a659d0025efc2185fa1e3f3383d94feba4b61375b5c810c7",
++      "pageNames": [
++        "home",
++        "state detail",
++        "calendar filtered",
++        "drafts"
++      ]
++    }
++  }
++}
+--- R31-A1/tests/template_parity.test.mjs
++++ R31-A2/tests/template_parity.test.mjs
+@@ -19,7 +19,7 @@
+  '<p class="muted">记录字段：记录日期、采样时间（如填）、检查项目、数值、单位、身体情况、病程与备注。</p>'+
+  '<p class="muted">原件信息：原文件名、原图、识别原文和来源关联（如有）。</p>'+
+  '<p class="muted">保存信息：记录时区、保存时间、备份时间和完整性核对信息。</p></details>';
+-test('R06 fixed output changes only approved R08 editor text and R09 settings simplification',()=>{
++test('R06 fixed output changes only approved R08 editor, R09 settings and R31 hidden-entry copy',()=>{
+   const cases=templateCases();
+   assert.equal(cases.length,baseline.outputs.length);
+   cases.forEach(({module,fn,args},i)=>{
+@@ -28,6 +28,7 @@
+     assert.ok(expected.includes(removedUpdate));expected=expected.replace(removedUpdate,'');
+     const spaces={0:'不到0.1 MB',1:'不到0.1 MB',1048576:'约 1.0 MB',3879731:'约 3.7 MB'};
+     assert.ok(Object.hasOwn(spaces,args[1].usage));
++    expected=expected.replace('和问诊草稿；问诊卡请另行下载。','和问诊草稿。'); // approved R31-A2 hidden-entry wording only
+     expected=expected.replace(/^<h1>本机<\/h1><section class="panel"><h2>占用空间<\/h2><p>[^<]+<\/p><\/section>/,
+      `<h1 class="local-usage-heading" id="local-usage-title">本机<span>（空间占用：${spaces[args[1].usage]}）</span></h1>`);
+     const before='<p>上次备份：';assert.ok(expected.includes(before));expected=expected.replace(before,extraFormat+before);
+--- R31-A1/tests/test_home_resources_runner.py
++++ R31-A2/tests/test_home_resources_runner.py
+@@ -23,9 +23,11 @@
+                                {'profile':str(uuid.uuid4()),'width':width,'fontScale':scale},f'http://127.0.0.1:{server.server_port}/'))
+         results.append(run('home-resources',out/'qr-enlarged',
+                            {'profile':str(uuid.uuid4()),'width':'390','screenshot':'qr'},f'http://127.0.0.1:{server.server_port}/'))
++        from tests.test_navigation_runner import verify as verify_navigation
++        navigation=verify_navigation(out/'navigation')
+         (out/'result.json').write_text(json.dumps({'ok':True,'results':results,'actualProviderCalls':0,
+             'recordsRead':'fresh fictional profiles only','externalTargetFetched':False,
+-            'approvedCondition':'actual QR image click enlarges original and closes correctly',
++            'navigation':navigation,'approvedCondition':'actual QR image click enlarges original and closes correctly',
+             'identity':'author five sizes plus large fonts and actual modal; not physical iPhone acceptance'},ensure_ascii=False,indent=2)+'\n')
+     finally:server.shutdown();server.server_close()
+ 
+--- R31-A1/tests/test_navigation_runner.py
++++ R31-A2/tests/test_navigation_runner.py
+@@ -0,0 +1,24 @@
++"""R31-A2 primary navigation, fictional UI only; no external/paid call."""
++import argparse,hashlib,json,shutil,threading,uuid
++from pathlib import Path
++from gateway.server import Server
++from gateway.ocr import Configuration
++from tools.run_browser import run
++ROOT=Path(__file__).resolve().parents[1]
++def verify(out):
++ out.mkdir(parents=True,exist_ok=False);server=Server(('127.0.0.1',0),ROOT/'web',out/'unused-budget.json',Configuration({}));threading.Thread(target=server.serve_forever,daemon=True).start();results=[];killed={}
++ try:
++  for width,scale in [('320','100'),('390','100'),('320','160')]:results.append(run('navigation',out/('nav-'+width+'-'+scale),{'profile':str(uuid.uuid4()),'width':width,'fontScale':scale},f'http://127.0.0.1:{server.server_port}/'))
++  for name,relative,old,new,error in [('unhide','web/index.html','data-nav="consultation" hidden','data-nav="consultation"','NAVIGATION_VISIBLE_ROUTES'),('old-footer','web/index.html','帮你整理病程和检查记录 · 不代替医生','帮你记病程、准备问诊 · 不代替医生','NAVIGATION_COPY_STILL_PROMISES_CONSULTATION'),('old-download-guide','web/features/settings.js','和问诊草稿。','和问诊草稿；问诊卡请另行下载。','NAVIGATION_HIDDEN_DOWNLOAD_PROMISE')]:
++   tree=ROOT/'runtime'/('nav-mutation-'+str(uuid.uuid4()));shutil.copytree(ROOT/'web',tree/'web');p=tree/relative;text=p.read_text();assert text.count(old)==1;p.write_text(text.replace(old,new));(out/(name+'-served.json')).write_text(json.dumps({str(p.relative_to(tree)):hashlib.sha256(p.read_bytes()).hexdigest()for p in (tree/'web').rglob('*')if p.is_file()},indent=2))
++   mutated=Server(('127.0.0.1',0),tree/'web',out/(name+'-unused-budget.json'),Configuration({}));threading.Thread(target=mutated.serve_forever,daemon=True).start()
++   try:
++    try:run('navigation',out/name,{'profile':str(uuid.uuid4()),'width':'390'},f'http://127.0.0.1:{mutated.server_port}/')
++    except SystemExit:pass
++    data=json.loads((out/(name+'.json')).read_text());assert data.get('ok')is False and data.get('error')==error,data;killed[name]=error
++   finally:mutated.shutdown();mutated.server_close();shutil.rmtree(tree)
++  data={'ok':True,'identity':'author fictional actual navigation; not independent/human/iPhone','positive':results,'mutations':killed,'positiveControl':'same nav-390-100 unmutated scenario','paidProviderCalls':0};(out/'result.json').write_text(json.dumps(data,indent=2)+'\n');return data
++ finally:server.shutdown();server.server_close()
++def main():
++ p=argparse.ArgumentParser();p.add_argument('--output',required=True);a=p.parse_args();verify(ROOT/a.output)
++if __name__=='__main__':main()
+--- R31-A1/tools/test_plan.json
++++ R31-A2/tools/test_plan.json
+@@ -68,7 +68,8 @@
+     "browser.startup.js",
+     "browser.report-rows.js",
+     "browser.report-upgrade.js",
+-    "browser.report-reference.js"
++    "browser.report-reference.js",
++    "browser.navigation.js"
+   ],
+   "coverage": {
+     "core": [
+@@ -597,5 +598,19 @@
+     ],
+     "noRealProvider": true,
+     "wireAndMedicalRulesUnchanged": true
++  },
++  "r31Navigation": {
++    "scope": "temporarily hide primary consultation entry only; storage, components, backup and lifecycle unchanged",
++    "mandatoryBrowserEntry": "home-resources -> tests.test_navigation_runner",
++    "styleParity": "original R09 fixture unchanged; derive nav-excluded hashes from verified exact A1 captures, new native 3-route checks; no other golden changes",
++    "retainedComponentRegression": "existing consult/draft suites invoke hidden DOM button programmatically; not a claim of normal-user accessibility",
++    "mutations": [
++      "unhide",
++      "old-footer"
++    ],
++    "productPaths": [
++      "web/index.html"
++    ],
++    "noActualPhoneAcceptance": true
+   }
+ }
+--- R31-A1/tools/verify_debt.py
++++ R31-A2/tools/verify_debt.py
+@@ -68,8 +68,15 @@
+         for name,expected in baseline['outputs'].items():
+             data=json.loads((out/(name+'.json')).read_text())
+             actual=[p for p in data['pages'] if p['name'] not in baseline['approvedChangedPages'] and p['name'] not in baseline['approvedAddedPages']]
+-            digest=hashlib.sha256(json.dumps(actual,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+-            assert digest==expected['pagesSha256'],'UNCHANGED_PAGE_STYLE_CHANGED '+name
++            # R31-A2 approved primary-nav-only projection; original R09 golden is retained and source-bound.
++            nav_baseline=json.loads((ROOT/'tests/fixtures/r31-navigation-parity.json').read_text())
++            assert hashlib.sha256((ROOT/'tests/fixtures/r09-settings-layout-baseline.json').read_bytes()).hexdigest()==nav_baseline['originalR09FixtureSha256']
++            nav_expected=nav_baseline['outputs'][name]
++            assert nav_expected['originalPagesSha256']==expected['pagesSha256'] and nav_expected['pageNames']==expected['pageNames']
++            assert all(len(p['navLabels'])==3 for p in data['pages']),'VISIBLE_NAVIGATION_COUNT_CHANGED'
++            normalized=[{k:v for k,v in p.items()if k!='navLabels'}for p in actual]
++            digest=hashlib.sha256(json.dumps(normalized,sort_keys=True,separators=(',',':')).encode()).hexdigest()
++            assert digest==nav_expected['withoutPrimaryNavigationSha256'],'UNCHANGED_PAGE_STYLE_CHANGED '+name
+             assert {p['name'] for p in data['pages']}==set(expected['pageNames'])|set(baseline['approvedChangedPages'])|set(baseline['approvedAddedPages']),'LAYOUT_PAGE_COVERAGE_CHANGED '+name
+         checks['style-parity']='PASS'
+         profile=str(uuid.uuid4())
+--- R31-A1/web/features/settings.js
++++ R31-A2/web/features/settings.js
+@@ -13,7 +13,7 @@
+ function backupPanel(zone,backup) {
+  return `<section class="panel">` +
+   `<h2>备份与恢复</h2>` +
+-  `<p class="muted">备份含已保存的记录和原图，不含未完成的录入和问诊草稿；问诊卡请另行下载。请另存一份，密码忘了无法找回。</p>` +
++  `<p class="muted">备份含已保存的记录和原图，不含未完成的录入和问诊草稿。请另存一份，密码忘了无法找回。</p>` +
+   `<p class="muted">文件为 .ptds 加密备份，需在本页输入密码恢复，不能直接当表格打开。</p>` +
+   `<details id="backup-format"><summary>文件名和内容字段</summary>` +
+   `<p class="muted">文件名：PTDS-encrypted-backup-日期.ptds。</p>` +
+--- R31-A1/web/index.html
++++ R31-A2/web/index.html
+@@ -1,3 +1,3 @@
+ <!doctype html>
+ <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#202222"><meta name="referrer" content="no-referrer"><title>PTDS · 此设备的健康记录</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/styles/shell.css"><link rel="stylesheet" href="/features/editor.css"><link rel="stylesheet" href="/features/states.css"><link rel="stylesheet" href="/features/consultation.css"><link rel="stylesheet" href="/styles/responsive.css"><link rel="stylesheet" href="/typography.css"><link rel="stylesheet" href="/features/home_resources.css"><link rel="stylesheet" href="/features/ocr_review.css"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/icon-180.png"><link rel="icon" href="/icon.svg" type="image/svg+xml"></head>
+-<body><div class="shell"><header><a class="brand" href="/">PTDS <small>sJIA·MAS</small></a><span class="pill" id="network">此设备保存</span></header><p class="lead local-note">在线测试版数据保存在本地浏览器；在线识别会上传图片。清理网站数据会丢失记录，请导出备份。</p><main id="main" aria-live="polite"><section id="startup-fallback" class="panel"><p>正在打开此设备资料库。如果暂时没打开，请稍候或重新打开。已有记录不会清空。</p><a href="/">重新打开</a></section></main><p class="footer">帮你记病程、准备问诊 · 不代替医生</p></div><nav aria-label="主导航"><button data-nav="records">◷<span>状态</span></button><button data-nav="capture">＋<span>录入</span></button><button data-nav="consultation">▤<span>问诊</span></button><button data-nav="settings">⚙<span>本机</span></button></nav><div id="notice" role="status"></div><script type="module" src="/app/startup.js"></script></body></html>
++<body><div class="shell"><header><a class="brand" href="/">PTDS <small>sJIA·MAS</small></a><span class="pill" id="network">此设备保存</span></header><p class="lead local-note">在线测试版数据保存在本地浏览器；在线识别会上传图片。清理网站数据会丢失记录，请导出备份。</p><main id="main" aria-live="polite"><section id="startup-fallback" class="panel"><p>正在打开此设备资料库。如果暂时没打开，请稍候或重新打开。已有记录不会清空。</p><a href="/">重新打开</a></section></main><p class="footer">帮你整理病程和检查记录 · 不代替医生</p></div><nav aria-label="主导航"><button data-nav="records">◷<span>状态</span></button><button data-nav="capture">＋<span>录入</span></button><button data-nav="consultation" hidden>▤<span>问诊</span></button><button data-nav="settings">⚙<span>本机</span></button></nav><div id="notice" role="status"></div><script type="module" src="/app/startup.js"></script></body></html>
+--- R31-A1/web/sw.js
++++ R31-A2/web/sw.js
+@@ -1,4 +1,4 @@
+-const CACHE='ptds-h5-87fef183f091b968';
++const CACHE='ptds-h5-f2f3393ff7cd92f7';
+ const SHELL=["/", "/adapters/ocr.js", "/app/action_coordinator.js", "/app/backup_task.js", "/app/consultation_draft.js", "/app/consultation_flow.js", "/app/editor_flow.js", "/app/home_resources.js", "/app/main.js", "/app/ocr_review.js", "/app/ocr_task.js", "/app/records_flow.js", "/app/records_snapshot.js", "/app/report_editor.js", "/app/settings_flow.js", "/app/startup.js", "/app/startup_plan.js", "/app/startup_task.js", "/app/state_controller.js", "/app/step_flow.js", "/app/ui.js", "/assets/sjia-knowledge-qr.jpg", "/compat/r27/web/domain/model.js", "/compat/r27/web/domain/ocr_review.js", "/compat/r27/web/domain/report/contract.js", "/compat/r27/web/domain/report/fields.js", "/compat/r27/web/domain/report/layout.js", "/compat/r27/web/domain/report/rows.js", "/compat/r27/web/domain/report/table_fields.js", "/compat/r27/web/domain/report/tables.js", "/compat/r27/web/domain/state/candidates.js", "/compat/r27/web/domain/state/catalog.js", "/compat/r27/web/domain/state/ocr_aliases.js", "/compat/r27/web/domain/state/ocr_fragments.js", "/compat/r27/web/domain/state/ocr_tables.js", "/compat/r27/web/rules/definitions.js", "/domain/model.js", "/domain/ocr_review.js", "/domain/report/contract.js", "/domain/report/fields.js", "/domain/report/layout.js", "/domain/report/reference.js", "/domain/report/restore_binding.js", "/domain/report/rows.js", "/domain/report/table_fields.js", "/domain/report/tables.js", "/domain/service.js", "/domain/state/candidates.js", "/domain/state/catalog.js", "/domain/state/decimal.js", "/domain/state/evaluate.js", "/domain/state/ocr_aliases.js", "/domain/state/ocr_fragments.js", "/domain/state/ocr_tables.js", "/domain/state/project.js", "/domain/state/select.js", "/domain/write_binding.js", "/features/clinical_flags.js", "/features/consultation.css", "/features/consultation.js", "/features/consultation_page.js", "/features/editor.css", "/features/editor.js", "/features/health_labels.js", "/features/home_resources.css", "/features/home_resources.js", "/features/ocr_evidence.js", "/features/ocr_review.css", "/features/records.js", "/features/report_rows.js", "/features/settings.js", "/features/states.css", "/features/states.js", "/features/step_labels.js", "/fixture.png", "/icon-180.png", "/icon-192.png", "/icon-512.png", "/icon.svg", "/index.html", "/manifest.webmanifest", "/rules/definitions.js", "/shared/observe.js", "/storage/backup.js", "/storage/backup_reader.js", "/storage/backup_stream.js", "/storage/backup_task.js", "/storage/consultation_draft.js", "/storage/state_read.js", "/storage/store.js", "/style.css", "/styles/responsive.css", "/styles/shell.css", "/typography.css"];
+ async function installShell(){
+  const cache=await caches.open(CACHE),owner=new AbortController();let next=0;

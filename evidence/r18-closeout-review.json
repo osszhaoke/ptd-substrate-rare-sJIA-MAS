@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "initialGuardFailure": "overbroad suffix .zip check classified four expected fictional phone-test bundles as product transport or private runtime",
+  "originalFailedAssertions": [
+    "initial ZIP/private-path guard",
+    "first follow-up expected only phone-tool path; omitted three existing phone test runners"
+  ],
+  "correctedGuard": "anchor private/runtime/binary and deploy product paths at repository root; inspect all expected phone fixture ZIP paths explicitly",
+  "expectedFictionalFixtureZips": [
+    "evidence/r18-verification01/phone-journal/bundle/PTDS-H5-phone-r18.zip",
+    "evidence/r18-verification01/phone-progress/bundle/PTDS-H5-phone-r18.zip",
+    "evidence/r18-verification01/phone-quota/bundle/PTDS-H5-phone-r18.zip",
+    "evidence/r18-verification01/phone-tool/bundle/PTDS-H5-phone-r18.zip"
+  ],
+  "actualPrivateRuntimeBinaryOrProductZipCommitted": [],
+  "productFilesChangedByReview": false,
+  "commitWasMadeBeforeClassification": "9f54a5c74c23e25e96da11e38bceafd18fad3b95",
+  "conclusion": "test evidence only; no credentials/private state or ignored product ZIP entered Git"
+}

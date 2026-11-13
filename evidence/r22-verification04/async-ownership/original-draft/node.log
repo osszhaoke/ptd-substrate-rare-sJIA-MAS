@@ -1,0 +1,73 @@
+✔ committed consultation survives a new owner; prompt is never a second stored authority (2.024584ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.15775ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.409291ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.157167ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.10025ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.147291ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.135792ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (0.350542ms)
+✔ an external conflict survives a late successful save acknowledgement (0.119792ms)
+✔ an external conflict survives a late non-conflict write failure (0.126541ms)
+✖ a draft notification during initial load invalidates the captured older snapshot (0.527375ms)
+✖ continuous changes during reload are bounded and preserve the local conflicting text (0.197041ms)
+✖ a clinical notification during initial load cannot leave a generated card falsely current (0.105583ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 10
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 54.720292
+
+✖ failing tests:
+
+test at tests/consultation_draft.test.mjs:96:1
+✖ a draft notification during initial load invalidates the captured older snapshot (0.527375ms)
+  AssertionError [ERR_ASSERTION]: load published an older snapshot after a competing commit
+  + actual - expected
+  
+  + ''
+  - 'latest competing draft'
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/runtime/r16-ownership-a86699b0-d198-488e-a7c9-a7cde42191c2/tests/consultation_draft.test.mjs:105:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: 'latest competing draft',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:110:1
+✖ continuous changes during reload are bounded and preserve the local conflicting text (0.197041ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection: continuous reload ignored intervening changes
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/runtime/r16-ownership-a86699b0-d198-488e-a7c9-a7cde42191c2/tests/consultation_draft.test.mjs:116:3)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /DRAFT_CHANGED_TRY_AGAIN/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/consultation_draft.test.mjs:122:1
+✖ a clinical notification during initial load cannot leave a generated card falsely current (0.105583ms)
+  AssertionError [ERR_ASSERTION]: initial load hid an intervening clinical change
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/startup-candidate02/runtime/r16-ownership-a86699b0-d198-488e-a7c9-a7cde42191c2/tests/consultation_draft.test.mjs:129:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

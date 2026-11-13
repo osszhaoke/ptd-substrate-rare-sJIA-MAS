@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "identity": "author fictional automated, not independent/human/physical/clinical acceptance",
+  "paidProviderCalls": 0,
+  "fakeProviderCalls": 3,
+  "reportRows": 27,
+  "projectedMetrics": 5,
+  "differentPIDs": [
+    348,
+    353
+  ],
+  "behavioralMutations": {
+    "hide-unknown": "REPORT_UNMAPPED_HIDDEN",
+    "reuse-row-check": "REPORT_EDIT_REUSES_CHECK"
+  },
+  "write": {
+    "backupRoundTrip": true,
+    "eventId": "c4346113-8ab9-48a0-9c66-d31eb7dcfd5a",
+    "explicitSyntheticRowChecks": true,
+    "explicitSyntheticSaveConfirmation": true,
+    "forgedOriginRejected": true,
+    "noAutomaticSave": true,
+    "noUnknownFieldsInAiProjection": true,
+    "ok": true,
+    "projectedMetrics": 5,
+    "reportRows": 27,
+    "unmappedRows": 22
+  },
+  "read": {
+    "eventId": "c4346113-8ab9-48a0-9c66-d31eb7dcfd5a",
+    "newProcessRead": true,
+    "ok": true,
+    "reportRows": 27
+  }
+}

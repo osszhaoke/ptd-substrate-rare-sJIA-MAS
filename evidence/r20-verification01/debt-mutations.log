@@ -1,0 +1,6 @@
+{"case": "backup-task", "pid": 50763, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "backup-task", "pid": 50776, "ok": false, "error": "EXPECTED_AbortError", "target": null, "p95Ms": null}
+{"case": "consult-draft", "pid": 50781, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "consult-draft", "pid": 50790, "ok": false, "error": "clinical notification erased manual additions", "target": null, "p95Ms": null}
+{"case": "ocr-navigation", "pid": 50804, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "ocr-navigation", "pid": 50816, "ok": false, "error": "WAIT ()=>$('#export')", "target": null, "p95Ms": null}

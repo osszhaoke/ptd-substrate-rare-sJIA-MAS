@@ -1,0 +1,9 @@
+✔ R27-A02: new stage/save reject incomplete OCR units across entries without invalidating historical literal schemas (118.396333ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 174.910125

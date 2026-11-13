@@ -1,0 +1,22 @@
+{
+  "identity": "author Mac fictional complete same-version window; not phone measurements",
+  "binding": "24f668645d661bfeaac85ff89d3e525e06a0dfff22167f7c77c16e95f6a4e3e6",
+  "measurements": {
+    "stateColdP95Ms": 445,
+    "stateWarmP95Ms": 1,
+    "consultPageP95Ms": 8,
+    "consultSelectedP95Ms": 4,
+    "backupInspectMs": 7008,
+    "backupHeartbeatP95Ms": 17,
+    "backupHeartbeatMaxMs": 231,
+    "independentProfileInspectMs": 7006,
+    "fileReads": 23,
+    "maxReadBytes": 1048576,
+    "metadataBlobTexts": 0,
+    "profileHeartbeatP95Ms": 17,
+    "profileHeartbeatMaxMs": 233,
+    "originalBytes": 67108864,
+    "maxCryptoBytes": 262145,
+    "originalHeartbeatP95Ms": 19
+  }
+}

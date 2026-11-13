@@ -1,0 +1,14 @@
+{"case": "report-rows", "pid": 49869, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49875, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49880, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49892, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49898, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49904, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49910, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49916, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49935, "ok": true, "error": null, "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49941, "ok": false, "error": "REPORT_EMPTY_NAME_STAGED", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49967, "ok": false, "error": "REPORT_UNMAPPED_HIDDEN", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49978, "ok": false, "error": "REPORT_EDIT_REUSES_CHECK", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 49990, "ok": false, "error": "LAYOUT_CANDIDATE_ROWS_LOST", "target": null, "p95Ms": null}
+{"case": "report-rows", "pid": 50002, "ok": false, "error": "LAYOUT_CANDIDATE_ROWS_LOST", "target": null, "p95Ms": null}

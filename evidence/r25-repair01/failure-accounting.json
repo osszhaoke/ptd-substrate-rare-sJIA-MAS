@@ -1,0 +1,24 @@
+{
+  "originalReproduction": {
+    "result": "r25-before01/write.json",
+    "actualBusinessError": "REPORT_EMPTY_NAME_STAGED",
+    "expectedFailure": true,
+    "sourceProduct": "unmodified R24 report_rows"
+  },
+  "targetedAttempt01": {
+    "status": "RUNNER_EXPECTED_ERROR_ID_MISMATCH",
+    "positiveWindowsPassed": 3,
+    "emptyNameMutationCaught": true,
+    "oldReuseCheckMutationActual": "REPORT_RENAME_ORIGIN_OR_CHECK_LOST",
+    "oldReuseCheckMutationExpected": "REPORT_EDIT_REUSES_CHECK",
+    "repair": "split added combined assertion; same checkbox invariant uses original behavioral error id, immutable-origin assertion retained separately; no product/test expectation weakened"
+  },
+  "targetedAttempt02": {
+    "status": "PASS",
+    "source": "r25-targeted02/result.json",
+    "positiveWindows": 3,
+    "effectiveMutations": 3
+  },
+  "allAttemptsGreen": false,
+  "realProviderCalls": 0
+}

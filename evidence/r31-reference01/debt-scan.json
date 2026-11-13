@@ -1,0 +1,76 @@
+{
+  "identity": "author scoped structural review; not independent technical debt acceptance",
+  "productDelta": [
+    {
+      "path": "web/app/report_editor.js",
+      "before": "cc60b75f557cba9e57e4bc9e31091fce10abf46b519bfef79bcf138403052e48",
+      "after": "a1e8e65b7d3e9836609c411232eac0aacc3e4d1529e19f8acff07e8d453af46f"
+    },
+    {
+      "path": "web/domain/report/reference.js",
+      "before": null,
+      "after": "9ac041444ad13a0114d5cf6d1bd4a38e982693268b93527d37f47b201ff2db7d"
+    },
+    {
+      "path": "web/features/report_rows.js",
+      "before": "fd1792ebe00e21e99e5fdae58a01732b83990e2cd2e8430ebb454b85d56ef5d0",
+      "after": "55e2345b12cda7c5d44ef88e23b2fad71a84cbb931325de5b2458b6b6a170e2a"
+    }
+  ],
+  "newLocksStoresNetworkTimersDependencies": 0,
+  "parserOriginWireRestoreAndMedicalRulesUnchanged": true,
+  "pureReferenceProjection": "<=100 rows, <=200-character stored literal; long decimal never throws; no inferred bounds",
+  "knownUnrepairedInSlice": 0,
+  "externalAudit": "PENDING",
+  "largestWebJSByLines": [
+    {
+      "path": "web/domain/report/tables.js",
+      "lines": 151,
+      "bytes": 12147
+    },
+    {
+      "path": "web/compat/r27/web/domain/report/tables.js",
+      "lines": 148,
+      "bytes": 11815
+    },
+    {
+      "path": "web/features/states.js",
+      "lines": 143,
+      "bytes": 9404
+    },
+    {
+      "path": "web/app/main.js",
+      "lines": 133,
+      "bytes": 15525
+    },
+    {
+      "path": "web/storage/store.js",
+      "lines": 131,
+      "bytes": 11515
+    },
+    {
+      "path": "web/features/editor.js",
+      "lines": 97,
+      "bytes": 7771
+    },
+    {
+      "path": "web/app/consultation_flow.js",
+      "lines": 92,
+      "bytes": 7407
+    },
+    {
+      "path": "web/storage/backup_stream.js",
+      "lines": 90,
+      "bytes": 5753
+    }
+  ],
+  "retained": [
+    "actual screenshot lower-bound-loss root cause UNKNOWN; no original/same response",
+    "remaining A slices not implemented incl consultation hide",
+    "O29-01 aggregate20k compatibility performance observation",
+    "physical phone memory/real low space/BFCache",
+    "human and clinical acceptance",
+    "gateway in-memory identity and historical performance unique cause",
+    "no whole-table OCR accuracy guarantee"
+  ]
+}

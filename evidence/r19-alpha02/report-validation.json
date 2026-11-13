@@ -1,0 +1,7 @@
+{
+  "specPath": "/Users/osszhaoke/Downloads/000-PTDSv0.3-StarTorchv2 - astra/docs/reference/AI_REPORTING_R02.source.txt",
+  "specSha256": "7e5f073b2a21ba9d2ddcde775eacc8a69a4347e2b72de09c6a2fa7a09674137b",
+  "bodySha256": "9c069f2679632164bd026e93d958e11cc7449d388c1d34e52c1f926b57649902",
+  "nonWhitespaceUnicodeCharacters": 380,
+  "mechanicalChecks": "PASS; identity and scope reviewed separately; not independent/device acceptance"
+}

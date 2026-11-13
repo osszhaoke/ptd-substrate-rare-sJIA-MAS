@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "mode": "one-off checker against embedded authoritative JSON contract; canonical checker outside permitted task roots not used",
+  "specPath": "/Users/osszhaoke/Downloads/000-PTDSv0.3-StarTorchv2 - astra/docs/reference/AI_REPORTING_R02.source.txt",
+  "specSha256": "7e5f073b2a21ba9d2ddcde775eacc8a69a4347e2b72de09c6a2fa7a09674137b",
+  "charactersExcludingWhitespace": 263,
+  "bodySha256": "3315c6b1ac9046b643804699a132259adb4c1af7e36ff7a818de186f37b17cc2",
+  "manualSemanticReview": "A1 adopted vs A2 pending independent/NOT_ADOPTED explicit; real lower loss and device/clinical/performance gaps retained; no approval requested"
+}

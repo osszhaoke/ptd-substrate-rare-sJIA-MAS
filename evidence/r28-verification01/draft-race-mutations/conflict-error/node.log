@@ -1,0 +1,42 @@
+✔ committed consultation survives a new owner; prompt is never a second stored authority (2.096583ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.144208ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.428958ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.172375ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.100708ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.151166ms)
+✔ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.133334ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (0.324042ms)
+✔ an external conflict survives a late successful save acknowledgement (0.1135ms)
+✖ an external conflict survives a late non-conflict write failure (0.542ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.099084ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.2115ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.0735ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 59.73375
+
+✖ failing tests:
+
+test at tests/consultation_draft.test.mjs:85:1
+✖ an external conflict survives a late non-conflict write failure (0.542ms)
+  AssertionError [ERR_ASSERTION]: late write error reopened a conflicted draft for retry
+  + actual - expected
+  
+  + 'error'
+  - 'conflict'
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/runtime/r15-draft-mutant-485e5cef-3478-4e74-a15b-ec3f317a5472/tests/consultation_draft.test.mjs:91:10)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'error',
+    expected: 'conflict',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

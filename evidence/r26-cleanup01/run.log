@@ -1,0 +1,3 @@
+{"phase": "plan", "files": 40213, "bytes": 1652197408}
+{"phase": "verified", "archiveBytes": 1102402715}
+{"phase": "complete", "freedLogicalBytes": 549794693, "diskFreeDelta": 668831744}

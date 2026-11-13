@@ -1,0 +1,24 @@
+{
+  "stage": "static design only; approved compact proposal, integration pending image approval",
+  "userApproval": "批准紧凑卡片方案，制作静态效果图",
+  "root": "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/evidence/home-links-mock01",
+  "sourceImage": "/Users/osszhaoke/Downloads/7211bc51f98215e49c234ac632023ed3.jpg",
+  "sourceImageSha256": "48ca5fc890f6b24ac92034b073cd15452b6fe929ceed3a798805857d6518db52",
+  "imageDimensions": [
+    1256,
+    1250
+  ],
+  "order": [
+    "knowledge QR compact card",
+    "幼年特发性关节炎患者手册 link",
+    "three existing rule cards",
+    "recent timeline"
+  ],
+  "link": "https://www.kdocs.cn/l/cgZMyp7rdz4g",
+  "productSourceModified": false,
+  "databaseOrNetworkAPIs": false,
+  "futureModules": [
+    "isolated home resource template/styles/QR asset and small view binding; no global lock"
+  ],
+  "notClinicalOrProductAcceptance": true
+}

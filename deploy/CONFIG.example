@@ -1,0 +1,18 @@
+# Public values below are approved defaults, not secret material. Domain must be supplied.
+# Prefer PUBLIC_CONFIG.example.json plus an explicit private credentials file.
+PTDS_PUBLIC_ORIGIN=
+PTDS_OCR_PROVIDER=tencent-general-accurate
+PTDS_OCR_REGION=ap-guangzhou
+PTDS_OCR_TOTAL_CALLS=100
+PTDS_OCR_SESSION_CALLS=100
+PTDS_OCR_PER_MINUTE=6
+PTDS_OCR_CONCURRENCY=1
+PTDS_OCR_MAX_UNIT_COST=0.50
+PTDS_OCR_TOTAL_BUDGET=50
+PTDS_OCR_CURRENCY=CNY
+PTDS_OCR_BUDGET_NOTE=Approved mainland plan A, no automatic replenishment
+# Only when using a platform secret manager instead of --secrets-file:
+# PTDS_TENCENT_SECRET_ID=<secret>
+# PTDS_TENCENT_SECRET_KEY=<secret>
+# PTDS_TRIAL_TOKEN=<random secret, at least 32 characters>
+# Never combine secret env vars and a credentials file. No actual secrets in this file.

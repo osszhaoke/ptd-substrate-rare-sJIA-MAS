@@ -1,0 +1,25 @@
+[Unit]
+Description=PTDS independent H5 sJIA R10
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=ptds
+Group=ptds
+WorkingDirectory=/opt/ptds-h5-sjia-mas-r19
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 -u -m gateway.server --host 127.0.0.1 --port 18791 --runtime /home/ptds/.ptds/runtime/h5-r02 --config-file /home/ptds/.ptds/config/h5-r02.json --secrets-file /home/ptds/.ptds/secrets/h5-r02.json --require-ocr
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ptds/.ptds/runtime/h5-r02
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

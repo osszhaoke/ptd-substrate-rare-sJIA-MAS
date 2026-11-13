@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "identity": "author scoped engineering scan; not independent audit",
+  "checks": 61,
+  "nodeTests": 119,
+  "pythonTests": 54,
+  "binding": "84743068c5bee06ddae22ec049b3ecc52ed0380f05f58b33588454c959c6d6eb",
+  "boundInputs": 240,
+  "productLineCounts": {
+    "gateway/ocr.py": 190,
+    "web/domain/report/fields.js": 43,
+    "web/domain/report/tables.js": 148,
+    "web/domain/report/table_fields.js": 11
+  },
+  "newGlobalLocksStoreNetworkTimerDependency": false,
+  "newModuleStaticScan": "no fetch/timer/Store/indexedDB/lock APIs; reviewed existing-module delta",
+  "oldExpectedFailures": 30,
+  "newExpectedMutations": 2,
+  "independentHumanClinical": "NOT_ACCEPTED",
+  "adoption": "evidence/r27-adoption01/adoption-result.json",
+  "sourceManifestEntries": 113,
+  "getAssetsExact": 76,
+  "gatewayRuntimePending": true,
+  "knownOpenReproducibleCodeDefectsInTestedSlice": 0,
+  "knownOpenVerificationToolDefects": 0,
+  "notGlobalDebtZero": true,
+  "pending": [
+    "R27 gateway credential-safe new process",
+    "independent R27 audit",
+    "human iPhone",
+    "phone peak memory",
+    "real low-space",
+    "BFCache/background",
+    "clinical review",
+    "historical performance unique attribution",
+    "278 Tencent coverage and field-level truth set not performed"
+  ],
+  "providerOutcome": "16 attempt records,15 valid,1 uncertain; no retry; supplier/manual review boundary remains"
+}

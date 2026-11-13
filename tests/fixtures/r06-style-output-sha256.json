@@ -1,0 +1,10 @@
+{
+  "identity": "untouched R06 UI; R07 before-refactor local measurements",
+  "outputs": {
+    "layout-320-160": "af3638792c683d49e0486b5a3df23917773212e7bb82692f1d8bd864cefc1862",
+    "layout-430-100": "370baf4556a076c4c31d8e2b3f82df1b942b2c4ec05cb330d69db43242350450",
+    "layout-390-100": "be53c2bd27272766065444c10122d0372b60427ac4ab622ac995ac7527dcec7c",
+    "layout-620-100": "abc653fe0c4327574d62a374ae80fd8fda26273c14c238f198b0c3251de9eedf",
+    "layout-320-100": "6869ea4f09474863a17ac985bd2437aa04fc16a9e6afa49d102df02aaa5bb759"
+  }
+}

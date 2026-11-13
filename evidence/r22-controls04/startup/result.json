@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "identity": "author fictional automated; no human/phone/clinical acceptance",
+  "paidProviderCalls": 0,
+  "normalEntry": true,
+  "assetFailureExplained": true,
+  "missingStylesRepaired": true,
+  "styleRegressionKilledBy": "STARTUP_STYLE_NOT_READY",
+  "originalEntryKilledBy": "STARTUP_FAILURE_NOT_EXPLAINED"
+}

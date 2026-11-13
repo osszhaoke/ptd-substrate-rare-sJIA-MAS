@@ -1,0 +1,15 @@
+(async()=>{
+ const ok=(v,m)=>{if(!v)throw Error(m);},input=window.__PROBE_INPUT__,m=await import('/domain/model.js'),b=await import('/storage/backup.js');
+ const {RecordStore}=await import('/storage/store.js'),{RecordService}=await import('/domain/service.js');
+ const originals=input.mode==='originals',s=new RecordStore(originals?'backup-original-boundary-'+crypto.randomUUID():'ptds-state-scale-v2'),svc=new RecordService(s);await s.open();
+ if(originals){const image=await(await fetch('/fixture.png')).blob();for(let i=0;i<8;i++){const source=await svc.source(new File([image,new Uint8Array(8*1048576-image.size)],'fictional-'+i+'.png',{type:'image/png'}));let r=await svc.stage({clinicalDate:'2020-01-01',instanceTimezone:'Asia/Shanghai',documentKind:'lab',nature:'SYNTHETIC',sourceKind:'MANUAL',trustTier:'USER_REVIEWED',note:'fictional originals boundary',observations:[]},source);r=await svc.confirm(r,true);await svc.save(r);}}
+ const count=await s.tx(['events'],'readonly',a=>{a.store('events').count().onsuccess=e=>a.result(e.target.result);});ok(count===(originals?8:Number(input.target)),'MISSING_FORMAL_SCALE_FIXTURE');
+ const target=new RecordStore('backup-scale-target-'+crypto.randomUUID());await target.open();
+ const beats=[];let previous=performance.now();const timer=setInterval(()=>{const now=performance.now();if(beats.length<10000)beats.push(now-previous);previous=now;},15);
+ let frames=0,maxCryptoBytes=0,exportMs,inspectMs,commitMs,backup,inspection;const observe=x=>{frames++;maxCryptoBytes=Math.max(maxCryptoBytes,x.cryptoBytes);};
+ try{let t=performance.now();backup=await b.exportBackup(s,'synthetic-password-123',observe);exportMs=performance.now()-t;t=performance.now();inspection=await b.inspectBackup(backup,'synthetic-password-123',target,observe);inspectMs=performance.now()-t;t=performance.now();await b.restoreBackup(target,inspection);commitMs=performance.now()-t;}finally{clearInterval(timer);}
+ const restored=await target.tx(['events'],'readonly',a=>{a.store('events').getAll().onsuccess=e=>a.result(e.target.result);});ok(restored.length===count,'RESTORE_COUNT');const expected=new Map(inspection.data.events.map(e=>[e.id,m.canonical(e)]));for(const e of restored)ok(expected.get(e.id)===m.canonical(e),'RESTORE_EVENT_BYTES');
+ for(const source of inspection.data.sources){const after=await target.get('sources',source.id);ok(await m.hash(await after.blob.arrayBuffer())===source.hash,'RESTORE_ORIGINAL_BYTES');}
+ const sorted=beats.sort((a,b)=>a-b);const p95=sorted[Math.max(0,Math.ceil(sorted.length*.95)-1)]||0;
+ s.close();target.close();window.webkit.messageHandlers.result.postMessage({ok:true,target:count,mode:input.mode||'records',exportMs,inspectMs,commitMs,backupBytes:backup.size,originalBytes:inspection.summary.bytes,frames,maxCryptoBytes,heartbeatP95Ms:p95,heartbeatMaxMs:sorted.at(-1)||0,heartbeatSamples:beats.length,physicalPhone:false,totalBrowserMemory:'UNMEASURED',identity:'Mac WebKit author fictional stage-confirm-save and backup restore'});
+})().catch(e=>window.webkit.messageHandlers.result.postMessage({ok:false,error:e.message,stack:e.stack}));

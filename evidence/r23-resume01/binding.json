@@ -1,0 +1,22 @@
+{
+  "atUTC": "2026-11-10T04:18:35.854549+00:00",
+  "head": "50a353041213e45196cd3fd9d9c2da0ab1f9e956",
+  "reports": [
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-Flash-image-local-review-20261110-01/REPORT.md",
+      "sha256": "8a724039ee7403fb63887c639f07cd4e07469a8bf1c0888e7134216ce123219f"
+    },
+    {
+      "path": "/Users/osszhaoke/Downloads/PTDS-Flash-R23-independent-review-20261110-01/REVIEW_ADDENDUM.md",
+      "sha256": "591aa1e0c2fce726755f6c753b90c4f36468f29ca0a8f6bd96d6ec55cad8d06a"
+    }
+  ],
+  "scope": "read public reports only, no private inputs re-read",
+  "graphicalState": {
+    "consoleSession": true,
+    "method": "CoreGraphics kCGSessionOnConsoleKey constant",
+    "screenLocked": null,
+    "lockFieldAbsent": "unknown, never false default"
+  },
+  "priorEnvironmentCorrection": "literal kCGSessionOnConsoleKey dictionary key was wrong; prior default false invalid. Previous blocked samples remain incomplete, cause not uniquely established."
+}

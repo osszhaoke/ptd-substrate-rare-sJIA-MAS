@@ -1,0 +1,189 @@
+{
+  "scope": "author one-off synthetic parser diagnosis; not full regression, real OCR or independent acceptance",
+  "networkCalls": 0,
+  "patientInputsRead": 0,
+  "formalRecordsSaved": 0,
+  "dictionaryCodes": [
+    "ferritin",
+    "plt",
+    "wbc",
+    "crp",
+    "esr",
+    "ast",
+    "tg",
+    "lab_glucose",
+    "cgm_glucose",
+    "heart_rate",
+    "spo2",
+    "skin_temp",
+    "body_temp",
+    "fib",
+    "ldh",
+    "hb",
+    "anc",
+    "scd25"
+  ],
+  "dictionaryCount": 18,
+  "passed": 13,
+  "cases": [
+    {
+      "name": "six_supported_metrics_not_limited_to_five",
+      "inputFragments": 6,
+      "candidateCodes": [
+        "ferritin",
+        "plt",
+        "wbc",
+        "crp",
+        "esr",
+        "ast"
+      ],
+      "expectedCodes": [
+        "ferritin",
+        "plt",
+        "wbc",
+        "crp",
+        "esr",
+        "ast"
+      ],
+      "pass": true
+    },
+    {
+      "name": "unknown_cbc_names_rejected_even_in_complete_lines",
+      "inputFragments": 4,
+      "candidateCodes": [],
+      "expectedCodes": [],
+      "pass": true
+    },
+    {
+      "name": "headed_no_position_known_only",
+      "inputFragments": 12,
+      "candidateCodes": [
+        "wbc",
+        "crp"
+      ],
+      "expectedCodes": [
+        "wbc",
+        "crp"
+      ],
+      "pass": true
+    },
+    {
+      "name": "headed_no_position_unknown_first_stops_later_known",
+      "inputFragments": 16,
+      "candidateCodes": [],
+      "expectedCodes": [],
+      "pass": true
+    },
+    {
+      "name": "headed_no_position_unknown_middle_stops_later_known",
+      "inputFragments": 16,
+      "candidateCodes": [
+        "wbc"
+      ],
+      "expectedCodes": [
+        "wbc"
+      ],
+      "pass": true
+    },
+    {
+      "name": "explicit_canonical_unit",
+      "inputFragments": 1,
+      "candidateCodes": [
+        "wbc"
+      ],
+      "expectedCodes": [
+        "wbc"
+      ],
+      "pass": true
+    },
+    {
+      "name": "unit_case_variant_rejected",
+      "inputFragments": 1,
+      "candidateCodes": [],
+      "expectedCodes": [],
+      "pass": true
+    },
+    {
+      "name": "missing_unit_rejected",
+      "inputFragments": 1,
+      "candidateCodes": [],
+      "expectedCodes": [],
+      "pass": true
+    },
+    {
+      "name": "numeric_arrow_suffix_rejected",
+      "inputFragments": 1,
+      "candidateCodes": [],
+      "expectedCodes": [],
+      "pass": true
+    },
+    {
+      "name": "low_provider_confidence_not_a_candidate_filter",
+      "inputFragments": 1,
+      "candidateCodes": [
+        "wbc"
+      ],
+      "expectedCodes": [
+        "wbc"
+      ],
+      "pass": true
+    },
+    {
+      "name": "fictional_parallel_table_with_unknown_rows",
+      "inputFragments": 51,
+      "candidateCodes": [
+        "wbc",
+        "plt",
+        "crp",
+        "anc",
+        "hb"
+      ],
+      "expectedCodes": [
+        "wbc",
+        "plt",
+        "crp",
+        "anc",
+        "hb"
+      ],
+      "pass": true
+    },
+    {
+      "name": "spatial_result_arrow_suffix_drops_known_row",
+      "inputFragments": 51,
+      "candidateCodes": [
+        "plt",
+        "crp",
+        "anc",
+        "hb"
+      ],
+      "expectedCodes": [
+        "plt",
+        "crp",
+        "anc",
+        "hb"
+      ],
+      "pass": true
+    },
+    {
+      "name": "different_bilingual_name_header_loses_table_projection",
+      "inputFragments": 51,
+      "candidateCodes": [],
+      "expectedCodes": [],
+      "pass": true
+    }
+  ],
+  "sourceHashes": {
+    "web/domain/model.js": "b2cd8d9a5ac6192960270a8fa3376688241b3b4895b581fd507efe1a36d66c9f",
+    "web/domain/state/candidates.js": "4d4065dc66dcc973c5440ada09ee8c39727d82235f420f783a8d8dc76d90db97",
+    "web/domain/state/ocr_tables.js": "43858e5245e282db27cda71f3a910387a0385d11ecbce9ccfb3c834549935146",
+    "web/domain/state/ocr_fragments.js": "758d5499cd344c1eb929fc4a88bfe71ee9c630b8104369c3689dc713c3a21514",
+    "web/domain/state/ocr_aliases.js": "ff62262ae9e76a6175af205939e9a89520af6dcb472b8d118a02f9236d55c33e",
+    "web/domain/state/catalog.js": "2e41d29dcd3e7ebec90cd49bb45ecc048e0479741426e2a4dd2735bbfa8cd09c",
+    "web/features/editor.js": "462b1ee2635434ba18919c654ba34a91b4421d00646dd669bbed20a6daefc064",
+    "web/app/editor_flow.js": "43044690dd7fbd8cc1e4ab417398aed8304816f5ba87efede8523bb9e5a32773",
+    "web/app/main.js": "e459e4b1e036632a02d31e9fa921d19ed2ff634101140e78d7b47db6d9ef33c7",
+    "web/domain/service.js": "85379ce938709e2c05f6045c616861b7540d1b15d41de6091871ef0c83be3cda",
+    "gateway/tencent.py": "c8571df56b8f153436a4916610facc8690aa80139706e7160086f19abac07368",
+    "tests/fixtures/ocr_parallel.mjs": "fb7c3248add92b7adfeddf399a7c35d03a87b923ac470ff48905c3f7321acda5"
+  }
+}

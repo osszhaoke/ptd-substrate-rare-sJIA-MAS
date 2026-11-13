@@ -1,0 +1,14 @@
+{
+  "reason": "USER_CLOSED_TERMINAL_CONFIRMED",
+  "userStatements": [
+    "我关的",
+    "公网开放到明天 23:59"
+  ],
+  "priorSessionSha256": "04b935100d4f562b32ee8acfd3e45f93bcaa3e53087872ed4fbd1be1abb665f0",
+  "priorPid": 52121,
+  "priorUrl": "https://fall-patents-pad-cycling.trycloudflare.com",
+  "targetLocal": "2026-11-09T23:59:00+08:00",
+  "targetUTC": "2026-11-09T15:59:00+00:00",
+  "newAttempt": "background operator process; no restart quota; explicit new deadline authorized",
+  "previousOutputRetained": "evidence/r19-alpha01 unchanged; runtime/session.json retained as prior-run marker"
+}

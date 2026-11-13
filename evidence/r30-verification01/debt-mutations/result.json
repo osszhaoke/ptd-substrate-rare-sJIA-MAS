@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "case": "backup",
+      "mode": "control",
+      "result": {
+        "cancelPhases": [
+          "read",
+          "decrypt",
+          "validate",
+          "preview"
+        ],
+        "ok": true,
+        "physicalPhone": false,
+        "quotaError": {
+          "message": "IDBTransaction will abort due to uncaught exception in an event handler",
+          "name": "AbortError"
+        },
+        "results": [
+          "cancel before commit writes zero records",
+          "export cancellation",
+          "no full target snapshot",
+          "quota rolls back all",
+          "cancel/commit race",
+          "final commit not cancellable",
+          "preview discard releases restore authority",
+          "UI progress and cancel"
+        ]
+      }
+    },
+    {
+      "case": "backup",
+      "mode": "mutant",
+      "result": {
+        "error": "EXPECTED_AbortError",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:61993/:2:36\n@http://127.0.0.1:61993/:2:112\n@http://127.0.0.1:61993/:9:15"
+      }
+    },
+    {
+      "case": "draft",
+      "mode": "control",
+      "result": {
+        "identity": "author fictional browser verification",
+        "ok": true,
+        "results": [
+          "durable cross-page text",
+          "prompt projection",
+          "selection/clinical changes preserve stale card",
+          "regenerate cancel",
+          "typed notifications",
+          "multi-tab CAS",
+          "quota failure and retry",
+          "clear context fence"
+        ]
+      }
+    },
+    {
+      "case": "draft",
+      "mode": "mutant",
+      "result": {
+        "error": "clinical notification erased manual additions",
+        "ok": false,
+        "stack": "ok@http://127.0.0.1:62391/:2:67\n@http://127.0.0.1:62391/:11:107"
+      }
+    },
+    {
+      "case": "ocr",
+      "mode": "control",
+      "result": {
+        "abortLatencyMs": 1,
+        "actualProviderCalls": 0,
+        "clientCalls": 3,
+        "ok": true,
+        "results": [
+          "never-settling request does not block navigation",
+          "immediate client cancel",
+          "late response discarded",
+          "old completion cannot release new task",
+          "post-response hashing route guard",
+          "no automatic save/retry"
+        ]
+      }
+    },
+    {
+      "case": "ocr",
+      "mode": "mutant",
+      "result": {
+        "error": "WAIT ()=>$('#export')",
+        "ok": false,
+        "stack": "@http://127.0.0.1:62750/:4:88\n@http://127.0.0.1:62750/:10:75"
+      }
+    }
+  ],
+  "identity": "author isolated fictional behavioral mutants"
+}

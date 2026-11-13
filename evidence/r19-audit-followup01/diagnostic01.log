@@ -1,0 +1,14 @@
+{"case": "state-scale", "pid": 33302, "ok": true, "error": null, "target": 1000, "p95Ms": null}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/tools/diagnose_state.py", line 58, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/tools/diagnose_state.py", line 44, in main
+    measure('state-'+str(target),'state-scale',target)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/tools/diagnose_state.py", line 36, in measure
+    assert sample['idbGetAllDispatchMs'] and sample['projectionAndContinuationMs']>=0,'DIAGNOSTIC_STAGES_MISSING'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: DIAGNOSTIC_STAGES_MISSING

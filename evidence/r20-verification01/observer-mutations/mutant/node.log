@@ -1,0 +1,128 @@
+✔ cancel before commit prevents all persistence (1.077708ms)
+✔ commit boundary disables cancellation and executes exactly once (0.098542ms)
+✔ tasks never queue or overlap; quota failure unlocks without success (0.10525ms)
+✔ start observer failure releases ownership and permits a later task (0.086542ms)
+✔ the same job cannot commit twice or be reused after it finishes (0.115833ms)
+✖ finish observer cannot turn an actual completed commit into failure (0.125875ms)
+✖ finish observer cannot replace the original persistence failure (0.294875ms)
+✖ an asynchronous finish observer rejection is counted without changing commit outcome (2.487625ms)
+✔ committed consultation survives a new owner; prompt is never a second stored authority (2.056334ms)
+✔ edits while a write is active coalesce to latest and never display saved early (0.165125ms)
+✔ quota failure preserves editable text; explicit retry can commit (0.756375ms)
+✔ multi-tab CAS refuses overwrite, while retaining losing tab text (0.216083ms)
+✔ clear fence rejects an old pending write instead of resurrecting the draft (0.11025ms)
+✔ clinical invalidation keeps manual additions and does not loop on own draft notice (0.151375ms)
+✖ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.158666ms)
+✔ a failed active save cannot be retried by a debounce from an earlier edit (0.369083ms)
+✔ an external conflict survives a late successful save acknowledgement (0.133292ms)
+✔ an external conflict survives a late non-conflict write failure (0.127625ms)
+✔ a draft notification during initial load invalidates the captured older snapshot (0.126125ms)
+✔ continuous changes during reload are bounded and preserve the local conflicting text (0.262333ms)
+✔ a clinical notification during initial load cannot leave a generated card falsely current (0.097125ms)
+✔ one replaceable navigation; rejected writes do not replay (0.783584ms)
+✔ rendered navigation releases immediately without old completion clearing new write (0.407167ms)
+✔ navigation failure drains latest and reports original error (0.091084ms)
+✖ error display failure cannot replace a failed action result (0.118917ms)
+✖ error display failure cannot throw or replay a rejected duplicate write (0.074291ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 20
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55.339958
+
+✖ failing tests:
+
+test at tests/backup_task.test.mjs:32:1
+✖ finish observer cannot turn an actual completed commit into failure (0.125875ms)
+  Error: fictional finish observer
+      at BackupTask.onChange (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:33:50)
+      at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:23:43
+      at observe (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/shared/observe.js:1:41)
+      at BackupTask.finished (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:23:21)
+      at BackupTask.run (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:20:85)
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:34:15)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tests/backup_task.test.mjs:37:1
+✖ finish observer cannot replace the original persistence failure (0.294875ms)
+  AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+  
+  Caught error:
+  
+  Error: fictional finish observer
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:40:2)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: fictional finish observer
+        at BackupTask.onChange (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:39:50)
+        at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:23:43
+        at observe (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/shared/observe.js:1:41)
+        at BackupTask.finished (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:23:21)
+        at BackupTask.run (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:20:85)
+        at async waitForActual (node:assert:615:5)
+        at async strict.rejects (node:assert:738:25)
+        at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:40:2)
+        at async Test.run (node:internal/test_runner/test:1404:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:969:7),
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/backup_task.test.mjs:44:1
+✖ an asynchronous finish observer rejection is counted without changing commit outcome (2.487625ms)
+  Error: fictional asynchronous finish observer
+      at BackupTask.onChange (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:45:56)
+      at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:23:43
+      at observe (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/shared/observe.js:1:41)
+      at BackupTask.finished (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:23:21)
+      at BackupTask.run (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/backup_task.js:20:85)
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/backup_task.test.mjs:46:15)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tests/consultation_draft.test.mjs:51:1
+✖ a saved-state observer cannot turn a committed draft into failure or cause a rewrite (0.158666ms)
+  Error: fictional saved observer
+      at ConsultationDraft.onChange (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/consultation_draft.test.mjs:54:80)
+      at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/consultation_draft.js:9:31
+      at observe (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/shared/observe.js:1:41)
+      at ConsultationDraft.emit (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/consultation_draft.js:9:9)
+      at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/consultation_draft.js:49:57
+      at async ConsultationDraft.flush (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/consultation_draft.js:51:14)
+      at async TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/consultation_draft.test.mjs:55:85)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)
+
+test at tests/coordinator.test.mjs:26:1
+✖ error display failure cannot replace a failed action result (0.118917ms)
+  Error: fictional error display
+      at ActionCoordinator.onError (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/coordinator.test.mjs:27:43)
+      at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/action_coordinator.js:24:66
+      at observe (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/shared/observe.js:1:41)
+      at ActionCoordinator.start (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/action_coordinator.js:24:44)
+      at ActionCoordinator.write (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/action_coordinator.js:8:15)
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/coordinator.test.mjs:28:23)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+
+test at tests/coordinator.test.mjs:31:1
+✖ error display failure cannot throw or replay a rejected duplicate write (0.074291ms)
+  Error: fictional busy display
+      at ActionCoordinator.onError (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/coordinator.test.mjs:32:52)
+      at file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/action_coordinator.js:7:41
+      at observe (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/shared/observe.js:1:41)
+      at ActionCoordinator.write (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/web/app/action_coordinator.js:7:19)
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/ocr-candidate01/runtime/observer-215b07da-5754-4a93-bcda-eb752c687edd/tests/coordinator.test.mjs:34:27)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)

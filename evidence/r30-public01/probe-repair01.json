@@ -1,0 +1,49 @@
+{
+  "originalProbePreserved": true,
+  "failedPaths": [
+    {
+      "path": "/compat/r27/LOCK.json",
+      "ok": false,
+      "expectedSha256": "420b3d43eed961cd89d246179b84fdceb6b412259f3c71061d0e082b462d8229",
+      "actualSha256": null,
+      "attempts": [
+        {
+          "errorType": "HTTPError"
+        },
+        {
+          "errorType": "HTTPError"
+        }
+      ]
+    },
+    {
+      "path": "/rules/h1-dictionary-0.1.json",
+      "ok": false,
+      "expectedSha256": "8796767e230fc5705b78956d715832cff607872e67ddeb2c2ef427a202dc4ce8",
+      "actualSha256": null,
+      "attempts": [
+        {
+          "errorType": "HTTPError"
+        },
+        {
+          "errorType": "HTTPError"
+        }
+      ]
+    },
+    {
+      "path": "/rules/sjia-rulepack-0.1.json",
+      "ok": false,
+      "expectedSha256": "326437fd6c0cb65ca522421a8fb6070dfa27a9f3322663342fa38e8659668d45",
+      "actualSha256": null,
+      "attempts": [
+        {
+          "errorType": "HTTPError"
+        },
+        {
+          "errorType": "HTTPError"
+        }
+      ]
+    }
+  ],
+  "classification": "tool input scope mismatch: gateway documented static allowlist excludes .json; embedded rule JS and frozen compatibility parser JS are served; no product changes or weakening",
+  "revisedProbe": "93 allowed assets exact byte matching plus forbidden JSON explicit404 controls"
+}

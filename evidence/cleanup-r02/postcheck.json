@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "verificationCurrent": true,
+  "checks": 57,
+  "binding": "4c51800a9e9189b898a6c944f2ab30e06321461095bb86af2d82ca42c6437bce",
+  "manifestEntries": {
+    "SOURCE_MANIFEST.json": 96,
+    "PUBLIC_SOURCE_MANIFEST.json": 77
+  },
+  "staticAndRuntimeAllMatch": true,
+  "productZipSha256Unchanged": "751072d01e65ba17f3f4141f4bb77206b45d182aaabefdcca8731d9af0fe8e4d",
+  "currentR19AndApprovedDesignFilesExact": 661,
+  "zipWorktreeDifferences": {
+    "DECISIONS.md": "only appended local cleanup authorization; sealed ZIP retains original governance snapshot"
+  },
+  "trackedChangesRestrictedToHistoricalWorkCopiesAndAppendedDecision": true,
+  "runtimeRemaining": [
+    "browser-test.lock"
+  ],
+  "productZipCount": 1,
+  "noFullTestsRerun": "source/test/tool bytes unchanged; existing exact 57-check binding rechecked"
+}

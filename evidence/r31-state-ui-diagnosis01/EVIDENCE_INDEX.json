@@ -1,0 +1,101 @@
+{
+  "identity": "R31 state-ui diagnostic; Writer evidence only; excludes index itself",
+  "files": {
+    "evidence/r31-state-ui-diagnosis01/control-served-bytes.json": {
+      "bytes": 9423,
+      "sha256": "1353e5ed759ec3e48c38fceba9a0d66502e8d5d897ee1842830eedea677e3ad2"
+    },
+    "evidence/r31-state-ui-diagnosis01/control.binding.json": {
+      "bytes": 11494,
+      "sha256": "87d57f278c98b556d5c6624abd3a5726efdc7d9e5f4c588a1ab9a2c1dc58ad7b"
+    },
+    "evidence/r31-state-ui-diagnosis01/control.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis01/control.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis01/control.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    },
+    "evidence/r31-state-ui-diagnosis01/diagnosis.json": {
+      "bytes": 1107,
+      "sha256": "ece379dbfbab2567ed243971140ceeec8786256f436e8df96a82c31d0f111d16"
+    },
+    "evidence/r31-state-ui-diagnosis01/mutant-served-bytes.json": {
+      "bytes": 9423,
+      "sha256": "36dda0f1be85f9bb9e2719ca9d0422d2d98d316d863651bd8f4413b35d715b9f"
+    },
+    "evidence/r31-state-ui-diagnosis01/mutant.binding.json": {
+      "bytes": 11493,
+      "sha256": "b6e471115e9779fb4b6530ea2bcf745f1ea3a68be43c4ead19d7b26261ae8bb8"
+    },
+    "evidence/r31-state-ui-diagnosis01/mutant.json": {
+      "bytes": 149,
+      "sha256": "56f5983d98f202f47be6da05db86d834ae6d77238570e6296aaaebeb16fd10f6"
+    },
+    "evidence/r31-state-ui-diagnosis01/mutant.log": {
+      "bytes": 150,
+      "sha256": "988ce89c5d5d121593cde3e59c88d470c93d49f086a28edc1db95be0cd4992b7"
+    },
+    "evidence/r31-state-ui-diagnosis01/mutant.png": {
+      "bytes": 173122,
+      "sha256": "4426d62ccce6d467eb34b021b25382c20564c1b5e9a75e2c453127b7f35698e8"
+    },
+    "evidence/r31-state-ui-diagnosis01/result.json": {
+      "bytes": 260,
+      "sha256": "127607d461405683671b0d066f8a1437893438b88173d134f328e46bd17d875f"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-0.binding.json": {
+      "bytes": 11499,
+      "sha256": "d086feff78815b8575e4d88661acbab5b2153db98982bf6bf228ee27dfbb360e"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-0.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-0.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-0.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-1.binding.json": {
+      "bytes": 11499,
+      "sha256": "5e34f4533a7492ff2b5e28019211b343c8098c7408b124de9b97cb7b7faa7239"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-1.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-1.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-1.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-2.binding.json": {
+      "bytes": 11499,
+      "sha256": "45268da346c5a7d62002b94650e3cbe402f62f77932d6c49d0652019642f9835"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-2.json": {
+      "bytes": 538,
+      "sha256": "5b9928df4c4ab8aad0c07c250220a8a3158669990e9f47977b7f6ba0195ec5ac"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-2.log": {
+      "bytes": 539,
+      "sha256": "1edd255532e09637429ebc44a2509ede9c277dc32550de3de4c3085ff412326f"
+    },
+    "evidence/r31-state-ui-diagnosis01/standalone-2.png": {
+      "bytes": 174152,
+      "sha256": "6d40ef47cd8f7b0fe8215c8d5855e48654cf3958c60e0c6fd619ba017109ebae"
+    }
+  }
+}

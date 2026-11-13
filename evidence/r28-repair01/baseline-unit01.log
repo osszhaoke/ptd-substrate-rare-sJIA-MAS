@@ -1,0 +1,79 @@
+{"scope":"synthetic Node parser; not phone memory","fragments":2000,"ms":78.66887499999999,"heapDeltaBytes":6110048}
+{"scope":"synthetic Node parser; not phone memory","fragments":20000,"ms":178.58499999999998,"heapDeltaBytes":13340664}
+{"scope":"fictional generic rotated layout","fragments":2000,"ms":74.03083299999997}
+{"scope":"fictional generic rotated layout","fragments":20000,"ms":704.107417}
+✔ 27-row fictional CBC preserves every original row; only explicit supported fields project to rules (23.46925ms)
+✔ unknown first/middle rows no longer swallow later known rows in a strict flat table (2.068875ms)
+✔ unit/arrow/header variants preserve raw evidence with explicit standardized projection (22.066084ms)
+✔ missing geometry, values, units, duplicate result cells, crossing pages and bad headers never borrow neighboring data (23.145375ms)
+✔ unrecognized units/names retained without inventing medical mappings; duplicate evidence rows retained (0.755291ms)
+✔ tenfold 2k/20k fragment projection bounded to 100 rows and under 1000ms (266.965916ms)
+✔ previously accepted inline colon/abutting-name spellings remain visible in the report layer (0.391792ms)
+✔ name/result merged OCR fragment is visible pending review; never split trailing digits into a guessed value (7.642083ms)
+✔ arrow attached to a unit is stored separately; ambiguous reference fragments do not discard the reliable project (13.997125ms)
+✔ contradictory result/unit arrows remain raw evidence rather than a guessed abnormal direction (7.26875ms)
+✔ right-angle coordinate frames, two panels, header aliases, swapped columns and source coordinates are lossless (20.949125ms)
+✔ explicit joined units/ranges and merged names keep evidence; footer never becomes a project (6.243167ms)
+✔ missing units, overlapping results and page splits never synthesize an unknown result (5.158667ms)
+✔ cross-panel fragments remain explicit empty correction tasks and retain their literal text (1.885792ms)
+✔ generic layout 2k/20k fragments stay bounded without per-row whole-page scans (783.928708ms)
+✔ removing Angle compensation or generic table wiring is killed by output assertions, with positive controls (3.747875ms)
+✔ leading flags preserve numeric literals; conflicting two-sided flags never guess (0.128166ms)
+✔ categorical results, dimensionless urine, dilution labels and split headers remain literal report-only rows (28.339ms)
+✔ stacked report pages keep later tables; footer and preceding metadata never become data (5.372208ms)
+✔ unit FEU suffix, reverse reference/unit merge and neutral flag preserve raw cell IDs and valid contract (3.273125ms)
+✔ neutral dashes in a flag column are not persisted as an invalid directional flag (2.326125ms)
+✖ R27-A01: each side keeps its own footer, including the short-right mirror and rotated coordinates (2.096042ms)
+✖ R27-A02: legacy table incomplete unit remains literal and visibly requires review (7.291708ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 21
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1299.330667
+
+✖ failing tests:
+
+test at tests/report_rows.test.mjs:135:1
+✖ R27-A01: each side keeps its own footer, including the short-right mirror and rotated coordinates (2.096042ms)
+  AssertionError [ERR_ASSERTION]: mirror=false,angle=0
+  
+  4 !== 5
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/tests/report_rows.test.mjs:138:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 4,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/report_rows.test.mjs:142:1
+✖ R27-A02: legacy table incomplete unit remains literal and visibly requires review (7.291708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/osszhaoke/Downloads/003-PTDS-FLASH-H5/runtime/r28-candidate01/tests/report_rows.test.mjs:146:9)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
